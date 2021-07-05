@@ -19,4 +19,3 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Featured Image", name: "featuredimage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-© 2021 GitHub, Inc.
