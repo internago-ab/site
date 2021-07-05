@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Internago: International payroll services with digital edge`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Internago AB`,
+      summary: `provides payroll services in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Internago provides payroll services and a cloud based payroll portal for international companies that want to increase efficiency.`,
+    siteUrl: `https://internago.netlify.app`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `Interna_GO`,
+      linkedIn: `internago-ab`,
     },
   },
   plugins: [
