@@ -9,8 +9,6 @@ tags:
   - Payroll
   - Legal
 ---
-<!--StartFragment-->
-
 # Social security number – a key for compliant payroll in France
 
 If you are recruiting a new employee, he or she must provide you with a temporary or permanent social security number. If your new employee doesn’t already have one, he or she must apply for it. This is often the case for expatriate employees, or for foreigners starting to work in France. 
@@ -47,5 +45,3 @@ Your employer obligations are the following: 
 Once the local CPAM office has processed the request, it assigns a temporary social security number to the applicant. This temporary social security number grants the beneficiary the same access to healthcare as a permanent social security number. Once a permanent number has been assigned, a health insurance card (carte vitale) can be issued
 
 For more information regarding this, visit [URSSAF](https://www.urssaf.fr/portail/home.html). 
-
-<!--EndFragment-->

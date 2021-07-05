@@ -7,8 +7,6 @@ tags:
   - Legal
   - Payroll
 ---
-<!--StartFragment-->
-
 # Employ and run payroll internationally without setting up a foreign company
 
 We often get the question from companies if they need to set up a local company to employ on international markets?
@@ -28,5 +26,3 @@ We provide a full payroll service including payroll calculations, payroll report
 By using our Internago [Payroll portal](https://www.internago.com/payroll-portal) our customers get full control of the payroll process and their international employees. We can also manage all the local payments for your company to make it even easier to operate on your international markets.
 
 Interested to know more? Please contact us for a discussion with one of our experts
-
-<!--EndFragment-->

@@ -8,8 +8,6 @@ tags:
   - Payroll
   - Sweden
 ---
-<!--StartFragment-->
-
 # The new year brings some important changes regarding the payroll in Sweden. Internago has put together a brief overview of  the most important changes that you should be aware about for this year.
 
 Decreased share capital needed to set up a Limited company (AB) in Sweden\
@@ -27,5 +25,3 @@ The carbon and energy tax on petrol and diesel is decreased. The reduction is eq
 Internago is a payroll provider in Sweden as well as in many European countries. Please send an email to [info@internago.com](mailto:info@internago.com) or fill in the contact sheet below to get in touch with us for more details or if you have any questions. 
 
 Visit our website if you want to know more on how we can support you and your company  – [www.internago.com](http://www.internago.com/)
-
-<!--EndFragment-->

@@ -8,11 +8,7 @@ tags:
   - France
   - Payroll
 ---
-<!--StartFragment-->
-
 # Internago French payroll team often gets the question about the “Solidarity day”. Below we have summarised a practical factsheet, and how it affects your payroll services in France.
-
-
 
 ## What is the Solidarity day?
 
@@ -56,5 +52,3 @@ The solidarity day concerns all employees in the private sector, including emplo
 ## Internships
 
 This day is a public holiday for interns because they “are not subject to the ordinary law of the Labour Code and in particular to the legislation on solidarity day”. So if the internship agreement does not expressly provide for the trainee’s presence in the company on that day, he or she does not have to go there.
-
-<!--EndFragment-->
