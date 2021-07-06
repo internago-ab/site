@@ -1,0 +1,65 @@
+@import "../style.css";
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-xxs) var(--spacing-m);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    background-color: var(--white);
+}
+
+nav .logo {
+    height: 2.75rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav .links li {
+    margin-left: var(--spacing-xs);
+}
+
+nav .portal-btn {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    padding: 8px 18px;
+    border-radius: 100rem;
+}
+
+.what-we-offer {
+    flex-direction: column;
+    position: relative;
+}
+
+.what-we-offer li {
+    display: flex;
+    align-items: center;
+}
+
+.what-we-offer svg {
+    margin-left: 8px;
+}
+
+.what-we-offer-submenu {
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--white);
+    top: var(--spacing-xs);
+    padding: 0 var(--spacing-xxs) var(--spacing-xxs) 0;
+    width: 140%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.what-we-offer:hover .what-we-offer-submenu {
+    opacity: 1;
+  }

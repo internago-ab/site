@@ -13,6 +13,7 @@
   --spacing-m: 6.25rem; /* 100px - Padding on top and bottom for grey section */
   --spacing-s: 3.75rem; /* 60px - Padding on top and bottom of footer and sections that goes together */
   --spacing-xs: 2.1875rem; /* 35px - Spacing between content in sections */
+  --spacing-xxs: 0.9375rem; /* 15px - Padding top and bottom on navbar */
   
 
   --font: 'Source Sans Pro', sans-serif;
@@ -52,12 +53,25 @@ h1, h2, h3 {
   color: var(--black);
 }
 
-p, a {
+p, li, a {
   color: var(--dark-grey);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {font-size: var(--fontSize-h1);}
 h2 {font-size: var(--fontSize-h2);}
 h3 {font-size: var(--fontSize-h3);}
 p, a {font-size: var(--fontSize-p);}
+
+.cta-btn {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 2px solid var(--dark-blue);
+  padding: 8px 18px;
+  border-radius: 100rem;
+}
 

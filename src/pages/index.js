@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <Bio />
+      {/* <Bio /> */}
     </Layout>
   )
 }
