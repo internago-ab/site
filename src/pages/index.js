@@ -1,15 +1,13 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+const Index = () => {
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout>
       <Seo title="Home" />
       <Bio />
     </Layout>
@@ -17,14 +15,4 @@ const Index = ({ data, location }) => {
 }
 
 export default Index
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
 

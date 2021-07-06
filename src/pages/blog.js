@@ -10,7 +10,7 @@ function Blog({ data, location }) {
 
     if (posts.length === 0) {
         return (
-            <Layout location={location} title={siteTitle}>
+            <Layout>
                 <Seo title="All posts" />
                 <p>
                     No blog posts found.
@@ -20,7 +20,7 @@ function Blog({ data, location }) {
     }
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout>
             <Seo title="All posts" />
             <ol style={{ listStyle: `none` }}>
                 {posts.map(post => {

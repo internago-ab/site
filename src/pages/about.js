@@ -1,14 +1,12 @@
 import React from 'react';
-import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-function About({ data, location }) {
-    const siteTitle = data.site.siteMetadata?.title || `Title`
+function About() {
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout>
             <Seo title="About" />
 
         </Layout>
@@ -16,13 +14,3 @@ function About({ data, location }) {
 }
 
 export default About;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
