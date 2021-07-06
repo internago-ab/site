@@ -1,8 +1,7 @@
 <div align="center">
   <a href="internago.netlify.app">
-    <img alt="logo" src="src\images\logo-dark.png" width="60" />
+    <img alt="logo" src="src\images\logo-dark.png" width="250" />
   </a>
-  <h1>Internago webpage</h1>
 </div>
 
 
@@ -11,6 +10,7 @@
 
 [Matilda Björk](https://github.com/MatildaBjorken)
 
+</br>
 
 ## 🏁 Goals:
 
@@ -19,13 +19,16 @@
 >Increase the number of CTA's
 >   
 >Be finished before 30th of August 2021
+>
 
+</br>
 
 ## 💻 Tech stack:
 * [Gatsby with Gatsby-Starter-Blog-Template](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/)
 * React
 * [Netlify CMS](https://www.netlifycms.org/)
 
+</br>
 
 ## 🚀 Quick start
 
