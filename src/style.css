@@ -48,3 +48,16 @@ body {
   line-height: var(--lineHeight);
 }
 
+h1, h2, h3 {
+  color: var(--black);
+}
+
+p, a {
+  color: var(--dark-grey);
+}
+
+h1 {font-size: var(--fontSize-h1);}
+h2 {font-size: var(--fontSize-h2);}
+h3 {font-size: var(--fontSize-h3);}
+p, a {font-size: var(--fontSize-p);}
+
