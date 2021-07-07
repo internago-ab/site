@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
 
         <ul className="desktop-menu">
           <ul className="what-we-offer">
-            <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E" /></svg></li>
+            <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E"/></svg></li>
             <ul className="what-we-offer-submenu">
               <li><Link to="/services">Services</Link></li>
               <li><Link to="/payroll">Payroll portal</Link></li>

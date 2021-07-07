@@ -76,3 +76,6 @@ p, a {font-size: var(--fontSize-p);}
   border-radius: 100rem;
 }
 
+main{
+  padding-top: var(--spacing-m);
+}

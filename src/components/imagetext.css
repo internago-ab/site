@@ -1,0 +1,26 @@
+.img-imagetext {
+    width: 100%;
+}
+
+.hero {
+    padding-left: var(--spacing-xl);
+    padding-right: var(--spacing-xl);
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.heading {
+    padding-bottom: var(--spacing-xs);
+}
+
+.paragraph {
+    padding-bottom: var(--spacing-xs)
+}
+
+/*
+grid-template-columns: repeat(2,1fr);
+gap: 2em;
+grid-auto-rows: minmax(100px,auto);
+*/
