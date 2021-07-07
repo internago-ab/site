@@ -22,13 +22,22 @@
   --fontWeight-bold: 700;
 
   --lineHeight: 2;
+<<<<<<< HEAD
+=======
+  --lineHeight-tight: 1.5;
+>>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
   --fontSize-root: 16px;
   --fontSize-h1: 2rem;
   --fontSize-h2: 1.5rem;
   --fontSize-h3: 1.125rem;
   --fontSize-p: 1rem;
+<<<<<<< HEAD
   --fontSize-p-s: 875rem;
   --fontSize-p-xs: 625rem;
+=======
+  --fontSize-p-s: 0.875rem;
+  --fontSize-p-xs: 0.625rem;
+>>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
 
   --black: #000000;
   --white: #FFFFFF;
@@ -75,6 +84,9 @@ p, a {font-size: var(--fontSize-p);}
   border-radius: 100rem;
 }
 
+<<<<<<< HEAD
 main{
   padding-top: var(--spacing-m);
 }
+=======
+>>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909

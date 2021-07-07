@@ -70,3 +70,50 @@ nav .portal-btn {
 .what-we-offer-submenu li {
     padding-top: var(--spacing-xxs);
 }
+<<<<<<< HEAD
+=======
+
+footer {
+    background-color: var(--dark-blue);
+    padding: var(--spacing-s) var(--spacing-m);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    height: 2.75rem;
+}
+
+footer p {
+    color: var(--white);
+}
+
+footer .right p {
+    font-size: var(--fontSize-p-xs);
+}
+
+footer .left p {
+    font-size: var(--fontSize-p-s);
+}
+
+footer .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .socials :nth-child(1) {
+    margin-right: var(--spacing-xxs);
+}
+
+footer .left p {
+    margin-top: var(--spacing-xxs);
+    line-height: var(--lineHeight-tight);
+}
+
+footer .left :nth-child(1) {
+    margin-top: 0;
+}
+>>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
