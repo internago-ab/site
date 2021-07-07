@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, {useState} from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 
@@ -8,28 +8,66 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
+  const [menuDisplayed, setMenuDisplayed] = useState(false)
 
   const data = useStaticQuery(graphql`
-  query bioQueryAndBioQuery {
-    site {
-      siteMetadata {
-        social {
-          twitter
-          linkedin
+    query bioQueryAndBioQuery {
+      site {
+        siteMetadata {
+          social {
+            twitter
+            linkedin
+          }
         }
       }
     }
-  }
-`)
+  `)
 
-const social = data.site.siteMetadata?.social
+  const social = data.site.siteMetadata?.social
+
+  function toggleMenu() {
+    setMenuDisplayed(!menuDisplayed)
+    animateHamburger()
+  }
+
+  function animateHamburger () {
+    let lines = Array.from(document.querySelectorAll(".hamburger div"))
+    
+    lines.forEach(line => {
+      line.style.animation = `${line.className} 0.5s ease ${menuDisplayed? "reverse" : "normal"}`
+
+      setTimeout(() => {
+        line.style.transform = window.getComputedStyle(line).getPropertyValue("transform")
+        line.style.opacity = window.getComputedStyle(line).getPropertyValue("opacity")
+        line.style.animation = "none"
+      }, 500);
+    });
+  }
 
 
   return (
     <div className="global-wrapper">
       <nav>
         <Link to="/"><img className="logo" src={darkLogo} alt="logo"></img></Link>
-        <ul className="links">
+
+        <div className="mobile">
+          <button className="hamburger" onClick={toggleMenu}>
+                <div className="line1" onAnimationEnd={(e) => e.target.style.animationPlayState = "paused"}></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+          </button>
+
+          <ul className="mobile-menu" style={{height: menuDisplayed? 210 : 0}}>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/payroll">Payroll portal</Link></li>
+            <li><Link to="/blog">Blogs and News</Link></li>
+            <li><a href="https://payroll.internago.com/">Go to portal</a></li>
+            <li><a href="mailto:info@internago.com">Contact us</a></li>
+          </ul>
+        </div>
+
+        <ul className="desktop-menu">
           <ul className="what-we-offer">
             <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E" /></svg></li>
             <ul className="what-we-offer-submenu">

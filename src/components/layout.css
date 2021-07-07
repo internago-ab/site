@@ -13,7 +13,7 @@ nav {
     background-color: var(--white);
 }
 
-nav .logo {
+.logo {
     height: 2.75rem;
 }
 
@@ -22,7 +22,7 @@ nav ul {
     display: flex;
 }
 
-nav .links li {
+nav .desktop-menu li {
     margin-left: var(--spacing-xs);
 }
 
@@ -78,10 +78,6 @@ footer {
     justify-content: space-between;
 }
 
-footer .logo {
-    height: 2.75rem;
-}
-
 footer p {
     color: var(--white);
 }
@@ -114,3 +110,81 @@ footer .left p {
 footer .left :nth-child(1) {
     margin-top: 0;
 }
+
+.mobile-menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* -------------------------------------------------------- MOBILE */
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        padding: var(--spacing-xxs) var(--spacing-xs);
+    }
+
+    .logo {
+        height: 2.125rem;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .hamburger {
+        width: 28px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--white);
+        border: 0;
+        outline: none;
+    }
+    
+    .hamburger div {
+        height: 2px;
+        width: 100%;
+        background-color: var(--dark-blue);
+        border-radius: 20px;
+    }
+
+    .mobile {
+        position: relative;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: var(--white);
+        text-align: center;
+        left: 0;
+        top: 73.5px;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    }
+}
+
+/* -------------------------------------------------------- ANIMATIONS */
+@keyframes line1 {
+    0% {transform: translateY(0px) rotate(0deg);}
+    50% {transform: translateY(9px) rotate(0deg);}
+    100% {transform: translateY(9px) rotate(45deg);}
+  }
+  
+  @keyframes line2 {
+    0% {opacity: 1;}
+    70% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+  
+  @keyframes line3 {
+    0% {transform: translateY(0px) rotate(0deg);}
+    50% {transform: translateY(-9px) rotate(0deg);}
+    100% {transform: translateY(-9px) rotate(-45deg);}
+  }
