@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --spacing-xxl: 19.5rem; /* 310px - Padding on side for medium wide section */
+  --spacing-xl: 13.125rem; /* 210px - Padding on side for wide section */
+  --spacing-l: 8.125rem; /* 130px - Spacing between each section vertically */
+  --spacing-m: 6.25rem; /* 100px - Padding on top and bottom for grey section */
+  --spacing-s: 3.75rem; /* 60px - Padding on top and bottom of footer and sections that goes together */
+  --spacing-xs: 2.1875rem; /* 35px - Spacing between content in sections */
+  --spacing-xxs: 0.9375rem; /* 15px - Padding top and bottom on navbar */
+  
+
+  --font: 'Source Sans Pro', sans-serif;
+  --fontWeight-normal: 400;
+  --fontWeight-semibold: 600;
+  --fontWeight-bold: 700;
+
+  --lineHeight: 2;
+  --fontSize-root: 16px;
+  --fontSize-h1: 2rem;
+  --fontSize-h2: 1.5rem;
+  --fontSize-h3: 1.125rem;
+  --fontSize-p: 1rem;
+  --fontSize-p-s: 875rem;
+  --fontSize-p-xs: 625rem;
+
+  --black: #000000;
+  --white: #FFFFFF;
+  --dark-grey: #4E4E4E;
+  --light-grey: #F6F6F6;
+  --dark-blue: #00446E;
+  --light-blue: #81AECC;
+}
+
+html {
+  font-size: var(--fontSize-root);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font);
+  line-height: var(--lineHeight);
+}
+
+h1, h2, h3 {
+  color: var(--black);
+}
+
+p, li, a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {font-size: var(--fontSize-h1);}
+h2 {font-size: var(--fontSize-h2);}
+h3 {font-size: var(--fontSize-h3);}
+p, a {font-size: var(--fontSize-p);}
+
+.cta-btn {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 2px solid var(--dark-blue);
+  padding: 8px 18px;
+  border-radius: 100rem;
+}
+
+main{
+  padding-top: var(--spacing-m);
+}
