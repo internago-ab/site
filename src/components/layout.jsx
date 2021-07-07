@@ -1,14 +1,4 @@
 import * as React from "react"
-<<<<<<< HEAD
-import { Link } from "gatsby"
-import "./layout.css"
-
-import darkLogo from "../images/logo-dark.png"
-import lightLogo from "../images/logo-light.png"
-
-const Layout = ({ children }) => {
-
-=======
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 
@@ -35,18 +25,13 @@ const Layout = ({ children }) => {
 const social = data.site.siteMetadata?.social
 
 
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
   return (
     <div className="global-wrapper">
       <nav>
         <Link to="/"><img className="logo" src={darkLogo} alt="logo"></img></Link>
         <ul className="links">
           <ul className="what-we-offer">
-<<<<<<< HEAD
-            <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E"/></svg></li>
-=======
             <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E" /></svg></li>
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
             <ul className="what-we-offer-submenu">
               <li><Link to="/services">Services</Link></li>
               <li><Link to="/payroll">Payroll portal</Link></li>
@@ -61,9 +46,6 @@ const social = data.site.siteMetadata?.social
 
       <main>{children}</main>
 
-<<<<<<< HEAD
-      <footer></footer>
-=======
       <footer>
         <div className="right">
           <img className="logo" src={lightLogo} alt="logo"></img>
@@ -88,13 +70,8 @@ const social = data.site.siteMetadata?.social
         </div>
 
       </footer>
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
     </div>
   )
 }
 
-<<<<<<< HEAD
 export default Layout
-=======
-export default Layout
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909

@@ -1,6 +1,5 @@
 import * as React from "react"
 
-<<<<<<< HEAD
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -22,22 +21,8 @@ const Index = () => {
         image={LandingPageFirst}
         button="Book a demo"
       />
-=======
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const Index = () => {
-
-  return (
-    <Layout>
-      <Seo title="Home" />
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
     </Layout>
   )
 }
 
 export default Index
-<<<<<<< HEAD
-=======
-
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909

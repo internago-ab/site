@@ -1,10 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-<<<<<<< HEAD
-import Bio from "../components/bio"
-=======
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -34,10 +30,6 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-<<<<<<< HEAD
-          <Bio />
-=======
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
         </footer>
       </article>
       <nav className="blog-post-nav">

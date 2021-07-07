@@ -9,11 +9,7 @@ module.exports = {
     siteUrl: `https://internago.netlify.app`,
     social: {
       twitter: `Interna_GO`,
-<<<<<<< HEAD
-      linkedIn: `internago-ab`,
-=======
       linkedin: `internago-ab`,
->>>>>>> 3edb48c0c57e8ba8145d6d4161170a2c042ab909
     },
   },
   plugins: [

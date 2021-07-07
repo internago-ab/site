@@ -13,14 +13,14 @@ const ImageText = props => {
 
   return (
     <section className="hero">
-      <div>
+      <div className='info-hero'>
         <CustomTag className="heading">{props.title}</CustomTag>
         <p className="paragraph">{props.text}</p>
         <a className="cta-btn" href="">
           {props.button}
         </a>
       </div>
-      <div>
+      <div className='image-hero'>
         <img src={props.image} alt="" srcset="" className="img-imagetext" />
       </div>
     </section>
