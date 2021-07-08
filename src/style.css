@@ -58,7 +58,9 @@ body {
 }
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: var(--fontWeight-normal);
   color: var(--black);
   line-height: 1;
@@ -103,11 +105,27 @@ a {
 }
 
 main {
-  margin-top: var(--spacing-m);
+  margin-top: var(--spacing-l);
 }
 
 main>section {
-  padding-top: var(--spacing-m);
+  margin-top: var(--spacing-m);
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  padding-left: var(--spacing-m);
+  padding-right: var(--spacing-m);
+  margin-top: var(--spacing-m);
+}
+
+@media screen and (max-width: 1200px) {
+  .clients {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {

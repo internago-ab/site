@@ -36,7 +36,7 @@ function About() {
         text="Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.
 
         Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
-        image={AboutMarketsg}
+        image={AboutMarkets}
       />
       <Cta content="next" />
     </Layout>

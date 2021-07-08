@@ -13,6 +13,12 @@ import landingPageFirst from "../images/illustrations/landingpage-first.png"
 import landingPageMap from "../images/illustrations/landingpage-flatmap.png"
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"
+import kitabsawti from "../images/clients/logo-kitab-sawti.png"
+import benify from "../images/clients/logo-Benify.png"
+import dedicare from "../images/clients/logo-Dedicare.png"
+import rototilt from "../images/clients/logo-Rototilt.png"
+import enmacc from "../images/clients/logo-Enmacc.png"
+import sportamore from "../images/clients/logo-Sportamore.png"
 
 //Icons
 import diagram from "../images/icons/diagram.png"
@@ -36,6 +42,14 @@ const Index = () => {
         button="Book a demo"
         link=""
       />
+      <div className="clients">
+        <img src={kitabsawti} alt="Kitab Sawti logo" />
+        <img src={benify} alt="Benify logo" />
+        <img src={dedicare} alt="Dedicare logo" />
+        <img src={rototilt} alt="Rototilt logo" />
+        <img src={enmacc} alt="Enmacc logo" />
+        <img src={sportamore} alt="Sportamore logo" />
+      </div>
 
       <ImageText
         reverse="rowreverse"
@@ -79,7 +93,7 @@ const Index = () => {
             {
               icon: report,
               text: "We take care of all your administrative needs",
-            }
+            },
           ]}
         />
       </Grey>
@@ -104,9 +118,6 @@ const Index = () => {
         link=""
       />
 
-      <Grey>
-        <h2>Why Internago?</h2>
-      </Grey>
       <Cta content="next" />
     </Layout>
   )
