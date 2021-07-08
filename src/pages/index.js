@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageText from "../components/imagetext"
+import Cta from "../components/cta"
 
 //images
 import LandingPageFirst from "../images/illustrations/landingpage-first.png"
@@ -19,6 +20,7 @@ const Index = () => {
         image={LandingPageFirst}
         button="Book a demo"
       />
+      <Cta content="next"/>
     </Layout>
   )
 }
