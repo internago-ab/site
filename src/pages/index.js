@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageText from "../components/imagetext"
@@ -12,7 +11,6 @@ const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      {/* <Bio /> */}
 
       <ImageText
         size="large"
