@@ -62,7 +62,7 @@ const Index = () => {
       <Grey>
         <h2>Why Internago?</h2>
       </Grey>
-      <Cta content="next"/>
+      <Cta content="next" />
     </Layout>
   )
 }

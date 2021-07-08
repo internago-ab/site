@@ -8,6 +8,11 @@
     padding-right: var(--spacing-xxl);
 }
 
+.small {
+    padding-left: var(--spacing-xxl);
+    padding-right: var(--spacing-xxl);
+}
+
 .imagetext {
     display: flex;
 }
@@ -34,6 +39,10 @@
 }
 
 .imagetext.medium img {
+    width: 40%;
+}
+
+.imagetext.small img {
     width: 40%;
 }
 
@@ -72,7 +81,8 @@
 @media screen and (max-width: 768px) {
 
     .large,
-    .medium {
+    .medium,
+    .small {
         padding-left: var(--spacing-m);
         padding-right: var(--spacing-m);
     }
@@ -82,7 +92,8 @@
 @media screen and (max-width: 600px) {
 
     .large,
-    .medium {
+    .medium,
+    .small {
         padding-left: var(--spacing-xs);
         padding-right: var(--spacing-xs);
     }

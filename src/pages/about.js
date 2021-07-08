@@ -4,6 +4,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Grey from "../components/grey"
 import Cta from "../components/cta"
+import ImageText from "../components/imagetext"
+
+import AboutVision from "../images/illustrations/about-vision.png"
+import AboutMarkets from "../images/illustrations/about-markets.png"
 
 function About() {
   return (
@@ -17,6 +21,23 @@ function About() {
           administrative burden to a minimum.
         </p>
       </Grey>
+      <ImageText
+        reverse="rowreverse"
+        size="medium"
+        title="Mindset"
+        text="Internago was founded with the objective to reduce administrative work and make your international business simple with increased control by digitalization.
+
+        This is why we developed the Internago Payroll Portal, we realized that a digital payroll portal to streamline the payroll was needed to make life easier for our customers. This enables our customers to save time and keep control over their payroll on many markets from one digital interface."
+        image={AboutVision}
+      />
+      <ImageText
+        size="medium"
+        title="Your markets – our objective"
+        text="Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.
+
+        Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
+        image={AboutMarketsg}
+      />
       <Cta content="next" />
     </Layout>
   )

@@ -16,9 +16,11 @@ const ImageText = props => {
       <div className="info-imagetext">
         <CustomTag className="heading">{props.title}</CustomTag>
         <p className="paragraph">{props.text}</p>
-        <a className="cta-btn" href={props.link}>
-          {props.button}
-        </a>
+        {props.button && (
+          <a className="cta-btn" href={props.link}>
+            {props.button}
+          </a>
+        )}
       </div>
       <img
         src={props.image}
