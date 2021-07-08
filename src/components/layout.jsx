@@ -32,16 +32,7 @@ const Layout = ({ children }) => {
 
   function animateHamburger () {
     let lines = Array.from(document.querySelectorAll(".hamburger div"))
-    
-    lines.forEach(line => {
-      line.style.animation = `${line.className} 0.5s ease ${menuDisplayed? "reverse" : "normal"}`
-
-      setTimeout(() => {
-        line.style.transform = window.getComputedStyle(line).getPropertyValue("transform")
-        line.style.opacity = window.getComputedStyle(line).getPropertyValue("opacity")
-        line.style.animation = "none"
-      }, 500);
-    });
+    lines.forEach(line => line.style.animation = `${line.className} 0.5s ease ${menuDisplayed? "reverse" : "normal"}`);
   }
 
 
@@ -52,9 +43,9 @@ const Layout = ({ children }) => {
 
         <div className="mobile">
           <button className="hamburger" onClick={toggleMenu}>
-                <div className="line1" onAnimationEnd={(e) => e.target.style.animationPlayState = "paused"}></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+                <div className="line1" style={{transform: menuDisplayed? "translateY(9px) rotate(45deg)" : "translateY(0px) rotate(0deg)"}} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
+                <div className="line2" style={{opacity: menuDisplayed? 0 : 1}} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
+                <div className="line3" style={{transform: menuDisplayed? "translateY(-9px) rotate(-45deg)" : "translateY(0px) rotate(0deg)"}} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
           </button>
 
           <ul className="mobile-menu" style={{height: menuDisplayed? 210 : 0}}>
