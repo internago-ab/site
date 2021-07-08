@@ -60,13 +60,11 @@ function Payroll() {
           content={[
             {
               icon: mobile,
-              text:
-                "Mobile device login and real time notiflications",
+              text: "Mobile device login and real time notiflications",
             },
             {
               icon: expense,
-              text:
-                "Expense management",
+              text: "Expense management",
             },
             {
               icon: simple,
