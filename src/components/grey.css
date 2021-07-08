@@ -6,6 +6,6 @@
     text-align: center;
 }
 
-.grey h1 {
+.grey h1, h2 {
     margin-bottom: var(--spacing-xs);
 }

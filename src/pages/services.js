@@ -23,6 +23,16 @@ function Services() {
           transparent and efficient manner where your success as our objective.
         </p>
       </Grey>
+      <Grey>
+        <h2>Advisory and Incorporation Services</h2>
+        <p>
+          Our experienced team of consultants have worked in various industries
+          and with different challenges, and can take care of the time consuming
+          and complex administrative tasks before, during and after you enter a
+          new market. We have an extensive network and long experience of
+          finding the best partners for our clients.
+        </p>
+      </Grey>
       <Cta content="next" />
     </Layout>
   )

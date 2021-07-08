@@ -21,6 +21,16 @@ function Payroll() {
           and HR in multiple subsidiaries and in one place – online.
         </p>
       </Grey>
+      <Grey>
+        <h2>Payroll and HR Management</h2>
+        <p>
+          Payroll can be complex in an international context. Local rules and
+          regulations, different employment contracts, taxes and severence pay
+          are just some things that you need to get in place and that influence
+          the cost of personnell. We collaborate with the best local experts
+          ensuring full compliance with local regulation.
+        </p>
+      </Grey>
       <Cta content="next" />
     </Layout>
   )
