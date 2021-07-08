@@ -1,6 +1,6 @@
 <div align="center">
   <a href="internago.netlify.app">
-    <img alt="logo" src="src\images\logo-dark.png" width="250" />
+    <img alt="logo" src="src\images\logo-dark.svg" width="250" />
   </a>
 </div>
 
