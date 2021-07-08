@@ -7,14 +7,21 @@
 }
 
 :root {
-  --spacing-xxl: 19.5rem; /* 310px - Padding on side for medium wide section */
-  --spacing-xl: 13.125rem; /* 210px - Padding on side for wide section */
-  --spacing-l: 8.125rem; /* 130px - Spacing between each section vertically */
-  --spacing-m: 6.25rem; /* 100px - Padding on top and bottom for grey section */
-  --spacing-s: 3.75rem; /* 60px - Padding on top and bottom of footer and sections that goes together */
-  --spacing-xs: 2.1875rem; /* 35px - Spacing between content in sections */
-  --spacing-xxs: 0.9375rem; /* 15px - Padding top and bottom on navbar */
-  
+  --spacing-xxl: 19.5rem;
+  /* 310px - Padding on side for medium wide section */
+  --spacing-xl: 13.125rem;
+  /* 210px - Padding on side for wide section */
+  --spacing-l: 8.125rem;
+  /* 130px - Spacing between each section vertically */
+  --spacing-m: 6.25rem;
+  /* 100px - Padding on top and bottom for grey section */
+  --spacing-s: 3.75rem;
+  /* 60px - Padding on top and bottom of footer and sections that goes together */
+  --spacing-xs: 2.1875rem;
+  /* 35px - Spacing between content in sections */
+  --spacing-xxs: 0.9375rem;
+  /* 15px - Padding top and bottom on navbar */
+
 
   --font: 'Source Sans Pro', sans-serif;
   --fontWeight-normal: 400;
@@ -47,8 +54,9 @@ html {
 
 body {
   font-family: var(--font);
-  line-height: var(--lineHeight);
+
 }
+
 
 h1, h2, h3 {
   font-weight: var(--fontWeight-normal);
@@ -56,7 +64,10 @@ h1, h2, h3 {
   line-height: 1;
 }
 
-p, li, a {
+p,
+li,
+a {
+  line-height: var(--lineHeight);
   color: var(--dark-grey);
   text-decoration: none;
   line-height: var(--lineHeight);
@@ -66,10 +77,22 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 {font-size: var(--fontSize-h1);}
-h2 {font-size: var(--fontSize-h2);}
-h3 {font-size: var(--fontSize-h3);}
-p, a {font-size: var(--fontSize-p);}
+h1 {
+  font-size: var(--fontSize-h1);
+}
+
+h2 {
+  font-size: var(--fontSize-h2);
+}
+
+h3 {
+  font-size: var(--fontSize-h3);
+}
+
+p,
+a {
+  font-size: var(--fontSize-p);
+}
 
 .cta-btn {
   background-color: var(--dark-blue);
@@ -79,10 +102,25 @@ p, a {font-size: var(--fontSize-p);}
   border-radius: 100rem;
 }
 
-main{
+main {
+  margin-top: var(--spacing-m);
+}
+
+main>section {
   padding-top: var(--spacing-m);
 }
 
-@media only screen and (max-width: 768px) {
-  p, a {font-size: var(--fontSize-p-s);}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: var(--fontSize-h2);
+  }
+
+  p,
+  a {
+    font-size: var(--fontSize-p-s);
+  }
+
+  main>section {
+    padding-top: var(--spacing-s);
+  }
 }
