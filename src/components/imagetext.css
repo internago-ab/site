@@ -73,7 +73,7 @@
     }
 
     .info-imagetext {
-        padding-bottom: var(--spacing-xs);
+        margin-bottom: var(--spacing-xs);
         width: 100%;
     }
 }

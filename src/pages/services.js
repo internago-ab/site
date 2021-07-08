@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Cta from "../components/cta"
 import Grey from "../components/grey"
 import ImageText from "../components/imagetext"
+import Quotes from "../components/quotes"
 
 import ServicesExperienced from "../images/illustrations/services-experienced.png"
 import ServicesDigitalize from "../images/illustrations/services-digitalize.png"
@@ -70,6 +71,11 @@ function Services() {
         image={ServicesExperienced}
         button="Contact our experts"
         link=""
+      />
+      <Quotes
+        text="The implementation process went very smooth, and the fact that is was online made it easier and more transparent for us at the HQ to follow the progress, and we could update the necessary information for incorporation, bank and fiscal codes etc. in realtimee"
+        author="Rickard Lundström"
+        company="CFO, Rototilt Group AB"
       />
       <Cta content="next" />
     </Layout>

@@ -1,0 +1,6 @@
+.quotes {
+    background-color: var(--light-grey);
+    padding: var(--spacing-xs);
+    max-width: 38%;
+    display: inline-block;
+}
