@@ -9,3 +9,9 @@
 .grey h1, h2 {
     margin-bottom: var(--spacing-xs);
 }
+
+@media only screen and (max-width: 1200px) {
+    .grey {
+        padding: var(--spacing-s);
+    }
+}
