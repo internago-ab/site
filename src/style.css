@@ -21,8 +21,8 @@
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
 
+  --lineHeight-large: 2;
   --lineHeight: 1.5;
-  --lineHeight-tight: 1.5;
   --fontSize-root: 16px;
   --fontSize-h1: 2rem;
   --fontSize-h2: 1.5rem;
