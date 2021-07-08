@@ -1,21 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, graphql } from "gatsby"
 
 import Seo from "../components/seo"
 import Layout from "../components/layout"
+import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 
-function Blog({ data, location }) {
-    const siteTitle = data.site.siteMetadata?.title || `Title`
-    const posts = data.allMarkdownRemark.nodes
+function Blog({ data }) {
+    const [posts, setPosts] = useState(data.allMarkdownRemark.nodes)
 
     if (posts.length === 0) {
         return (
             <Layout>
                 <Seo title="All posts" />
-                <p>
-                    No blog posts found.
-                </p>
+                <p>No blog posts found.</p>
             </Layout>
         )
     }
@@ -23,7 +21,12 @@ function Blog({ data, location }) {
     return (
         <Layout>
             <Seo title="All posts" />
-            <ol style={{ listStyle: `none` }}>
+            <ol className="blog-grid">
+                {posts.map(post => (
+                    <Blogcard post={post}/>
+                ))}
+            </ol>
+            {/* <ol style={{ listStyle: `none` }}>
                 {posts.map(post => {
                     const title = post.frontmatter.title || post.fields.slug
 
@@ -54,7 +57,7 @@ function Blog({ data, location }) {
                         </li>
                     )
                 })}
-            </ol>
+            </ol> */}
             <Cta content="more"/>
         </Layout>
     )
@@ -64,11 +67,6 @@ export default Blog;
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
@@ -79,6 +77,8 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          featuredimage
+          tags
         }
       }
     }
