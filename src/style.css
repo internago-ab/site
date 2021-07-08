@@ -28,8 +28,8 @@
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
 
-  --lineHeight: 2;
-  --lineHeight-tight: 1.5;
+  --lineHeight-large: 2;
+  --lineHeight: 1.5;
   --fontSize-root: 16px;
   --fontSize-h1: 2rem;
   --fontSize-h2: 1.5rem;
@@ -57,11 +57,11 @@ body {
 
 }
 
-h1,
-h2,
-h3 {
+
+h1, h2, h3 {
   font-weight: var(--fontWeight-normal);
   color: var(--black);
+  line-height: 1;
 }
 
 p,
@@ -70,6 +70,7 @@ a {
   line-height: var(--lineHeight);
   color: var(--dark-grey);
   text-decoration: none;
+  line-height: var(--lineHeight);
 }
 
 a:hover {
@@ -109,17 +110,9 @@ main>section {
   padding-top: var(--spacing-m);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: var(--fontSize-h2);
-  }
-
-  h2 {
-    font-size: var(--fontSize-h2);
-  }
-
-  h3 {
-    font-size: var(--fontSize-h3);
   }
 
   p,

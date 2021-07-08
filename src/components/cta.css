@@ -1,0 +1,33 @@
+@import "../style.css";
+
+section.cta {
+    text-align: center;
+    line-height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+section.cta img {
+    position: relative;
+    top: 2px;
+    z-index: -1;
+}
+
+section.cta .content {
+    background-color: var(--light-blue);
+    line-height: var(--lineHeight);
+    padding: var(--spacing-m) var(--spacing-xl);
+}
+
+section.cta .content p {
+    margin: var(--spacing-xs) 0;
+    color: var(--black)
+}
+
+/* -------------------------------------------------------- MOBILE */
+
+@media only screen and (max-width: 768px) {
+    section.cta .content {
+        padding: var(--spacing-s);
+    }
+}

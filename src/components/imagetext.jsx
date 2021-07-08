@@ -1,5 +1,4 @@
 import * as React from "react"
-import "./layout.css"
 import "./imagetext.css"
 
 const ImageText = props => {

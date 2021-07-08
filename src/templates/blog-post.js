@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Cta from "../components/cta"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -58,6 +59,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <Cta content="about"/>
     </Layout>
   )
 }
