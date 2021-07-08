@@ -1,0 +1,11 @@
+@import "../style.css";
+
+.grey {
+    background-color: var(--light-grey);
+    padding: var(--spacing-m) var(--spacing-xxl);
+    text-align: center;
+}
+
+.grey h1 {
+    margin-bottom: var(--spacing-xs);
+}
