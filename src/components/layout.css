@@ -175,10 +175,12 @@ footer .disclaimer {
         overflow: hidden;
         transition: all 0.5s ease-in-out;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+        z-index: 1;
     }
 
     footer {
-        padding: var(--spacing-xs)
+        padding: var(--spacing-xs);
+        z-index: -1;
     }
 
     .footer-flex p {
