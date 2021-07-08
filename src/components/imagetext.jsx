@@ -9,20 +9,29 @@ const ImageText = props => {
   } else if (props.size === "medium") {
     CustomTag = "h2"
   } else if (props.size === "small") {
+    CustomTag = "h3"
   }
 
   return (
-    <section className="hero">
-      <div className='info-hero'>
+    <section className={`imagetext ${props.size} ${props.reverse}`}>
+      <div className="info-imagetext">
         <CustomTag className="heading">{props.title}</CustomTag>
         <p className="paragraph">{props.text}</p>
-        <a className="cta-btn" href="">
+        <a className="cta-btn" href={props.link}>
           {props.button}
         </a>
       </div>
-      <div className='image-hero'>
-        <img src={props.image} alt="" srcset="" className="img-imagetext" />
-      </div>
+      <img
+        src={props.image}
+        alt=""
+        srcset=""
+        className="img-imagetext"
+        style={
+          props.reverse
+            ? { marginRight: "var(--spacing-s)" }
+            : { marginLeft: "var(--spacing-s)" }
+        }
+      />
     </section>
   )
 }

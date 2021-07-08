@@ -1,6 +1,14 @@
-.hero {
+.large {
     padding-left: var(--spacing-xl);
     padding-right: var(--spacing-xl);
+}
+
+.medium {
+    padding-left: var(--spacing-xxl);
+    padding-right: var(--spacing-xxl);
+}
+
+.imagetext {
     display: flex;
 }
 
@@ -12,51 +20,74 @@
     padding-bottom: var(--spacing-xs)
 }
 
-.info-hero {
-    width: 80%;
+.info-imagetext {
+    margin: auto;
+    width: 85%;
 }
 
-.image-hero {
-    width: 130%;
+.imagetext img {
+    height: 100%;
 }
 
-.img-imagetext {
-    width: 100%;
+.imagetext.large img {
+    width: 58%;
 }
 
-@media screen and (max-width: 1024px) {
+.imagetext.medium img {
+    width: 40%;
+}
 
-    .hero {
+.rowreverse {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .imagetext img {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .large,
+    .medium {
         padding-left: var(--spacing-l);
         padding-right: var(--spacing-l);
+    }
+
+    .imagetext {
         display: block;
     }
 
-    .image-hero {
+    .imagetext.large img,
+    .imagetext.medium img {
         width: 100%;
     }
 
-    .info-hero {
+    .info-imagetext {
         padding-bottom: var(--spacing-xs);
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 768px) {
-    .hero {
+
+    .large,
+    .medium {
         padding-left: var(--spacing-m);
         padding-right: var(--spacing-m);
     }
+
 }
 
 @media screen and (max-width: 600px) {
-    .hero {
+
+    .large,
+    .medium {
         padding-left: var(--spacing-xs);
         padding-right: var(--spacing-xs);
     }
 
-    .info-hero {
+    .info-imagetext {
         text-align: center;
     }
 
