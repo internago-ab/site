@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageText from "../components/imagetext"
+import Grey from "../components/grey"
 import Cta from "../components/cta"
 
 //images
@@ -20,6 +21,10 @@ const Index = () => {
         image={LandingPageFirst}
         button="Book a demo"
       />
+
+      <Grey>
+        <h2>Why Internago?</h2>
+      </Grey>
       <Cta content="next"/>
     </Layout>
   )
