@@ -1,0 +1,14 @@
+@import "../style.css";
+
+.icon-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: var(--spacing-s);
+    margin-top: var(--spacing-s);
+}
+
+.icon-item img {
+    height: var(--spacing-m);
+    margin-bottom: var(--spacing-xs);
+}
