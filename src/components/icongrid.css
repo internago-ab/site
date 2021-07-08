@@ -12,3 +12,15 @@
     height: var(--spacing-m);
     margin-bottom: var(--spacing-xs);
 }
+
+@media only screen and (max-width: 768px) {
+    .icon-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: var(--spacing-xs);
+    }
+
+    .icon-item img {
+        height: var(--spacing-s);
+        margin-bottom: var(--spacing-xxs);
+    }
+}
