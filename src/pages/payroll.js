@@ -5,6 +5,9 @@ import Seo from "../components/seo"
 import Grey from "../components/grey"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
+import ImageText from "../components/imagetext"
+
+import PayrollShareDoc from "../images/illustrations/payroll-sharedoc.png"
 
 import mobile from "../images/icons/mobile.png"
 import expense from "../images/icons/expense.png"
@@ -29,6 +32,21 @@ function Payroll() {
           and HR in multiple subsidiaries and in one place – online.
         </p>
       </Grey>
+      <ImageText
+        size="medium"
+        title="ShareDoc -Document management tool"
+        text="Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.
+
+        Features
+        — Share hyperlinks to authorised external and internal stakeholders
+        — Control, authorize, approve and reject documents online
+        — GDPR conformity
+        — E-mail notification to authorised users
+        — Add users and control access based on need-to-know basis"
+        image={PayrollShareDoc}
+        button="Try it today"
+        link=""
+      />
       <Grey>
         <h2>Payroll and HR Management</h2>
         <p>

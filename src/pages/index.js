@@ -104,6 +104,9 @@ const Index = () => {
         link=""
       />
 
+      <Grey>
+        <h2>Why Internago?</h2>
+      </Grey>
       <Cta content="next" />
     </Layout>
   )
