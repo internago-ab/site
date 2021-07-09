@@ -14,7 +14,7 @@ function Blog({ data, location }) {
         filter === "all" || filter === null || filter === "" ? 
             setPosts(data.allMarkdownRemark.nodes) :
             setPosts(posts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))
-    }, [filter])
+    }, [data.allMarkdownRemark.nodes, filter, posts])
 
 
     if (posts.length === 0) {
