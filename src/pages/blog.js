@@ -8,8 +8,9 @@ import Cta from "../components/cta"
 
 function Blog({ data, location }) {
     const allPosts = data.allMarkdownRemark.nodes
+    const postsToDisplay = 6;
     const [posts, setPosts] = useState(allPosts)
-    const [numberOfPosts, setNumberOfPosts] = useState(3)
+    const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
     const [filter, setFilter] = useState(new URLSearchParams(location.search.substring(1)).get("filter"))
     const tags = Array.from(new Set(allPosts.map(post => post.frontmatter.tags).flat().filter(tag => tag != null)))
 
@@ -48,7 +49,7 @@ function Blog({ data, location }) {
                         <Blogcard post={post} />
                     ))}
                 </ol>
-                {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + 3)}>View more posts</button>}
+                {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}>View more posts</button>}
             </div>
             {/* <ol style={{ listStyle: `none` }}>
                 {posts.map(post => {
