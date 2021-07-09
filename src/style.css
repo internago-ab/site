@@ -122,6 +122,24 @@ main>section {
   margin-top: var(--spacing-m);
 }
 
+.clients img {
+  width: 10%;
+}
+
+.quotes-wrapper {
+  text-align: center;
+  padding-top: var(--spacing-m);
+  padding-right: var(--spacing-xl);
+  padding-left: var(--spacing-xl);
+}
+
+@media screen and (min-width: 1600px) {
+  .quotes-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .clients {
     display: none;
@@ -140,5 +158,22 @@ main>section {
 
   main>section {
     padding-top: var(--spacing-s);
+  }
+
+  .quotes-wrapper {
+    padding-right: var(--spacing-m);
+    padding-left: var(--spacing-m);
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  main>section {
+    padding-top: var(--spacing-xxs);
+  }
+  
+  .quotes-wrapper {
+    padding-right: var(--spacing-xs);
+    padding-left: var(--spacing-xs);
   }
 }

@@ -1,6 +1,49 @@
 .quotes {
     background-color: var(--light-grey);
     padding: var(--spacing-xs);
-    max-width: 38%;
+    text-align: left;
+    max-width: 500px;
     display: inline-block;
+}
+
+.quotes-name {
+    margin-top: var(--spacing-xxs);
+    font-weight: var(--fontWeight-semibold);
+}
+
+.right {
+    margin-right: var(--spacing-xxs);
+}
+
+.bottom {
+    margin-top: var(--spacing-xxs);
+}
+
+@media screen and (min-width: 1600px) {
+
+    .quotes{
+        flex: 1;
+    }
+
+    .bottom {
+        margin-top: 0;
+    }
+
+    .middle {
+        margin-right: var(--spacing-xxs);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right {
+        margin-right: 0;
+    }
+
+    .bottom {
+        margin-top: 0;
+    }
+
+    .quotes {
+        margin-bottom: var(--spacing-xs);
+    }
 }

@@ -3,10 +3,10 @@ import "./quotes.css"
 
 const Quotes = props => {
   return (
-    <div className="quotes">
+    <div className={`quotes ${props.size}`}>
       <p>{props.text}</p>
-      <p>{props.author}</p>
-      <p>{props.company}</p>
+      <p className="quotes-name">{props.author}</p>
+      <p className="quotes-name">{props.company}</p>
     </div>
   )
 }

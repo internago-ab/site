@@ -6,6 +6,7 @@ import Grey from "../components/grey"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
+import Quotes from "../components/quotes"
 
 import PayrollShareDoc from "../images/illustrations/payroll-sharedoc.png"
 
@@ -60,13 +61,11 @@ function Payroll() {
           content={[
             {
               icon: mobile,
-              text:
-                "Mobile device login and real time notiflications",
+              text: "Mobile device login and real time notiflications",
             },
             {
               icon: expense,
-              text:
-                "Expense management",
+              text: "Expense management",
             },
             {
               icon: simple,
@@ -84,10 +83,13 @@ function Payroll() {
             {
               icon: calendartime,
               text: "Absence and time management",
-            }
+            },
           ]}
         />
       </Grey>
+      <div className="quotes-wrapper">
+        <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
+      </div>
       <Cta content="next" />
     </Layout>
   )
