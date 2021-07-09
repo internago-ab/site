@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, graphql } from "gatsby"
 
 import Seo from "../components/seo"
@@ -8,9 +8,15 @@ import Cta from "../components/cta"
 
 function Blog({ data, location }) {
     const [posts, setPosts] = useState(data.allMarkdownRemark.nodes)
-
-    const filter = new URLSearchParams(location.search.substring(1)).get("filter")
+    const [filter, setFilter] = useState(new URLSearchParams(location.search.substring(1)).get("filter"))
     
+    useEffect(() => {
+        if (filter !== "all" && filter !== null){
+            const filteredPosts = posts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1)))
+            setPosts(filteredPosts)
+        }
+    }, [filter])
+
 
     if (posts.length === 0) {
         return (
