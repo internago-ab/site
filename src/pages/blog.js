@@ -8,6 +8,7 @@ import Cta from "../components/cta"
 
 function Blog({ data, location }) {
     const [posts, setPosts] = useState(data.allMarkdownRemark.nodes)
+    const [numberOfPosts, setNumberOfPosts] = useState(3)
     const [filter, setFilter] = useState(new URLSearchParams(location.search.substring(1)).get("filter"))
     
     useEffect(() => {
@@ -29,11 +30,14 @@ function Blog({ data, location }) {
     return (
         <Layout>
             <Seo title="All posts" />
-            <ol className="blog-grid">
-                {posts.map(post => (
-                    <Blogcard post={post}/>
-                ))}
-            </ol>
+            <div className="blog">
+                <ol className="blog-grid">
+                    {posts.slice(0, numberOfPosts).map(post => (
+                        <Blogcard post={post}/>
+                    ))}
+                </ol>
+                {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + 3)}>View more posts</button>}
+            </div>
             {/* <ol style={{ listStyle: `none` }}>
                 {posts.map(post => {
                     const title = post.frontmatter.title || post.fields.slug

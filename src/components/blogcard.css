@@ -1,5 +1,9 @@
 @import "../style.css";
 
+.blog {
+    text-align: center;
+}
+
 .blog-grid{
     list-style-type: none;
     display:grid;
@@ -22,6 +26,7 @@
 .blog-card .text {
     padding: var(--spacing-xxs);
     z-index: -1;
+    text-align: left;
 }
 
 .blog-card .text h2{
@@ -43,6 +48,10 @@
     position: absolute;
     bottom: var(--spacing-xxs);
     left: var(--spacing-xxs);
+}
+
+.blog button {
+    margin-top: var(--spacing-s);
 }
 
 @media only screen and (max-width: 768px) {
