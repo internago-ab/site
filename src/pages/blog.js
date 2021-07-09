@@ -6,8 +6,11 @@ import Layout from "../components/layout"
 import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 
-function Blog({ data }) {
+function Blog({ data, location }) {
     const [posts, setPosts] = useState(data.allMarkdownRemark.nodes)
+
+    const filter = new URLSearchParams(location.search.substring(1)).get("filter")
+    
 
     if (posts.length === 0) {
         return (
