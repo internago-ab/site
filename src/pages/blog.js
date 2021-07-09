@@ -15,10 +15,12 @@ function Blog({ data, location }) {
     const tags = Array.from(new Set(allPosts.map(post => post.frontmatter.tags).flat().filter(tag => tag != null)))
 
     useEffect(() => {
-        filter === "all" || filter === null || filter === "" ?
-            setPosts(data.allMarkdownRemark.nodes) :
-            setPosts(allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))
-    }, [data.allMarkdownRemark.nodes, filter, posts])
+        window.history.pushState(filter, "", `blog?filter=${filter}`);
+        
+        setPosts(filter === "all" || filter === null || filter === "" ?
+            allPosts : 
+            allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))  
+    }, [filter, allPosts])
 
 
 
