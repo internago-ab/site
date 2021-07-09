@@ -6,6 +6,7 @@ import Cta from "../components/cta"
 import Grey from "../components/grey"
 import ImageText from "../components/imagetext"
 import Quotes from "../components/quotes"
+import Tabs from "../components/tabs"
 
 import ServicesExperienced from "../images/illustrations/services-experienced.png"
 import ServicesDigitalize from "../images/illustrations/services-digitalize.png"
@@ -48,6 +49,7 @@ function Services() {
         text="Edited Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
         image={ServicesDigitalize}
       />
+
       <Grey>
         <h2>Advisory and Incorporation Services</h2>
         <p>
@@ -57,6 +59,7 @@ function Services() {
           new market. We have an extensive network and long experience of
           finding the best partners for our clients.
         </p>
+        <Tabs />
       </Grey>
       <ImageText
         size="medium"
@@ -72,11 +75,28 @@ function Services() {
         button="Contact our experts"
         link=""
       />
-      <Quotes
-        text="The implementation process went very smooth, and the fact that is was online made it easier and more transparent for us at the HQ to follow the progress, and we could update the necessary information for incorporation, bank and fiscal codes etc. in realtimee"
-        author="Rickard Lundström"
-        company="CFO, Rototilt Group AB"
-      />
+      <div className="quotes-wrapper">
+        <Quotes
+          size="right"
+          text="The implementation process went very smooth, and the fact that is was online made it easier and more transparent for us at the HQ to follow the progress, and we could update the necessary information for incorporation, bank and fiscal codes etc. in realtimee"
+          author="Rickard Lundström"
+          company="CFO, Rototilt Group AB"
+        />
+        <Quotes
+          size="middle"
+          text="Internago has handled our international operations very professionally, from setup to continuous management. 
+          
+          Their service is professional yet personal, with a solid web portal for managing all documentation."
+          author="Max Friberg"
+          company="Founder, Inex One"
+        />
+        <Quotes
+          size="bottom"
+          text="I recommend Internago to companies that want to develop their business and grow into new markets."
+          author="Fabio Frozzi"
+          company="CEO, Co.Ma SPA"
+        />
+      </div>
       <Cta content="next" />
     </Layout>
   )

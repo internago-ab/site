@@ -1,0 +1,63 @@
+section {
+    margin-top: var(--spacing-xs);
+}
+
+button {
+    cursor: pointer;
+    line-height: var(--lineHeight);
+    color: var(--dark-grey);
+    text-decoration: none;
+    line-height: var(--lineHeight);
+}
+
+button:hover,
+button:active {
+    text-decoration: underline;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+    margin: 0 auto;
+}
+
+.btn-container {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.tabs-btn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: var(--fontSize-h3);
+    margin-bottom: var(--spacing-xxs);
+}
+
+.tabs-info {
+    text-align: left;
+    width: 100%;
+    padding: var(--spacing-xs);
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+
+    .tabs {
+        display: block;
+    }
+
+    .tabs-btn {
+        font-size: var(--fontSize-h3);
+    }
+
+    .tabs-btn {
+        margin-bottom: none;
+    }
+
+    .tabs-info {
+        padding: var(--spacing-xxs);
+    }
+
+}

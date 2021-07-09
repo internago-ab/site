@@ -25,7 +25,6 @@ const ImageText = props => {
       <img
         src={props.image}
         alt=""
-        srcset=""
         className="img-imagetext"
         style={
           props.reverse
