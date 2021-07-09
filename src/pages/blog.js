@@ -11,10 +11,9 @@ function Blog({ data, location }) {
     const [filter, setFilter] = useState(new URLSearchParams(location.search.substring(1)).get("filter"))
     
     useEffect(() => {
-        if (filter !== "all" && filter !== null){
-            const filteredPosts = posts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1)))
-            setPosts(filteredPosts)
-        }
+        filter === "all" || filter === null || filter === "" ? 
+            setPosts(data.allMarkdownRemark.nodes) :
+            setPosts(posts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))
     }, [filter])
 
 
