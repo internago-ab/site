@@ -10,7 +10,6 @@ section.cta {
 section.cta img {
     position: relative;
     top: 2px;
-    z-index: -1;
 }
 
 section.cta .content {
