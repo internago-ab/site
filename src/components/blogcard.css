@@ -44,8 +44,18 @@
 
 .blog-card .text {
     padding: var(--spacing-xxs);
-    z-index: -1;
     text-align: left;
+}
+
+.blog-card .text button {
+    background-color: var(--white);
+    color: var(--dark-grey);
+    border: none;
+    margin-right: 5px;
+}
+
+.blog-card .text button:hover {
+    text-decoration: underline;
 }
 
 .blog-card .text h2{
@@ -69,7 +79,7 @@
     left: var(--spacing-xxs);
 }
 
-.blog button {
+.blog .cta-btn {
     margin-top: var(--spacing-s);
 }
 

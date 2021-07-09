@@ -16,7 +16,7 @@ function Blog({ data, location }) {
 
     useEffect(() => {
         window.history.pushState(filter, "", `blog?filter=${filter}`);
-        
+
         setPosts(filter === "all" || filter === null || filter === "" ?
             allPosts : 
             allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))  
@@ -48,7 +48,7 @@ function Blog({ data, location }) {
                 </form>
                 <ol className="blog-grid">
                     {posts.slice(0, numberOfPosts).map(post => (
-                        <Blogcard post={post} />
+                        <Blogcard post={post} setFilter={setFilter} />
                     ))}
                 </ol>
                 {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}>View more posts</button>}
