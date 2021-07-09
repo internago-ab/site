@@ -11,6 +11,7 @@
 
 .blog-card {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    position: relative;
 }
 
 .blog-card img{
@@ -20,7 +21,6 @@
 
 .blog-card .text {
     padding: var(--spacing-xxs);
-    position: relative;
     z-index: -1;
 }
 
@@ -39,9 +39,10 @@
     color: var(--black)
 }
 
-.blog-card .text .read-more{
+.blog-card .read-more{
     position: absolute;
     bottom: var(--spacing-xxs);
+    left: var(--spacing-xxs);
 }
 
 @media only screen and (max-width: 768px) {
