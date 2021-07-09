@@ -3,7 +3,7 @@
 .blog-grid{
     list-style-type: none;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
     grid-auto-rows: auto;
     grid-gap: var(--spacing-s);
     padding: 0 var(--spacing-xl);
@@ -42,4 +42,10 @@
 .blog-card .text .read-more{
     position: absolute;
     bottom: var(--spacing-xxs);
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-grid{
+        padding: 0 var(--spacing-s);
+    }
 }
