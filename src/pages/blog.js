@@ -7,15 +7,18 @@ import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 
 function Blog({ data, location }) {
-    const [posts, setPosts] = useState(data.allMarkdownRemark.nodes)
+    const allPosts = data.allMarkdownRemark.nodes
+    const [posts, setPosts] = useState(allPosts)
     const [numberOfPosts, setNumberOfPosts] = useState(3)
     const [filter, setFilter] = useState(new URLSearchParams(location.search.substring(1)).get("filter"))
-    
+    const tags = Array.from(new Set(allPosts.map(post => post.frontmatter.tags).flat().filter(tag => tag != null)))
+
     useEffect(() => {
-        filter === "all" || filter === null || filter === "" ? 
+        filter === "all" || filter === null || filter === "" ?
             setPosts(data.allMarkdownRemark.nodes) :
-            setPosts(posts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))
+            setPosts(allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))
     }, [data.allMarkdownRemark.nodes, filter, posts])
+
 
 
     if (posts.length === 0) {
@@ -31,9 +34,18 @@ function Blog({ data, location }) {
         <Layout>
             <Seo title="All posts" />
             <div className="blog">
+                <form>
+                    <label htmlFor="categories">Filter by: </label>
+                    <select id="categories" name="categories" onChange={(e) => setFilter(e.target.value)}>
+                        <option value="all" className="filter-option" id="all"> </option>
+                        {tags.map((tag) => (
+                            <option value={tag.toLowerCase()} className="filter-option" id={tag.toLowerCase()}>{tag}</option>
+                        ))}
+                    </select>
+                </form>
                 <ol className="blog-grid">
                     {posts.slice(0, numberOfPosts).map(post => (
-                        <Blogcard post={post}/>
+                        <Blogcard post={post} />
                     ))}
                 </ol>
                 {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + 3)}>View more posts</button>}
@@ -70,7 +82,7 @@ function Blog({ data, location }) {
                     )
                 })}
             </ol> */}
-            <Cta content="more"/>
+            <Cta content="more" />
         </Layout>
     )
 }
