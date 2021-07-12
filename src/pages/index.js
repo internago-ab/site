@@ -43,7 +43,7 @@ const Index = () => {
         margin="large"
         size="large"
         title="International payroll - Local Experts"
-        text="We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization."
+        text="<p>We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization.</p>"
         image={landingPageFirst}
         imagesize="imglarge"
         button="Book a demo"
@@ -62,9 +62,7 @@ const Index = () => {
         reverse="rowreverse"
         size="medium"
         title="Your markets - our objective"
-        text="<p>Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.</p>
-        </br>
-        <p>Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services.</p>"
+        text="<p>Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.</p></br><p>Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services.</p>"
         image={landingPageMap}
         button="Contact us"
         link="mailto:info@internago.com"
@@ -109,8 +107,8 @@ const Index = () => {
         reverse="rowreverse"
         size="medium"
         title="We make the complex simple"
-        text="A complete range of services to support your international business.
-        We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions."
+        text="<p>A complete range of services to support your international business.
+        We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions.</p>"
         image={landingPagePayroll}
         button="Read more"
         link="/services"
@@ -119,7 +117,7 @@ const Index = () => {
       <ImageText
         size="medium"
         title="Internago Payroll portal – one software for all your payroll services"
-        text="Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface."
+        text="<p>Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface.</p>"
         image={landingPageComplex}
         button="Read more"
         link="/payroll"
