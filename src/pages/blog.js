@@ -16,7 +16,7 @@ function Blog({ data, location }) {
 
     useEffect(() => {
         window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`)
-        document.querySelector("#categories").value = filter
+        document.querySelector("#categories").value = filter.toLowerCase()
 
         setPosts(filter === "all" || filter === null || filter === "" ?
             allPosts : 
