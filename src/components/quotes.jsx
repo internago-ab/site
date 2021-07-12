@@ -4,9 +4,8 @@ import "./quotes.css"
 const Quotes = props => {
   return (
     <div className={`quotes ${props.size}`}>
-      <p>{props.text}</p>
-      <p className="quotes-name">{props.author}</p>
-      <p className="quotes-name">{props.company}</p>
+      <p dangerouslySetInnerHTML={{ __html: props.text}}></p>
+      <p className="quotes-name" dangerouslySetInnerHTML={{ __html: props.author}}></p>
     </div>
   )
 }

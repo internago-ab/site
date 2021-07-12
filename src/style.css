@@ -105,7 +105,12 @@ a {
 }
 
 main {
-  margin-top: var(--spacing-l);
+  margin-top: 80px;
+}
+
+main > :first-child{
+  margin-top: 0;
+
 }
 
 main>section {
@@ -144,6 +149,9 @@ main>section {
   .clients {
     display: none;
   }
+  main {
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -171,7 +179,7 @@ main>section {
   main>section {
     padding-top: var(--spacing-xxs);
   }
-  
+
   .quotes-wrapper {
     padding-right: var(--spacing-xs);
     padding-left: var(--spacing-xs);

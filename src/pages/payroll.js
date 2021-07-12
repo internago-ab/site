@@ -36,14 +36,19 @@ function Payroll() {
       <ImageText
         size="medium"
         title="ShareDoc -Document management tool"
-        text="Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.
-
-        Features
+        text="<p> Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.</p>
+        </br>
+        <p>
+        Features</br>
         — Share hyperlinks to authorised external and internal stakeholders
+        </br>
         — Control, authorize, approve and reject documents online
+        </br>
         — GDPR conformity
+        </br>
         — E-mail notification to authorised users
-        — Add users and control access based on need-to-know basis"
+        </br>
+        — Add users and control access based on need-to-know basis </p>" 
         image={PayrollShareDoc}
         button="Try it today"
         link=""
