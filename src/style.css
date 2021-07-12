@@ -96,6 +96,10 @@ a {
   font-size: var(--fontSize-p);
 }
 
+a, button {
+  cursor: pointer;
+}
+
 .cta-btn {
   background-color: var(--dark-blue);
   color: var(--white);
