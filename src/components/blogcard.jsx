@@ -15,11 +15,12 @@ function Blogcard({ post, setFilter }) {
     const { date, title, description, featuredimage, tags } = post.frontmatter
 
     return (
-        <li key={post.fields.slug} className="blog-card" data-aos="fade-up">
+
+        <li className="blog-card" data-aos="fade-up">
             <img src={featuredimage} alt="blogpost"></img>
             <div className="text">
                 <Link to={post.fields.slug}><h2>{title}</h2></Link>
-                <p >{date} || {tags.map(tag => <button onClick={() => setFilter(tag)}>{tag}</button>)}</p>
+                <p >{date} || {tags.map((tag, index) => <button key={index} onClick={() => setFilter(tag)}>{tag}</button>)}</p>
                 <p className="description" dangerouslySetInnerHTML={{__html: description || post.excerpt}}></p>
             </div>
             <Link to={post.fields.slug} className="read-more">Read more</Link>

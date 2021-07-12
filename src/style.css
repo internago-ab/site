@@ -116,6 +116,10 @@ a {
   font-size: var(--fontSize-p);
 }
 
+a, button {
+  cursor: pointer;
+}
+
 .cta-btn {
   background-color: var(--dark-blue);
   color: var(--white);
@@ -146,6 +150,14 @@ main>section {
   margin-top: var(--spacing-m);
 }
 
+section.error-page {
+  padding: var(--spacing-l) var(--spacing-xl)
+}
+
+section.error-page > * {
+  margin-bottom: var(--spacing-xs);
+}
+
 .clients {
   display: flex;
   align-items: center;
@@ -160,23 +172,9 @@ main>section {
   width: 10%;
 }
 
-.quotes-wrapper {
-  text-align: center;
-  padding-top: var(--spacing-m);
-  padding-right: var(--spacing-xl);
-  padding-left: var(--spacing-xl);
-}
-
 .howitworks {
   padding-top: var(--spacing-m);
   text-align: center;
-}
-
-@media screen and (min-width: 1600px) {
-  .quotes-wrapper {
-    display: flex;
-    justify-content: space-around;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -203,9 +201,8 @@ main>section {
     margin-top: var(--spacing-s);
   }
 
-  .quotes-wrapper {
-    padding-right: var(--spacing-m);
-    padding-left: var(--spacing-m);
+  section.error-page {
+    padding: var(--spacing-m);
   }
 }
 
@@ -215,8 +212,7 @@ main>section {
     margin-top: var(--spacing-xxs);
   }
 
-  .quotes-wrapper {
-    padding-right: var(--spacing-xs);
-    padding-left: var(--spacing-xs);
+  section.error-page {
+    padding: var(--spacing-s);
   }
 }

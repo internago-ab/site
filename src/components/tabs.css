@@ -3,28 +3,31 @@ section {
 }
 
 button {
-    cursor: pointer;
     line-height: var(--lineHeight);
     color: var(--dark-grey);
     text-decoration: none;
     line-height: var(--lineHeight);
 }
 
-button:hover,
-button:active {
+button:hover {
     text-decoration: underline;
 }
 
 .tabs {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    column-gap: 4rem;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .btn-container {
-    text-align: left;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%
+}
+
+.active-btn {
+    text-decoration: underline;
 }
 
 .tabs-btn {
@@ -40,20 +43,38 @@ button:active {
     width: 100%;
     padding: var(--spacing-xs);
     background-color: var(--white);
+    list-style-type: "— ";
+    list-style-position: inside;
+}
+
+.tabs-info li {
+    margin-top: var(--spacing-xxs);
+}
+
+.tabs-info :first-child {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-
+    
     .tabs {
-        display: block;
+        flex-direction: column;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-container {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--white);
+        padding: var(--spacing-xxs);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+        z-index: 2;
     }
 
     .tabs-btn {
         font-size: var(--fontSize-h3);
-    }
-
-    .tabs-btn {
-        margin-bottom: none;
+        margin-bottom: 0;
     }
 
     .tabs-info {

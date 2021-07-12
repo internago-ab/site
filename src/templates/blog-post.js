@@ -46,12 +46,15 @@ const BlogPostTemplate = ({ data, location }) => {
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p className="date-and-tags">
               {post.frontmatter.date} ||{" "}
-              {post.frontmatter.tags.map(tag => (
-                <Link to={`/blog?filter=${tag.toLowerCase()}`}>{tag}</Link>
+
+              {post.frontmatter.tags.map((tag, index) => (
+                <Link key={index} to={`/blog?filter=${tag.toLowerCase()}`}>
+                  {tag}
+                </Link>
               ))}
             </p>
           </header>
-          <img src={post.frontmatter.featuredimage} />
+          <img alt="blog header" src={post.frontmatter.featuredimage} />
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
