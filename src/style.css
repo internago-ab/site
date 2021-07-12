@@ -121,6 +121,14 @@ main>section {
   margin-top: var(--spacing-m);
 }
 
+section.error-page {
+  padding: var(--spacing-l) var(--spacing-xl)
+}
+
+section.error-page > * {
+  margin-bottom: var(--spacing-xs);
+}
+
 .clients {
   display: flex;
   align-items: center;
@@ -176,6 +184,10 @@ main>section {
     padding-right: var(--spacing-m);
     padding-left: var(--spacing-m);
   }
+
+  section.error-page {
+    padding: var(--spacing-m);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -187,5 +199,9 @@ main>section {
   .quotes-wrapper {
     padding-right: var(--spacing-xs);
     padding-left: var(--spacing-xs);
+  }
+
+  section.error-page {
+    padding: var(--spacing-s);
   }
 }

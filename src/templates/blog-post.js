@@ -44,7 +44,7 @@ const BlogPostTemplate = ({ data, location }) => {
               ))}
             </p>
           </header>
-          <img src={post.frontmatter.featuredimage} />
+          <img alt="blog header" src={post.frontmatter.featuredimage} />
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
