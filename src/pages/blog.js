@@ -15,7 +15,8 @@ function Blog({ data, location }) {
     const tags = Array.from(new Set(allPosts.map(post => post.frontmatter.tags).flat().filter(tag => tag != null)))
 
     useEffect(() => {
-        window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`);
+        window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`)
+        document.querySelector("#categories").value = filter
 
         setPosts(filter === "all" || filter === null || filter === "" ?
             allPosts : 
@@ -42,7 +43,7 @@ function Blog({ data, location }) {
                     <select id="categories" name="categories" onChange={(e) => setFilter(e.target.value)}>
                         <option value="all" className="filter-option" id="all"> </option>
                         {tags.map((tag) => (
-                            <option value={tag} className="filter-option">{tag}</option>
+                            <option value={tag.toLowerCase()} className="filter-option">{tag}</option>
                         ))}
                     </select>
                 </form>

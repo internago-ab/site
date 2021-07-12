@@ -7,7 +7,7 @@ section.cta {
     width: 100%;
 }
 
-section.cta {
+section.cta-no-margin {
     margin: 0;
 }
 
