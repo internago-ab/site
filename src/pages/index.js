@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { useEffect } from "react"
 //Components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -28,7 +28,14 @@ import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
 
+//animation
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 const Index = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <Layout>
       <Seo title="Home" />
@@ -40,9 +47,9 @@ const Index = () => {
         image={landingPageFirst}
         imagesize="imglarge"
         button="Book a demo"
-        link=""
+        link="mailto:info@internago.com"
       />
-      <div className="clients">
+      <div className="clients" data-aos="fade-up">
         <img src={kitabsawti} alt="Kitab Sawti logo" />
         <img src={benify} alt="Benify logo" />
         <img src={dedicare} alt="Dedicare logo" />
@@ -60,7 +67,7 @@ const Index = () => {
         <p>Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services.</p>"
         image={landingPageMap}
         button="Contact us"
-        link=""
+        link="mailto:info@internago.com"
       />
 
       <Grey>
@@ -106,7 +113,7 @@ const Index = () => {
         We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions."
         image={landingPagePayroll}
         button="Read more"
-        link=""
+        link="/services"
       />
 
       <ImageText
@@ -115,7 +122,7 @@ const Index = () => {
         text="Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface."
         image={landingPageComplex}
         button="Read more"
-        link=""
+        link="/payroll"
       />
 
       <Cta content="next" />

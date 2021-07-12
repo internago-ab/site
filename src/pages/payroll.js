@@ -51,7 +51,7 @@ function Payroll() {
         — Add users and control access based on need-to-know basis </p>" 
         image={PayrollShareDoc}
         button="Try it today"
-        link=""
+        link="mailto:info@internago.com"
       />
       <Grey>
         <h2>Payroll and HR Management</h2>

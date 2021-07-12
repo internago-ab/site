@@ -39,16 +39,16 @@ const Layout = ({ children }) => {
   return (
     <div className="global-wrapper">
       <nav>
-        <Link to="/"><img className="logo" src={darkLogo} alt="logo"></img></Link>
+        <Link to="/" className="logo-link"><img className="logo" src={darkLogo} alt="logo"></img></Link>
 
         <div className="mobile">
-          <button className="hamburger" onClick={toggleMenu}>
+          <button className="hamburger" onClick={toggleMenu} aria-label="hamburger-menu">
             <div className="line1" style={{ transform: menuDisplayed ? "translateY(9px) rotate(45deg)" : "translateY(0px) rotate(0deg)" }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
             <div className="line2" style={{ opacity: menuDisplayed ? 0 : 1 }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
             <div className="line3" style={{ transform: menuDisplayed ? "translateY(-9px) rotate(-45deg)" : "translateY(0px) rotate(0deg)" }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
           </button>
 
-          <ul className="mobile-menu" style={{ height: menuDisplayed ? 210 : 0 }}>
+          <ul className="mobile-menu" style={{ height: menuDisplayed ? 230 : 0 }}>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/services">Services</Link></li>
             <li><Link to="/payroll">Payroll portal</Link></li>
@@ -69,8 +69,8 @@ const Layout = ({ children }) => {
           </ul>
           <li><Link to="/blog?filter=all">Blogs and News</Link></li>
           <li><Link to="/about">About us</Link></li>
-          <li><a className="portal-btn" href="https://payroll.internago.com/">Go to portal</a></li>
-          <li><a className="cta-btn" href="mailto:info@internago.com">Contact us</a></li>
+          <li className="portal-btn"><a  href="https://payroll.internago.com/">Go to portal</a></li>
+          <li className="cta-btn"><a  href="mailto:info@internago.com">Contact us</a></li>
         </ul>
       </nav>
 

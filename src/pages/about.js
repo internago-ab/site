@@ -22,6 +22,7 @@ function About() {
         </p>
       </Grey>
       <ImageText
+        active="notactive"
         reverse="rowreverse"
         size="medium"
         title="Mindset"
@@ -31,6 +32,7 @@ function About() {
         image={AboutVision}
       />
       <ImageText
+        active="notactive"
         size="medium"
         title="Your markets – our objective"
         text="<p>Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.</p>

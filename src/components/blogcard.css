@@ -20,10 +20,10 @@
     width: 70%
 }
 
-.blog-grid{
+.blog-grid {
     list-style-type: none;
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: auto;
     grid-gap: var(--spacing-s);
     padding: 0 var(--spacing-xl);
@@ -36,7 +36,7 @@
     max-width: 380px;
 }
 
-.blog-card img{
+.blog-card img {
     width: 100%;
     height: 11.25rem;
     object-fit: cover;
@@ -58,22 +58,22 @@
     text-decoration: underline;
 }
 
-.blog-card .text h2{
+.blog-card .text h2 {
     font-size: var(--fontSize-h3);
 }
 
-.blog-card .text p{
+.blog-card .text p {
     font-size: var(--fontSize-p-s);
     margin: var(--spacing-xxs) 0;
 }
 
-.blog-card .text .description{
+.blog-card .text .description {
     font-size: var(--fontSize-p-s);
     margin-bottom: var(--spacing-xs);
     color: var(--black)
 }
 
-.blog-card .read-more{
+.blog-card .read-more {
     position: absolute;
     bottom: var(--spacing-xxs);
     left: var(--spacing-xxs);
@@ -83,8 +83,33 @@
     margin-top: var(--spacing-s);
 }
 
+select {
+    display: block;
+    cursor: pointer;
+    padding: var(--spacing-xxs);
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--white);
+    background:url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='4E4E4E'/></g></svg>") no-repeat;
+    background-position: right 5px top 50%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 @media only screen and (max-width: 768px) {
-    .blog-grid{
+    .blog-grid {
         padding: 0 var(--spacing-s);
     }
 }

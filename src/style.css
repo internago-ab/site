@@ -72,11 +72,31 @@ a {
   line-height: var(--lineHeight);
   color: var(--dark-grey);
   text-decoration: none;
-  line-height: var(--lineHeight);
 }
 
-a:hover {
-  text-decoration: underline;
+a {
+  padding: 0;
+  position: relative;
+}
+
+a::before {
+  padding: 0;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--dark-grey);
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }
 
 h1 {
@@ -102,13 +122,22 @@ a {
   border: 2px solid var(--dark-blue);
   padding: 8px 18px;
   border-radius: 100rem;
+  display: initial;
+}
+
+.cta-btn a {
+  color: var(--white);
+}
+
+.cta-btn a::before {
+  background-color: var(--white);
 }
 
 main {
   margin-top: 80px;
 }
 
-main > :first-child{
+main> :first-child {
   margin-top: 0;
 
 }
@@ -138,6 +167,11 @@ main>section {
   padding-left: var(--spacing-xl);
 }
 
+.howitworks {
+  padding-top: var(--spacing-m);
+  text-align: center;
+}
+
 @media screen and (min-width: 1600px) {
   .quotes-wrapper {
     display: flex;
@@ -149,6 +183,7 @@ main>section {
   .clients {
     display: none;
   }
+
   main {
     margin-top: 70px;
   }
@@ -165,7 +200,7 @@ main>section {
   }
 
   main>section {
-    padding-top: var(--spacing-s);
+    margin-top: var(--spacing-s);
   }
 
   .quotes-wrapper {
@@ -177,7 +212,7 @@ main>section {
 @media screen and (max-width: 600px) {
 
   main>section {
-    padding-top: var(--spacing-xxs);
+    margin-top: var(--spacing-xxs);
   }
 
   .quotes-wrapper {

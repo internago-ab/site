@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -12,7 +12,13 @@ import ServicesExperienced from "../images/illustrations/services-experienced.pn
 import ServicesDigitalize from "../images/illustrations/services-digitalize.png"
 import ServicesOptimize from "../images/illustrations/services-optimize.png"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <Layout>
       <Seo title="Services" />
@@ -30,13 +36,18 @@ function Services() {
           transparent and efficient manner where your success as our objective.
         </p>
       </Grey>
+      <h2 className="howitworks" data-aos="fade-up">
+        How it works
+      </h2>
       <ImageText
+        active="notactive"
         size="small"
         title="Digitalize"
         text="Edited Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
         image={ServicesDigitalize}
       />
       <ImageText
+        active="notactive"
         reverse="rowreverse"
         size="small"
         title="Optimize"
@@ -44,6 +55,7 @@ function Services() {
         image={ServicesOptimize}
       />
       <ImageText
+        active="notactive"
         size="small"
         title="Digitalize"
         text="Edited Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
@@ -73,7 +85,7 @@ function Services() {
         <p>Internago will walk you through what you need to have in place to be operational and can support you in setting up bank accounts, accounting and payroll.</p>"
         image={ServicesExperienced}
         button="Contact our experts"
-        link=""
+        link="mailto:info@internago.com"
       />
       <div className="quotes-wrapper">
         <Quotes

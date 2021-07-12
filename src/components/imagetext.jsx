@@ -1,5 +1,9 @@
 import * as React from "react"
+import { useEffect } from "react"
 import "./imagetext.css"
+
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const ImageText = props => {
   let CustomTag
@@ -11,16 +15,24 @@ const ImageText = props => {
     CustomTag = "h3"
   }
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   return (
-    <section className={`imagetext ${props.size} ${props.reverse}`}>
+    <section
+      className={`imagetext ${props.size} ${props.reverse}`}
+      data-aos="fade-up"
+    >
       <div className="info-imagetext">
         <CustomTag className="heading">{props.title}</CustomTag>
-        <p className="paragraph" dangerouslySetInnerHTML={{ __html: props.text }}></p>
-        {props.button && (
-          <a className="cta-btn" href={props.link}>
-            {props.button}
-          </a>
-        )}
+        <p
+          className="paragraph"
+          dangerouslySetInnerHTML={{ __html: props.text }}
+        ></p>
+        <div className={`cta-btn ${props.active}`}>
+          {props.button && <a href={props.link}>{props.button}</a>}
+        </div>
       </div>
       <img
         src={props.image}
