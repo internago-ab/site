@@ -143,20 +143,6 @@ section.error-page > * {
   width: 10%;
 }
 
-.quotes-wrapper {
-  text-align: center;
-  padding-top: var(--spacing-m);
-  padding-right: var(--spacing-xl);
-  padding-left: var(--spacing-xl);
-}
-
-@media screen and (min-width: 1600px) {
-  .quotes-wrapper {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .clients {
     display: none;
@@ -180,11 +166,6 @@ section.error-page > * {
     padding-top: var(--spacing-s);
   }
 
-  .quotes-wrapper {
-    padding-right: var(--spacing-m);
-    padding-left: var(--spacing-m);
-  }
-
   section.error-page {
     padding: var(--spacing-m);
   }
@@ -194,11 +175,6 @@ section.error-page > * {
 
   main>section {
     padding-top: var(--spacing-xxs);
-  }
-
-  .quotes-wrapper {
-    padding-right: var(--spacing-xs);
-    padding-left: var(--spacing-xs);
   }
 
   section.error-page {

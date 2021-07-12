@@ -1,8 +1,16 @@
+
+.quotes-wrapper {
+    text-align: center;
+    padding-top: var(--spacing-m);
+    padding-right: var(--spacing-xl);
+    padding-left: var(--spacing-xl);
+  }
+
 .quotes {
     background-color: var(--light-grey);
     padding: var(--spacing-xs);
     text-align: left;
-    max-width: 500px;
+    width: 40%;
     display: inline-block;
 }
 
@@ -20,6 +28,11 @@
 
 @media screen and (min-width: 1600px) {
 
+    .quotes-wrapper {
+        display: flex;
+        justify-content: space-around;
+      }
+
     .quotes{
         flex: 1;
     }
@@ -33,7 +46,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .right {
         margin-right: 0;
     }
@@ -44,5 +57,25 @@
 
     .quotes {
         margin-bottom: var(--spacing-xs);
+        width: 100%;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+ 
+    .quotes-wrapper {
+      padding-right: var(--spacing-m);
+      padding-left: var(--spacing-m);
+    }
+
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .quotes-wrapper {
+      padding-right: var(--spacing-xs);
+      padding-left: var(--spacing-xs);
+    }
+  
+  }
