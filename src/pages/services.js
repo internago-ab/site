@@ -64,13 +64,13 @@ function Services() {
       <ImageText
         size="medium"
         title="Experienced Professionals"
-        text="Setting up a new company, whether it is in your home country, or if you are taking a step into an international market, is an important process where many important decisions must be made.
-
-        Internago collaborates with a team of legal and tax professionals in all countries where we operate. We make sure that you get the best advice on how to set up your new entity.
-        
-        All steps regarding company form, ownership, management, board of directors and fiscal set-up will be discussed and agreed together with your team.
-        
-        Internago will walk you through what you need to have in place to be operational and can support you in setting up bank accounts, accounting and payroll."
+        text="<p>Setting up a new company, whether it is in your home country, or if you are taking a step into an international market, is an important process where many important decisions must be made.</p>
+        </br>
+        <p>Internago collaborates with a team of legal and tax professionals in all countries where we operate. We make sure that you get the best advice on how to set up your new entity.</p>
+        </br>
+        <p>All steps regarding company form, ownership, management, board of directors and fiscal set-up will be discussed and agreed together with your team.</p>
+        </br>
+        <p>Internago will walk you through what you need to have in place to be operational and can support you in setting up bank accounts, accounting and payroll.</p>"
         image={ServicesExperienced}
         button="Contact our experts"
         link=""
@@ -78,23 +78,28 @@ function Services() {
       <div className="quotes-wrapper">
         <Quotes
           size="right"
-          text="The implementation process went very smooth, and the fact that is was online made it easier and more transparent for us at the HQ to follow the progress, and we could update the necessary information for incorporation, bank and fiscal codes etc. in realtimee"
-          author="Rickard Lundström"
-          company="CFO, Rototilt Group AB"
+          text="<p>The implementation process went very smooth, and the fact that is was online made it easier and more transparent for us at the HQ to follow the progress, and we could update the necessary information for incorporation, bank and fiscal codes etc. in realtimee</p><br/>"
+          author="<p>Rickard Lundström CFO
+          </br>
+          Rototilt Group AB</p>"
         />
         <Quotes
           size="middle"
-          text="Internago has handled our international operations very professionally, from setup to continuous management. 
-          
-          Their service is professional yet personal, with a solid web portal for managing all documentation."
-          author="Max Friberg"
+          text="<p>Internago has handled our international operations very professionally, from setup to continuous management. </p>
+          <br/>
+          <p>Their service is professional yet personal, with a solid web portal for managing all documentation.</p><br/>"
+          author="<p>Max Friberg Founder
+          </br>
+          Inex One</p>"
           company="Founder, Inex One"
         />
         <Quotes
           size="bottom"
-          text="I recommend Internago to companies that want to develop their business and grow into new markets."
-          author="Fabio Frozzi"
-          company="CEO, Co.Ma SPA"
+          text="<p>I recommend Internago to companies that want to develop their business and grow into new markets.</p> <br/>"
+          author="<p>Fabio Frozzi 
+          </br>
+          CEO, Co.Ma SPA
+          </p>"
         />
       </div>
       <Cta content="next" />

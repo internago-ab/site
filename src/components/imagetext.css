@@ -1,6 +1,11 @@
 .large {
+   
     padding-left: var(--spacing-xl);
     padding-right: var(--spacing-xl);
+}
+
+main .large{
+    margin-top: var(--spacing-l);
 }
 
 .medium {
@@ -9,11 +14,14 @@
 }
 
 .small {
+    margin-top: var(--spacing-xs);
     padding-left: var(--spacing-xxl);
     padding-right: var(--spacing-xxl);
 }
 
+
 .imagetext {
+    align-items: center;
     display: flex;
 }
 
@@ -58,7 +66,8 @@
     }
 
     .large,
-    .medium {
+    .medium,
+    .small {
         padding-left: var(--spacing-l);
         padding-right: var(--spacing-l);
     }
@@ -68,7 +77,8 @@
     }
 
     .imagetext.large img,
-    .imagetext.medium img {
+    .imagetext.medium img,
+    .imagetext.small img {
         width: 100%;
     }
 

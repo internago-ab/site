@@ -53,6 +53,7 @@ const Layout = ({ children }) => {
             <li><Link to="/services">Services</Link></li>
             <li><Link to="/payroll">Payroll portal</Link></li>
             <li><Link to="/blog?filter=all">Blogs and News</Link></li>
+            <li><Link to="/about">About us</Link></li>
             <li><a href="https://payroll.internago.com/">Go to portal</a></li>
             <li><a href="mailto:info@internago.com">Contact us</a></li>
           </ul>

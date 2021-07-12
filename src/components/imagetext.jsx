@@ -15,7 +15,7 @@ const ImageText = props => {
     <section className={`imagetext ${props.size} ${props.reverse}`}>
       <div className="info-imagetext">
         <CustomTag className="heading">{props.title}</CustomTag>
-        <p className="paragraph">{props.text}</p>
+        <p className="paragraph" dangerouslySetInnerHTML={{ __html: props.text }}></p>
         {props.button && (
           <a className="cta-btn" href={props.link}>
             {props.button}

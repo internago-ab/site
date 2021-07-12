@@ -7,7 +7,6 @@
 }
 
 .quotes-name {
-    margin-top: var(--spacing-xxs);
     font-weight: var(--fontWeight-semibold);
 }
 
