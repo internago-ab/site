@@ -18,7 +18,7 @@
 
 .blog-post img {
     width: 100%;
-    margin: var(--spacing-xs) 0;
+    margin-top: var(--spacing-xs);
 }
 
 .blog-post .article-body {
@@ -53,4 +53,26 @@
 
 .blog-post-sidebar .categories {
     margin-top: var(--spacing-xs);
+}
+
+@media screen and (max-width: 1200px) {
+    .blog-post {
+        width: 100%;
+    }
+
+    .blog-post-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blog-post {
+        padding: var(--spacing-s) var(--spacing-m);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blog-post {
+        padding: var(--spacing-s) var(--spacing-xs);
+    }
 }
