@@ -208,10 +208,6 @@ section.error-page > * {
 
 @media screen and (max-width: 600px) {
 
-  main>section {
-    margin-top: var(--spacing-xxs);
-  }
-
   section.error-page {
     padding: var(--spacing-s);
   }
