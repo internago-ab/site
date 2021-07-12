@@ -1,5 +1,3 @@
-@import "../style.css";
-
 section.cta {
     text-align: center;
     line-height: 0;
@@ -7,7 +5,7 @@ section.cta {
     width: 100%;
 }
 
-section.cta {
+section.cta-no-margin {
     margin: 0;
 }
 

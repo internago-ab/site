@@ -1,7 +1,6 @@
-@import "../style.css";
-
-.blog {
+main .blog {
     text-align: center;
+    margin-top: var(--spacing-l);
 }
 
 .blog form {

@@ -15,9 +15,13 @@ function Blog({ data, location }) {
     const tags = Array.from(new Set(allPosts.map(post => post.frontmatter.tags).flat().filter(tag => tag != null)))
 
     useEffect(() => {
-        window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`);
+        
+        if (filter) {
+            window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`)
+            document.querySelector("#categories").value = filter.toLowerCase()
+        } 
 
-        setPosts(filter === "all" || filter === null || filter === "" ?
+        setPosts(filter === "all" || !filter ?
             allPosts : 
             allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))  
     }, [filter, allPosts])
@@ -41,14 +45,14 @@ function Blog({ data, location }) {
                     <label htmlFor="categories">Filter by: </label>
                     <select id="categories" name="categories" onChange={(e) => setFilter(e.target.value)}>
                         <option value="all" className="filter-option" id="all"> </option>
-                        {tags.map((tag) => (
-                            <option value={tag} className="filter-option">{tag}</option>
+                        {tags.map((tag, index) => (
+                            <option key={index} value={tag.toLowerCase()} className="filter-option">{tag}</option>
                         ))}
                     </select>
                 </form>
                 <ol className="blog-grid">
                     {posts.slice(0, numberOfPosts).map(post => (
-                        <Blogcard post={post} setFilter={setFilter} />
+                        <Blogcard key={post.fields.slug} post={post} setFilter={setFilter} />
                     ))}
                 </ol>
                 {numberOfPosts < posts.length && <button className="cta-btn" onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}>View more posts</button>}
