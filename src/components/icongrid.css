@@ -4,6 +4,7 @@
     grid-auto-rows: auto;
     grid-gap: var(--spacing-s);
     margin-top: var(--spacing-s);
+    list-style-type: none;
 }
 
 .icon-item img {

@@ -5,14 +5,14 @@ function Icongrid(props) {
   const content = props.content
 
   return (
-    <section className="icon-grid">
+    <ul className="icon-grid">
       {content.map(item => (
-        <div className="icon-item">
+        <li className="icon-item">
           <img src={item.icon} alt="small icon"></img>
           <p>{item.text}</p>
-        </div>
+        </li>
       ))}
-    </section>
+    </ul>
   )
 }
 
