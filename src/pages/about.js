@@ -26,18 +26,18 @@ function About() {
         reverse="rowreverse"
         size="medium"
         title="Mindset"
-        text="<p>Internago was founded with the objective to reduce administrative work and make your international business simple with increased control by digitalization.</p>
-        </br>
-        <p> This is why we developed the Internago Payroll Portal, we realized that a digital payroll portal to streamline the payroll was needed to make life easier for our customers. This enables our customers to save time and keep control over their payroll on many markets from one digital interface.</p>"
+        text="Internago was founded with the objective to reduce administrative work and make your international business simple with increased control by digitalization.
+        </br></br>
+         This is why we developed the Internago Payroll Portal, we realized that a digital payroll portal to streamline the payroll was needed to make life easier for our customers. This enables our customers to save time and keep control over their payroll on many markets from one digital interface."
         image={AboutVision}
       />
       <ImageText
         active="notactive"
         size="medium"
         title="Your markets – our objective"
-        text="<p>Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.</p>
-        </br>
-        <p>Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services.</p>"
+        text="Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.
+        </br></br>
+        Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
         image={AboutMarkets}
       />
       <Cta content="next" />
