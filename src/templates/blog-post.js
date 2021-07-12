@@ -1,13 +1,21 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import "./blog-post.css"
+import { useEffect } from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Sidebar from "../components/sidebar"
 import Cta from "../components/cta"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 const BlogPostTemplate = ({ data, location }) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
@@ -29,6 +37,7 @@ const BlogPostTemplate = ({ data, location }) => {
       />
       <div className="blog-post-main">
         <article
+          data-aos="fade-up"
           className="blog-post"
           itemScope
           itemType="http://schema.org/Article"
@@ -37,6 +46,7 @@ const BlogPostTemplate = ({ data, location }) => {
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p className="date-and-tags">
               {post.frontmatter.date} ||{" "}
+
               {post.frontmatter.tags.map((tag, index) => (
                 <Link key={index} to={`/blog?filter=${tag.toLowerCase()}`}>
                   {tag}

@@ -1,11 +1,11 @@
 .large {
-   
+
     padding-left: var(--spacing-xl);
     padding-right: var(--spacing-xl);
 }
 
-main .large{
-    margin-top: var(--spacing-l);
+main .large {
+    margin-top: var(--spacing-xl);
 }
 
 .medium {
@@ -58,6 +58,10 @@ main .large{
     flex-direction: row-reverse;
 }
 
+.notactive {
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
 
     .imagetext img {
@@ -95,6 +99,10 @@ main .large{
     .small {
         padding-left: var(--spacing-m);
         padding-right: var(--spacing-m);
+    }
+
+    main .large {
+        margin-top: var(--spacing-l);
     }
 
 }

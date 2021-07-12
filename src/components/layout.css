@@ -12,6 +12,11 @@ nav {
     z-index: 2;
 }
 
+.logo-link::before{
+    height: 0;
+    transition: none;
+}
+
 .logo {
     height: 2.75rem;
 }
@@ -19,6 +24,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
+    align-items: baseline;
 }
 
 nav .desktop-menu li {
@@ -150,7 +156,7 @@ footer .disclaimer {
         border: 0;
         outline: none;
     }
-    
+
     .hamburger div {
         height: 2px;
         width: 100%;
@@ -201,19 +207,43 @@ footer .disclaimer {
 
 /* -------------------------------------------------------- ANIMATIONS */
 @keyframes line1 {
-    0% {transform: translateY(0px) rotate(0deg);}
-    50% {transform: translateY(9px) rotate(0deg);}
-    100% {transform: translateY(9px) rotate(45deg);}
-  }
-  
-  @keyframes line2 {
-    0% {opacity: 1;}
-    70% {opacity: 0;}
-    100% {opacity: 0;}
-  }
-  
-  @keyframes line3 {
-    0% {transform: translateY(0px) rotate(0deg);}
-    50% {transform: translateY(-9px) rotate(0deg);}
-    100% {transform: translateY(-9px) rotate(-45deg);}
-  }
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(9px) rotate(45deg);
+    }
+}
+
+@keyframes line2 {
+    0% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes line3 {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}

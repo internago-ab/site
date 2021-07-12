@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
+
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 import "./blogcard.css"
 
 function Blogcard({ post, setFilter }) {
 
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
+
     const { date, title, description, featuredimage, tags } = post.frontmatter
 
     return (
-        <li className="blog-card">
+
+        <li className="blog-card" data-aos="fade-up">
             <img src={featuredimage} alt="blogpost"></img>
             <div className="text">
                 <Link to={post.fields.slug}><h2>{title}</h2></Link>
