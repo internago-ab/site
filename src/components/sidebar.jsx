@@ -4,12 +4,14 @@ import { Link } from "gatsby"
 function Sidebar(props) {
 
     return (
-        <aside>
+        <aside className="blog-post-sidebar">
+            <h2>Recent posts</h2>
             <ul>
-                <li>{props.posts.map(post => <Link to={post.fields.slug}>{post.frontmatter.title}</Link>)}</li>
+                {props.posts.map(post => <li><Link to={post.fields.slug}>{post.frontmatter.title}</Link></li>)}
             </ul>
+            <h2 className="categories">Categories</h2>
             <ul>
-                <li>{props.tags.map(tag => <Link to={`/blog?filter=${tag.toLowerCase()}`}>{tag}</Link>)}</li>
+                {props.tags.map(tag => <li><Link to={`/blog?filter=${tag.toLowerCase()}`}>{tag}</Link></li>)}
             </ul>
         </aside>
     );

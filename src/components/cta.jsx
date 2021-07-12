@@ -19,7 +19,7 @@ function Cta(props) {
     }
 
     return (
-        <section className="cta">
+        <section className={props.noMargin? "cta cta-no-margin": "cta"}>
             <img src={largeWave} alt="wave border"></img>
             <div className="content">
                 <h2>{heading}</h2>

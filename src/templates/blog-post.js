@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import "./blog-post.css"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -27,12 +28,13 @@ const BlogPostTemplate = ({ data, location }) => {
         >
           <header>
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
-            <p>{post.frontmatter.date} || {post.frontmatter.tags.map(tag => <span>{tag}</span>)}</p>
+            <p className="date-and-tags">{post.frontmatter.date} || {post.frontmatter.tags.map(tag => <Link to={`/blog?filter=${tag.toLowerCase()}`}>{tag}</Link>)}</p>
           </header>
           <img src={post.frontmatter.featuredimage}/>
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
+            className="article-body"
           />
           <Link to="/blog?filter=all">← Go back to blog overview</Link>
         </article>
@@ -40,7 +42,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <Sidebar posts={latestPosts} tags={tags}/>
       </div>
 
-      <Cta content="about"/>
+      <Cta content="about" noMargin={true}/>
     </Layout>
   )
 }

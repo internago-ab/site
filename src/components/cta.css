@@ -7,6 +7,10 @@ section.cta {
     width: 100%;
 }
 
+section.cta {
+    margin: 0;
+}
+
 section.cta img {
     position: relative;
     top: 2px;
