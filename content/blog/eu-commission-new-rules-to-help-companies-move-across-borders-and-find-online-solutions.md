@@ -11,7 +11,7 @@ featuredimage: /images/ecom.jpg
 The European Commission is proposing new company law rules to make it easier for companies to merge, divide or move within the Single Market. The proposal sets out common procedures at the EU level on how a company can move from one EU country to another, merge or divide into two or more new entities across borders. Currently, national rules differ greatly between Member States or impose excessive administrative hurdles. This discourages businesses from pursuing new opportunities for fear of too much red tape.
 
 
-## Current situation
+### Current situation
 There are currently **only 17 Member States that provide a fully online** procedure for registering companies. Under the new rules, in all Member States, companies will be able to register, set up new branches or file documents to the business register online. Going digital makes the process of setting up a business more efficient and cost effective:
 
 * online registration takes on average **half of the time** and can be up to **3 times cheaper** than traditional paper-based formats;
