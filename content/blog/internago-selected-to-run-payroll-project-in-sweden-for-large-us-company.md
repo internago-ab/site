@@ -6,7 +6,7 @@ tags:
   - News
 featuredimage: /images/blog3.jpeg
 ---
-**We continue to grow our customer base, and this time our customer is a large American pharmaceutical company with operations world wide.**
+## We continue to grow our customer base, and this time our customer is a large American pharmaceutical company with operations world wide.
 
 
 Internago was chosen to support them with tax handling and payroll services on the Swedish market. Are you also interested in knowing how Internago can support your company to efficiently run your international operations?
