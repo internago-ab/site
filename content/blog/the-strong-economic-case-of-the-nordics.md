@@ -6,7 +6,8 @@ tags:
   - News
 featuredimage: /images/nordic-equities.png
 ---
-** This is how fun you have when you get to talk about the Nordics and their economies!**
+## This is how fun you have when you get to talk about the Nordics and their economies!
+
 
 Last week we held a joint seminar at **Chambre de Commerce Suédoise en France – CCSF** in Paris with **Nordic Equities** – a Swedish independent asset management company. During the seminar we highlighted the unique and strong economic position of the Nordic region. The stock markets’ track records have outperformed the rest of Europe for many years. 
 

@@ -7,7 +7,7 @@ tags:
   - Payroll
 featuredimage: /images/netherlands2.jpg
 ---
-** The new year brings some important changes regarding the Dutch labour market. We have put together a a short overview of the changes that has come with new Balanced Labour Market Act – WAB with effect from the 1st of January.**
+The new year brings some important changes regarding the Dutch labour market. We have put together a a short overview of the changes that has come with new Balanced Labour Market Act – WAB with effect from the 1st of January.
 
 
 The main objective with WAB is to make it more attractive to hire workers on a permanent basis as well as narrowing the gap between permanent and flexible labour. Below we have listed the main changes: 
@@ -16,7 +16,8 @@ The main objective with WAB is to make it more attractive to hire workers on a p
 ## Succession of fixed-term contracts
 
 ### Before:
-A maximum of three contracts in a period of no more than two years.
+
+A maximum of three contracts in a period of no more than two years.
 
 ### From 1st January 2020: 
 
@@ -82,4 +83,4 @@ Suspension term of six months and one day.
 ### From 1st January 2020
 
 * The regular suspension term remains six months and one day. However, individual CLAs may specify different suspension terms. 
-* In the event of recurrent temporary work (seasonal work) that employees can perform for a maximum of nine months per year, the suspension term will be three months and one day. 
+* In the event of recurrent temporary work (seasonal work) that employees can perform for a maximum of nine months per year, the suspension term will be three months and one day. 

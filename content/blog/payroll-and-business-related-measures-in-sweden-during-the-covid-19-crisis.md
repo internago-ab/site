@@ -8,15 +8,14 @@ tags:
   - Sweden
 featuredimage: /images/sweden.jpg
 ---
-** To mitigate the financial consequences of Covid-19, the Swedish state has taken several important financial measures. Internago has summarized the package and some implications for your payroll services in Sweden below; ** 
-
-
+To mitigate the financial consequences of Covid-19, the Swedish state has taken several important financial measures. Internago has summarized the package and some implications for your payroll services in Sweden below;
 
 
 ## Increased loan facilities and credit guarantees for Swedish businesses.
 * Expanded loan opportunities through Almi, the Export Credit Committee and the Swedish Export Credit. 
 * The central government is currently discussing a proposal where they will guarantee 70% of new loans banks provide to companies that are experiencing financial difficulty due to the COVID-19 virus but are otherwise stable. 
 * A suggested state credit guarantee for loans to airline companies (SEK 5 Bn). 
+
 
 ## Reduced costs for companies 
 * A proposal of temporarily reduced social security costs is currently being reviewed; from the 1st of March to the 30th of June 2020 where only the state pensions contribution is paid. The maximum reduction is SEK 5 300 per employee and month, and 30 employees per company.

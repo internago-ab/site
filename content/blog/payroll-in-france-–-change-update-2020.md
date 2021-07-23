@@ -8,12 +8,10 @@ tags:
   - Payroll
 featuredimage: /images/france.jpg
 ---
-** The new year brings some important changes regarding the French labour market. Internago has put together a brief with all the most important changes that you should be aware about for this year, as well as some of the news for 2021. **
-
+The new year brings some important changes regarding the French labour market. Internago has put together a brief with all the most important changes that you should be aware about for this year, as well as some of the news for 2021.
 
 Please send an email to info@internago.com to get the full detailed brief for your payroll in France where we explain the news in the following areas: 
  
-
 
 * Renewal of the “exceptional bonus” on purchasing power (prime sur le pouvoir d’achat)
 * DOETH – Declaration of workers with disabilities
