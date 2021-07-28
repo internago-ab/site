@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageText from "../components/imagetext"
-import Grey from "../components/grey"
+import GreyAnimation from "../components/grey-animation"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 
@@ -36,6 +36,7 @@ const Index = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+  
   return (
     <Layout>
       <Seo title="Home" />
@@ -68,9 +69,9 @@ const Index = () => {
         link="mailto:info@internago.com"
       />
 
-      <Grey>
-        <h2>Why Internago?</h2>
-        <Icongrid
+      <GreyAnimation >
+        <h2 >Why Internago?</h2>
+        <Icongrid 
           content={[
             {
               icon: diagram,
@@ -101,7 +102,7 @@ const Index = () => {
             },
           ]}
         />
-      </Grey>
+      </GreyAnimation>
 
       <ImageText
         reverse="rowreverse"
