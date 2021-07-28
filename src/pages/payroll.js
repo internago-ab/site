@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Grey from "../components/grey"
+import GreyAnimation from "../components/grey-animation"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
@@ -62,7 +63,7 @@ function Payroll() {
         button="Try it today"
         link="mailto:info@internago.com"
       />
-      <Grey>
+      <GreyAnimation>
         <h2>Payroll and HR Management</h2>
         <p>
           Payroll can be complex in an international context. Local rules and
@@ -100,7 +101,7 @@ function Payroll() {
             },
           ]}
         />
-      </Grey>
+      </GreyAnimation>
       <div className="quotes-wrapper">
         <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
