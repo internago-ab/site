@@ -1,0 +1,22 @@
+.blue {
+    background-color: var(--dark-blue);
+    padding: var(--spacing-m) var(--spacing-xxl);
+    text-align: center;
+}
+
+.blue h1,
+.blue h2 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.blue h1,
+.blue h2,
+.blue p {
+    color: var(--white);
+}
+
+@media only screen and (max-width: 1200px) {
+    .blue {
+        padding: var(--spacing-s);
+    }
+}

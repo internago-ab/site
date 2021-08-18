@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Grey from "../components/grey"
+import Blue from "../components/blue"
 import GreyAnimation from "../components/grey-animation"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
@@ -22,7 +22,7 @@ function Payroll() {
   return (
     <Layout>
       <Seo title="Payroll" />
-      <Grey>
+      <Blue>
         <h1>Internago Payroll Portal</h1>
         <p>
           With Internago’s payroll portal you can cut costs and increase
@@ -33,7 +33,7 @@ function Payroll() {
           Our international payroll software enables you to manage your payroll
           and HR in multiple subsidiaries and in one place – online.
         </p>
-      </Grey>
+      </Blue>
       <ImageText
         size="medium"
         title="ShareDoc -Document management tool"
