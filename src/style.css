@@ -25,14 +25,15 @@
 
   --font: 'Source Sans Pro', sans-serif;
   --fontWeight-normal: 400;
-  --fontWeight-semibold: 600;
+  --fontWeight-semibold: 500;
   --fontWeight-bold: 700;
 
   --lineHeight-large: 2;
   --lineHeight: 1.5;
   --fontSize-root: 16px;
-  --fontSize-h1: 2rem;
-  --fontSize-h2: 1.5rem;
+  --fontSize-h1: 2.2rem;
+  --fontSize-h2: 1.7rem;
+  --fontSize-h2-mobile: 1.5rem;
   --fontSize-h3: 1.125rem;
   --fontSize-p: 1rem;
   --fontSize-p-s: 0.875rem;
@@ -57,11 +58,10 @@ body {
 
 }
 
-
 h1,
 h2,
 h3 {
-  font-weight: var(--fontWeight-normal);
+  font-weight: var(--fontWeight-semibold);
   color: var(--black);
   line-height: 1;
 }
@@ -190,7 +190,7 @@ section.error-page>* {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: var(--fontSize-h2);
+    font-size: var( --fontSize-h2-mobile);
   }
 
   p,
