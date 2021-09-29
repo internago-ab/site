@@ -43,7 +43,7 @@ const Index = () => {
       <ImageText
         margin="large"
         size="large"
-        title="International payroll - Local Experts"
+        title="International payroll - Local experts"
         text="We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization."
         image={landingPageFirst}
         imagesize="imglarge"
