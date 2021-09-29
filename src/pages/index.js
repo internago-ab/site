@@ -44,7 +44,7 @@ const Index = () => {
         margin="large"
         size="large"
         title="International payroll - Local experts"
-        text="We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization."
+        text="Be efficient and save valuable time by managing your international payroll with Internago. A one-stop solution for managing your international employees."
         image={landingPageFirst}
         imagesize="imglarge"
         button="Book a demo"
