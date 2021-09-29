@@ -43,7 +43,7 @@ const Index = () => {
       <ImageText
         margin="large"
         size="large"
-        title="International payroll - Local experts"
+        title="International payroll - local experts"
         text="Be efficient and save valuable time by managing your international payroll with Internago. A one-stop solution for managing your international employees."
         image={landingPageFirst}
         imagesize="imglarge"
