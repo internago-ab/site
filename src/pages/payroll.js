@@ -31,7 +31,7 @@ function Payroll() {
      <GreyAnimation>
         <h2>Payroll and HR Management</h2>
         <p>
-     Internago’s payroll portal is the perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Increase your control and efficiency by using our single online interface for all your international employees.
+   The perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Increase your control and efficiency by using one online interface for all your international employees.
         </p>
         <Icongrid
           content={[
