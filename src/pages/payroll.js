@@ -25,7 +25,7 @@ function Payroll() {
       <Blue>
         <h1>Internago Payroll Portal</h1>
         <p>
-          With Internago’s payroll portal you can handle your employees on multiple international markets with one interface and one point of entry.
+          Manage your employees's payroll on multiple international markets with one online interface.
           <br />
           <br />
           Our international payroll software enables you to manage your payroll
