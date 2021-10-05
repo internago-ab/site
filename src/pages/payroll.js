@@ -32,36 +32,7 @@ function Payroll() {
           and HR in multiple subsidiaries and in one place – online.
         </p>
       </Blue>
-      <ImageText
-        size="medium"
-        title="ShareDoc -Document management tool"
-        text=" Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.
-        </br></br>
-        
-        <h3>Features</h3>
-        </br>
-        <ul>
-        <li>
-        Share hyperlinks to authorised external and internal stakeholders
-        </li>
-        <li>
-        Control, authorize, approve and reject documents online
-        </li>
-        <li>
-        GDPR conformity
-        </li>
-        <li>
-        E-mail notification to authorised users
-        </li>
-        <li>
-        Add users and control access based on need-to-know basis 
-        </li>
-        </ul>"
-        image={PayrollShareDoc}
-        button="Try it today"
-        link="mailto:info@internago.com"
-      />
-      <GreyAnimation>
+     <GreyAnimation>
         <h2>Payroll and HR Management</h2>
         <p>
           Payroll can be complex in an international context. Local rules and
@@ -100,6 +71,36 @@ function Payroll() {
           ]}
         />
       </GreyAnimation>
+     
+      <ImageText
+        size="medium"
+        title="ShareDoc -Document management tool"
+        text=" Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.
+        </br></br>
+        
+        <h3>Features</h3>
+        </br>
+        <ul>
+        <li>
+        Share hyperlinks to authorised external and internal stakeholders
+        </li>
+        <li>
+        Control, authorize, approve and reject documents online
+        </li>
+        <li>
+        GDPR conformity
+        </li>
+        <li>
+        E-mail notification to authorised users
+        </li>
+        <li>
+        Add users and control access based on need-to-know basis 
+        </li>
+        </ul>"
+        image={PayrollShareDoc}
+        button="Try it today"
+        link="mailto:info@internago.com"
+      />
       <div className="quotes-wrapper">
         <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
