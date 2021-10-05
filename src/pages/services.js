@@ -32,8 +32,8 @@ function Services() {
       <ImageText
         size="medium"
         title="International payroll services"
-        text="Payroll can be complex in an international context. Local rules and regulations, different employment contracts, taxes and severence pay are just some things that you need to get in place and that influence the cost of personnell. 
-    We collaborate with the best local experts ensuring full compliance with local regulation.  Our payroll portal cut costs and increase efficiency, while still having maximum control over you international business, and allows you to manage your international payroll and HR in one place online."
+        text="Payroll can be complex on foreign markets. Local rules and regulations apply. You need to ensure that you have local employment contracts, and that you understand local taxes and social contributions.   
+    We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
         image={ServicesOptimize}
         button="Contact our experts"
         link="mailto:info@internago.com"
