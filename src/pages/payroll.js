@@ -35,17 +35,19 @@ function Payroll() {
         </p>
         <Icongrid
           content={[
-            {
-              icon: mobile,
-              text: "Mobile device login and real time notiflications",
+            {      
+                icon: calendartime,
+              text: "Absence and time management",
+    
             },
             {
               icon: expense,
               text: "Expense management",
             },
             {
-              icon: simple,
-              text: "Simple to use",
+              
+              icon: mobile,
+              text: "Mobile device login and real time notiflications",
             },
             {
               icon: speech,
@@ -57,8 +59,8 @@ function Payroll() {
                 "Accept/decline workflow, configurable for enabling multiple approvers",
             },
             {
-              icon: calendartime,
-              text: "Absence and time management",
+              icon: simple,
+              text: "Simple to use",
             },
           ]}
         />
