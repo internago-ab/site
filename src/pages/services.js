@@ -31,14 +31,9 @@ function Services() {
       </Blue>
       <ImageText
         size="medium"
-        title="Experienced Professionals"
-        text="Setting up a new company, whether it is in your home country, or if you are taking a step into an international market, is an important process where many important decisions must be made.
-        </br></br>
-        Internago collaborates with a team of legal and tax professionals in all countries where we operate. We make sure that you get the best advice on how to set up your new entity.
-        </br></br>
-        All steps regarding company form, ownership, management, board of directors and fiscal set-up will be discussed and agreed together with your team.
-        </br></br>
-        Internago will walk you through what you need to have in place to be operational and can support you in setting up bank accounts, accounting and payroll."
+        title="International payroll services"
+        text="Payroll can be complex in an international context. Local rules and regulations, different employment contracts, taxes and severence pay are just some things that you need to get in place and that influence the cost of personnell. 
+    We collaborate with the best local experts ensuring full compliance with local regulation.  Our payroll portal cut costs and increase efficiency, while still having maximum control over you international business, and allows you to manage your international payroll and HR in one place online."
         image={ServicesOptimize}
         button="Contact our experts"
         link="mailto:info@internago.com"
