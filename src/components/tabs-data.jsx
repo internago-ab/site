@@ -23,18 +23,7 @@ const info = [
     ],
     company: "Legal",
   },
-  {
-    id: 3,
-    duties: [
-      "Pre-market entry analysis",
-      "Supplier benchmarking",
-      "Market positioning",
-      "Competitor analysis",
-      "Internationalization assessment",
-      "Monthly financial reporting in format according to your needs",
-    ],
-    company: "Analysis",
-  },
+  
 ]
 
 export default info
