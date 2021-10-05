@@ -32,11 +32,7 @@ function Payroll() {
      <GreyAnimation>
         <h2>Payroll and HR Management</h2>
         <p>
-          Payroll can be complex in an international context. Local rules and
-          regulations, different employment contracts, taxes and severence pay
-          are just some things that you need to get in place and that influence
-          the cost of personnell. We collaborate with the best local experts
-          ensuring full compliance with local regulation.
+     Internago’s payroll portal is the perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Increase your control and efficiency by using our single online interface for all your international employees.
         </p>
         <Icongrid
           content={[
