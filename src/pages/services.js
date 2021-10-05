@@ -40,7 +40,7 @@ function Services() {
         <h2>Local support</h2>
         <p>
           Our experienced team has worked in various industries and with a wide range of challenges. 
-        <br> 
+             <br/>
            We can take care of the time consuming and complex administrative tasks before, during and after you enter a new market. 
         </p>
         <Tabs />
