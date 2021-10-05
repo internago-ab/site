@@ -26,10 +26,7 @@ function Payroll() {
         <h1>Internago Payroll Portal</h1>
         <p>
           Manage your employees's payroll on multiple international markets with one online interface.
-          <br />
-          <br />
-          Our international payroll software enables you to manage your payroll
-          and HR in multiple subsidiaries and in one place – online.
+ 
         </p>
       </Blue>
      <GreyAnimation>
