@@ -24,9 +24,7 @@ function Services() {
       <Blue>
         <h1>Internago Services</h1>
         <p>
-          Whether you just started your company, or if you are interested to
-          streamline your existing operations – Internago is your trusted
-          partner.
+          Our experienced team can handle complex payroll in an international setting
         </p>
       </Blue>
       <ImageText
