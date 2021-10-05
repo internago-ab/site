@@ -16,9 +16,7 @@ function About() {
       <Blue>
         <h1>Internago - Who are we?</h1>
         <p>
-          We are strongly driven by technology and innovation and we constantly
-          strive to make our customers life easier by reducing their
-          administrative burden to a minimum.
+     Internago is strongly driven by technology and innovation and constantly strives to make our customers' lives easier by reducing their administrative burden to a minimum with increased control by digitalization.
         </p>
       </Blue>
       <ImageText
