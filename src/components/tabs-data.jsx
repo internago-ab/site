@@ -10,6 +10,7 @@ const info = [
       "Shadow payroll",
       "Bonus and RSU calculations",
       "Leaver calculations",
+      "Simulations",
     ],
     company: "Payroll",
   },
