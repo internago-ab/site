@@ -25,8 +25,7 @@ function Payroll() {
       <Blue>
         <h1>Internago Payroll Portal</h1>
         <p>
-          Manage your employees's payroll on multiple international markets with one online interface.
- 
+          Manage your payroll on multiple international markets with one online interface
         </p>
       </Blue>
      <GreyAnimation>
