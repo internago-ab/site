@@ -56,7 +56,7 @@ function Payroll() {
             {
               icon: stamp,
               text:
-                "Accept/decline workflow, configurable for enabling multiple approvers",
+                "Fully configurable payroll workflow",
             },
             {
               icon: simple,
