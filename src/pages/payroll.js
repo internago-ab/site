@@ -31,7 +31,7 @@ function Payroll() {
      <GreyAnimation>
         <h2>Payroll and HR Management</h2>
         <p>
-   The perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Increase your control and efficiency by using one online interface for all your international employees.
+   The perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Store all important employee data in one place. Increase your control and efficiency by using one online interface for all your international employees.
         </p>
         <Icongrid
           content={[
@@ -47,7 +47,7 @@ function Payroll() {
             {
               
               icon: mobile,
-              text: "Mobile device login and real time notiflications",
+              text: "Document sharing",
             },
             {
               icon: speech,
@@ -60,7 +60,7 @@ function Payroll() {
             },
             {
               icon: simple,
-              text: "Simple to use",
+              text: "Mobile device login and real time notiflications",
             },
           ]}
         />
