@@ -23,10 +23,9 @@ function Payroll() {
     <Layout>
       <Seo title="Payroll" />
       <Blue>
-        <h1>Internago payroll portal</h1>
+        <h1>Internago Payroll Portal</h1>
         <p>
-          With Internago’s payroll portal you can cut costs and increase
-          efficiency, while still having maximum control over your international payroll.
+          With Internago’s payroll portal you can handle your employees on multiple international markets with one interface and one point of entry.
           <br />
           <br />
           Our international payroll software enables you to manage your payroll
