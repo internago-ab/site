@@ -37,10 +37,10 @@ function Services() {
         link="mailto:info@internago.com"
       />
       <GreyAnimation>
-        <h2>Advisory and Incorporation Services</h2>
+        <h2>Local support</h2>
         <p>
-          Our experienced team of consultants have worked in various industries
-          and with different challenges. We can take care of the time consuming
+          Our experienced team has worked in various industries
+          and with a wide range of challenges. We can take care of the time consuming
           and complex administrative tasks before, during and after you enter a
           new market. 
         </p>
