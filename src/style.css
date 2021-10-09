@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -22,28 +23,27 @@
   --spacing-xxs: 0.9375rem;
   /* 15px - Padding top and bottom on navbar */
 
-
-  --font: 'Source Sans Pro', sans-serif;
+  --font: "Poppins", sans-serif;
   --fontWeight-normal: 400;
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
 
   --lineHeight-large: 2;
-  --lineHeight: 1.5;
+  --lineHeight: 1.6;
   --fontSize-root: 16px;
-  --fontSize-h1: 2rem;
-  --fontSize-h2: 1.5rem;
+  --fontSize-h1: 2.6rem;
+  --fontSize-h2: 1.8rem;
   --fontSize-h3: 1.125rem;
   --fontSize-p: 1rem;
   --fontSize-p-s: 0.875rem;
   --fontSize-p-xs: 0.625rem;
 
   --black: #000000;
-  --white: #FFFFFF;
-  --dark-grey: #4E4E4E;
-  --light-grey: #F6F6F6;
-  --dark-blue: #00446E;
-  --light-blue: #81AECC;
+  --white: #ffffff;
+  --dark-grey: #4e4e4e;
+  --light-grey: #f6f6f6;
+  --dark-blue: #00446e;
+  --light-blue: #81aecc;
 }
 
 html {
@@ -54,15 +54,14 @@ html {
 
 body {
   font-family: var(--font);
-
 }
 
 h1,
 h2,
 h3 {
-  font-weight: var(--fontWeight-semibold);
+  font-weight: var(--fontWeight-bold);
   color: var(--black);
-  line-height: 1;
+  line-height: 1.2;
 }
 
 p,
@@ -80,7 +79,7 @@ a {
 
 a::before {
   padding: 0;
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
@@ -124,7 +123,7 @@ button {
   background-color: var(--dark-blue);
   color: var(--white);
   border: 2px solid var(--dark-blue);
-  padding: 8px 18px;
+  padding: 10px 20px;
   border-radius: 100rem;
   display: initial;
 }
@@ -143,7 +142,6 @@ main {
 
 main> :first-child {
   margin-top: 0;
-
 }
 
 main>section {
@@ -151,11 +149,17 @@ main>section {
 }
 
 section.error-page {
-  padding: var(--spacing-l) var(--spacing-xl)
+  padding: var(--spacing-l) var(--spacing-xl);
 }
 
 section.error-page>* {
   margin-bottom: var(--spacing-xs);
+}
+
+.section {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
 }
 
 .clients {
@@ -175,6 +179,14 @@ section.error-page>* {
 .howitworks {
   padding-top: var(--spacing-m);
   text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .section {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -198,7 +210,7 @@ section.error-page>* {
   }
 
   main>section {
-    margin-top: var(--spacing-s);
+    padding-top: var(--spacing-s);
   }
 
   section.error-page {
@@ -207,7 +219,6 @@ section.error-page>* {
 }
 
 @media screen and (max-width: 600px) {
-
   section.error-page {
     padding: var(--spacing-s);
   }

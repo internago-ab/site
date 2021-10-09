@@ -36,15 +36,15 @@ const Index = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
-  
+
   return (
     <Layout>
       <Seo title="Home" />
       <ImageText
         margin="large"
         size="large"
-        title="International payroll - local experts"
-        text="Be efficient and save valuable time by managing your international payroll with Internago. A one-stop solution for managing your international employees."
+        title="HR management made easy"
+        text="We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization."
         image={landingPageFirst}
         imagesize="imglarge"
         button="Book a demo"
@@ -58,7 +58,7 @@ const Index = () => {
         <img src={enmacc} alt="Enmacc logo" />
         <img src={sportamore} alt="Sportamore logo" />
       </div>
-
+      
       <ImageText
         reverse="rowreverse"
         size="medium"
@@ -69,9 +69,9 @@ const Index = () => {
         link="mailto:info@internago.com"
       />
 
-      <GreyAnimation >
-        <h2 >Why Internago?</h2>
-        <Icongrid 
+      <GreyAnimation>
+        <h2>Why Internago?</h2>
+        <Icongrid
           content={[
             {
               icon: diagram,

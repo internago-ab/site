@@ -12,7 +12,9 @@ function GreyAnimation({ children }) {
   }, [])
   return (
     <section className="grey" data-aos="fade-up">
+      <div className='section grey-inside'>
       {children}
+      </div>
     </section>
   )
 }

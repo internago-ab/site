@@ -21,7 +21,7 @@ const ImageText = props => {
 
   return (
     <section
-      className={`imagetext ${props.size} ${props.reverse}`}
+      className={`section imagetext ${props.size} ${props.reverse}`}
       data-aos="fade-up"
     >
       <div className="info-imagetext">
