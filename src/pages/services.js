@@ -24,33 +24,24 @@ function Services() {
       <Blue>
         <h1>Internago Services</h1>
         <p>
-          Whether you just started your company, or if you are interested to
-          streamline your existing operations – Internago is your trusted
-          partner.
+          Our experienced team can handle complex payroll in an international setting
         </p>
       </Blue>
       <ImageText
         size="medium"
-        title="Experienced Professionals"
-        text="Setting up a new company, whether it is in your home country, or if you are taking a step into an international market, is an important process where many important decisions must be made.
-        </br></br>
-        Internago collaborates with a team of legal and tax professionals in all countries where we operate. We make sure that you get the best advice on how to set up your new entity.
-        </br></br>
-        All steps regarding company form, ownership, management, board of directors and fiscal set-up will be discussed and agreed together with your team.
-        </br></br>
-        Internago will walk you through what you need to have in place to be operational and can support you in setting up bank accounts, accounting and payroll."
+        title="International payroll services"
+        text="Payroll can be complex on foreign markets. Local rules and regulations apply. You need to ensure that you have local employment contracts, and that you understand local taxes and social contributions.   
+    We are specialized in working with payroll on international markets. We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
         image={ServicesOptimize}
         button="Contact our experts"
         link="mailto:info@internago.com"
       />
       <GreyAnimation>
-        <h2>Advisory and Incorporation Services</h2>
+        <h2>Local support</h2>
         <p>
-          Our experienced team of consultants have worked in various industries
-          and with different challenges, and can take care of the time consuming
-          and complex administrative tasks before, during and after you enter a
-          new market. We have an extensive network and long experience of
-          finding the best partners for our clients.
+          Our experienced team has worked in various industries and with a wide range of challenges. 
+             <br/>
+           We can take care of the time consuming and complex administrative tasks before, during and after you enter a new market. 
         </p>
         <Tabs />
       </GreyAnimation>
