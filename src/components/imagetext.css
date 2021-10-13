@@ -2,7 +2,7 @@
   margin-top: var(--spacing-m);
 }
 
-.large {
+.large, .tabs-large {
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
 }
@@ -76,6 +76,7 @@ main .large {
   }
 
   .large,
+  .tabs-large,
   .medium,
   .small {
     padding-left: var(--spacing-l);
@@ -105,6 +106,7 @@ main .large {
   }
 
   .large,
+  .tabs-large,
   .medium,
   .small {
     padding-left: var(--spacing-m);
@@ -117,6 +119,10 @@ main .large {
 }
 
 @media screen and (max-width: 600px) {
+
+  main .large {
+    margin-top: var(--spacing-m);
+  }
 
   .large,
   .medium,

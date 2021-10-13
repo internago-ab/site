@@ -7,10 +7,14 @@
     list-style-type: none;
 }
 
+.icon-grid li h3{
+    margin-bottom: var(--spacing-xxs);
+}
+
 .icon-item {
     border-top: 7px solid transparent;
     padding: var(--spacing-xxs);
-    text-align: center;
+    text-align: left;
     -webkit-transition: all .8s ease-in;
     -o-transition: all .8s ease-in;
     transition: all .8s ease-in;

@@ -12,7 +12,7 @@ nav {
     z-index: 2;
 }
 
-.logo-link::before{
+.logo-link::before {
     height: 0;
     transition: none;
 }
@@ -246,4 +246,8 @@ footer .disclaimer {
     100% {
         transform: translateY(-9px) rotate(-45deg);
     }
+}
+
+.section {
+    margin-top: var(--spacing-m);
 }

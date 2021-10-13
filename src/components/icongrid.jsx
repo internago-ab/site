@@ -9,6 +9,7 @@ function Icongrid(props) {
       {content.map((item, index) => (
         <li key={index} className="icon-item">
           <img src={item.icon} alt="small icon"></img>
+          <h3>{item.header}</h3>
           <p>{item.text}</p>
         </li>
       ))}
