@@ -80,7 +80,7 @@ const Index = () => {
               icon: diagram,
               header: "Easy overview",
               text:
-                "Instant overview of payslips, salaries and monthly costs in easy-to-access diagrams",
+                "<b>Online payroll</b> - international payroll software for all your international operations",
             },
             {
               icon: wifi,

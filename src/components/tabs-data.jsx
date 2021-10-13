@@ -2,39 +2,30 @@ const info = [
   {
     id: 1,
     duties: [
-      "Business potential",
-      "Identify Growth Opportunities",
-      "Set up and manage business partners and/or customers",
-      "Business development and implementation",
-      "Support with selecting local accounting partner ensuring compliance to local regulation",
-      "Handle implementation and setup",
+      "Implementation and onboarding",
+      "Payments",
+      "Gross up calculations",
+      "Tax filing",
+      "Gross to net (GTN)",
+      "Shadow payroll",
+      "Bonus and RSU calculations",
+      "Leaver calculations",
+      "Simulations",
     ],
-    company: "Business",
+    company: "Payroll",
   },
   {
     id: 2,
     duties: [
-      "Tender support. Cardigan church-key pabst, biodiesel vexillologist viral squid.",
-      "Identify Check-up prior to due diligence",
+      "Employment contracts",
+      "Foreign employer registration",
       "Tax and VAT registration and filing",
-      "GDPR compliance",
+      "Incorporation",
       "B2B contacts",
-      "Close down a subsidiary or branch",
     ],
     company: "Legal",
   },
-  {
-    id: 3,
-    duties: [
-      "Pre-market entry analysis",
-      "Supplier benchmarking",
-      "Market positioning",
-      "Competitor analysis",
-      "Internationalization assessment",
-      "Monthly financial reporting in format according to your needs",
-    ],
-    company: "Analysis",
-  },
+  
 ]
 
 export default info

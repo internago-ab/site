@@ -25,15 +25,47 @@ function Payroll() {
       <Blue>
         <h1>Internago Payroll Portal</h1>
         <p>
-          With Internago’s payroll portal you can cut costs and increase
-          efficiency, while still having maximum control over your international
-          payroll.
-          <br />
-          <br />
-          Our international payroll software enables you to manage your payroll
-          and HR in multiple subsidiaries and in one place – online.
+          Manage your payroll on multiple international markets with one online interface
         </p>
       </Blue>
+     <GreyAnimation>
+        <h2>Payroll and HR Management</h2>
+        <p>
+   The perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Store all important employee data in one place. Increase your control and efficiency by using one online interface for all your international employees.
+        </p>
+        <Icongrid
+          content={[
+            {      
+                icon: calendartime,
+              text: "Absence and time management",
+    
+            },
+            {
+              icon: expense,
+              text: "Expense management",
+            },
+            {
+              
+              icon: mobile,
+              text: "Document sharing",
+            },
+            {
+              icon: speech,
+              text: "Multi language",
+            },
+            {
+              icon: stamp,
+              text:
+                "Fully configurable payroll workflow",
+            },
+            {
+              icon: simple,
+              text: "Mobile device login and real time notiflications",
+            },
+          ]}
+        />
+      </GreyAnimation>
+     
       <ImageText
         size="medium"
         title="ShareDoc -Document management tool"
@@ -63,45 +95,6 @@ function Payroll() {
         button="Try it today"
         link="mailto:info@internago.com"
       />
-      <GreyAnimation>
-        <h2>Payroll and HR Management</h2>
-        <p>
-          Payroll can be complex in an international context. Local rules and
-          regulations, different employment contracts, taxes and severence pay
-          are just some things that you need to get in place and that influence
-          the cost of personnell. We collaborate with the best local experts
-          ensuring full compliance with local regulation.
-        </p>
-        <Icongrid
-          content={[
-            {
-              icon: mobile,
-              text: "Mobile device login and real time notiflications",
-            },
-            {
-              icon: expense,
-              text: "Expense management",
-            },
-            {
-              icon: simple,
-              text: "Simple to use",
-            },
-            {
-              icon: speech,
-              text: "Multi language",
-            },
-            {
-              icon: stamp,
-              text:
-                "Accept/decline workflow, configurable for enabling multiple approvers",
-            },
-            {
-              icon: calendartime,
-              text: "Absence and time management",
-            },
-          ]}
-        />
-      </GreyAnimation>
       <div className="quotes-wrapper">
         <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
