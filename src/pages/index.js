@@ -7,6 +7,7 @@ import ImageText from "../components/imagetext"
 import GreyAnimation from "../components/grey-animation"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
+import ImageTabs from "../components/imagetabs"
 
 //Images
 import landingPageFirst from "../images/illustrations/landingpage-first.png"
@@ -58,7 +59,7 @@ const Index = () => {
         <img src={enmacc} alt="Enmacc logo" />
         <img src={sportamore} alt="Sportamore logo" />
       </div>
-      
+
       <ImageText
         reverse="rowreverse"
         size="medium"
@@ -69,35 +70,43 @@ const Index = () => {
         link="mailto:info@internago.com"
       />
 
+      <ImageTabs />
+
       <GreyAnimation>
         <h2>Why Internago?</h2>
         <Icongrid
           content={[
             {
               icon: diagram,
+              header: "Easy overview",
               text:
                 "<b>Online payroll</b> - international payroll software for all your international operations",
             },
             {
               icon: wifi,
+              header: "Easy access",
               text:
                 "Access and share all you information with one online interface",
             },
             {
               icon: calendar,
+              header: "Quick onboarding",
               text: "Access montly reports from your subsidiaries each month",
             },
             {
               icon: settings,
+              header: "GDPR compliant",
               text: "Transfer data in a safe, secure and GDPR certified manner",
             },
             {
               icon: cloud,
+              header: "Cloud-based",
               text:
                 "Set up, store and update employee contracts through our cloudbased solution",
             },
             {
               icon: report,
+              header: "Time saving",
               text: "We take care of all your administrative needs",
             },
           ]}
