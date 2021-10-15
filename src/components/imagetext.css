@@ -125,6 +125,7 @@ main .large {
   }
 
   .large,
+  .tabs-large,
   .medium,
   .small {
     padding-left: var(--spacing-xs);
