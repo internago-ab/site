@@ -80,7 +80,7 @@ const Index = () => {
               icon: diagram,
               header: "Easy overview",
               text:
-                "<b>Online payroll</b> - international payroll software for all your international operations",
+                "Online payroll - international payroll software for all your international operations",
             },
             {
               icon: wifi,

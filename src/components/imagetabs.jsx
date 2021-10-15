@@ -1,8 +1,16 @@
-import React, { useState } from "react"
+import React, { useState , useEffect } from "react"
 import landingPageFirst from "../images/illustrations/landingpage-first.png"
 import "./imagetabs.css"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 const Tab = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   const [toggleState, setToggleState] = useState(1)
 
   const toggleTab = index => {
@@ -13,7 +21,7 @@ const Tab = () => {
     toggleState === index ? className : ""
 
   return (
-    <div className="section tabs-large">
+    <div className="section tabs-large" data-aos="fade-up">
       <h2 className="tab-header">Smooth and powerful</h2>
       <div className=" tabs-main">
         <div className="tab-img-wrapper">
@@ -79,25 +87,25 @@ const Tab = () => {
         <div className="container">
           <ul className="tab-list">
             <li
-              className={`tabs ${getActiveClass(1, "active-tabs")}`}
+              className={`img-tab ${getActiveClass(1, "active-tabs")}`}
               onClick={() => toggleTab(1)}
             >
               Preboard
             </li>
             <li
-              className={`tabs ${getActiveClass(2, "active-tabs")}`}
+              className={`img-tab ${getActiveClass(2, "active-tabs")}`}
               onClick={() => toggleTab(2)}
             >
               Manage
             </li>
             <li
-              className={`tabs ${getActiveClass(3, "active-tabs")}`}
+              className={`img-tab ${getActiveClass(3, "active-tabs")}`}
               onClick={() => toggleTab(3)}
             >
               Automate
             </li>
             <li
-              className={`tabs ${getActiveClass(4, "active-tabs")}`}
+              className={`img-tab ${getActiveClass(4, "active-tabs")}`}
               onClick={() => toggleTab(4)}
             >
               Analyze
@@ -116,7 +124,7 @@ const Tab = () => {
                 and give your candidates a proper introduction to the company
                 and team members.
               </p>
-              <a href="/">Read more</a>
+              <a className="img-tabs-link" href="/">Read more</a>
             </div>
 
             <div
@@ -130,7 +138,7 @@ const Tab = () => {
                 view of critical personal information, promotions, salaries,
                 feedback sessions, employment contracts, timesheets and absence.
               </p>
-              <a href="/">Read more</a>
+              <a className="img-tabs-link" href="/">Read more</a>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -144,7 +152,7 @@ const Tab = () => {
                 The perfect HR tool to quickly identify bottle necks and ensure
                 smooth processes.
               </p>
-              <a href="/">Read more</a>
+              <a className="img-tabs-link" href="/">Read more</a>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -158,7 +166,7 @@ const Tab = () => {
                 in one place and makes it easier for HR organizations to elevate
                 their HR game.
               </p>
-              <a href="/">Read more</a>
+              <a className="img-tabs-link" href="/">Read more</a>
             </div>
           </div>
         </div>

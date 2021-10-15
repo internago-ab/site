@@ -1,3 +1,7 @@
+.tabs-large {
+    margin-top: var(--spacing-m);
+}
+
 .tabs-main {
     margin-top: var(--spacing-s);
     display: flex;
@@ -10,8 +14,6 @@
 
 .container {
     padding-left: var(--spacing-m);
-    width: 50%;
-
 }
 
 .tab-list {
@@ -23,7 +25,8 @@
     margin: 0;
 }
 
-.tabs {
+.img-tab {
+    width: 100%;
     margin-right: var(--spacing-xs);
     display: flex;
     justify-content: center;
@@ -37,8 +40,26 @@
 }
 
 .active-tabs {
-    border-bottom: 2px solid var(--dark-blue);
     color: var(--dark-blue);
+}
+
+.tab-list {
+    position: relative;
+}
+
+.active-tabs::after {
+    position: absolute;
+    content: '';
+    background-color: var(--dark-blue);
+    width: -webkit-calc(100%);
+    width: calc(100%);
+    height: 2px;
+    top: 58px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    animation: fadeIn 1s ease-in;
 }
 
 .active-tabs::before {
@@ -68,6 +89,10 @@
     margin-bottom: var(--spacing-xs);
 }
 
+.img-tabs-link {
+    color: var(--dark-blue);
+}
+
 .tab-img-wrapper {
     position: relative;
 }
@@ -82,13 +107,14 @@
 }
 
 .circle {
+    margin-left: var(--spacing-l);
     width: 15vw;
     background: var(--light-blue);
     height: 15vw;
     border-radius: 50%;
     position: absolute;
     bottom: 15px;
-    left: -100px;
+    left: -200px;
     z-index: -3;
     -webkit-transition: all 0.7s linear;
     -o-transition: all 0.7s linear;
@@ -139,9 +165,43 @@
         flex-direction: column-reverse;
     }
 
+
     .container {
         padding-left: 0;
         width: 100%;
         margin-bottom: var(--spacing-xs);
+    }
+
+    .circle {
+        padding-left: var(--spacing-l);
+        width: 25vw;
+        height: 25vw;
+        bottom: 15px;
+        left: -140px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .img-tab {
+        font-size: var(--fontSize-p);
+    }
+
+    .circle {
+        padding-left: var(--spacing-xs);
+        width: 30vw;
+        height: 30vw;
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img-tab {
+        font-size: var(--fontSize-p-s);
+        margin-right: var(--spacing-xxs);
+    }
+
+    .circle {
+        bottom: -10px;
     }
 }
