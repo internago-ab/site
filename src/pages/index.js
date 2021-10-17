@@ -29,6 +29,7 @@ import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
 
+import Svg from "../components/svg"
 //animation
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -41,6 +42,7 @@ const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
+
       <ImageText
         margin="large"
         size="large"
@@ -60,15 +62,27 @@ const Index = () => {
         <img src={sportamore} alt="Sportamore logo" />
       </div>
 
-      <ImageText
-        reverse="rowreverse"
-        size="medium"
-        title="Your markets - our objective"
-        text="Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.</br></br>Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
-        image={landingPageMap}
-        button="Contact us"
-        link="mailto:info@internago.com"
-      />
+      <section
+        className="section imagetext medium rowreverse"
+        data-aos="fade-up"
+      >
+        <div className="info-imagetext">
+          <h2 className="heading">Your markets - our objective</h2>
+          <p className="paragraph">
+            Internago is currently delivering payroll services and related
+            services on main European markets, both directly or together with
+            well selected local partners. <br></br>
+            <br></br>Contact us to know more on how we can support you in
+            France, Italy, Sweden, Germany, Spain, UK, Holland or other
+            countries of interest. Contact our sales team to know more about our
+            services.
+          </p>
+          <div className="cta-btn">
+            <a href="mailto:info@internago.com">Contact us</a>
+          </div>
+        </div>
+        <Svg />
+      </section>
 
       <ImageTabs />
 
