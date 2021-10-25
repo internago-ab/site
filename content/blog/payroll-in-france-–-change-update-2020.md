@@ -7,6 +7,7 @@ tags:
   - France
   - Payroll
 featuredimage: /images/france.jpg
+type: blog
 ---
 The new year brings some important changes regarding the French labour market. Internago has put together a brief with all the most important changes that you should be aware about for this year, as well as some of the news for 2021.
 

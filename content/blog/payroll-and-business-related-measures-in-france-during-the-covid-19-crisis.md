@@ -6,6 +6,7 @@ tags:
   - Reports
   - Payroll
 featuredimage: /images/paris.jpg
+type: blog
 ---
 # Due to the COVID-19 outbreak, the French state has planned a number of measures to support French companies and self-employed. Internago has summarized the package and some implications for your payroll services in France below:
 

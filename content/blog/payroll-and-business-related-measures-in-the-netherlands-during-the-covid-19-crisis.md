@@ -7,6 +7,7 @@ tags:
   - Reports
   - Payroll
 featuredimage: /images/netherlands.jpg
+type: blog
 ---
 **Due to the COVID-19 emergency, the Dutch government has introduced the so called “NOW-regulation”. The regulation primarily focuses on labour costs for the companies but comes with some restrictions. In this post, the NOW-regulation and how it affects the payroll services in the Netherlands are summarised.** 
 

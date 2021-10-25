@@ -5,6 +5,7 @@ date: 2018-11-06T19:32:34.946Z
 tags:
   - News
 featuredimage: /images/blog3.jpeg
+type: blog
 ---
 ## We continue to grow our customer base, and this time our customer is a large American pharmaceutical company with operations world wide.
 

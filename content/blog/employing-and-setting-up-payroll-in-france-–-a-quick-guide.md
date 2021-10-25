@@ -7,6 +7,7 @@ tags:
   - France
   - Legal
 featuredimage: /images/cafe.jpg
+type: blog
 ---
 You have made the decision to establish your business in France and you plan to hire employees. The first step is to establish your company and register it at the Commerce Register (“*Greffe*”).  This will require drafting your company’s articles of incorporation and determining its legal form. The choice of your company’s articles of incorporation requires your full attention. These are the three most common company types for international firms establishing in France:
 * SARL: limited liability company

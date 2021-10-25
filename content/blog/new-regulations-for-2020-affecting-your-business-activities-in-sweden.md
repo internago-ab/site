@@ -7,6 +7,7 @@ tags:
   - Reports
   - Payroll
   - Sweden
+type: blog
 ---
 # The new year brings some important changes regarding the payroll in Sweden. Internago has put together a brief overview of  the most important changes that you should be aware about for this year.
 

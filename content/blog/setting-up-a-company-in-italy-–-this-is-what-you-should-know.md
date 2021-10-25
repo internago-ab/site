@@ -7,6 +7,7 @@ tags:
   - Italy
   - Legal
 featuredimage: /images/vespa.jpg
+type: blog
 ---
 ## More than 590 000 foreign owned companies in Italy
 Italy is increasingly attractive to foreign investors. The number of international businesses in Italy is increasing at a steady pace. At the end of 2017, it reached the 590,000-mark, almost 10% of all companies doing business in Italy (data from Unioncamere-InfoCamere).

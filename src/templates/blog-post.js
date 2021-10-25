@@ -12,6 +12,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const BlogPostTemplate = ({ data, location }) => {
+  console.log(data)
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -46,7 +47,6 @@ const BlogPostTemplate = ({ data, location }) => {
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p className="date-and-tags">
               {post.frontmatter.date} ||{" "}
-
               {post.frontmatter.tags.map((tag, index) => (
                 <Link key={index} to={`/blog?filter=${tag.toLowerCase()}`}>
                   {tag}

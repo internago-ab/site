@@ -7,6 +7,7 @@ tags:
   - France
   - News
 featuredimage: /images/data.jpg
+type: blog
 ---
 Chart: Swedish OMX30 stock market vs French CAC from 1990-2019 Source: https://www.ekonomifakta.se/Fakta/Ekonomi/Finansiell-utveckling/Borsutveckling-i-Sverige-och-USA/
 

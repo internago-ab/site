@@ -5,6 +5,7 @@ date: 2018-10-22T18:34:38.431Z
 tags:
   - News
 featuredimage: /images/blog4.png
+type: blog
 ---
 ## To strengthen our network in Portugal, Internago recently became member of the Swedish-Portuguese Chamber of Commerce in Lissabon.
 

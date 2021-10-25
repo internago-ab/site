@@ -6,6 +6,7 @@ tags:
   - Reports
   - France
 featuredimage: /images/report.jpg
+type: blog
 ---
 Internago often gets the question of how much it costs to employ staff in France, which is why we want to share some information about this topic. This blog is an introduction to how to calculate the cost and to explain the different salary components. In practise it is very important to consider the collective agreements affecting specific employer taxes in order to reach the exact cost figure.
 

@@ -5,6 +5,7 @@ date: 2018-04-16T18:58:06.085Z
 tags:
   - News
 featuredimage: /images/data.jpg
+type: blog
 ---
 Internago and its partner Privasee, a Swedish knowledge company specialized in GDPR and Privacy, continues to support companies in their transformation towards the new General Data Protection Regulation – GDPR.
 

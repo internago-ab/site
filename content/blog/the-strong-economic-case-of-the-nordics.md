@@ -5,6 +5,7 @@ date: 2019-06-04T14:03:30.011Z
 tags:
   - News
 featuredimage: /images/nordic-equities.png
+type: blog
 ---
 ## This is how fun you have when you get to talk about the Nordics and their economies!
 

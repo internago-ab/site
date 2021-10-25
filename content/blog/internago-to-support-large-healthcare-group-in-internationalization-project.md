@@ -5,6 +5,7 @@ date: 2018-07-04T18:50:08.057Z
 tags:
   - News
 featuredimage: /images/scope.jpg
+type: blog
 ---
 We are glad to announce that Internago has been selected to support a large international group in the healthcare sector in their internationalization process.
 

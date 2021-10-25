@@ -5,6 +5,7 @@ date: 2018-11-15T19:30:46.611Z
 tags:
   - News
 featuredimage: /images/library.jpg
+type: blog
 ---
 Internago’s services are not restricted to the private sector. In recent decades internationalization has risen to prominence in higher education institutions. Internationalization enables universities to adjust curricula to international standards, and to develop partnership with foreign universities thus offering national students’ greater competencies and opportunities, as well as resulting in being more attractive to foreign students.
 

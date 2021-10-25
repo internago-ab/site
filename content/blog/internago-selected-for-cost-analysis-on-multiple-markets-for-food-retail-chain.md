@@ -6,6 +6,7 @@ tags:
   - Italy
   - News
 featuredimage: /images/food.jpg
+type: blog
 ---
 ## Internago Business Advisory Services recently performed an establishment analysis for a large food retail chain. 
 

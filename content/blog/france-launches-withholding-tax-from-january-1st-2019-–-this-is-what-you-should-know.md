@@ -8,6 +8,7 @@ tags:
   - France
   - Payroll
 featuredimage: /images/paris.jpg
+type: blog
 ---
 **France has been going through major changes in labor law since the election of President Emmanuel Macron in 2017. Swift and regular changes are quite common in the French system. This implies a need to constantly monitor updates in order to stay conform with current legislation and tax conditions.**
 

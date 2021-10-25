@@ -6,6 +6,7 @@ tags:
   - France
   - Legal
 featuredimage: /images/paris2.jpg
+type: blog
 ---
 ## French corporate tax rates depend on the legal structure, turnover and profit.
 Companies in France are taxed either on income (*impôt sur le revenu*) or at corporate tax (*impôt sur les sociétés*) depending of the legal structure of the company. SA (*société anonyme*), SAS (*société par actions simplifiée*) and SARL (*société à responsabilité limitée*) are primarily subject to corporate tax, but may under certain circumstances, opt to pay income tax instead. The normal corporate tax rate (taux normal) is 33.33 % for companies in France. 

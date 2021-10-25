@@ -6,6 +6,7 @@ tags:
   - Payroll
   - Italy
 featuredimage: /images/italy.jpg
+type: blog
 ---
 **In order to cope with COVID-19, the Italian government has prepared a comprehensive package for companies, that affect the payroll services in Italy. There are three main areas, which are summarised in this article.**
 

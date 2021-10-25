@@ -8,6 +8,7 @@ tags:
   - France
   - Payroll
   - Legal
+type: blog
 ---
 # Social security number – a key for compliant payroll in France
 

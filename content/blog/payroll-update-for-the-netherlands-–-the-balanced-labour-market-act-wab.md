@@ -6,6 +6,7 @@ tags:
   - Legal
   - Payroll
 featuredimage: /images/netherlands2.jpg
+type: blog
 ---
 The new year brings some important changes regarding the Dutch labour market. We have put together a a short overview of the changes that has come with new Balanced Labour Market Act – WAB with effect from the 1st of January.
 

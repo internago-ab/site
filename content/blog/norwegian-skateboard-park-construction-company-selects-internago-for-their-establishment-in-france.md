@@ -6,6 +6,7 @@ date: 2018-07-23T18:48:37.845Z
 tags:
   - News
 featuredimage: /images/paris2.jpg
+type: blog
 ---
 Our customer is an innovative Norwegian skateboard park construction company, which is in international expansion phase. They are setting up a French company to start their operations in France.
 

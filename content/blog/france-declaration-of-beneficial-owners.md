@@ -6,6 +6,7 @@ tags:
   - Reports
   - France
 featuredimage: /images/online.jpg
+type: blog
 ---
 ## A new French Law, to be conformed with European law, instituted a new obligation for commercial companies, civil companies and associations.
 

@@ -6,6 +6,7 @@ date: 2018-01-15T20:05:37.918Z
 tags:
   - Reports
 featuredimage: /images/blog4.png
+type: blog
 ---
 World Bank: 2018 is on track to be the first year since the financial crisis that the global economy will be operating at or near full capacity. With slack in the economy expected to dissipate, policymakers will need to look beyond monetary and fiscal policy tools to stimulate short-term growth and consider initiatives more likely to boost long-term potential.
 
