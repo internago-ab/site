@@ -6,6 +6,7 @@ tags:
   - Reports
   - Legal
 featuredimage: /images/skyscraper.jpg
+type: blog
 ---
 ## At Internago we are often asked about the costs related to setting up subsidiaries or branches on European markets. It is of course difficult to give an exact figure on such queries since there are many variables needed to be considered – establishment form, location, office space required, number of employees, administrative requirements etc.
 

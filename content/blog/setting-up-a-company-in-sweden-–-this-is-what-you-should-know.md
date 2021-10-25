@@ -6,6 +6,7 @@ tags:
   - Reports
   - Legal
 featuredimage: /images/stockholm.jpg
+type: blog
 ---
 ## Over 14 000 foreign companies in Sweden 
 Sweden is an attractive market for foreign companies. Politically stable and economically very attractive with strong consumer purchasing power and internationally competitive industry. The number of foreign-owned companies in Sweden increased by 277 during 2017 (latest available data from Tillväxtanalys). Following the increase, there are now 14,388 foreign-owned companies in Sweden. There are almost 700,000 employees working for foreign-owned companies in Sweden.

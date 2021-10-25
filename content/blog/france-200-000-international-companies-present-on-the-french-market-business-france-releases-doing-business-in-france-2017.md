@@ -6,6 +6,7 @@ featuredimage: /images/paris.jpg
 tags:
   - France
   - News
+type: blog
 ---
 200 000 international companies already operate in France accoring to the governmental business agency *Business France*. This Doing Business report by Business France gives you important information on how to set up your business:
 

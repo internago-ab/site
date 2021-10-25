@@ -7,6 +7,7 @@ tags:
   - France
   - Payroll
 featuredimage: /images/sick-leave.jpg
+type: blog
 ---
 # Internago has summarised the procedures for when an employee needs to leave work because of illness.
 

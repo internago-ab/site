@@ -5,6 +5,7 @@ date: 2019-12-13T14:43:29.136Z
 tags:
   - News
 featuredimage: /images/fredrik.jpg
+type: blog
 ---
 ## Internago AB is pleased to announce our new member of the board – Fredrik Häggström.
 

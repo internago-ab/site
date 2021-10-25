@@ -7,6 +7,7 @@ tags:
   - Reports
   - France
   - Payroll
+type: blog
 ---
 # Internago French payroll team often gets the question about the “Solidarity day”. Below we have summarised a practical factsheet, and how it affects your payroll services in France.
 

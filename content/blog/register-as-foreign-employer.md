@@ -6,6 +6,7 @@ featuredimage: /images/blog1.jpg
 tags:
   - Legal
   - Payroll
+type: blog
 ---
 # Employ and run payroll internationally without setting up a foreign company
 

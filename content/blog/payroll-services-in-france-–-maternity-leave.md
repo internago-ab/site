@@ -6,6 +6,7 @@ tags:
   - France
   - Payroll
 featuredimage: /images/payroll-maternity.png
+type: blog
 ---
 # Maternity and paternity leave in France
 

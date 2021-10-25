@@ -8,6 +8,7 @@ tags:
   - Legal
   - Payroll
 featuredimage: /images/tfr.jpg
+type: blog
 ---
 The Italian TFR or “Trattamento di Fine Rapporto” is something that many foreign employers are curious about.
 

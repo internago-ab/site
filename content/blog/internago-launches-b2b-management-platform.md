@@ -5,6 +5,7 @@ date: 2018-09-19T18:44:13.297Z
 tags:
   - News
 featuredimage: /images/computer.jpg
+type: blog
 ---
 ## Where is the latest version of our distributor agreement? When does it expire?
 

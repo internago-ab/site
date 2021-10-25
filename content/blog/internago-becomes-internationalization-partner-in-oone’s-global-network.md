@@ -5,6 +5,7 @@ date: 2019-07-19T13:48:51.752Z
 tags:
   - News
 featuredimage: /images/oone.jpeg
+type: blog
 ---
 ## Partnership signed to support companies on international markets
 

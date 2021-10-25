@@ -6,6 +6,7 @@ tags:
   - News
   - Payroll
 featuredimage: /images/online.jpg
+type: blog
 ---
 A Swedish machine production company has chosen Internago’s online payroll solution for its subsidiary and employees in France. The reason behind the migration to a digital platform was driven by the need to improve the quality demands set up by the HQ, and to handle personal data in line with the new GDPR regulations.
 

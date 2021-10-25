@@ -6,6 +6,7 @@ date: 2018-04-30T18:55:03.965Z
 tags:
   - News
 featuredimage: /images/ecom.jpg
+type: blog
 ---
 ## Creating companies online
 The European Commission is proposing new company law rules to make it easier for companies to merge, divide or move within the Single Market. The proposal sets out common procedures at the EU level on how a company can move from one EU country to another, merge or divide into two or more new entities across borders. Currently, national rules differ greatly between Member States or impose excessive administrative hurdles. This discourages businesses from pursuing new opportunities for fear of too much red tape.

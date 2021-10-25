@@ -7,6 +7,7 @@ tags:
   - Payroll
   - Sweden
 featuredimage: /images/sweden.jpg
+type: blog
 ---
 To mitigate the financial consequences of Covid-19, the Swedish state has taken several important financial measures. Internago has summarized the package and some implications for your payroll services in Sweden below;
 

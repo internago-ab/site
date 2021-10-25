@@ -7,6 +7,7 @@ tags:
   - Italy
   - Payroll
 featuredimage: /images/future.jpg
+type: blog
 ---
 ## Payroll in Italy – an introduction
 

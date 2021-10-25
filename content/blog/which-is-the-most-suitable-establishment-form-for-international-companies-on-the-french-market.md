@@ -8,6 +8,7 @@ tags:
   - France
   - Legal
 featuredimage: /images/paris3.jpg
+type: blog
 ---
 ## There are more than 25 000 foreign companies in France, employing more than 2 million people. 
 The United States is the largest international employer with 312,600 employees followed by Germany, (312,000), then Great Britain (183,000), the Netherlands (165,000), Switzerland (145,000), Belgium (140 000),  Luxembourg (107 000) and comes Sweden (100 000). There are some company forms that are more common than other, but it is also possible to enter the French market without any separate legal entity.

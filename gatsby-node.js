@@ -1,3 +1,19 @@
+/*
+exports.createPages = ({ actions: { createPage } }) => {
+  const countries = require("./data/countries.json")
+  countries.forEach(country => {
+    createPage({
+      path: `/country/${country.slug}`,
+      component: require.resolve("./src/templates/country.js"),
+      context: {
+        title: country.title,
+        description: country.description,
+      },
+    })
+  })
+}
+*/
+
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -6,6 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const countries = path.resolve(`./src/templates/country.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -19,6 +36,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id
             fields {
               slug
+            }
+            frontmatter {
+              type
             }
           }
         }
@@ -45,15 +65,27 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const previousPostId = index === 0 ? null : posts[index - 1].id
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
-      createPage({
-        path: post.fields.slug,
-        component: blogPost,
-        context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
-        },
-      })
+      if (post.frontmatter.type === "country") {
+        createPage({
+          path: post.fields.slug,
+          component: countries,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      } else {
+        createPage({
+          path: post.fields.slug,
+          component: blogPost,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      }
     })
   }
 }

@@ -5,6 +5,7 @@ date: 2018-09-04T18:47:02.533Z
 tags:
   - News
 featuredimage: /images/food.jpg
+type: blog
 ---
 Our customer is a large Spanish restaurant chain, which is in international expansion phase.
 
