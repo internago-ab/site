@@ -11,6 +11,10 @@
     list-style-type: none;
 }
 
+.contact-icon-grid li h3, .contact-icon-grid li p {
+    margin-bottom: var(--spacing-xxs);
+}
+
 .contact-icon-item {
     background-color: var(--white);
     box-shadow: 0 4px 4px rgb(0 0 0/8%);

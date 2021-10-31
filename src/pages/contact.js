@@ -71,8 +71,8 @@ function Contact() {
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
-        <input name="name" type="text" placeholder="name" />
-        <button>send</button>
+        <input name="name" type="text" placeholder="your name" />
+        <button>test</button>
       </form>
 
       <Cta content="next" />
