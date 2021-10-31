@@ -2,7 +2,8 @@
   margin-top: var(--spacing-m);
 }
 
-.large, .tabs-large {
+.large,
+.tabs-large {
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
 }
@@ -70,17 +71,21 @@ main .large {
 }
 
 @media screen and (max-width: 1200px) {
-  .imagetext img {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
 
   .large,
   .tabs-large,
   .medium,
   .small {
-    padding-left: var(--spacing-l);
-    padding-right: var(--spacing-l);
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-m);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .imagetext img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .imagetext {

@@ -23,9 +23,9 @@
     transition: all 2s ease-out;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .svg-map {
         width: 100%;
-        margin-right: var(--spacing-s);
+        margin-right: 0;
     }
 }

@@ -1,13 +1,20 @@
+.grey-top{
+    margin-top: 0;
+    background-color: var(--light-grey);
+    text-align: center;
+}
+
 .grey {
     background-color: var(--light-grey);
     text-align: center;
 }
 
-.grey-inside{
-    padding: var(--spacing-m) var(--spacing-xl);
+.grey-inside {
+    padding: var(--spacing-m) var(--spacing-l);
 }
 
-.grey h1, .grey h2 {
+.grey h1,
+.grey h2 {
     margin-bottom: var(--spacing-xs);
 }
 

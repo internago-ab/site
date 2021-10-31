@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--spacing-xxs) var(--spacing-m);
+    padding: var(--spacing-xs) var(--spacing-m);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
     background-color: var(--white);
     z-index: 2;
@@ -131,9 +131,15 @@ footer .disclaimer {
     display: none;
 }
 
+@media only screen and (max-width: 1600px){
+    nav {
+        padding: var(--spacing-xxs) var(--spacing-m);
+    }
+}
+
 /* -------------------------------------------------------- MOBILE */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1080px) {
     nav {
         padding: var(--spacing-xxs) var(--spacing-xs);
     }
@@ -247,4 +253,3 @@ footer .disclaimer {
         transform: translateY(-9px) rotate(-45deg);
     }
 }
-

@@ -137,7 +137,7 @@ button {
 }
 
 main {
-  margin-top: 80px;
+  margin-top: 121px;
 }
 
 main> :first-child {
@@ -179,6 +179,12 @@ section.error-page>* {
 .howitworks {
   padding-top: var(--spacing-m);
   text-align: center;
+}
+
+@media screen and (max-width: 1600px){
+  main {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 1440px) {

@@ -32,45 +32,119 @@ const Layout = ({ children }) => {
 
   function animateHamburger() {
     let lines = Array.from(document.querySelectorAll(".hamburger div"))
-    lines.forEach(line => line.style.animation = `${line.className} 0.5s ease ${menuDisplayed ? "reverse" : "normal"}`);
+    lines.forEach(
+      line =>
+        (line.style.animation = `${line.className} 0.5s ease ${
+          menuDisplayed ? "reverse" : "normal"
+        }`)
+    )
   }
-
 
   return (
     <div className="global-wrapper">
       <nav>
-        <Link to="/" className="logo-link"><img className="logo" src={darkLogo} alt="logo"></img></Link>
+        <Link to="/" className="logo-link">
+          <img className="logo" src={darkLogo} alt="logo"></img>
+        </Link>
 
         <div className="mobile">
-          <button className="hamburger" onClick={toggleMenu} aria-label="hamburger-menu">
-            <div className="line1" style={{ transform: menuDisplayed ? "translateY(9px) rotate(45deg)" : "translateY(0px) rotate(0deg)" }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
-            <div className="line2" style={{ opacity: menuDisplayed ? 0 : 1 }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
-            <div className="line3" style={{ transform: menuDisplayed ? "translateY(-9px) rotate(-45deg)" : "translateY(0px) rotate(0deg)" }} onAnimationEnd={(e) => e.target.style.animation = "none"}></div>
+          <button
+            className="hamburger"
+            onClick={toggleMenu}
+            aria-label="hamburger-menu"
+          >
+            <div
+              className="line1"
+              style={{
+                transform: menuDisplayed
+                  ? "translateY(9px) rotate(45deg)"
+                  : "translateY(0px) rotate(0deg)",
+              }}
+              onAnimationEnd={e => (e.target.style.animation = "none")}
+            ></div>
+            <div
+              className="line2"
+              style={{ opacity: menuDisplayed ? 0 : 1 }}
+              onAnimationEnd={e => (e.target.style.animation = "none")}
+            ></div>
+            <div
+              className="line3"
+              style={{
+                transform: menuDisplayed
+                  ? "translateY(-9px) rotate(-45deg)"
+                  : "translateY(0px) rotate(0deg)",
+              }}
+              onAnimationEnd={e => (e.target.style.animation = "none")}
+            ></div>
           </button>
 
-          <ul className="mobile-menu" style={{ height: menuDisplayed ? 230 : 0 }}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/payroll">Payroll portal</Link></li>
-            <li><Link to="/blog?filter=all">Blogs and News</Link></li>
-            <li><Link to="/about">About us</Link></li>
-            <li><a href="https://payroll.internago.com/">Go to portal</a></li>
-            <li><a href="mailto:info@internago.com">Contact us</a></li>
+          <ul
+            className="mobile-menu"
+            style={{ height: menuDisplayed ? 240 : 0 }}
+          >
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/services">Services</Link>
+            </li>
+            <li>
+              <Link to="/payroll">Payroll portal</Link>
+            </li>
+            <li>
+              <Link to="/blog?filter=all">Blogs and News</Link>
+            </li>
+            <li>
+              <Link to="/about">About us</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact us</Link>
+            </li>
+            <li>
+              <a href="https://payroll.internago.com/">Go to portal</a>
+            </li>
           </ul>
         </div>
 
         <ul className="desktop-menu">
           <ul className="what-we-offer">
-            <li>What we offer <svg className="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z" fill="#4E4E4E" /></svg></li>
+            <li>
+              What we offer{" "}
+              <svg
+                className="toggle-icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                  fill="#4E4E4E"
+                />
+              </svg>
+            </li>
             <ul className="what-we-offer-submenu">
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/payroll">Payroll portal</Link></li>
+              <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/payroll">Payroll portal</Link>
+              </li>
             </ul>
           </ul>
-          <li><Link to="/blog?filter=all">Blogs and News</Link></li>
-          <li><Link to="/about">About us</Link></li>
-          <li className="portal-btn"><a  href="https://payroll.internago.com/">Go to portal</a></li>
-          <li className="cta-btn"><a  href="mailto:info@internago.com">Contact us</a></li>
+          <li>
+            <Link to="/blog?filter=all">Blogs and News</Link>
+          </li>
+          <li>
+            <Link to="/about">About us</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact us</Link>
+          </li>
+          <li className="cta-btn">
+            <a href="https://payroll.internago.com/">Go to portal</a>
+          </li>
         </ul>
       </nav>
 
@@ -81,28 +155,64 @@ const Layout = ({ children }) => {
           <div className="left">
             <img className="logo" src={lightLogo} alt="logo"></img>
             <div className="socials">
-              <a href={`https://www.linkedin.com/company/${social?.linkedin || ``}`}><img src={linkedin} alt="linkedin"></img></a>
-              <a href={`https://twitter.com/${social?.twitter || ``}`}><img src={twitter} alt="twitter"></img></a>
+              <a
+                href={`https://www.linkedin.com/company/${
+                  social?.linkedin || ``
+                }`}
+              >
+                <img src={linkedin} alt="linkedin"></img>
+              </a>
+              <a href={`https://twitter.com/${social?.twitter || ``}`}>
+                <img src={twitter} alt="twitter"></img>
+              </a>
             </div>
           </div>
 
           <div className="right">
-            <p>Internago Sweden<br />Tegelbacken 4A<br />111 52 Stockholm<br />Sweden</p>
-            <p>Internago France<br />39, Av. Pierre 1er de Serbie<br />75008 Paris<br />France</p>
-            <p>Internago Italy<br />Corso Vercelli, 57<br />20144 Milano<br />Italy</p>
+            <p>
+              Internago Sweden
+              <br />
+              Tegelbacken 4A
+              <br />
+              111 52 Stockholm
+              <br />
+              Sweden
+            </p>
+            <p>
+              Internago France
+              <br />
+              39, Av. Pierre 1er de Serbie
+              <br />
+              75008 Paris
+              <br />
+              France
+            </p>
+            <p>
+              Internago Italy
+              <br />
+              Corso Vercelli, 57
+              <br />
+              20144 Milano
+              <br />
+              Italy
+            </p>
           </div>
         </div>
 
-
         <p className="disclaimer">
-          Copyright © 2017-2019 All rights reserved to Internago AB. Contact: info@internago.com <br /><br />
-
-          Disclaimer: Communication between you and Internago are protected by our Data Protection Policy, but your communication between our partners or lawyers is not.
-          Internago provides access to independent lawyers and other requested partners to fulfil its service. We are not a law firm or a substitute for an attorney or law firm.
-          We cannot provide any kind of advice, explanation, opinion, or recommendation about possible legal rights, remedies, options, or selection of forms or strategies.
-          Your access to the website is subject to our Terms & Conditions.
+          Copyright © 2017-2019 All rights reserved to Internago AB. Contact:
+          info@internago.com <br />
+          <br />
+          Disclaimer: Communication between you and Internago are protected by
+          our Data Protection Policy, but your communication between our
+          partners or lawyers is not. Internago provides access to independent
+          lawyers and other requested partners to fulfil its service. We are not
+          a law firm or a substitute for an attorney or law firm. We cannot
+          provide any kind of advice, explanation, opinion, or recommendation
+          about possible legal rights, remedies, options, or selection of forms
+          or strategies. Your access to the website is subject to our Terms &
+          Conditions.
         </p>
-
       </footer>
     </div>
   )
