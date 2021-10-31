@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Blue from "../components/blue"
 import GreyAnimation from "../components/grey-animation"
+import Grey from "../components/grey"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
@@ -29,8 +30,8 @@ function Payroll() {
           interface
         </p>
       </Blue>
-      <GreyAnimation >
-        <h2>Payroll and HR Management</h2>
+      <Grey>
+        <h2 className='heading'>Payroll and HR Management</h2>
         <p>
           The perfect tool for managing international payroll and HR related
           tasks in multiple subsidiaries. Store all important employee data in
@@ -65,7 +66,7 @@ function Payroll() {
             },
           ]}
         />
-      </GreyAnimation>
+      </Grey>
 
       <ImageText
         size="medium"

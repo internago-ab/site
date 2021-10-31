@@ -71,25 +71,39 @@ function Contact() {
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="contact" value="contact" />
         <p>
-          <label>
-            Your Name: <input type="text" name="name" />
-          </label>
+          <label htmlFor="name" className="inputField"></label> <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
         </p>
         <p>
-          <label>
-            Your Email: <input type="email" name="email" required />
-          </label>
+          <label htmlFor="email" className="inputField"></label> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
         </p>
         <p>
-          <label>
-            Message: <textarea name="message" required></textarea>
-          </label>
+          <label htmlFor="message" className="inputField messageField"></label>{" "}
+          <br />
+          <textarea
+            id="message"
+            placeholder="Message"
+            name="message"
+            required
+          ></textarea>
         </p>
         <p>
-          <button className="cta-btn" type="submit">
-            Send message
-          </button>
+          <input type="submit" value="SEND" className="formButton" />
         </p>
       </form>
 
