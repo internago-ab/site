@@ -8,6 +8,7 @@ import Cta from "../components/cta"
 
 function Blog({ data, location }) {
     const allPosts = data.allMarkdownRemark.nodes
+    console.log(allPosts)
     const postsToDisplay = 6;
     const [posts, setPosts] = useState(allPosts)
     const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
@@ -20,7 +21,7 @@ function Blog({ data, location }) {
             window.history.pushState(filter, "", `blog?filter=${filter.toLowerCase()}`)
             document.querySelector("#categories").value = filter.toLowerCase()
         } 
-
+       
         setPosts(filter === "all" || !filter ?
             allPosts : 
             allPosts.filter(post => post.frontmatter.tags.includes(filter[0].toUpperCase() + filter.substring(1))))  
@@ -65,7 +66,7 @@ function Blog({ data, location }) {
 export default Blog;
 
 export const pageQuery = graphql`
-  query {
+  query  {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
@@ -83,3 +84,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

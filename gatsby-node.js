@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const countries = path.resolve(`./src/templates/country.js`)
+  const country = path.resolve(`./src/templates/country.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -38,6 +38,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               slug
             }
             frontmatter {
+              title
               type
             }
           }
@@ -68,7 +69,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       if (post.frontmatter.type === "country") {
         createPage({
           path: post.fields.slug,
-          component: countries,
+          component: country,
           context: {
             id: post.id,
             previousPostId,

@@ -20,3 +20,9 @@
         padding: var(--spacing-m);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .blue {
+        padding: var(--spacing-m) var(--spacing-xs);
+    }
+}

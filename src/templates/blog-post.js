@@ -18,6 +18,7 @@ const BlogPostTemplate = ({ data, location }) => {
   }, [])
 
   const post = data.markdownRemark
+
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   const latestPosts = data.allMarkdownRemark.nodes.slice(0, 5)
@@ -104,4 +105,5 @@ export const pageQuery = graphql`
       }
     }
   }
+  
 `

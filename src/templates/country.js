@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 
 const Country = ({ data, location }) => {
   const post = data.markdownRemark
-
+console.log(post)
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
@@ -55,4 +55,6 @@ export const pageQuery = graphql`
       }
     }
   }
+
+
 `
