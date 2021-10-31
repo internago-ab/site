@@ -10,7 +10,7 @@ function ContactIcon(props) {
         <li key={index} className="contact-icon-item">
           <img src={item.icon} alt="small icon"></img>
           <h3>{item.header}</h3>
-          <p className="paragraph">{item.text}</p>
+          <p>{item.text}</p>
           <div className={`cta-btn contact-icon-btn ${item.active}`}>
             {item.button && <a href={item.link}>{item.button}</a>}
           </div>
