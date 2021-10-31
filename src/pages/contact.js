@@ -65,16 +65,6 @@ function Contact() {
         text="You can always get in touch with Internago with any type of question – just fill in this form and we will get back to you!"
         image={devices}
       />
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-      >
-        <input name="name" type="text" placeholder="your name" />
-        <button>test</button>
-      </form>
-
       <Cta content="next" />
     </Layout>
   )

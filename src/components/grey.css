@@ -1,5 +1,6 @@
 .grey-top{
     margin-top: 0;
+    padding-top: 0;
     background-color: var(--light-grey);
     text-align: center;
 }
