@@ -8,10 +8,9 @@ import GreyAnimation from "../components/grey-animation"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageTabs from "../components/imagetabs"
-
+import Svg from "../components/svg"
 //Images
 import landingPageFirst from "../images/illustrations/landingpage-first.png"
-
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"
 import kitabsawti from "../images/clients/kitab-sawti.png"
@@ -20,7 +19,6 @@ import dedicare from "../images/clients/dedicare.png"
 import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
-
 //Icons
 import diagram from "../images/icons/diagram.png"
 import wifi from "../images/icons/wifi.png"
@@ -28,8 +26,6 @@ import calendar from "../images/icons/calendar.png"
 import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
-
-import Svg from "../components/svg"
 //animation
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -86,7 +82,7 @@ const Index = () => {
 
       <ImageTabs />
 
-      <GreyAnimation>
+      <GreyAnimation >
         <h2>Why Internago?</h2>
         <Icongrid
           content={[

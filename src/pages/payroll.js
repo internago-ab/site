@@ -25,27 +25,29 @@ function Payroll() {
       <Blue>
         <h1>Internago Payroll Portal</h1>
         <p>
-          Manage your payroll on multiple international markets with one online interface
+          Manage your payroll on multiple international markets with one online
+          interface
         </p>
       </Blue>
-     <GreyAnimation>
+      <GreyAnimation >
         <h2>Payroll and HR Management</h2>
         <p>
-   The perfect tool for managing international payroll and HR related tasks in multiple subsidiaries. Store all important employee data in one place. Increase your control and efficiency by using one online interface for all your international employees.
+          The perfect tool for managing international payroll and HR related
+          tasks in multiple subsidiaries. Store all important employee data in
+          one place. Increase your control and efficiency by using one online
+          interface for all your international employees.
         </p>
         <Icongrid
           content={[
-            {      
-                icon: calendartime,
+            {
+              icon: calendartime,
               text: "Absence and time management",
-    
             },
             {
               icon: expense,
               text: "Expense management",
             },
             {
-              
               icon: mobile,
               text: "Document sharing",
             },
@@ -55,8 +57,7 @@ function Payroll() {
             },
             {
               icon: stamp,
-              text:
-                "Fully configurable payroll workflow",
+              text: "Fully configurable payroll workflow",
             },
             {
               icon: simple,
@@ -65,7 +66,7 @@ function Payroll() {
           ]}
         />
       </GreyAnimation>
-     
+
       <ImageText
         size="medium"
         title="ShareDoc -Document management tool"

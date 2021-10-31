@@ -1,6 +1,6 @@
 .blue {
     background-color: var(--dark-blue);
-    padding: var(--spacing-m) var(--spacing-xxl);
+    padding: var(--spacing-l) var(--spacing-xxl);
     text-align: center;
 }
 
@@ -17,6 +17,6 @@
 
 @media only screen and (max-width: 1200px) {
     .blue {
-        padding: var(--spacing-s);
+        padding: var(--spacing-m);
     }
 }

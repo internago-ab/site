@@ -7,7 +7,7 @@
     list-style-type: none;
 }
 
-.icon-grid li h3{
+.icon-grid li h3 {
     margin-bottom: var(--spacing-xxs);
 }
 
@@ -21,7 +21,7 @@
     background: transparent;
 }
 
-.icon-item:hover{
+.icon-item:hover {
     border-top: 7px solid var(--dark-blue);
     transform: scale(1.05);
     -webkit-transition: all 0.8s ease-in;
@@ -30,7 +30,7 @@
     cursor: pointer;
     background: var(--white);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 8%);
-    -webkit-transition:  box-shadow 1s ease-in;
+    -webkit-transition: box-shadow 1s ease-in;
     border-radius: 5px;
 }
 
@@ -39,7 +39,7 @@
     margin-bottom: var(--spacing-xs);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .icon-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: var(--spacing-xs);

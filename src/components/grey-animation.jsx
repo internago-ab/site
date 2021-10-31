@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 
 import "./grey.css"
 
-function GreyAnimation({ children }) {
+function GreyAnimation({ children, props }) {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])

@@ -1,10 +1,9 @@
-
 .quotes-wrapper {
     text-align: center;
     padding-top: var(--spacing-m);
-    padding-right: var(--spacing-xl);
-    padding-left: var(--spacing-xl);
-  }
+    padding-right: var(--spacing-l);
+    padding-left: var(--spacing-l);
+}
 
 .quotes {
     background-color: var(--light-grey);
@@ -31,10 +30,6 @@
     .quotes-wrapper {
         display: flex;
         justify-content: space-around;
-      }
-
-    .quotes{
-        flex: 1;
     }
 
     .bottom {
@@ -47,6 +42,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+
+    .quotes-wrapper {
+        padding-right: var(--spacing-xl);
+        padding-left: var(--spacing-xl);
+    }
+
     .right {
         margin-right: 0;
     }
@@ -63,19 +65,19 @@
 
 
 @media screen and (max-width: 768px) {
- 
+
     .quotes-wrapper {
-      padding-right: var(--spacing-m);
-      padding-left: var(--spacing-m);
+        padding-right: var(--spacing-m);
+        padding-left: var(--spacing-m);
     }
 
-  }
-  
-  @media screen and (max-width: 600px) {
-  
+}
+
+@media screen and (max-width: 600px) {
+
     .quotes-wrapper {
-      padding-right: var(--spacing-xs);
-      padding-left: var(--spacing-xs);
+        padding-right: var(--spacing-xs);
+        padding-left: var(--spacing-xs);
     }
-  
-  }
+
+}
