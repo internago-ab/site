@@ -11,7 +11,8 @@
     list-style-type: none;
 }
 
-.contact-icon-grid li h3, .contact-icon-grid li p {
+.contact-icon-grid li h3,
+.contact-icon-grid li p {
     margin-bottom: var(--spacing-xxs);
 }
 
@@ -30,10 +31,59 @@
     display: inline-block;
 }
 
+/*country list mail*/
+
+.collapse {
+    margin-top: var(--spacing-m);
+    text-align: center;
+}
+
+.collapse-content {
+    width: auto;
+    height: auto;
+    margin-top: var(--spacing-xxs);
+    display: none;
+    justify-content: center;
+}
+
+.collapse-content ul {
+    box-shadow: 0 4px 4px rgb(0 0 0 / 8%);
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    list-style: none;
+    grid-gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-xl);
+}
+
+.collapse-content ul li {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.collapse-content ul li img{
+    margin-right: var(--spacing-xxs);
+    width: 30%;
+}
+
+.show {
+    display: flex;
+}
+
+.collapse-btn {
+    padding: var(--spacing-xs) var(--spacing-xs);
+    background: #ffffff;
+    color: rgb(101, 101, 101);
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 8%);
+    transition: all .3s;
+    border: none;
+}
+
 @media only screen and (max-width: 1600px) {
     .contact-icon-item {
         padding: var(--spacing-xxs);
-    }    
+    }
 }
 
 @media only screen and (max-width: 1200px) {
