@@ -46,6 +46,7 @@ button:hover {
     background-color: var(--white);
     list-style-type: "— ";
     list-style-position: inside;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 8%);
 }
 
 .tabs-info li {
