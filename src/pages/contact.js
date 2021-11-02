@@ -107,7 +107,7 @@ function Contact() {
       >
         <input type="hidden" name="contact" value="contact" />
         <p>
-          <label htmlFor="name" className="inputField"></label> <br />
+          <label htmlFor="name" className="inputField">Subject</label> <br />
           <input
             type="text"
             id="name"
@@ -116,7 +116,26 @@ function Contact() {
             required
           />
         </p>
-
+        <p>
+          <label htmlFor="email" className="inputField">Description</label> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+        </p>
+        <p>
+          <label htmlFor="message" className="inputField messageField"></label>{" "}
+          <br />
+          <textarea
+            id="message"
+            placeholder="Message"
+            name="message"
+            required
+          ></textarea>
+        </p>
         <p>
           <input type="submit" value="SEND" className="formButton" />
         </p>
