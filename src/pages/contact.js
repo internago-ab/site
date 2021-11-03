@@ -98,48 +98,47 @@ function Contact() {
         text="You can always get in touch with Internago with any type of question – just fill in this form and we will get back to you!"
         image={devices}
       />
-      <form
-        name="contact"
-        className="formBox"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="contact" value="contact" />
-        <p>
-          <label htmlFor="name" className="inputField">Subject</label> <br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
-        </p>
-        <p>
-          <label htmlFor="email" className="inputField">Description</label> <br />
-          <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            name="email"
-            required
-          />
-        </p>
-        <p>
-          <label htmlFor="message" className="inputField messageField"></label>{" "}
-          <br />
-          <textarea
-            id="message"
-            placeholder="Message"
-            name="message"
-            required
-          ></textarea>
-        </p>
-        <p>
-          <input type="submit" value="SEND" className="formButton" />
-        </p>
-      </form>
+      <section class="section medium">
+        <form
+          name="contact"
+          className="contact-form"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="contact" value="contact" />
+          <div className="input-flex">
+              
+            <p className="input-field">
+              <input type="text" id="name" name="name" required />
+              <label htmlFor="name" className="test">
+                Subject
+              </label>{" "}
+            </p>
+            <p className="input-field">
+              <input type="text" id="email" name="email" required />
+              <label htmlFor="email" className="testa">
+                Mail
+              </label>{" "}
+            </p>
+          </div>
+          <p className="input-field input-text">
+            <textarea
+              id="message"
+              name="message"
+              required
+            ></textarea>
+            <label htmlFor="message" className="inputField messageField">
+              message
+            </label>{" "}
+          </p>
+          <div className="cta-btn">
+            <button type="submit" value="SEND">
+              Send mail
+            </button>
+          </div>
+        </form>
+      </section>
       <Cta content="next" />
     </Layout>
   )
