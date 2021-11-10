@@ -1,8 +1,7 @@
 import React from "react"
-import { useState, useRef } from "react"
+import { useEffect, useState, useRef } from "react"
 import Chevron from "./chevron"
 import "./accordion.css"
-
 //flags
 import sweden from "../images/flags/sweden.png"
 import finland from "../images/flags/finland.png"
@@ -12,7 +11,14 @@ import italy from "../images/flags/italy.png"
 import germany from "../images/flags/germany.png"
 import holland from "../images/flags/holland.png"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 function Accordion() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const [setRotate, setRotateState] = useState("accordion-icon")
@@ -21,11 +27,7 @@ function Accordion() {
 
   function toggleAccordion() {
     setActiveState(setActive === "" ? "accordion-active" : "")
-    setHeightState(
-      setActive === "accordion-active"
-        ? "0px"
-        : "250px"
-    )
+    setHeightState(setActive === "accordion-active" ? "0px" : "250px")
     setRotateState(
       setActive === "accordion-active"
         ? "accordion-icon"
@@ -34,7 +36,11 @@ function Accordion() {
   }
   return (
     <section className="collapse section medium">
-      <div className={`collapse-btn ${setActive}`} onClick={toggleAccordion}>
+      <div
+        data-aos="fade-up"
+        className={`collapse-btn ${setActive}`}
+        onClick={toggleAccordion}
+      >
         <p className="accordion-title">
           show list of emails for our main markets
         </p>
