@@ -1,6 +1,6 @@
 import React from "react"
 import { useState, useRef } from "react"
-import Chevron from "./Chevron"
+import Chevron from "./chevron"
 import "./accordion.css"
 
 //flags
