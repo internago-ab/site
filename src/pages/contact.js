@@ -1,5 +1,4 @@
 import React from "react"
-import { useState } from "react"
 import "../components/contact.css"
 //components
 import Layout from "../components/layout"
@@ -9,20 +8,16 @@ import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 import ContactIcon from "../components/contact-icon"
 import Grey from "../components/grey"
+import Form from "../components/form"
+import Accordion from "../components/accordion"
 //images
 import devices from "../images/illustrations/contact-devices.png"
 //icons
 import board from "../images/icons/board.png"
 import puzzle from "../images/icons/puzzle.png"
 import mailbox from "../images/icons/mailbox.png"
-//flags
-import sweden from "../images/flags/sweden.png"
-import finland from "../images/flags/finland.png"
-import spain from "../images/flags/spain.png"
-import france from "../images/flags/france.png"
 
 function Contact() {
-  const [isOpen, setIsOpen] = useState(false)
   return (
     <Layout>
       <Seo title="Contact" />
@@ -65,32 +60,7 @@ function Contact() {
           />
         </div>
       </Grey>
-      <section className="collapse section medium">
-        <button className="collapse-btn" onClick={() => setIsOpen(!isOpen)}>
-          show list of emails for our main markets
-        </button>
-        <div className={isOpen ? "collapse-content show" : "collapse-content"}>
-          <ul>
-            <li>
-              <img src={finland} />
-              <a href="mailto:finland@internago.com">Finland</a>
-            </li>
-            <li>
-              <img src={france} />
-              <a href="mailto:finland@internago.com">France</a>
-            </li>
-            <li>Germany</li>
-            <li>
-              <img src={spain} />
-              <a href="mailto:finland@internago.com">Spain</a>
-            </li>
-            <li>
-              <img src={sweden} />
-              <a href="mailto:finland@internago.com">Sweden</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Accordion />
       <ImageText
         active="notactive"
         size="medium"
@@ -98,51 +68,7 @@ function Contact() {
         text="You can always get in touch with Internago with any type of question – just fill in this form and we will get back to you!"
         image={devices}
       />
-      <section class="section medium">
-      <form
-        name="contact"
-        className="formBox"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label htmlFor="name" className="inputField"></label> <br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            required
-          />
-        </p>
-        <p>
-          <label htmlFor="email" className="inputField"></label> <br />
-          <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            name="email"
-            required
-          />
-        </p>
-        <p>
-          <label htmlFor="message" className="inputField messageField"></label>{" "}
-          <br />
-          <textarea
-            id="message"
-            placeholder="Message"
-            name="message"
-            required
-          ></textarea>
-        </p>
-        <p>
-          <input type="submit" value="SEND" className="formButton" />
-        </p>
-      </form>
-       
-      </section>
+      <Form />
       <Cta content="next" />
     </Layout>
   )

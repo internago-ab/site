@@ -1,0 +1,117 @@
+.accordion__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion {
+    transition: background-color 0.6s ease;
+}
+
+.accordion-icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.accordion-title {
+    margin-right: var(--spacing-xs);
+}
+
+.accordion-content {
+    width: inherit;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+
+/*country list mail*/
+
+.collapse {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-m);
+    text-align: center;
+}
+
+.collapse-content {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: var(--spacing-xxs);
+    display: none;
+    justify-content: center;
+}
+
+.collapse-content ul {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    list-style: none;
+    column-gap: var(--spacing-m);
+    row-gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-xl);
+    background-color: var(--light-grey);
+}
+
+.collapse-content ul li {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+.collapse-content ul li img {
+    margin-right: var(--spacing-xxs);
+    width: 30%;
+}
+
+.show {
+    display: flex;
+}
+
+.collapse-btn {
+    margin-bottom: var(--spacing-xxs);
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-xs) var(--spacing-xs);
+    background: #ffffff;
+    color: rgb(101, 101, 101);
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 8%);
+    transition: all .3s;
+    border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .collapse-content ul {
+        padding: var(--spacing-xs) var(--spacing-l);
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .collapse-content ul {
+        padding: var(--spacing-xs) var(--spacing-l);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: var(--spacing-s);
+        row-gap: var(--spacing-xxs);
+    }
+    .collapse {
+        margin-top: var(--spacing-s);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .collapse-content ul {
+        padding: var(--spacing-xs) var(--spacing-m);
+    }
+
+    .collapse-btn {
+        padding: var(--spacing-xxs) var(--spacing-xs);
+    }
+}
