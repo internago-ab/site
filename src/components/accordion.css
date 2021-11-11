@@ -60,7 +60,6 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    text-decoration: underline;
 }
 
 .collapse-content ul li img {
