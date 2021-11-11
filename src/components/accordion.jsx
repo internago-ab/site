@@ -35,16 +35,16 @@ function Accordion() {
     )
   }
   return (
-    <section className="collapse section medium">
+    <section className="collapse section medium" data-aos="fade-up">
       <div
-        data-aos="fade-up"
+        
         className={`collapse-btn ${setActive}`}
         onClick={toggleAccordion}
       >
         <p className="accordion-title">
           show list of emails for our main markets
         </p>
-        <Chevron className={`${setRotate}`} width={10} fill={"#4E4E4E"} />
+        <Chevron className={`${setRotate}`} width={20} fill={"#4E4E4E"} />
       </div>
       <div
         ref={content}
