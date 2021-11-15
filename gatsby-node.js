@@ -29,24 +29,25 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
+          sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
-          nodes {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-              type
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                type
+              }
             }
           }
         }
       }
     `
   )
-
+ 
   if (result.errors) {
     reporter.panicOnBuild(
       `There was an error loading your blog posts`,
@@ -55,42 +56,40 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
+  const posts = result.data.allMarkdownRemark.edges
 
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
 
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+  posts.forEach((post, index) => {
+    const previous = index === posts.length - 1 ? null : posts[index + 1].node
+    const next = index === 0 ? null : posts[index - 1].node
 
-      if (post.frontmatter.type === "country") {
-        createPage({
-          path: post.fields.slug,
-          component: country,
-          context: {
-            id: post.id,
-            previousPostId,
-            nextPostId,
-          },
-        })
-      } else {
-        createPage({
-          path: post.fields.slug,
-          component: blogPost,
-          context: {
-            id: post.id,
-            previousPostId,
-            nextPostId,
-          },
-        })
-      }
-    })
-  }
+    if (post.node.frontmatter.type === 'country') {
+      createPage({
+        path: post.node.fields.slug,
+        component: country,
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    } else {
+      createPage({
+        path: post.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    }
+
+  })
 }
-
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 

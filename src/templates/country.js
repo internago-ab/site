@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import "./blog-post.css"
-import { useEffect } from "react"
 import CountryLanding from "../components/countries/country-landing"
 import FactsStats from "../components/countries/facts-and-stats"
 
@@ -10,17 +9,22 @@ import Seo from "../components/seo"
 
 const Country = ({ data, location }) => {
   const post = data.markdownRemark
-console.log(post)
+  console.log(post, "s")
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
+  const title = post.frontmatter.title
+  const description = post.frontmatter.description
+  console.log(post.html)
+
+  const capitalcity = post.frontmatter.capitalcity
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title={post.frontmatter.title} />
       <div>
-        <CountryLanding />
-        <FactsStats />
-        <h1>{post.frontmatter.title}</h1>
-        <a>{post.frontmatter.linklanding}</a>
+        <CountryLanding title={title} />
+        <FactsStats description={description} capitalcity={capitalcity} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      
       </div>
     </Layout>
   )
@@ -29,32 +33,23 @@ console.log(post)
 export default Country
 
 export const pageQuery = graphql`
-  query CountriesSlugBySlug($id: String!) {
+  query CountriesSlugBySlug($slug: String!) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        fields {
-          slug
-        }
-        frontmatter {
-          title
-        }
-      }
-    }
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
         description
+        capitalcity
       }
+      html
     }
   }
-
-
 `
