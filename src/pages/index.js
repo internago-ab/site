@@ -110,9 +110,9 @@ const Index = () => {
             },
             {
               icon: cloud,
-              header: "GDPR Compliant - your data is safe with us",
+              header: "GDPR Compliant",
               text:
-                "Share and exchange documents in a secure and GDPR certified manner.",
+                "Your data is safe with us. Share and exchange data and documents in a secure and GDPR certified manner.",
             },
             {
               icon: report,
