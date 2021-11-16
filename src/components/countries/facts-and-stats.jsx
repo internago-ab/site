@@ -1,18 +1,14 @@
 import React from "react"
 import "./country-landing.css"
 
-function FactsStats() {
+function FactsStats({description}) {
   return (
     <section className="section">
       <div className="imagetext medium facts-stats country-section">
         <div>
           <h2 className="heading">Country Facts</h2>
           <p className="paragraph">
-            Lorem ispum doler sit Lorem ispum doler sitLorem ispum doler
-            sitLorem ispum doler sitLorem ispum doler sitLorem ispum doler
-            sitLorem ispum doler sitLorem ispum doler sitLorem ispum doler
-            sitLorem ispum doler sitLorem ispum doler sitLorem ispum doler
-            sitLorem ispum doler sitLorem .
+            {description}
           </p>
         </div>
         <div className="facts-stats-img"></div>
