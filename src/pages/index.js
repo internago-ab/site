@@ -110,7 +110,7 @@ const Index = () => {
             },
             {
               icon: cloud,
-              header: "GDPR Compliant - Your data is safe with us",
+              header: "GDPR Compliant - your data is safe with us",
               text:
                 "Share and exchange documents in a secure and GDPR certified manner.",
             },
@@ -127,7 +127,7 @@ const Index = () => {
         reverse="rowreverse"
         size="medium"
         title="All salary data perfectly prepared"
-        text="Avoid working with excel sheets and handwritten checklists before every payroll date. All salary-relevant data is automatically transferred by Internago. Your job is just to check and approve."
+        text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
         image={landingPagePayroll}
         button="Read more"
         link="/services"
