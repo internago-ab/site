@@ -88,31 +88,31 @@ const Index = () => {
           content={[
             {
               icon: diagram,
-              header: "Easy overview",
+              header: "Online payroll",
               text:
-                "Online payroll - international payroll software for all your international operations",
+                "International payroll software for all your international operations",
             },
             {
               icon: wifi,
-              header: "Easy access",
+              header: "Local experts",
               text:
-                "Access and share all you information with one online interface",
+                "Internago is composed of a team of professionals in all countries where we operate.",
             },
             {
               icon: calendar,
               header: "Quick onboarding",
-              text: "Access montly reports from your subsidiaries each month",
+              text: "We onboard your employees fast and efficiently on new markets",
             },
             {
               icon: settings,
-              header: "GDPR compliant",
-              text: "Transfer data in a safe, secure and GDPR certified manner",
+              header: "Multiple international markets",
+              text: "One trusted partner on all your international markets",
             },
             {
               icon: cloud,
-              header: "Cloud-based",
+              header: "GDPR Compliant - Your data is safe with us",
               text:
-                "Set up, store and update employee contracts through our cloudbased solution",
+                "Share and exchange documents in a secure and GDPR certified manner.",
             },
             {
               icon: report,
@@ -126,9 +126,8 @@ const Index = () => {
       <ImageText
         reverse="rowreverse"
         size="medium"
-        title="We make the complex simple"
-        text="A complete range of services to support your international business.
-        We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions."
+        title="All salary data perfectly prepared"
+        text="Avoid working with excel sheets and handwritten checklists before every payroll date. All salary-relevant data is automatically transferred by Internago. Your job is just to check and approve."
         image={landingPagePayroll}
         button="Read more"
         link="/services"
