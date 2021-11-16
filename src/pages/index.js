@@ -117,7 +117,7 @@ const Index = () => {
             {
               icon: report,
               header: "Time saving",
-              text: "We take care of all your administrative needs",
+              text: "We take care of all time-consuming payroll tasks for you. ",
             },
           ]}
         />
