@@ -32,10 +32,10 @@ function Payroll() {
       <Grey>
         <h2 className='heading'>Payroll and HR Management</h2>
         <p>
-          The perfect tool for managing international payroll and HR related
-          tasks in multiple subsidiaries. Store all important employee data in
-          one place. Increase your control and efficiency by using one online
-          interface for all your international employees.
+          Let's be honest, international payroll is not fun, but it has to be done. We have the perfect tool for managing international payroll and HR related
+          tasks for your international employees. We let you store and manage all important employee and payroll data in
+          one place. In this way you will cncrease your control and efficiency by using one online
+          interface for all your international employees. Your job is simply to check and approve in the portal. 
         </p>
         <Icongrid
           content={[
