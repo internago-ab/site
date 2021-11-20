@@ -24,7 +24,8 @@ function Services() {
       <Blue>
         <h1>Internago Services</h1>
         <p>
-          Our experienced team can handle complex payroll in an international setting
+          Our experienced team can handle complex payroll in an international
+          setting
         </p>
       </Blue>
       <ImageText
@@ -39,9 +40,11 @@ function Services() {
       <GreyAnimation>
         <h2>Local support</h2>
         <p>
-          Our experienced team has worked in various industries and with a wide range of challenges. 
-             <br/>
-           We can take care of the time consuming and complex administrative tasks before, during and after you enter a new market. 
+          Our experienced team has worked in various industries and with a wide
+          range of challenges.
+          <br />
+          We can take care of the time consuming and complex administrative
+          tasks before, during and after you enter a new market.
         </p>
         <Tabs />
       </GreyAnimation>

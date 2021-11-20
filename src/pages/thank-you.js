@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+import Cta from "../components/cta"
 import "../components/thank-you.css"
 
 const ThankYouPage = () => (
@@ -18,6 +18,7 @@ const ThankYouPage = () => (
         </div>
       </div>
     </section>
+    <Cta content="next" />
   </Layout>
 )
 

@@ -3,7 +3,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../images/countries/finland.jpg);
 }
 
 .country-landing-main:after {
@@ -21,7 +20,8 @@
     z-index: 1;
 }
 
-.country-landing-content h1,  .country-landing-content p{
+.country-landing-content h1,
+.country-landing-content p {
     max-width: 600px;
     color: var(--white);
 }
@@ -29,57 +29,4 @@
 .country-section {
     align-items: center;
     display: flex;
-}
-
-.facts-stats {
-    position: relative;
-}
-
-.facts-stats-img {
-    width: 40%;
-    margin-left: var(--spacing-s);
-}
-
-.facts-stats-nr {
-    bottom: 100%;
-    left: auto;
-    color: var(--dark-blue);
-    line-height: 1.2em;
-    font-weight: var(--fontWeight-bold);
-    padding: 6px 0;
-    position: absolute;
-}
-
-.facts-stats-nr:before {
-    content: '';
-    width: 1px;
-    height: 100%;
-    padding: -5px;
-    border: 0.1px solid var(--dark-blue);
-    top: 0;
-}
-
-.facts-stats-table-main {
-    box-shadow: 0 4px 4px 3px rgb(0 0 0/8%);
-}
-
-.facts-stats-table {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    /* --borderColor: #cfd8e3; */
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
-    grid-template-columns: 1fr repeat(auto-fill, 100px) 300px;
-}
-
-.facts-stats-table li {
-    border: 1.5px solid var(--light-grey);
-    margin-top: -1.5px;
-    margin-left: -1.5px;
 }
