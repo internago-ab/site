@@ -12,12 +12,14 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const BlogPostTemplate = ({ data, location }) => {
-  console.log(data)
+  console.log(data, 'tetststtss')
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
 
   const post = data.markdownRemark
+  console.log(post, 'post')
+  
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
@@ -75,36 +77,35 @@ const BlogPostTemplate = ({ data, location }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-query BlogPostBySlug($slug: String!) {
-  site {
-    siteMetadata {
-      title
-    }
-  }
-  allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-    nodes {
-      fields {
-        slug
-      }
-      frontmatter {
+  query BlogPostBySlug($id: String!) {
+    site {
+      siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          tags
+        }
+      }
+    }
+    markdownRemark(id: { eq: $id }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        description
+        featuredimage
         tags
+        type
       }
     }
   }
-  markdownRemark(fields: { slug: { eq: $slug } }) {
-    id
-    excerpt(pruneLength: 160)
-    html
-    frontmatter {
-      date(formatString: "MMMM DD, YYYY")
-      title
-      description
-      featuredimage
-      tags
-    }
-  }
-  }
-
-
 `

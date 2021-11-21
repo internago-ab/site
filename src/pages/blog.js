@@ -8,6 +8,7 @@ import Cta from "../components/cta"
 
 function Blog({ data, location }) {
   const allPosts = data.allMarkdownRemark.nodes
+  
   console.log(allPosts)
   const postsToDisplay = 6
   const [posts, setPosts] = useState(allPosts)
@@ -106,7 +107,10 @@ export default Blog
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: {fields: [frontmatter___date], order: DESC}
+      filter: {frontmatter: {type: {eq: "blog"}}}
+    ) {
       nodes {
         excerpt
         fields {
@@ -118,8 +122,10 @@ export const pageQuery = graphql`
           description
           featuredimage
           tags
+          type
         }
       }
     }
   }
+  
 `

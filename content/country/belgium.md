@@ -3,7 +3,7 @@ title: "Belgium"
 description: "The Kingdom of Belgium (Dutch: Koninkrijk België) is a sovereign state, situated in western Europe, and split into three autonomous regions and 10 provinces.
 
 Ranking 14th on the human development index, and 17th on the GDP index, Belgium hosts one of Europe’s most vibrant labor markets, driven by a stable democracy & a diversified economy."
-featuredimage: /images/background/belgium.jpg
+bgimg: /images/background/belgium.jpg
 countryImg: /images/country/belgium.svg
 type: country
 ---
@@ -20,19 +20,21 @@ type: country
 </div>
 </div>
 
+<section class='section'>
+<div class='medium imagetext'>
+<div class='half'>
 
-<div>
+## Employing in Belgium
 
-### Heading level 3
-
- Although Belgium doesn’t have a codified employment law several labor regulations at the Federal level work in tandem to protect workers’ rights. Employees in Belgium enjoy protections against discrimination based on age, religion, sexual orientation, gender expression, and race.
-
-
+Although Belgium doesn’t have a codified employment law several labor regulations at the Federal level work in tandem to protect workers’ rights. Employees in Belgium enjoy protections against discrimination based on age, religion, sexual orientation, gender expression, and race.
 
 </div>
+</div>
+<div></div>
+<section>
+
+
 
 <div class='medium'>
 <img src="/images/city/belgium.jpg" alt="MarineGEO circle logo" style=" width:100%;"/>
 </div>
-
-

@@ -1,10 +1,10 @@
 import React from "react"
 import "./country-landing.css"
 
-function CountryLanding({ title, featuredimage }) {
+function CountryLanding({ title, bgimg }) {
   console.log(title)
   return (
-    <div className="country-landing-main country-section" style={{ backgroundImage: `url(${featuredimage})` }}>
+    <div className="country-landing-main country-section" style={{ backgroundImage: `url(${bgimg})` }}>
       <div className="medium country-landing-content">
         <h1 className="heading">
           Hire employees and contractors in {title}
