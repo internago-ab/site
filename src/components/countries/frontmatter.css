@@ -1,3 +1,77 @@
-.half{
+.country-top {
+    margin-top: var(--spacing-m);
+}
+
+.taxes-second {
+    margin-top: var(--spacing-xs);
+}
+
+.half,
+.taxes p {
     width: 50%;
+}
+
+.half h2,
+.taxes h2 {
+    padding-bottom: var(--spacing-xs);
+}
+
+.taxes-table {
+    padding-bottom: var(--spacing-s);
+    padding-top: var(--spacing-xs);
+}
+
+.taxes-table td:first-child {
+    width: 60%;
+}
+
+.taxes-table table td {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: var(--spacing-xxs);
+}
+
+.taxes-table p {
+    width: 100%;
+}
+
+.taxes-table td:last-child {
+    padding-left: 0;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+@media screen and (max-width: 768px) {
+
+    .half,
+    .taxes p {
+        width: 100%;
+    }
+
+    .country-top {
+        margin-top: var(--spacing-s);
+    }
+
+    .taxes-table td:first-child {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .taxes-third tr td:nth-child(1) {
+        display: none;
+    }
+
+    .taxes-table td:first-child {
+        width: 100%;
+    }
+
+    .taxes-table td:last-child {
+        padding-left: var(--spacing-xxs);
+    }
+}
+
+
+.city-img {
+    margin-top: -3.75rem;
 }

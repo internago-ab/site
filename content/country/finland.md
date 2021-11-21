@@ -19,3 +19,66 @@ type: country
 
 </div>
 </div>
+
+<section class='section'>
+<div class='medium imagetext'>
+<div class='half'>
+
+## Employing in Finland
+
+Finnish labor regulations are spelled out across several government statutes such as:
+
+- The Labour Safety Act (1958)
+- Annual Holidays Act (1973)
+- The Hours of Work Act (1996)
+- The Study Leave Act (1979), and,
+- The Act on Equality Between Men and Women
+
+</div>
+
+<div class='half'>
+
+Put together, these statutes define provisions for employee protections and workers’ rights applicable to Finland’s workforce of 2.5 million. Employees in Finland enjoy protections against discrimination based on age, religion, sexual orientation, gender expression, and race.
+
+</div>
+</div>
+</section>
+
+<section class='grey-country country-top'>
+<div class='section grey-inside-country medium taxes'>
+
+## Taxes in Finland
+
+Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Finland.
+
+<div class='taxes-table'>
+
+|                   |                                                       |
+| ----------------- | ----------------------------------------------------- |
+| <h3>Employer</h3> | <p><strong>Corporate income tax rate: 20%</strong>/p> |
+
+<div class='taxes-second'>
+
+|                   |                                                     |
+| ----------------- | --------------------------------------------------- |
+| <h3>Employee</h3> | <p><strong>Minimum 7.5% </strong>- Pension fund</p> |
+
+</div>
+
+<div class='taxes-third'>
+
+|     |                                                 |
+| --- | ----------------------------------------------- |
+|     | <p><strong>25%</strong> - up to 13,440 </p>     |
+|     | <p><strong>40% </strong>- 13,440 to 23,720 </p> |
+|     | <p><strong>45% </strong>- 23,720 to 41,060 </p> |
+|     | <p><strong>50% </strong>- more than 41,060 </p> |
+
+</div>
+</div>
+</div>
+</section>
+
+<div class='small section'>
+<img src="/images/city/belgium.jpg" alt="" style=" width:100%;" class='city-img'/>
+</div>

@@ -11,11 +11,11 @@ type: country
 <div class='section'>
 <div class='small table-wrapper'>
 
-|                                               |                                               |                                              |
-| --------------------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| <p>Capital city</p>Brussels                   | <p>Currency</p>Euro (€, EUR)                  | <p>Languages spoken</p>Dutch, French, German |
-| <p> Population size</p>11,492,641 (est. 2020) | <p>Ease of doing business</p>Very easy (2020) | <p>Cost of living index</p>78.52 (2021)      |
-| <p>Payroll frequency</p>Monthly               | <p>VAT - standard rate</p>21%                 | <p >GDP - real growth rate</p>1.7% (2019)    |
+|                                                                |                                                                |                                                               |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
+| <p>Capital city</p><strong>Brussels</strong>                   | <p>Currency</p><strong>Euro (€, EUR)</strong>                  | <p>Languages spoken</p><strong>Dutch, French, German</strong> |
+| <p> Population size</p><strong>11,492,641 (est. 2020)</strong> | <p>Ease of doing business</p><strong>Very easy (2020)</strong> | <p>Cost of living index</p><strong>78.52 (2021) </strong>     |
+| <p>Payroll frequency</p><strong>Monthly </strong>              | <p>VAT - standard rate</p><strong>21% </strong>                | <p >GDP - real growth rate</p><strong>1.7% (2019) </strong>   |
 
 </div>
 </div>
@@ -31,10 +31,44 @@ Although Belgium doesn’t have a codified employment law several labor regulati
 </div>
 </div>
 <div></div>
-<section>
 
+</section>
 
+<section class='grey-country country-top'>
+<div class='section grey-inside-country medium taxes'>
 
-<div class='medium'>
-<img src="/images/city/belgium.jpg" alt="" style=" width:100%;"/>
+## Taxes in Belgium
+
+Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Belgium.
+
+<div class='taxes-table'>
+
+|                   |                                           |
+| ----------------- | ----------------------------------------- |
+| <h3>Employer</h3> | <p><strong>9% </strong>- Pension fund</p> |
+
+<div class='taxes-second'>
+
+|                   |                                                     |
+| ----------------- | --------------------------------------------------- |
+| <h3>Employee</h3> | <p><strong>Minimum 7.5% </strong>- Pension fund</p> |
+
+</div>
+
+<div class='taxes-third'>
+
+|     |                                                 |
+| --- | ----------------------------------------------- |
+|     | <p><strong>25%</strong> - up to 13,440 </p>     |
+|     | <p><strong>40% </strong>- 13,440 to 23,720 </p> |
+|     | <p><strong>45% </strong>- 23,720 to 41,060 </p> |
+|     | <p><strong>50% </strong>- more than 41,060 </p> |
+
+</div>
+</div>
+</div>
+</section>
+
+<div class='small section'>
+<img src="/images/city/belgium.jpg" alt="" style=" width:100%;" class='city-img'/>
 </div>

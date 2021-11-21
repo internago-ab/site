@@ -30,3 +30,14 @@
     align-items: center;
     display: flex;
 }
+
+@media screen and (max-width: 1600px) {
+
+    .country-landing-main {
+        height: 80vh;
+    }
+
+    .country-landing-main:after {
+        height: 80vh;
+    }
+}
