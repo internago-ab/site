@@ -1,4 +1,6 @@
 .imagetext {
+  align-items: center;
+  display: flex;
   margin-top: var(--spacing-m);
 }
 
@@ -18,14 +20,8 @@ main .large {
 }
 
 .small {
-  margin-top: var(--spacing-xs);
   padding-left: var(--spacing-xxl);
   padding-right: var(--spacing-xxl);
-}
-
-.imagetext {
-  align-items: center;
-  display: flex;
 }
 
 .imagetext ul {
