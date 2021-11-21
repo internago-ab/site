@@ -36,5 +36,5 @@ Although Belgium doesn’t have a codified employment law several labor regulati
 
 
 <div class='medium'>
-<img src="/images/city/belgium.jpg" alt="MarineGEO circle logo" style=" width:100%;"/>
+<img src="/images/city/belgium.jpg" alt="" style=" width:100%;"/>
 </div>
