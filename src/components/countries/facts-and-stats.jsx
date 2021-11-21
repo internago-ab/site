@@ -7,10 +7,10 @@ function FactsStats({ description, countryImg }) {
       <div className="section grey-inside-country imagetext medium facts-stats country-section">
         <div>
           <h2 className="heading">Country Facts</h2>
-          <p className="paragraph">{description}</p>
+          <p>{description}</p>
         </div>
 
-        <img src={countryImg} alt='country'/>
+        <img src={countryImg} alt="country" />
       </div>
     </div>
   )
