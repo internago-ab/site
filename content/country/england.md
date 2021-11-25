@@ -46,7 +46,7 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 | ----------------- | ------------------------------------------------- |
 | <h3>Employer</h3> | <p><strong>Minimum 3% - Pension Fund</strong></p> |
 
-<div class='taxes-third'>
+<div class='taxes-content'>
 
 |     |                                                                |
 | --- | -------------------------------------------------------------- |
@@ -64,7 +64,7 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 
 </div>
 
-<div class='taxes-third'>
+<div class='taxes-content'>
 
 |     |                                               |
 | --- | --------------------------------------------- |

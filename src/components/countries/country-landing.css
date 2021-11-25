@@ -1,5 +1,5 @@
 .country-landing-main {
-    height: 70vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,10 +34,10 @@
 @media screen and (max-width: 1600px) {
 
     .country-landing-main {
-        height: 80vh;
+        height: 90vh;
     }
 
     .country-landing-main:after {
-        height: 80vh;
+        height: 90vh;
     }
 }
