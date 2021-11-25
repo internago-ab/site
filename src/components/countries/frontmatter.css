@@ -11,6 +11,28 @@
     width: 50%;
 }
 
+.second-half {
+    margin-left: var(--spacing-s);
+}
+
+.half-text {
+    display: flex;
+    margin-top: var(--spacing-m);
+}
+
+.half-text ul{
+list-style: none;
+}
+
+.half-text li::before {
+    content: '';
+    display: inline-block;
+    height: 11px;
+    width: 40px;
+    background-image: url('../../images/icons/arrow-svg.svg');
+    background-repeat: no-repeat;
+}
+
 .half h2,
 .taxes h2 {
     padding-bottom: var(--spacing-xs);
@@ -48,6 +70,10 @@
         width: 100%;
     }
 
+    .half {
+        margin-bottom: var(--spacing-xs);
+    }
+
     .country-top {
         margin-top: var(--spacing-s);
     }
@@ -55,10 +81,19 @@
     .taxes-table td:first-child {
         width: 50%;
     }
+
+    .half-text {
+        display: block;
+        margin-top: var(--spacing-s);
+    }
+
+    .second-half {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .taxes-third tr td:nth-child(1) {
+    .taxes-content tr td:nth-child(1) {
         display: none;
     }
 
@@ -74,4 +109,7 @@
 
 .city-img {
     margin-top: -3.75rem;
+    max-height: 450px;
+    object-fit: cover;
+
 }

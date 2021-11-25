@@ -11,7 +11,7 @@ type: country
 <div class='section'>
 <div class='small table-wrapper'>
 
-|                                                                |                                                                |                                                               |
+|                                                            |                                                                |                                                               |
 | -------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
 | <p>Capital city</p><strong>Brussels</strong>                   | <p>Currency</p><strong>Euro (€, EUR)</strong>                  | <p>Languages spoken</p><strong>Dutch, French, German</strong> |
 | <p> Population size</p><strong>11,492,641 (est. 2020)</strong> | <p>Ease of doing business</p><strong>Very easy (2020)</strong> | <p>Cost of living index</p><strong>78.52 (2021) </strong>     |
@@ -55,7 +55,7 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 
 </div>
 
-<div class='taxes-third'>
+<div class='taxes-content'>
 
 |     |                                                 |
 | --- | ----------------------------------------------- |

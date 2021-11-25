@@ -12,14 +12,13 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const BlogPostTemplate = ({ data, location }) => {
-  console.log(data, 'tetststtss')
+  console.log(data, "tetststtss")
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
 
   const post = data.markdownRemark
-  console.log(post, 'post')
-  
+  console.log(post, "post")
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
@@ -83,7 +82,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "blog" } } }
+    ) {
       nodes {
         fields {
           slug

@@ -4,11 +4,6 @@
     display: flex;
 }
 
-.facts-stats div,
-.facts-stats img {
-    padding-bottom: var(--spacing-s);
-}
-
 .grey-country {
     background-color: var(--light-grey);
 }
@@ -47,6 +42,7 @@ td {
 }
 
 table td {
+    max-width: 100px;
     border: 1px solid #dee2e6;
 }
 
@@ -91,6 +87,10 @@ table td {
     .imagetext.medium.facts-stats img {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    table td {
+        max-width: inherit;
     }
 
     td {
