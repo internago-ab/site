@@ -204,4 +204,8 @@
     .circle {
         bottom: -10px;
     }
+
+    .tabs-main {
+       margin-top: var(--spacing-xs);
+    }
 }

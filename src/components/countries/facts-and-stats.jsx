@@ -9,7 +9,6 @@ function FactsStats({ description, countryImg }) {
           <h2 className="heading">Country Facts</h2>
           <p>{description}</p>
         </div>
-
         <img src={countryImg} alt="country" />
       </div>
     </div>

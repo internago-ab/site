@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import "./blog-post.css"
 import CountryLanding from "../components/countries/country-landing"
@@ -11,8 +12,10 @@ import "../components/countries/frontmatter.css"
 const Country = ({ data, location }) => {
   const post = data.markdownRemark
   console.log(post)
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  let test = document.querySelector(".loadmore")
+  console.log(test, "e")
 
+  const siteTitle = data.site.siteMetadata?.title || `Title`
   const title = post.frontmatter.title
   const description = post.frontmatter.description
   const countryImg = post.frontmatter.countryImg

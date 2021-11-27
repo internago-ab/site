@@ -10,9 +10,9 @@ function CountryLanding({ title, bgimg }) {
     >
       <div className="medium country-landing-content">
         <h1 className="heading">Hire employees and contractors in {title}</h1>
-        <p className="paragraph">Remote’s guide to employing in {title}.</p>
+        <p className="paragraph">Our guide to employing in {title}.</p>
         <div className="cta-btn">
-          <a href="#">Contact us</a>
+          <a href="mailto:info@internago.com">Contact us</a>
         </div>
       </div>
     </div>

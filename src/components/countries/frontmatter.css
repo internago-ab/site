@@ -15,13 +15,16 @@
     margin-left: var(--spacing-s);
 }
 
-.half-text {
-    display: flex;
+.employing {
     margin-top: var(--spacing-m);
 }
 
-.half-text ul{
-list-style: none;
+.half-text {
+    display: flex;
+}
+
+.half-text ul {
+    list-style: none;
 }
 
 .half-text li::before {
@@ -33,8 +36,8 @@ list-style: none;
     background-repeat: no-repeat;
 }
 
-.half h2,
-.taxes h2 {
+.employing h2,
+.table-wrapper h2 {
     padding-bottom: var(--spacing-xs);
 }
 
@@ -47,11 +50,20 @@ list-style: none;
     width: 60%;
 }
 
-.taxes-table table td {
+.holidays-table td:first-child {
+    width: 30%;
+}
+
+.taxes-table table td,
+.holidays-table table td {
     border-top: none;
     border-right: none;
     border-left: none;
     padding: var(--spacing-xxs);
+}
+
+.holidays-table table td {
+    border: none;
 }
 
 .taxes-table p {
@@ -61,6 +73,10 @@ list-style: none;
 .taxes-table td:last-child {
     padding-left: 0;
     border-bottom: 1px solid var(--dark-blue);
+}
+
+.holidays-table td:last-child {
+    border-left: 1px solid #dee2e6;
 }
 
 @media screen and (max-width: 768px) {
@@ -84,11 +100,14 @@ list-style: none;
 
     .half-text {
         display: block;
-        margin-top: var(--spacing-s);
     }
 
     .second-half {
         margin-left: 0;
+    }
+
+    .holidays-table {
+        padding-top: var(--spacing-xs);
     }
 }
 
@@ -103,6 +122,20 @@ list-style: none;
 
     .taxes-table td:last-child {
         padding-left: var(--spacing-xxs);
+    }
+
+    .holidays-table td h3:last-child {
+        padding-top: var(--spacing-xxs);
+        border-top: 1px solid #dee2e6;
+    }
+
+    .holidays-table td:last-child {
+        border-left: none;
+    }
+
+    .holidays-table table td:first-child {
+        padding-bottom: 0;
+        padding-top: 0;
     }
 }
 

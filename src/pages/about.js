@@ -16,7 +16,10 @@ function About() {
       <Blue>
         <h1>Internago - Who are we?</h1>
         <p>
-     Internago is strongly driven by technology and innovation and constantly strives to make our customers' lives easier by reducing their administrative burden to a minimum with increased control by digitalization.
+          Internago is strongly driven by technology and innovation and
+          constantly strives to make our customers' lives easier by reducing
+          their administrative burden to a minimum with increased control by
+          digitalization.
         </p>
       </Blue>
       <ImageText
@@ -24,9 +27,9 @@ function About() {
         reverse="rowreverse"
         size="medium"
         title="Mindset"
-        text="Internago was founded with the objective to reduce administrative work and make your international business simple with increased control by digitalization.
+        text=" Internago is a service and Saas company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience and the founders' passion for technology and sustainability in business were the main pillars when starting Internago. 
         </br></br>
-         This is why we developed the Internago Payroll Portal, we realized that a digital payroll portal to streamline the payroll was needed to make life easier for our customers. This enables our customers to save time and keep control over their payroll on many markets from one digital interface."
+        With Internago you get a trusted partner providing a one point of entry for your international business. To simplify international payroll Internago created their own web platform. A platform providing full support for the payroll process in multiple countries. By using the platform clients save valuable time by getting full transparency when administrating and managing personnel on multiple markets. We’re on a journey to modernise cross border payroll. Join us on this journey today!"
         image={AboutVision}
       />
       <ImageText
