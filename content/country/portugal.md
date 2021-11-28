@@ -7,7 +7,7 @@ type: country
 ---
 
 <div class='section'>
-<div class='small table-wrapper'>
+<div class='small table-top'>
 
 |                                                            |                                                                       |                                                               |
 | ---------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -54,31 +54,31 @@ There is no law that states that employment contracts have to be in written, exc
 </section>
 
 <section class='grey-country country-top'>
-<div class='section grey-inside-country medium table-wrapper'>
+<div class='section grey-inside-country medium '>
 
 ## List of Public Holidays
 
-<div class='holidays-table'>
+<div class='holidays-table holiday-first'>
 
-|                                       |                                       |
-| ------------------------------------- | ------------------------------------- |
-| <p><strong>Date</strong></p>          | <p><strong>Holiday Name </strong></p> |
-| <p><strong>1st January</strong></p>   | <p>New Years Day</p>                  |
-| <p><strong>2nd April</strong></p>     | <p>Good Friday</p>                    |
-| <p><strong>4th April</strong></p>     | <p>Easter Sunday </p>                 |
-| <p><strong>25th April</strong></p>    | <p>Freedom Day</p>                    |
-| <p><strong>1st May</strong></p>       | <p>Labour Day </p>                    |
-| <p><strong>24th May</strong></p>      | <p>Day of the Azores</p>              |
-| <p><strong>3rd June</strong></p>      | <p>Corpus Christi</p>                 |
-| <p><strong>10th June</strong></p>     | <p>Portugal Day </p>                  |
-| <p><strong>24th June</strong></p>     | <p>Feast of St. John the Baptist</p>  |
-| <p><strong>1st July</strong></p>      | <p>Madeira Day</p>                    |
-| <p><strong>5th October</strong></p>   | <p>Republic Day</p>                   |
-| <p><strong>1st November</strong></p>  | <p>All Saints Day</p>                 |
-| <p><strong>1st December</strong></p>  | <p>Restoration of Independence</p>    |
-| <p><strong>8th December</strong></p>  | <p>Immaculate Conception Day</p>      |
-| <p><strong>25th December</strong></p> | <p>Christmas Day</p>                  |
-| <p><strong>26th December</strong></p> | <p>Christmas Holiday</p>              |
+|                                       |                                      |
+| ------------------------------------- | ------------------------------------ |
+| <strong>Date</strong>                 | <strong>Holiday Name </strong>       |
+| <p><strong>1st January</strong></p>   | <p>New Years Day</p>                 |
+| <p><strong>2nd April</strong></p>     | <p>Good Friday</p>                   |
+| <p><strong>4th April</strong></p>     | <p>Easter Sunday </p>                |
+| <p><strong>25th April</strong></p>    | <p>Freedom Day</p>                   |
+| <p><strong>1st May</strong></p>       | <p>Labour Day </p>                   |
+| <p><strong>24th May</strong></p>      | <p>Day of the Azores</p>             |
+| <p><strong>3rd June</strong></p>      | <p>Corpus Christi</p>                |
+| <p><strong>10th June</strong></p>     | <p>Portugal Day </p>                 |
+| <p><strong>24th June</strong></p>     | <p>Feast of St. John the Baptist</p> |
+| <p><strong>1st July</strong></p>      | <p>Madeira Day</p>                   |
+| <p><strong>5th October</strong></p>   | <p>Republic Day</p>                  |
+| <p><strong>1st November</strong></p>  | <p>All Saints Day</p>                |
+| <p><strong>1st December</strong></p>  | <p>Restoration of Independence</p>   |
+| <p><strong>8th December</strong></p>  | <p>Immaculate Conception Day</p>     |
+| <p><strong>25th December</strong></p> | <p>Christmas Day</p>                 |
+| <p><strong>26th December</strong></p> | <p>Christmas Holiday</p>             |
 
 <button class='loadmore'>load more</button>
 
