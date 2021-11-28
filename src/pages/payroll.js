@@ -32,36 +32,36 @@ function Payroll() {
       <Grey>
         <h2 className='heading'>Payroll and HR Management</h2>
         <p>
-          The perfect tool for managing international payroll and HR related
-          tasks in multiple subsidiaries. Store all important employee data in
-          one place. Increase your control and efficiency by using one online
-          interface for all your international employees.
+          Let's be honest, international payroll is not fun, but it has to be done. We have the perfect tool for managing international payroll and HR related
+          tasks for your international employees. We let you store and manage all important employee and payroll data in
+          one place. In this way you will cncrease your control and efficiency by using one online
+          interface for all your international employees. Your job is simply to check and approve in the portal. 
         </p>
         <Icongrid
           content={[
             {
               icon: calendartime,
-              text: "Absence and time management",
+              text: "Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets",
             },
             {
               icon: expense,
-              text: "Expense management",
+              text: "Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets",
             },
             {
               icon: mobile,
-              text: "Document sharing",
+              text: "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place",
             },
             {
               icon: speech,
-              text: "Multi language",
+              text: "Our portal comes in multiple languages. We easily integrate a new language according to your needs.",
             },
             {
               icon: stamp,
-              text: "Fully configurable payroll workflow",
+              text: "Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specfic needs and payroll workflow.",
             },
             {
               icon: simple,
-              text: "Mobile device login and real time notiflications",
+              text: "Access your payroll data and employee data at any time from anywhere thanks to our mobile device login and real time notiflications",
             },
           ]}
         />
@@ -69,7 +69,7 @@ function Payroll() {
 
       <ImageText
         size="medium"
-        title="ShareDoc -Document management tool"
+        title="Share documents tool"
         text=" Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online.
         </br></br>
         
@@ -97,7 +97,7 @@ function Payroll() {
         link="mailto:info@internago.com"
       />
       <div className="quotes-wrapper">
-        <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
+        <Quotes text="The Share document tool module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
       <Cta content="next" />
     </Layout>
