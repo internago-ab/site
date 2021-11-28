@@ -107,88 +107,90 @@ const Layout = ({ children }) => {
         </div>
 
         <ul className="desktop-menu">
-  
-      
-        <ul class="menu what-we-offer">
-         
-          <li class="has-dropdown what-we-offer">
-          
-            <li className='menu-link'>
-              What we offer{" "}
-              <svg
-                className="toggle-icon"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
-                  fill="#4E4E4E"
-                />
-              </svg>
-            </li>
-         
-            <ul class="submenu">
-            <li>
-                <Link to="/services">Services</Link>
-              </li>
-              <li>
-                <Link to="/payroll">Payroll portal</Link>
-              </li>
-              <li class="has-dropdown">
-                <li class="menu-link">Countries
+          <ul class="menu what-we-offer">
+            <li class="has-dropdown what-we-offer">
+              <li className="menu-link">
+                What we offer{" "}
                 <svg
-                className="toggle-icon"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
-                  fill="#4E4E4E"
-                />
-              </svg>
+                  className="toggle-icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                    fill="#4E4E4E"
+                  />
+                </svg>
+              </li>
+
+              <ul class="submenu">
+                <li>
+                  <Link to="/services">Services</Link>
                 </li>
-                <ul class="submenu">
-                  <li><a href="#" class="menu-link">Wordpress Development</a></li>
-                  <li><a href="#" class="menu-link">Front End Development</a></li>
-                  <li><a href="#" class="menu-link">Back End Development</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-         
-        </ul>
-   
-          <ul className="what-we-offer">
-            <li>
-              What we offer{" "}
-              <svg
-                className="toggle-icon"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
-                  fill="#4E4E4E"
-                />
-              </svg>
+                <li>
+                  <Link to="/payroll">Payroll portal</Link>
+                </li>
+                <li class="has-dropdown menu-link">
+                 
+                    Countries
+                    <svg
+                      className="toggle-icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                        fill="#4E4E4E"
+                      />
+                    </svg>
+                 
+                  <ul class="submenu">
+                    <li>
+                      <Link to="/belgium">Belgium</Link>
+                    </li>
+                    <li>
+                      <Link to="/england">England</Link>
+                    </li>
+                    <li>
+                      <Link to="/finland">Finland</Link>
+                    </li>
+                    <li>
+                      <Link to="/france">France</Link>
+                    </li>
+                    <li>
+                      <Link to="/germany">Germany</Link>
+                    </li>
+                    <li>
+                      <Link to="/hungary">Hungary</Link>
+                    </li>
+                    <li>
+                      <Link to="/italy">Italy</Link>
+                    </li>
+                    <li>
+                      <Link to="/netherlands">Netherlands</Link>
+                    </li>
+                    <li>
+                      <Link to="/portugal">Portugal</Link>
+                    </li>
+                    <li>
+                      <Link to="/spain">Spain</Link>
+                    </li>
+                    <li>
+                      <Link to="/sweden">Sweden</Link>
+                    </li>
+                    <li>
+                      <Link to="/switzerland">Switzerland</Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </li>
-            <ul className="what-we-offer-submenu">
-              <li>
-                <Link to="/services">Services</Link>
-              </li>
-              <li>
-                <Link to="/payroll">Payroll portal</Link>
-              </li>
-            </ul>
           </ul>
           <li>
             <Link to="/blog?filter=all">Blogs and News</Link>
