@@ -107,6 +107,63 @@ const Layout = ({ children }) => {
         </div>
 
         <ul className="desktop-menu">
+  
+      
+        <ul class="menu what-we-offer">
+         
+          <li class="has-dropdown what-we-offer">
+          
+            <li className='menu-link'>
+              What we offer{" "}
+              <svg
+                className="toggle-icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                  fill="#4E4E4E"
+                />
+              </svg>
+            </li>
+         
+            <ul class="submenu">
+            <li>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/payroll">Payroll portal</Link>
+              </li>
+              <li class="has-dropdown">
+                <li class="menu-link">Countries
+                <svg
+                className="toggle-icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                  fill="#4E4E4E"
+                />
+              </svg>
+                </li>
+                <ul class="submenu">
+                  <li><a href="#" class="menu-link">Wordpress Development</a></li>
+                  <li><a href="#" class="menu-link">Front End Development</a></li>
+                  <li><a href="#" class="menu-link">Back End Development</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+         
+        </ul>
+   
           <ul className="what-we-offer">
             <li>
               What we offer{" "}
@@ -131,7 +188,6 @@ const Layout = ({ children }) => {
               <li>
                 <Link to="/payroll">Payroll portal</Link>
               </li>
-              
             </ul>
           </ul>
           <li>

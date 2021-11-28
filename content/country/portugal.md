@@ -18,7 +18,7 @@ type: country
 </div>
 </div>
 
-<section class='section medium employing'>
+<section class='section medium employing table-header'>
 
 ## Employing in Portugal
 
@@ -54,7 +54,7 @@ There is no law that states that employment contracts have to be in written, exc
 </section>
 
 <section class='grey-country country-top'>
-<div class='section grey-inside-country medium '>
+<div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays
 
@@ -79,8 +79,6 @@ There is no law that states that employment contracts have to be in written, exc
 | <p><strong>8th December</strong></p>  | <p>Immaculate Conception Day</p>     |
 | <p><strong>25th December</strong></p> | <p>Christmas Day</p>                 |
 | <p><strong>26th December</strong></p> | <p>Christmas Holiday</p>             |
-
-<button class='loadmore'>load more</button>
 
 </div>
 </div>
@@ -108,7 +106,7 @@ There is no law that states that employment contracts have to be in written, exc
 </section>
 
 <section class='grey-country country-top'>
-<div class='section grey-inside-country medium table-wrapper'>
+<div class='section grey-inside-country medium table-wrapper table-header'>
 
 ## Taxes in Portugal
 

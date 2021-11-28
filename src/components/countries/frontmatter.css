@@ -36,13 +36,11 @@
     background-repeat: no-repeat;
 }
 
-.employing h2,
-.table-wrapper h2 {
+.table-header h2 {
     padding-bottom: var(--spacing-xs);
 }
 
 .taxes-table {
-    padding-bottom: var(--spacing-s);
     padding-top: var(--spacing-xs);
 }
 
@@ -83,7 +81,17 @@
     border-left: 1px solid #dee2e6;
 }
 
+.city-img {
+    margin-top: -3.75rem;
+    max-height: 450px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
+
+    .city-img {
+        margin-top: -1.75rem;
+    }
 
     .half,
     .taxes p {
@@ -109,13 +117,12 @@
     .second-half {
         margin-left: 0;
     }
-
-    .holidays-table {
-        padding-top: var(--spacing-xs);
-    }
 }
 
+
+
 @media screen and (max-width: 600px) {
+
     .taxes-content tr td:nth-child(1) {
         display: none;
     }
@@ -156,9 +163,3 @@
 }
 
 
-.city-img {
-    margin-top: -3.75rem;
-    max-height: 450px;
-    object-fit: cover;
-
-}
