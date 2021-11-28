@@ -42,8 +42,8 @@ const Index = () => {
       <ImageText
         margin="large"
         size="large"
-        title="HR management made easy"
-        text="We are strongly driven by technology and innovation and we constantly strive to make our customers life easier by reducing their administrative burden to a minimum with increased control by digitalization."
+        title="International payroll - local experts"
+        text="Be efficient and save valuable time by managing your international payroll with Internago. A one-stop solution for managing your international employees"
         image={landingPageFirst}
         imagesize="imglarge"
         button="Book a demo"
@@ -88,36 +88,36 @@ const Index = () => {
           content={[
             {
               icon: diagram,
-              header: "Easy overview",
+              header: "Online payroll",
               text:
-                "Online payroll - international payroll software for all your international operations",
+                "International payroll software for all your international operations",
             },
             {
               icon: wifi,
-              header: "Easy access",
+              header: "Local experts",
               text:
-                "Access and share all you information with one online interface",
+                "Internago is composed of a team of professionals in all countries where we operate.",
             },
             {
               icon: calendar,
               header: "Quick onboarding",
-              text: "Access montly reports from your subsidiaries each month",
+              text: "We onboard your employees fast and efficiently on new markets",
             },
             {
               icon: settings,
-              header: "GDPR compliant",
-              text: "Transfer data in a safe, secure and GDPR certified manner",
+              header: "Multiple international markets",
+              text: "One trusted partner on all your international markets",
             },
             {
               icon: cloud,
-              header: "Cloud-based",
+              header: "GDPR Compliant",
               text:
-                "Set up, store and update employee contracts through our cloudbased solution",
+                "Your data is safe with us. Share and exchange data and documents in a secure and GDPR certified manner.",
             },
             {
               icon: report,
               header: "Time saving",
-              text: "We take care of all your administrative needs",
+              text: "We take care of all time-consuming payroll tasks for you. ",
             },
           ]}
         />
@@ -126,9 +126,8 @@ const Index = () => {
       <ImageText
         reverse="rowreverse"
         size="medium"
-        title="We make the complex simple"
-        text="A complete range of services to support your international business.
-        We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions."
+        title="All salary data perfectly prepared"
+        text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
         image={landingPagePayroll}
         button="Read more"
         link="/services"

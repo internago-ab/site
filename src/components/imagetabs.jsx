@@ -119,10 +119,9 @@ const Tab = () => {
               )}`}
             >
               <p>
-                Simplify the preboarding process by gathering all critical
-                employee data, digitalize the signing process, hand out tasks
-                and give your candidates a proper introduction to the company
-                and team members.
+                Simplify the onboarding process by gathering all critical
+                employee and payroll data, and upload it into Internago Web Portal.
+              
               </p>
               <a className="img-tabs-link" href="/">Read more</a>
             </div>
@@ -134,9 +133,8 @@ const Tab = () => {
               )}`}
             >
               <p>
-                Store all important employee data in one place. Get a 360 degree
-                view of critical personal information, promotions, salaries,
-                feedback sessions, employment contracts, timesheets and absence.
+                Store all important payroll and employee data in one place. Get a 360 degree
+                view of critical personal information, promotions, salaries, employment contracts, insurance documents and absences.
               </p>
               <a className="img-tabs-link" href="/">Read more</a>
             </div>
@@ -147,9 +145,9 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Put your HR on autopilot. Define approval processes, delegate
-                tasks and make sure no one misses important meetings or events.
-                The perfect HR tool to quickly identify bottle necks and ensure
+                Put your payroll on autopilot. Define approval processes, delegate
+                tasks and make sure no one misses important deadlines.
+                The perfect payroll tool to quickly identify bottle necks and ensure
                 smooth processes.
               </p>
               <a className="img-tabs-link" href="/">Read more</a>
@@ -162,9 +160,8 @@ const Tab = () => {
             >
               <p className="">
                 Use analytics to make data-driven decisions and become more
-                proactive in your daily work. Hailey HR keeps all employee data
-                in one place and makes it easier for HR organizations to elevate
-                their HR game.
+                proactive in your daily work. Intenrago keeps all payroll data
+                in one place and makes it easier for your company to control your international employees
               </p>
               <a className="img-tabs-link" href="/">Read more</a>
             </div>
