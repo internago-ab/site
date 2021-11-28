@@ -83,7 +83,7 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 |     | <p><strong>11.00% </strong>- 10,085 - 25,710</p>                                     |
 |     | <p><strong>30.00% </strong>- 25,711 - 73,516</p>                                     |
 |     | <p><strong>41.00% </strong>- 73,517 - 158,122</p>                                    |
-|     | <p><strong>45.00% </strong>- over 158,123</p>                                        |
+|     | <p><strong>45.00% </strong>- over 158,12</p>                                        |
 
 </div>
 </div>
