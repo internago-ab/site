@@ -12,8 +12,6 @@ import "../components/countries/frontmatter.css"
 const Country = ({ data, location }) => {
   const post = data.markdownRemark
   console.log(post)
-  let test = document.querySelector(".loadmore")
-  console.log(test, "e")
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const title = post.frontmatter.title
