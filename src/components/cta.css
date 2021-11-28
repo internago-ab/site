@@ -15,12 +15,16 @@ section.cta img {
 }
 
 section.cta .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background-color: var(--light-blue);
     line-height: var(--lineHeight);
     padding: var(--spacing-m) var(--spacing-xl);
 }
 
 section.cta .content p {
+    max-width: 800px;
     margin: var(--spacing-xs) 0;
     color: var(--black)
 }

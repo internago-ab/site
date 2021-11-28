@@ -2,6 +2,9 @@
     background-color: var(--dark-blue);
     padding: var(--spacing-l) var(--spacing-xxl);
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .blue h1,
@@ -13,6 +16,10 @@
 .blue h2,
 .blue p {
     color: var(--white);
+}
+
+.blue p {
+    max-width: 800px;
 }
 
 @media only screen and (max-width: 1200px) {

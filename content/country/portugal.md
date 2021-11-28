@@ -7,7 +7,7 @@ type: country
 ---
 
 <div class='section'>
-<div class='small table-wrapper'>
+<div class='small table-top'>
 
 |                                                            |                                                                       |                                                               |
 | ---------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -18,14 +18,19 @@ type: country
 </div>
 </div>
 
-<section class='section'>
-<div class='medium half-text'>
-<div class='half'>
+<section class='section medium employing'>
 
 ## Employing in Portugal
 
+<div class=' half-text'>
+
+<div class='half'>
+
+<div>
+
 Much of the EU’s legal system with regards to employment is similarly applied in Portugal. Also its directives regulating labour relations originate in the EU and are thus very similar to many EU neighbours. When it comes to the regulatory landscape surrounding collective labour, Portugal also uses collective employment contracts. Foreigners employed in Portugal have strong legal protection, and are on equal terms with local portuguese employees.
 
+</div>
 </div>
 
 <div class='half second-half'>
@@ -48,14 +53,62 @@ There is no law that states that employment contracts have to be in written, exc
 
 </section>
 
-<section>
+<section class='grey-country country-top'>
+<div class='section grey-inside-country medium '>
 
+## List of Public Holidays
 
+<div class='holidays-table holiday-first'>
 
+|                                       |                                      |
+| ------------------------------------- | ------------------------------------ |
+| <strong>Date</strong>                 | <strong>Holiday Name </strong>       |
+| <p><strong>1st January</strong></p>   | <p>New Years Day</p>                 |
+| <p><strong>2nd April</strong></p>     | <p>Good Friday</p>                   |
+| <p><strong>4th April</strong></p>     | <p>Easter Sunday </p>                |
+| <p><strong>25th April</strong></p>    | <p>Freedom Day</p>                   |
+| <p><strong>1st May</strong></p>       | <p>Labour Day </p>                   |
+| <p><strong>24th May</strong></p>      | <p>Day of the Azores</p>             |
+| <p><strong>3rd June</strong></p>      | <p>Corpus Christi</p>                |
+| <p><strong>10th June</strong></p>     | <p>Portugal Day </p>                 |
+| <p><strong>24th June</strong></p>     | <p>Feast of St. John the Baptist</p> |
+| <p><strong>1st July</strong></p>      | <p>Madeira Day</p>                   |
+| <p><strong>5th October</strong></p>   | <p>Republic Day</p>                  |
+| <p><strong>1st November</strong></p>  | <p>All Saints Day</p>                |
+| <p><strong>1st December</strong></p>  | <p>Restoration of Independence</p>   |
+| <p><strong>8th December</strong></p>  | <p>Immaculate Conception Day</p>     |
+| <p><strong>25th December</strong></p> | <p>Christmas Day</p>                 |
+| <p><strong>26th December</strong></p> | <p>Christmas Holiday</p>             |
+
+<button class='loadmore'>load more</button>
+
+</div>
+</div>
+</section>
+
+<div class='small section'>
+<img src="/images/city/portugal.jpg" alt="" style=" width:100%;" class='city-img'/>
+</div>
+
+<section class='section country-top medium'>
+<div class='holidays'>
+
+<div class='holidays-table'>
+
+|                       |                                                                                                                                                                                                                         |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h3>Minimum wage</h3> | <p>The nationwide minimum wage in Portugal in 2021 is 665 euro / month. This applies both to locally hired Portuguese employees and employees working on a Temporary Stay Visa or a Residence Visa for Local Hires.</p> |
+
+|                         |                                                                                                                                                                                                                                                    |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h3>Salary payouts</h3> | <p>Payroll in Portugal is usually run on a monthly basis and wages are paid out before the last day of every month. <br>Portugal also has mandatory 13th and 14th salary payouts, which are to be paid to all employees in June and December. </p> |
+
+</div>
+</div>
 </section>
 
 <section class='grey-country country-top'>
-<div class='section grey-inside-country medium taxes'>
+<div class='section grey-inside-country medium table-wrapper'>
 
 ## Taxes in Portugal
 
@@ -87,7 +140,3 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 </div>
 </div>
 </section>
-
-<div class='small section'>
-<img src="/images/city/portugal.jpg" alt="" style=" width:100%;" class='city-img'/>
-</div>
