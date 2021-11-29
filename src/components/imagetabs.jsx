@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import landingPageFirst from "../images/illustrations/landingpage-first.png"
 import "./imagetabs.css"
 
@@ -6,7 +6,6 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const Tab = () => {
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -31,6 +30,7 @@ const Tab = () => {
               "active-content"
             )}`}
             src={landingPageFirst}
+            alt="computer"
           />
           <div
             className={`tab-img content-slider circle ${getActiveClass(
@@ -46,6 +46,7 @@ const Tab = () => {
               "active-content"
             )}`}
             src={landingPageFirst}
+            alt="computer"
           />
           <div
             className={`tab-img content-slider circle ${getActiveClass(
@@ -61,6 +62,7 @@ const Tab = () => {
               "active-content"
             )}`}
             src={landingPageFirst}
+            alt="computer"
           />
           <div
             className={`tab-img content-slider circle ${getActiveClass(
@@ -76,6 +78,7 @@ const Tab = () => {
               "active-content"
             )}`}
             src={landingPageFirst}
+            alt="computer"
           />
           <div
             className={`tab-img content-slider circle ${getActiveClass(
@@ -120,10 +123,12 @@ const Tab = () => {
             >
               <p>
                 Simplify the onboarding process by gathering all critical
-                employee and payroll data, and upload it into Internago Web Portal.
-              
+                employee and payroll data, and upload it into Internago Web
+                Portal.
               </p>
-              <a className="img-tabs-link" href="/">Read more</a>
+              <a className="img-tabs-link" href="/">
+                Read more
+              </a>
             </div>
 
             <div
@@ -133,10 +138,14 @@ const Tab = () => {
               )}`}
             >
               <p>
-                Store all important payroll and employee data in one place. Get a 360 degree
-                view of critical personal information, promotions, salaries, employment contracts, insurance documents and absences.
+                Store all important payroll and employee data in one place. Get
+                a 360 degree view of critical personal information, promotions,
+                salaries, employment contracts, insurance documents and
+                absences.
               </p>
-              <a className="img-tabs-link" href="/">Read more</a>
+              <a className="img-tabs-link" href="/">
+                Read more
+              </a>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -145,12 +154,14 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Put your payroll on autopilot. Define approval processes, delegate
-                tasks and make sure no one misses important deadlines.
-                The perfect payroll tool to quickly identify bottle necks and ensure
-                smooth processes.
+                Put your payroll on autopilot. Define approval processes,
+                delegate tasks and make sure no one misses important deadlines.
+                The perfect payroll tool to quickly identify bottle necks and
+                ensure smooth processes.
               </p>
-              <a className="img-tabs-link" href="/">Read more</a>
+              <a className="img-tabs-link" href="/">
+                Read more
+              </a>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -161,9 +172,12 @@ const Tab = () => {
               <p className="">
                 Use analytics to make data-driven decisions and become more
                 proactive in your daily work. Intenrago keeps all payroll data
-                in one place and makes it easier for your company to control your international employees
+                in one place and makes it easier for your company to control
+                your international employees
               </p>
-              <a className="img-tabs-link" href="/">Read more</a>
+              <a className="img-tabs-link" href="/">
+                Read more
+              </a>
             </div>
           </div>
         </div>

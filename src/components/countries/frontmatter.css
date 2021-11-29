@@ -81,13 +81,31 @@
     border-left: 1px solid #dee2e6;
 }
 
+.holidays-table{
+    margin-bottom: var(--spacing-m);
+}
+
 .city-img {
-    margin-top: -3.75rem;
+    margin-top: -6.25rem;
     max-height: 450px;
     object-fit: cover;
 }
 
+@media screen and (max-width: 1400px){
+    .holidays-table{
+        margin-bottom: var(--spacing-s);
+    }
+
+    .city-img {
+        margin-top: -3.75rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
+
+    .holidays-table{
+        margin-bottom: 0;
+    }
 
     .city-img {
         margin-top: -1.75rem;

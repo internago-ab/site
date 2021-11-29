@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useEffect } from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import "./blog-post.css"
 import CountryLanding from "../components/countries/country-landing"
 import FactsStats from "../components/countries/facts-and-stats"

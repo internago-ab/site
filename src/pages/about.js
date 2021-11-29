@@ -26,18 +26,10 @@ function About() {
         active="notactive"
         reverse="rowreverse"
         size="medium"
-        title="Mindset"
+        title="About us"
         text=" Internago is a service and Saas company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience and the founders' passion for technology and sustainability in business were the main pillars when starting Internago. 
         </br></br>
         With Internago you get a trusted partner providing a one point of entry for your international business. To simplify international payroll Internago created their own web platform. A platform providing full support for the payroll process in multiple countries. By using the platform clients save valuable time by getting full transparency when administrating and managing personnel on multiple markets. We’re on a journey to modernise cross border payroll. Join us on this journey today!"
-        title="About us"
-        text="Internago is a service and Saas company founded in Sweden 2017. 
-    The co-founders have a profound knowledge of working with international clients on international markets. 
-    This experience and the founders' passion for technology and sustainability in business were the main pillars when starting Internago.
-   </b> With Internago you get a trusted partner providing a one point of entry for your international business.
-    </b>To simplify international payroll Internago created their own web platform. a platform providing full support for the payroll process in multiple countries. 
-   </b> By using the platform clients save valuable time by getting full transparency when administrating and managing personnel on multiple markets.
-    We’re on a journey to modernise cross border payroll. Join us on this journey today!"
         image={AboutVision}
       />
       <ImageText
