@@ -55,31 +55,31 @@ function Accordion() {
         <div className="collapse-content show">
           <ul>
             <li>
-              <img src={finland} />
+              <img src={finland} alt='flag-finland'/>
               <a href="mailto:finland@internago.com">Finland</a>
             </li>
             <li>
-              <img src={france} />
+              <img src={france} alt='flag-france'/>
               <a href="mailto:finland@internago.com">France</a>
             </li>
             <li>
-              <img src={spain} />
+              <img src={spain} alt='flag-spain'/>
               <a href="mailto:finland@internago.com">Spain</a>
             </li>
             <li>
-              <img src={sweden} />
+              <img src={sweden} alt='flag-sweden'/>
               <a href="mailto:finland@internago.com">Sweden</a>
             </li>
             <li>
-              <img src={italy} />
+              <img src={italy} alt='flag-italy'/>
               <a href="mailto:finland@internago.com">Italy</a>
             </li>
             <li>
-              <img src={holland} />
+              <img src={holland} alt='flag-holland'/>
               <a href="mailto:finland@internago.com">Holland</a>
             </li>
             <li>
-              <img src={germany} />
+              <img src={germany} alt='flag-germany'/>
               <a href="mailto:finland@internago.com">Germany</a>
             </li>
           </ul>
