@@ -80,7 +80,7 @@ const Layout = ({ children }) => {
 
           <ul
             className="mobile-menu"
-            style={{ height: menuDisplayed ? 240 : 0 }}
+            style={{ height: menuDisplayed ? 260 : 0 }}
           >
             <li>
               <Link to="/">Home</Link>
@@ -97,10 +97,10 @@ const Layout = ({ children }) => {
             <li>
               <Link to="/about">About us</Link>
             </li>
-            <ul class="menu what-we-offer">
-              <li class="has-dropdown what-we-offer">
+            <ul className="menu what-we-offer">
+              <li className="has-dropdown what-we-offer">
                 <li className="menu-link">
-                  What we offer{" "}
+                  Countries{" "}
                   <svg
                     className="toggle-icon"
                     width="24"
@@ -116,66 +116,45 @@ const Layout = ({ children }) => {
                   </svg>
                 </li>
 
-                <ul class="submenu">
-                  <li>
-                    <Link to="/services">Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/payroll">Payroll portal</Link>
-                  </li>
-                  <li class="has-dropdown menu-link">
-                    Countries
-                    <svg
-                      className="toggle-icon"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
-                        fill="#4E4E4E"
-                      />
-                    </svg>
-                    <ul class="submenu">
-                      <li>
-                        <Link to="/belgium">Belgium</Link>
-                      </li>
-                      <li>
-                        <Link to="/england">England</Link>
-                      </li>
-                      <li>
-                        <Link to="/finland">Finland</Link>
-                      </li>
-                      <li>
-                        <Link to="/france">France</Link>
-                      </li>
-                      <li>
-                        <Link to="/germany">Germany</Link>
-                      </li>
-                      <li>
-                        <Link to="/hungary">Hungary</Link>
-                      </li>
-                      <li>
-                        <Link to="/italy">Italy</Link>
-                      </li>
-                      <li>
-                        <Link to="/netherlands">Netherlands</Link>
-                      </li>
-                      <li>
-                        <Link to="/portugal">Portugal</Link>
-                      </li>
-                      <li>
-                        <Link to="/spain">Spain</Link>
-                      </li>
-                      <li>
-                        <Link to="/sweden">Sweden</Link>
-                      </li>
-                      <li>
-                        <Link to="/switzerland">Switzerland</Link>
-                      </li>
-                    </ul>
+                <ul className="submenu">
+                  <li className="has-dropdown menu-link">
+                    <li>
+                      <Link to="/belgium">Belgium</Link>
+                    </li>
+                    <li>
+                      <Link to="/england">England</Link>
+                    </li>
+                    <li>
+                      <Link to="/finland">Finland</Link>
+                    </li>
+                    <li>
+                      <Link to="/france">France</Link>
+                    </li>
+                    <li>
+                      <Link to="/germany">Germany</Link>
+                    </li>
+                    <li>
+                      <Link to="/hungary">Hungary</Link>
+                    </li>
+                    <li>
+                      <Link to="/italy">Italy</Link>
+                    </li>
+                    <li>
+                      <Link to="/netherlands">Netherlands</Link>
+                    </li>
+                    <li>
+                      <Link to="/portugal">Portugal</Link>
+                    </li>
+                    <li>
+                      <Link to="/spain">Spain</Link>
+                    </li>
+                    <li>
+                      <Link to="/sweden">Sweden</Link>
+                    </li>
+                    <li>
+                      <Link to="/switzerland">Switzerland</Link>
+                    </li>
+                    <ul className="submenu"></ul>
                   </li>
                 </ul>
               </li>
@@ -190,8 +169,8 @@ const Layout = ({ children }) => {
         </div>
 
         <ul className="desktop-menu">
-          <ul class="menu what-we-offer">
-            <li class="has-dropdown what-we-offer">
+          <ul className="menu what-we-offer">
+            <li className="has-dropdown what-we-offer">
               <li className="menu-link">
                 What we offer{" "}
                 <svg
@@ -209,14 +188,14 @@ const Layout = ({ children }) => {
                 </svg>
               </li>
 
-              <ul class="submenu">
+              <ul className="submenu">
                 <li>
                   <Link to="/services">Services</Link>
                 </li>
                 <li>
                   <Link to="/payroll">Payroll portal</Link>
                 </li>
-                <li class="has-dropdown menu-link">
+                <li className="has-dropdown menu-link">
                   Countries
                   <svg
                     className="toggle-icon"
@@ -231,7 +210,7 @@ const Layout = ({ children }) => {
                       fill="#4E4E4E"
                     />
                   </svg>
-                  <ul class="submenu">
+                  <ul className="submenu">
                     <li>
                       <Link to="/belgium">Belgium</Link>
                     </li>

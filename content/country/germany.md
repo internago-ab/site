@@ -1,38 +1,80 @@
 ---
 title: "Germany"
-description: "Germany (German: Deutschland), officially the Federal Republic of Germany (German: Bundesrepublik Deutschland), is a country in Central and Western Europe. Germany is a great power with a strong economy; it has the largest economy in Europe, the world's fourth-largest economy by nominal GDP, and the fifth-largest by PPP. As a global leader in several industrial and technological sectors, it is both the world's third-largest exporter and importer of goods."
+description: "The Federal Republic of Germany is a member of the European Union and the Eurozone, the UN, the Group of Seven, the G20, NATO and the OECD. Its nominal GDP in 2021 was 4.319 trillion USD, which makes it the fourth largest economy in the world. Its Human Development Index is at 0.947, which is categorized as very high, with a global ranking of 6th."
 bgimg: /images/background/germany.jpg
 countryImg: /images/country/germany.svg
 type: country
 ---
 
 <div class='section'>
-<div class='small table-wrapper'>
+<div class='small table-top'>
 
-|                                               |                                        |                                                  |
-| --------------------------------------------- | -------------------------------------- | ------------------------------------------------ |
-| <p>Capital city</p>Berlin                     | <p>Currency</p>Euro (€, EUR)           | <p>Language spoken</p>German                     |
-| <p> Population size</p>83,149,300 (2019 est.) | <p>Ease of doing business</p>Very easy | <p>Cost of living index</p>$$$                   |
-| <p>Payroll frequency</p>Monthly               | <p>VAT - standard rate</p>19%          | <p >GDP - real growth rate</p>1.425% (2018 est.) |
+|                                                             |                                                                       |                                                              |
+| ----------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| <p>Capital</p><strong>Berlin</strong>                       | <p>Currency</p><strong>Euro (EUR)</strong>                            | <p>Language spoken</p><strong>German</strong>                |
+| <p>Population size (2020)</p><strong>83,24 million</strong> | <p>Ease of doing business (world bank ranking)</p><strong>22</strong> | <p>Cost of living index(2021)</p><strong>70,62</strong>      |
+| <p>Payroll frequency</p><strong>Monthly</strong>            | <p>VAT - standard rate</p><strong>19%</strong>                        | <p >GDP - real growth rate(2020) </p><strong>-4,57%</strong> |
 
 </div>
 </div>
 
-<section class='section'>
-<div class='medium half-text'>
-<div class='half'>
+<section class='section medium employing table-header'>
 
 ## Employing in Germany
 
-Employment law in Germany is not contained under a single law. Instead it is governed by statutory regulations codified in (among other laws) the German Civil Code, then furthermore governed by various federal acts such as the Part-time and Fixed-term Work Act, Employee Leasing Act, Holidays Act, Act on Maternity Protection and the Dismissal Protection Act. Furthermore, collective labour law through codetermination, trade unions and collective bargaining plays a role.
+<div class=' half-text'>
+<div class='half'>
 
-German employment law provides strong labor conditions and protections for employees, so employing people will generally be an important investment and commitment.
+<div>
 
+To enable running a local payroll in Germany companies must register the new business with the local municipality’s authorities. These include:
+
+- <p>Local Trade Office (Gewerbeamt)</p>
+- <p>Trade Register (Handelsregister)</p>
+- <p>Local Tax Office (Finanzamt)</p>
+- <p>Relevant Professional Chamber</p>
+- <p>Employer's Liability Insurance Association (Berufsgenossenschaft)</p>
+
+<br>
+
+Although registration with the Trade Office automatically leads to the Tax Office, Trade Register and Employer's Liability Insurance Association being informed, it is generally recommended to follow up on this as a company too, to ensure registrations are complete.
+
+<br>
+
+A local tax number (Steuernummer) is issued to the company once registered with the Tax Office. Similarly, a registration in the relevant Employer’s Liability Insurance Association leads to the company acquiring a membership number (Unfallversicherungsnummer) once its first employee is hired. It is also obligatory to register for an operation number (Betriebsnummer) at the job agency (Agentur für Arbeit).
+
+<br>
+
+These three (Steuernummer, Unfallversicherungsnummer and Betriebsnummer) are all required for correct communication and payments with respect to the company’s social security obligations.
+
+</div>
 </div>
 
 <div class='half second-half'>
 
-Temporary agencies are popular options for more flexible workforce arrangements. For these and many other reasons, the following are only guidelines in the broadest sense, and professional legal services are recommended when employing in Germany.
+Trade union (Gewerkschaft) membership is constitutionally protected in Germany and collective agreement are in most cases obligatory.
+<br>
+German employees must, by law, be given a written employment contract that mentions key components of the employment relationship. This includes:
+
+- <p>Parties to the contract</p>
+- <p>The employee’s work tasks</p>
+- <p>Gross salary and benefits</p>
+- <p>Annual leave</p>
+- <p>Entitlement</p>
+- <p>Start date of employment</p>
+- <p>Working location</p>
+- <p>Notice periods</p>
+
+<br>
+
+Usually, terms and conditions based on Collective Bargaining Agreements’ frameworks are also included.
+
+<br><br>
+The employer must register all new employees for social insurance. Such registration, (with a health insurance company) has to be completed within six weeks of the employee being hired.
+<br><br>
+Employers are also responsible, on behalf of the employee, for the continued collection of a so called “capital formation savings payment” (Vermögenswirksame Leistungen), which should be run through the payroll. The employee chooses what insurer he/she wants to use for this.
+<br><br>
+New employees must also be registered with Germany’s Electronic Payroll Tax Deduction Characteristics (known as ELStAM) before the first payroll is run.
 
 </div>
 </div>
@@ -40,57 +82,103 @@ Temporary agencies are popular options for more flexible workforce arrangements.
 </section>
 
 <section class='grey-country country-top'>
-<div class='section grey-inside-country medium taxes'>
+<div class='section grey-inside-country medium table-header'>
 
-## Taxes in Germany
+## List of Public Holidays
 
-Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Germany.
+<div class='holidays-table holiday-first'>
 
-<div class='taxes-table'>
-
-|                   |                                         |
-| ----------------- | --------------------------------------- |
-| <h3>Employer</h3> | <p><strong>9.30% </strong>- Pension</p> |
-
-<div class='taxes-content'>
-
-|     |                                                                    |
-| --- | ------------------------------------------------------------------ |
-|     | <p><strong>7.30%</strong> - Old Age Insurance </p>                 |
-|     | <p><strong>1.53% </strong>- Health insurance </p>                  |
-|     | <p><strong>5.25% or 2.45% </strong>- Family Benefits </p>          |
-|     | <p><strong>4.05% (ceiling of €13,244) </strong>- Unemployment </p> |
-|     | <p><strong>0.30% </strong>- Autonomy Solidarity Contribution</p>   |
-|     | <p><strong>0.15% </strong>- AGS (Wage Guarantee Insurance)</p>     |
-
-</div>
-
-<div class='taxes-second'>
-
-|                   |                                                            |
-| ----------------- | ---------------------------------------------------------- |
-| <h3>Employee</h3> | <p><strong> 9.20% </strong>- Social Security Surcharge</p> |
-
-</div>
-
-<div class='taxes-content'>
-
-|     |                                                                                      |
-| --- | ------------------------------------------------------------------------------------ |
-|     | <p><strong>0.68%</strong> - Health insurance (1.86% for salaries above €14,766) </p> |
-|     | <p><strong>6.90% (ceiling of €3,311) </strong>- Old Age Insurance </p>               |
-|     | <p><strong>0% </strong>- Up to 10,084 </p>                                           |
-|     | <p><strong>11.00% </strong>- 10,085 - 25,710</p>                                     |
-|     | <p><strong>30.00% </strong>- 25,711 - 73,516</p>                                     |
-|     | <p><strong>41.00% </strong>- 73,517 - 158,122</p>                                    |
-|     | <p><strong>45.00% </strong>- over 158,123</p>                                        |
-
-</div>
+|                                     |                                |
+| ----------------------------------- | ------------------------------ |
+| <strong>Date</strong>               | <strong>Holiday Name </strong> |
+| <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
+| <p><strong>15 April</strong></p>    | <p>April Good Friday</p>       |
+| <p><strong>17 April</strong></p>    | <p>April Easter Sunday</p>     |
+| <p><strong>18 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>1 May</strong></p>       | <p>Labour Day</p>              |
+| <p><strong>26 May</strong></p>      | <p>Ascension Day</p>           |
+| <p><strong>6 June</strong></p>      | <p>Whit Monday</p>             |
+| <p><strong>3 October</strong></p>   | <p>German Unity Day</p>        |
+| <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
+| <p><strong>26 December</strong></p> | <p>2nd Day of Christmas</p>    |
 
 </div>
 </div>
 </section>
 
 <div class='small section'>
-<img src="/images/city/france.jpg" alt="" style=" width:100%;" class='city-img'/>
+<img src="/images/city/germany.jpg" alt="" style=" width:100%;" class='city-img'/>
 </div>
+
+<section class='section country-top medium'>
+<div class='holidays'>
+
+<div class='holidays-table'>
+
+|                       |                                                                                                                                                                                                                                                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <h3>Minimum wage</h3> | <p>The Minimum Wage Act (Mindestlohngesetz- MiLoG) sets the National Minimum wage as 9.60 Euro / h, which is to be increased to 9.82 Euro / h on 1st January 2022 and to 10.45 Euro / h on 1st July 2022. On top of this many different minimum rates are applied due to sector-specific collective bargaining agreements.</p> |
+
+|                         |                                                                                                                                                                         |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h3>Salary payouts</h3> | <p>In Germany, salaries are typically paid out on a monthly basis, and usually on the 1st or 15th of month. Note that there is an additional 13th month pay period.</p> |
+
+</div>
+</div>
+</section>
+
+<section class='grey-country country-top'>
+<div class='section grey-inside-country medium table-wrapper table-header'>
+
+## Taxes in Germany
+
+<div class='taxes-p'>
+
+Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Germany
+
+</div>
+
+<div class='taxes-table'>
+
+|                   |                                                                       |
+| ----------------- | --------------------------------------------------------------------- |
+| <h3>Employer</h3> | <p>Corporate income tax rate <strong>: Ca 22.83 - 36.83%</strong></p> |
+
+<div class='taxes-content'>
+
+|     |                                                                                                                                                                                                                                                                                                                            |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | <p>Corporation tax (Körperschaftsteuer) starts at a rate of 15%, with a so called solidarity surcharge added at 5.5% of this amount, which corresponds to a total rate of 15.825%. On top of this are the local trade taxes, depending on the municipality the company is located in, which varies between 7% and 21%.</p> |
+|     | <p>Health insurance <strong>: 7.30%</strong></p>                                                                                                                                                                                                                                                                           |
+|     | <p>Pension Insurance <strong>: 9.30%</strong></p>                                                                                                                                                                                                                                                                          |
+|     | <p>Unemployment Insurance <strong>: 1.20%</strong></p>                                                                                                                                                                                                                                                                     |
+|     | <p>Long-term care insurance (employees aged 23 or older) <strong>: 1.525%</strong></p>                                                                                                                                                                                                                                     |
+|     | <p>Insolvency Charge <strong>: 0.12%</strong></p>                                                                                                                                                                                                                                                                          |
+|     | <p>Total employer cost <strong>: 19.45%</strong></p>                                                                                                                                                                                                                                                                       |
+
+</div>
+
+<div class='taxes-second'>
+
+|                   |                                                  |
+| ----------------- | ------------------------------------------------ |
+| <h3>Employee</h3> | <p>Health insurance <strong>: 7.30%</strong></p> |
+
+<div class='taxes-content'>
+
+|     |                                                                                                                         |
+| --- | ----------------------------------------------------------------------------------------------------------------------- |
+|     | <p>Pension Insurance% <strong>: 9.30%</strong></p>                                                                      |
+|     | <p>Health insurance <strong>: 7.30%</strong></p>                                                                        |
+|     | <p>Unemployment Insurance <strong>: 1.20%</strong></p>                                                                  |
+|     | <p>Care Insurance (employees aged 23 or older) <strong>: 1.525%</strong></p>                                            |
+|     | <p>Long-term care insurance (employees aged 23 or older) <strong>: 1.525%</strong></p>                                  |
+|     | <p>\* (effective once the employee reaches 23 years of age and is increased to 1.775% for employees with no children<p> |
+|     | <p>Total employer cost <strong>: 19.33%</strong></p>                                                                    |
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
