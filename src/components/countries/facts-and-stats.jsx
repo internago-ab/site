@@ -14,11 +14,11 @@ function FactsStats({ description, countryImg }) {
         className="section grey-inside-country imagetext medium facts-stats country-section"
         data-aos="fade-up"
       >
-        <div>
+        <div className="country-inside">
           <h2 className="heading">Country Facts</h2>
           <p>{description}</p>
         </div>
-        <img src={countryImg} alt="country" />
+        <img src={countryImg} alt="country" className="country-inside" />
       </div>
     </div>
   )

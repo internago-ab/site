@@ -41,26 +41,32 @@ function Payroll() {
           content={[
             {
               icon: calendartime,
+              header: "Time and absence",
               text: "Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets",
             },
             {
               icon: expense,
+              header: "Expense Management",
               text: "Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets",
             },
             {
               icon: mobile,
+              header: "Share documents",
               text: "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place",
             },
             {
               icon: speech,
+              header: "Multilingual",
               text: "Our portal comes in multiple languages. We easily integrate a new language according to your needs.",
             },
             {
               icon: stamp,
+              header: "Payroll workflow",
               text: "Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specfic needs and payroll workflow.",
             },
             {
               icon: simple,
+              header: "Access 24/7",
               text: "Access your payroll data and employee data at any time from anywhere thanks to our mobile device login and real time notiflications",
             },
           ]}

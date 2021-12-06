@@ -9,7 +9,11 @@ import spain from "../images/flags/spain.png"
 import france from "../images/flags/france.png"
 import italy from "../images/flags/italy.png"
 import germany from "../images/flags/germany.png"
-import holland from "../images/flags/holland.png"
+import netherlands from "../images/flags/netherlands.png"
+import belgium from "../images/flags/belgium.png"
+import switzerland from "../images/flags/switzerland.png"
+import portugal from "../images/flags/portugal.png"
+import hungary from "../images/flags/hungary.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -27,7 +31,7 @@ function Accordion() {
 
   function toggleAccordion() {
     setActiveState(setActive === "" ? "accordion-active" : "")
-    setHeightState(setActive === "accordion-active" ? "0px" : "250px")
+    setHeightState(setActive === "accordion-active" ? "0px" : "650px")
     setRotateState(
       setActive === "accordion-active"
         ? "accordion-icon"
@@ -36,11 +40,7 @@ function Accordion() {
   }
   return (
     <section className="collapse section medium" data-aos="fade-up">
-      <div
-        
-        className={`collapse-btn ${setActive}`}
-        onClick={toggleAccordion}
-      >
+      <div className={`collapse-btn ${setActive}`} onClick={toggleAccordion}>
         <p className="accordion-title">
           show list of emails for our main markets
         </p>
@@ -55,32 +55,52 @@ function Accordion() {
         <div className="collapse-content show">
           <ul>
             <li>
-              <img src={finland} alt='flag-finland'/>
-              <a href="mailto:finland@internago.com">Finland</a>
+              <img src={belgium} alt="flag-belgium" />
+              <a href="mailto:belgium@internago.com">belgium@internago.com</a>
             </li>
             <li>
-              <img src={france} alt='flag-france'/>
-              <a href="mailto:finland@internago.com">France</a>
+              <img src={finland} alt="flag-finland" />
+              <a href="mailto:finland@internago.com">finland@internago.com</a>
             </li>
             <li>
-              <img src={spain} alt='flag-spain'/>
-              <a href="mailto:finland@internago.com">Spain</a>
+              <img src={france} alt="flag-france" />
+              <a href="mailto:france@internago.com">france@internago.com</a>
             </li>
             <li>
-              <img src={sweden} alt='flag-sweden'/>
-              <a href="mailto:finland@internago.com">Sweden</a>
+              <img src={germany} alt="flag-germany" />
+              <a href="mailto:germany@internago.com">germany@internago.com</a>
             </li>
             <li>
-              <img src={italy} alt='flag-italy'/>
-              <a href="mailto:finland@internago.com">Italy</a>
+              <img src={hungary} alt="flag-hungary" />
+              <a href="mailto:hungary@internago.com">hungary@internago.com</a>
             </li>
             <li>
-              <img src={holland} alt='flag-holland'/>
-              <a href="mailto:finland@internago.com">Holland</a>
+              <img src={italy} alt="flag-italy" />
+              <a href="mailto:italy@internago.com">italy@internago.com</a>
             </li>
             <li>
-              <img src={germany} alt='flag-germany'/>
-              <a href="mailto:finland@internago.com">Germany</a>
+              <img src={netherlands} alt="netherlands-netherlands" />
+              <a href="mailto:netherlands@internago.com">
+                netherlands@internago.com
+              </a>
+            </li>
+            <li>
+              <img src={portugal} alt="flag-portugal" />
+              <a href="mailto:portugal@internago.com">portugal@internago.com</a>
+            </li>
+            <li>
+              <img src={spain} alt="flag-spain" />
+              <a href="mailto:spain@internago.com">spain@internago.comn</a>
+            </li>
+            <li>
+              <img src={sweden} alt="flag-sweden" />
+              <a href="mailto:sweden@internago.com">sweden@internago.com</a>
+            </li>
+            <li>
+              <img src={switzerland} alt="flag-switzerland" />
+              <a href="mailto:switzerland@internago.com">
+                switzerland@internago.com
+              </a>
             </li>
           </ul>
         </div>

@@ -110,7 +110,11 @@ There is no law that states that employment contracts have to be in written, exc
 
 ## Taxes in Portugal
 
+<div class='taxes-p'>
+
 Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Portugal
+
+</div>
 
 <div class='taxes-table'>
 

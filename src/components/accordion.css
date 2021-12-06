@@ -47,10 +47,10 @@
 }
 
 .collapse-content ul {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     display: grid;
     list-style: none;
-    column-gap: var(--spacing-m);
+    column-gap: var(--spacing-s);
     row-gap: var(--spacing-xs);
     padding: var(--spacing-xs) var(--spacing-xl);
     background-color: var(--light-grey);
@@ -62,9 +62,13 @@
     display: flex;
 }
 
+.collapse-content ul li a {
+    min-width: 190px;
+}
+
 .collapse-content ul li img {
     margin-right: var(--spacing-xxs);
-    width: 30%;
+    width: 15%;
 }
 
 .show {
@@ -88,7 +92,7 @@
 
     .collapse-content ul {
         padding: var(--spacing-xs) var(--spacing-l);
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 }
@@ -100,6 +104,7 @@
         column-gap: var(--spacing-s);
         row-gap: var(--spacing-xxs);
     }
+
     .collapse {
         margin-top: var(--spacing-s);
     }
@@ -112,5 +117,10 @@
 
     .collapse-btn {
         padding: var(--spacing-xxs) var(--spacing-xs);
+    }
+
+    .collapse-content ul {
+        grid-template-columns: repeat(1, 1fr);
+
     }
 }
