@@ -118,7 +118,7 @@ For expats, the following is required: Passport, Tax number, Address card, Emplo
 
 <div class='taxes-p'>
 
-Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Germany
+Learn how employment taxes and statutory fees affect your payroll and your employees’ paychecks in Hungary
 
 </div>
 

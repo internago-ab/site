@@ -182,6 +182,24 @@ footer .disclaimer {
         display: none;
     }
 
+    .what-we-offer .submenu li{
+        display: block;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .submenu {
+        transition: all 0.4s ease-in-out;
+        z-index: 999;
+        width: 30%;
+        left: 60%;
+        top: 0;
+        padding: var(--spacing-xs) var(--spacing-xs);
+    }
+
+    .submenu li {
+        padding-top: 0;
+    }
+
     .hamburger {
         width: 28px;
         height: 20px;
@@ -212,9 +230,14 @@ footer .disclaimer {
         text-align: center;
         left: 0;
         top: 69px;
-        overflow: hidden;
         transition: all 0.5s ease-in-out;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .mobile-menu li{
+        transition: all 1s ease-in-out; 
+        animation: fadein 3s ease-in;  
+        animation-delay: 1s;
     }
 
     .mobile-menu a {
@@ -238,6 +261,16 @@ footer .disclaimer {
         width: 100%;
         bottom: 0;
         margin-top: var(--spacing-xs);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .submenu {
+        z-index: 999;
+        width: 50%;
+        left: 25%;
+        top: var(--spacing-xs);
+        padding: var(--spacing-xxs) var(--spacing-xxs);
     }
 }
 
@@ -283,3 +316,9 @@ footer .disclaimer {
         transform: translateY(-9px) rotate(-45deg);
     }
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+

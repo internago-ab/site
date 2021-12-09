@@ -80,7 +80,10 @@ const Layout = ({ children }) => {
 
           <ul
             className="mobile-menu"
-            style={{ height: menuDisplayed ? 260 : 0 }}
+            style={{
+              overflow: menuDisplayed ? "unset" : "hidden",
+              height: menuDisplayed ? 260 : 0,
+            }}
           >
             <li>
               <Link to="/">Home</Link>
@@ -122,9 +125,6 @@ const Layout = ({ children }) => {
                       <Link to="/belgium">Belgium</Link>
                     </li>
                     <li>
-                      <Link to="/england">England</Link>
-                    </li>
-                    <li>
                       <Link to="/finland">Finland</Link>
                     </li>
                     <li>
@@ -154,7 +154,9 @@ const Layout = ({ children }) => {
                     <li>
                       <Link to="/switzerland">Switzerland</Link>
                     </li>
-                    <ul className="submenu"></ul>
+                    <li>
+                      <Link to="/uk">Uk</Link>
+                    </li>
                   </li>
                 </ul>
               </li>
@@ -215,9 +217,6 @@ const Layout = ({ children }) => {
                       <Link to="/belgium">Belgium</Link>
                     </li>
                     <li>
-                      <Link to="/england">England</Link>
-                    </li>
-                    <li>
                       <Link to="/finland">Finland</Link>
                     </li>
                     <li>
@@ -246,6 +245,9 @@ const Layout = ({ children }) => {
                     </li>
                     <li>
                       <Link to="/switzerland">Switzerland</Link>
+                    </li>
+                    <li>
+                      <Link to="/uk">Uk</Link>
                     </li>
                   </ul>
                 </li>

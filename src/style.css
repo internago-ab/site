@@ -211,7 +211,8 @@ section.error-page>* {
   }
 
   p,
-  a {
+  a,
+  .menu-link {
     font-size: var(--fontSize-p-s);
   }
 

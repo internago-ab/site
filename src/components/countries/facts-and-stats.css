@@ -21,7 +21,7 @@
     margin-top: 0;
 }
 
-.country-inside{
+.country-inside {
     margin-bottom: var(--spacing-m);
 }
 
@@ -43,6 +43,10 @@ td {
 
 .table-wrapper td p {
     padding-bottom: var(--spacing-xxs);
+}
+
+.table-top table td p {
+    margin-bottom: var(--spacing-xxs);
 }
 
 table td {

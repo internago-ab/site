@@ -14,6 +14,7 @@ import belgium from "../images/flags/belgium.png"
 import switzerland from "../images/flags/switzerland.png"
 import portugal from "../images/flags/portugal.png"
 import hungary from "../images/flags/hungary.png"
+import uk from "../images/flags/uk.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -39,7 +40,7 @@ function Accordion() {
     )
   }
   return (
-    <section className="collapse section medium" data-aos="fade-up">
+    <section className="collapse section large" data-aos="fade-up">
       <div className={`collapse-btn ${setActive}`} onClick={toggleAccordion}>
         <p className="accordion-title">
           show list of emails for our main markets
@@ -101,6 +102,10 @@ function Accordion() {
               <a href="mailto:switzerland@internago.com">
                 switzerland@internago.com
               </a>
+            </li>
+            <li>
+              <img src={uk} alt="flag-uk" />
+              <a href="mailto:uk@internago.com">uk@internago.com</a>
             </li>
           </ul>
         </div>
