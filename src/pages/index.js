@@ -19,6 +19,7 @@ import dedicare from "../images/clients/dedicare.png"
 import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
+import international from "../../static/images/city/international.jpeg"
 //Icons
 import diagram from "../images/icons/diagram.png"
 import wifi from "../images/icons/wifi.png"
@@ -38,17 +39,23 @@ const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
+      <div
+        className="country-landing-main country-section"
+        style={{ backgroundImage: `url(${international})` }}
+      >
+        <div className="medium country-landing-content">
+          <h1 className="heading">International payroll - local experts </h1>
+          <p className="paragraph">
+            Be efficient and save valuable time by managing your international
+            payroll with Internago. A one-stop solution for managing your
+            international employees
+          </p>
+          <div className="cta-btn">
+            <a href="mailto:info@internago.com">Book a demo</a>
+          </div>
+        </div>
+      </div>
 
-      <ImageText
-        margin="large"
-        size="large"
-        title="International payroll - local experts"
-        text="Be efficient and save valuable time by managing your international payroll with Internago. A one-stop solution for managing your international employees"
-        image={landingPageFirst}
-        imagesize="imglarge"
-        button="Book a demo"
-        link="mailto:info@internago.com"
-      />
       <div className="clients" data-aos="fade-up">
         <img src={kitabsawti} alt="Kitab Sawti logo" />
         <img src={benify} alt="Benify logo" />
@@ -82,7 +89,7 @@ const Index = () => {
 
       <ImageTabs />
 
-      <GreyAnimation >
+      <GreyAnimation>
         <h2>Why Internago?</h2>
         <Icongrid
           content={[
@@ -101,7 +108,8 @@ const Index = () => {
             {
               icon: calendar,
               header: "Quick onboarding",
-              text: "We onboard your employees fast and efficiently on new markets",
+              text:
+                "We onboard your employees fast and efficiently on new markets",
             },
             {
               icon: settings,
@@ -117,7 +125,8 @@ const Index = () => {
             {
               icon: report,
               header: "Time saving",
-              text: "We take care of all time-consuming payroll tasks for you. ",
+              text:
+                "We take care of all time-consuming payroll tasks for you. ",
             },
           ]}
         />

@@ -28,5 +28,10 @@
 @media only screen and (max-width: 600px) {
     .grey-inside {
         padding: var(--spacing-xs);
+        
+    }
+
+    .grey-bottom{
+        padding-bottom: var(--spacing-s);;
     }
 }

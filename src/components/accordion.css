@@ -52,7 +52,7 @@
     list-style: none;
     column-gap: var(--spacing-s);
     row-gap: var(--spacing-xs);
-    padding: var(--spacing-xs) var(--spacing-xl);
+    padding: var(--spacing-s) var(--spacing-xl);
     background-color: var(--light-grey);
 }
 
@@ -122,5 +122,9 @@
     .collapse-content ul {
         grid-template-columns: repeat(1, 1fr);
 
+    }
+
+    main .collapse {
+        margin-top: var(--spacing-s);
     }
 }

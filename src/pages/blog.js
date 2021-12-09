@@ -6,9 +6,11 @@ import Layout from "../components/layout"
 import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 
+import landingPageFirst from "../images/illustrations/services-optimize.png"
+
 function Blog({ data, location }) {
   const allPosts = data.allMarkdownRemark.nodes
-  
+
   console.log(allPosts)
   const postsToDisplay = 6
   const [posts, setPosts] = useState(allPosts)
@@ -108,8 +110,8 @@ export default Blog
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: {fields: [frontmatter___date], order: DESC}
-      filter: {frontmatter: {type: {eq: "blog"}}}
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "blog" } } }
     ) {
       nodes {
         excerpt
@@ -127,5 +129,4 @@ export const pageQuery = graphql`
       }
     }
   }
-  
 `

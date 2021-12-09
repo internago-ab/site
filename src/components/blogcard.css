@@ -18,11 +18,16 @@ main .blog {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .blog form select {
     border: none;
     width: 70%
+}
+
+.blog form label {
+    position: initial;
 }
 
 .blog-grid {
@@ -116,5 +121,17 @@ select:focus {
 @media only screen and (max-width: 768px) {
     .blog-grid {
         padding: 0 var(--spacing-s);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-grid {
+        padding: 0 var(--spacing-xs);
+    }
+
+    .blog form {
+        padding: var(--spacing-xxs) var(--spacing-xs);
+        margin: var(--spacing-xs);
+        width: auto;
     }
 }
