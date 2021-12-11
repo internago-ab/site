@@ -32,20 +32,22 @@ function Services() {
         size="medium"
         title="International payroll services"
         text="Payroll can be complex on foreign markets. Local rules and regulations apply. You need to ensure that you have local employment contracts, and that you understand local taxes and social contributions.   
-    We are specialized in working with payroll on international markets. We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
+        We are specialized in working with payroll on international markets. We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
         image={ServicesOptimize}
         button="Contact our experts"
         link="mailto:info@internago.com"
       />
       <GreyAnimation>
         <h2>Local support</h2>
-        <p>
-          Our experienced team has worked in various industries and with a wide
-          range of challenges.
-          <br />
-          We can take care of the time consuming and complex administrative
-          tasks before, during and after you enter a new market.
-        </p>
+        <div className="grey-middle">
+          <p>
+            Our experienced team has worked in various industries and with a
+            wide range of challenges.
+            <br />
+            We can take care of the time consuming and complex administrative
+            tasks before, during and after you enter a new market.
+          </p>
+        </div>
         <Tabs />
       </GreyAnimation>
 
