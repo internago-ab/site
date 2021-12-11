@@ -14,6 +14,17 @@
     padding: var(--spacing-m) var(--spacing-l);
 }
 
+.grey-middle{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-middle p{
+    max-width: 800px;
+}
+
 .grey h1,
 .grey h2 {
     margin-bottom: var(--spacing-xs);

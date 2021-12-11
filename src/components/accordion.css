@@ -17,6 +17,7 @@
 }
 
 .accordion-title {
+    max-width: 540px;
     margin-right: var(--spacing-xs);
 }
 
@@ -26,14 +27,16 @@
     transition: max-height 1s ease;
 }
 
-/*country list mail*/
+.accordion-grid {
+    margin-top: var(--spacing-s);
+}
 
 .collapse {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: var(--spacing-m);
+    margin-top: var(--spacing-xxs);
     text-align: center;
 }
 
@@ -41,34 +44,18 @@
     display: flex;
     width: auto;
     height: auto;
-    margin-top: var(--spacing-xxs);
     display: none;
     justify-content: center;
-}
-
-.collapse-content ul {
-    grid-template-columns: repeat(3, 1fr);
-    display: grid;
-    list-style: none;
-    column-gap: var(--spacing-s);
-    row-gap: var(--spacing-xs);
-    padding: var(--spacing-s) var(--spacing-xl);
-    background-color: var(--light-grey);
-}
-
-.collapse-content ul li {
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    display: flex;
+    flex-direction: column;
+
 }
 
-.collapse-content ul li a {
-    min-width: 190px;
-}
-
-.collapse-content ul li img {
-    margin-right: var(--spacing-xxs);
-    width: 15%;
+.accordion-text {
+    row-gap: var(--spacing-xs);
+    padding: var(--spacing-s) var(--spacing-xs);
+    background-color: var(--light-grey);
 }
 
 .show {
@@ -76,10 +63,9 @@
 }
 
 .collapse-btn {
-    margin-bottom: var(--spacing-xxs);
     display: flex;
     align-items: center;
-    padding: var(--spacing-xs) var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-m);
     background: #ffffff;
     color: rgb(101, 101, 101);
     cursor: pointer;
@@ -90,41 +76,34 @@
 
 @media only screen and (max-width: 1024px) {
 
-    .collapse-content ul {
-        padding: var(--spacing-xs) var(--spacing-l);
-        grid-template-columns: repeat(2, 1fr);
-
+    .accordion-grid {
+        margin-top: var(--spacing-s);
     }
+
 }
 
 @media only screen and (max-width: 768px) {
-    .collapse-content ul {
-        padding: var(--spacing-xs) var(--spacing-l);
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: var(--spacing-s);
-        row-gap: var(--spacing-xxs);
-    }
 
     .collapse {
         margin-top: var(--spacing-s);
     }
+
+    .accordion-grid {
+        margin-top: var(--spacing-xs);
+    }
+
+    .accordion-icon {
+        width: 50px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .collapse-content ul {
-        padding: var(--spacing-xs) var(--spacing-m);
-    }
-
+  
     .collapse-btn {
-        padding: var(--spacing-xxs) var(--spacing-xs);
-    }
-
-    .collapse-content ul {
-        grid-template-columns: repeat(1, 1fr);
-
+        padding: var(--spacing-xs) var(--spacing-xxs);
     }
 
     main .collapse {
-        margin-top: var(--spacing-s);
+        margin-top: var(--spacing-xxs);
     }
 }

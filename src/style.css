@@ -181,7 +181,26 @@ section.error-page>* {
   text-align: center;
 }
 
-@media screen and (max-width: 1600px){
+.section-top {
+  margin-top: var(--spacing-m);
+}
+
+.header-text {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text h2 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.header-text p {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 1600px) {
   main {
     margin-top: 80px;
   }
@@ -222,6 +241,10 @@ section.error-page>* {
 
   section.error-page {
     padding: var(--spacing-m);
+  }
+
+  .section-top {
+    margin-top: var(--spacing-s);
   }
 }
 
