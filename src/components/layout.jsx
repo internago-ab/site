@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
+import PropTypes from "prop-types"
+import { motion } from "framer-motion"
 
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
@@ -269,7 +271,28 @@ const Layout = ({ children }) => {
         </ul>
       </nav>
 
+      <motion.main
+          initial={{
+            opacity: 0,
+            x: -200
+          }}
+          animate={{
+            opacity: 1,
+            x: 0
+          }}
+          exit={{
+            opacity: 0,
+            x: 200
+          }}
+          transition={{
+            type: "spring",
+            mass: 0.35,
+            stiffness: 75,
+            duration: 0.3
+          }}
+        >
       <main>{children}</main>
+      </motion.main>
 
       <footer>
         <div className="footer-flex">
@@ -337,6 +360,9 @@ const Layout = ({ children }) => {
       </footer>
     </div>
   )
+}
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
 }
 
 export default Layout
