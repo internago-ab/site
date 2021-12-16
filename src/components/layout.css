@@ -31,6 +31,10 @@ nav .desktop-menu li {
     margin-left: var(--spacing-xs);
 }
 
+nav .desktop-menu .has-dropdown{
+    margin-left: 0;
+}
+
 nav .portal-btn {
     background-color: var(--white);
     color: var(--dark-blue);
@@ -169,7 +173,7 @@ footer .disclaimer {
 
 /* -------------------------------------------------------- MOBILE */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1220px) {
     nav {
         padding: var(--spacing-xxs) var(--spacing-xs);
     }

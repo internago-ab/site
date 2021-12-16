@@ -199,59 +199,64 @@ const Layout = ({ children }) => {
                 <li>
                   <Link to="/payroll">Payroll portal</Link>
                 </li>
-                <li className="has-dropdown menu-link">
-                  Countries
-                  <svg
-                    className="toggle-icon"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
-                      fill="#4E4E4E"
-                    />
-                  </svg>
-                  <ul className="submenu">
-                    <li>
-                      <Link to="/belgium">Belgium</Link>
-                    </li>
-                    <li>
-                      <Link to="/finland">Finland</Link>
-                    </li>
-                    <li>
-                      <Link to="/france">France</Link>
-                    </li>
-                    <li>
-                      <Link to="/germany">Germany</Link>
-                    </li>
-                    <li>
-                      <Link to="/hungary">Hungary</Link>
-                    </li>
-                    <li>
-                      <Link to="/italy">Italy</Link>
-                    </li>
-                    <li>
-                      <Link to="/netherlands">Netherlands</Link>
-                    </li>
-                    <li>
-                      <Link to="/portugal">Portugal</Link>
-                    </li>
-                    <li>
-                      <Link to="/spain">Spain</Link>
-                    </li>
-                    <li>
-                      <Link to="/sweden">Sweden</Link>
-                    </li>
-                    <li>
-                      <Link to="/switzerland">Switzerland</Link>
-                    </li>
-                    <li>
-                      <Link to="/uk">Uk</Link>
-                    </li>
-                  </ul>
+              </ul>
+            </li>
+          </ul>
+          <ul className="menu what-we-offer">
+            <li className="has-dropdown what-we-offer">
+              <li className="menu-link">
+                Countries{" "}
+                <svg
+                  className="toggle-icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                    fill="#4E4E4E"
+                  />
+                </svg>
+              </li>
+
+              <ul className="submenu">
+                <li>
+                  <Link to="/belgium">Belgium</Link>
+                </li>
+                <li>
+                  <Link to="/finland">Finland</Link>
+                </li>
+                <li>
+                  <Link to="/france">France</Link>
+                </li>
+                <li>
+                  <Link to="/germany">Germany</Link>
+                </li>
+                <li>
+                  <Link to="/hungary">Hungary</Link>
+                </li>
+                <li>
+                  <Link to="/italy">Italy</Link>
+                </li>
+                <li>
+                  <Link to="/netherlands">Netherlands</Link>
+                </li>
+                <li>
+                  <Link to="/portugal">Portugal</Link>
+                </li>
+                <li>
+                  <Link to="/spain">Spain</Link>
+                </li>
+                <li>
+                  <Link to="/sweden">Sweden</Link>
+                </li>
+                <li>
+                  <Link to="/switzerland">Switzerland</Link>
+                </li>
+                <li>
+                  <Link to="/uk">Uk</Link>
                 </li>
               </ul>
             </li>
@@ -259,6 +264,7 @@ const Layout = ({ children }) => {
           <li>
             <Link to="/blog?filter=all">Blogs and News</Link>
           </li>
+
           <li>
             <Link to="/about">About us</Link>
           </li>
@@ -272,26 +278,26 @@ const Layout = ({ children }) => {
       </nav>
 
       <motion.main
-          initial={{
-            opacity: 0,
-            x: -200
-          }}
-          animate={{
-            opacity: 1,
-            x: 0
-          }}
-          exit={{
-            opacity: 0,
-            x: 200
-          }}
-          transition={{
-            type: "spring",
-            mass: 0.35,
-            stiffness: 75,
-            duration: 0.3
-          }}
-        >
-      <main>{children}</main>
+        initial={{
+          opacity: 0,
+          x: -200,
+        }}
+        animate={{
+          opacity: 1,
+          x: 0,
+        }}
+        exit={{
+          opacity: 0,
+          x: 200,
+        }}
+        transition={{
+          type: "spring",
+          mass: 0.35,
+          stiffness: 75,
+          duration: 0.3,
+        }}
+      >
+        <main>{children}</main>
       </motion.main>
 
       <footer>
@@ -362,7 +368,7 @@ const Layout = ({ children }) => {
   )
 }
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
