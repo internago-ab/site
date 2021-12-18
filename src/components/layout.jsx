@@ -84,7 +84,7 @@ const Layout = ({ children }) => {
             className="mobile-menu"
             style={{
               overflow: menuDisplayed ? "unset" : "hidden",
-              height: menuDisplayed ? 260 : 0,
+              height: menuDisplayed ? 300 : 0,
             }}
           >
             <li>

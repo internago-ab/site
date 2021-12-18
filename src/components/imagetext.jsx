@@ -20,30 +20,31 @@ const ImageText = props => {
   }, [])
 
   return (
-    <section
-      className={`section imagetext ${props.size} ${props.reverse}`}
-      data-aos="fade-up"
-    >
-      <div className="info-imagetext">
-        <CustomTag className="heading">{props.title}</CustomTag>
-        <p
-          className="paragraph"
-          dangerouslySetInnerHTML={{ __html: props.text }}
-        ></p>
-        <div className={`cta-btn ${props.active}`}>
-          {props.button && <a href={props.link}>{props.button}</a>}
+    <section className={props.bg} data-aos="fade-up">
+      <div className={`section imagetext ${props.size} ${props.reverse}`}>
+        <div className="info-imagetext">
+          <CustomTag className="heading" id={props.id}>
+            {props.title}
+          </CustomTag>
+          <p
+            className="paragraph"
+            dangerouslySetInnerHTML={{ __html: props.text }}
+          ></p>
+          <div className={`cta-btn ${props.active}`}>
+            {props.button && <a href={props.link}>{props.button}</a>}
+          </div>
         </div>
+        <img
+          src={props.image}
+          alt=""
+          className="img-imagetext"
+          style={
+            props.reverse
+              ? { marginRight: "var(--spacing-s)" }
+              : { marginLeft: "var(--spacing-s)" }
+          }
+        />
       </div>
-      <img
-        src={props.image}
-        alt=""
-        className="img-imagetext"
-        style={
-          props.reverse
-            ? { marginRight: "var(--spacing-s)" }
-            : { marginLeft: "var(--spacing-s)" }
-        }
-      />
     </section>
   )
 }

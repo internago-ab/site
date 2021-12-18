@@ -43,36 +43,42 @@ function Payroll() {
         <Icongrid
           content={[
             {
+              link: "/payroll#time-absence",
               icon: calendartime,
               header: "Time and absence",
               text:
                 "Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets",
             },
             {
+              link: "/payroll#expense",
               icon: expense,
               header: "Expense Management",
               text:
                 "Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets",
             },
             {
+              link: "/payroll#share-documents",
               icon: mobile,
               header: "Share documents",
               text:
                 "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place",
             },
             {
+              link: "/payroll#multilingual",
               icon: speech,
               header: "Multilingual",
               text:
                 "Our portal comes in multiple languages. We easily integrate a new language according to your needs.",
             },
             {
+              link: "/payroll#workflow",
               icon: stamp,
               header: "Payroll workflow",
               text:
                 "Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specfic needs and payroll workflow.",
             },
             {
+              link: "/payroll#access",
               icon: simple,
               header: "Access 24/7",
               text:
@@ -81,7 +87,6 @@ function Payroll() {
           ]}
         />
       </Grey>
-
       <ImageText
         size="medium"
         title="Share documents tool"
@@ -114,22 +119,60 @@ function Payroll() {
       <div className="quotes-wrapper">
         <Quotes text="The Share document tool module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
+
       <ImageText
+        bg="bg-grey"
+        id="time-absence"
         size="medium"
         title="Time and absence"
-        text="Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets."
-        image={PayrollShareDoc}
-        button="Try it today"
-        link="mailto:info@internago.com"
+        text="Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets"
+        image={calendartime}
+        active="notactive"
+      />
+      <ImageText
+        id="expense"
+        reverse="rowreverse"
+        size="medium"
+        title="Expense Management"
+        text="Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets"
+        image={expense}
+        active="notactive"
+      />
+      <ImageText
+        bg="bg-grey"
+        id="share-documents"
+        size="medium"
+        title="Share documents"
+        text="Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place"
+        image={mobile}
+        active="notactive"
       />
       <ImageText
         reverse="rowreverse"
+        id="multilingual"
         size="medium"
-        title="Share documents tool"
-        text=" Our payroll software also lets you share and exchange payroll related files in a secure and GDPR compliant manner. ShareDoc is designed to improve your document workflow, and makes it easy and secure to exchange, control, authorize and approve documents online."
-        image={PayrollShareDoc}
-        button="Try it today"
-        link="mailto:info@internago.com"
+        title="Multilingual"
+        text="Our portal comes in multiple languages. We easily integrate a new language according to your needs."
+        image={speech}
+        active="notactive"
+      />
+      <ImageText
+        bg="bg-grey"
+        id="workflow"
+        size="medium"
+        title="Payroll workflow"
+        text="Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specfic needs and payroll workflow."
+        image={stamp}
+        active="notactive"
+      />
+      <ImageText
+        reverse="rowreverse"
+        id="access"
+        size="medium"
+        title="Access 24/7"
+        text="Access your payroll data and employee data at any time from anywhere thanks to our mobile device login and real time notiflications"
+        image={simple}
+        active="notactive"
       />
       <Cta content="next" />
     </Layout>
