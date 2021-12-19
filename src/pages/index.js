@@ -10,7 +10,6 @@ import Cta from "../components/cta"
 import ImageTabs from "../components/imagetabs"
 import Svg from "../components/svg"
 //Images
-import landingPageFirst from "../images/illustrations/landingpage-first.png"
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"
 import kitabsawti from "../images/clients/kitab-sawti.png"

@@ -46,7 +46,7 @@
     }
 
     .icon-item img {
-        height: var(--spacing-s);
+        height: var(--spacing-m);
         margin-bottom: var(--spacing-xxs);
     }
 }

@@ -16,6 +16,12 @@ const Tab = () => {
     setToggleState(index)
   }
 
+  function handleKeyDown(e) {
+    if (e.keyCode === 13) {
+      toggleTab()
+    }
+  }
+
   const getActiveClass = (index, className) =>
     toggleState === index ? className : ""
 
@@ -90,24 +96,36 @@ const Tab = () => {
         <div className="container">
           <ul className="tab-list">
             <li
+              role={"button"}
+              tabIndex={0}
+              onKeyDown={handleKeyDown}
               className={`img-tab ${getActiveClass(1, "active-tabs")}`}
               onClick={() => toggleTab(1)}
             >
               Preboard
             </li>
             <li
+              role={"button"}
+              tabIndex={0}
+              onKeyDown={handleKeyDown}
               className={`img-tab ${getActiveClass(2, "active-tabs")}`}
               onClick={() => toggleTab(2)}
             >
               Manage
             </li>
             <li
+              role={"button"}
+              tabIndex={0}
+              onKeyDown={handleKeyDown}
               className={`img-tab ${getActiveClass(3, "active-tabs")}`}
               onClick={() => toggleTab(3)}
             >
               Automate
             </li>
             <li
+              role={"button"}
+              tabIndex={0}
+              onKeyDown={handleKeyDown}
               className={`img-tab ${getActiveClass(4, "active-tabs")}`}
               onClick={() => toggleTab(4)}
             >
@@ -126,9 +144,9 @@ const Tab = () => {
                 employee and payroll data, and upload it into Internago Web
                 Portal.
               </p>
-              <a className="img-tabs-link" href="/">
-                Read more
-              </a>
+              <div className="cta-btn">
+                <a href="/">Read more</a>
+              </div>
             </div>
 
             <div
@@ -143,9 +161,9 @@ const Tab = () => {
                 salaries, employment contracts, insurance documents and
                 absences.
               </p>
-              <a className="img-tabs-link" href="/">
-                Read more
-              </a>
+              <div className="cta-btn">
+                <a href="/">Read more</a>
+              </div>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -159,9 +177,9 @@ const Tab = () => {
                 The perfect payroll tool to quickly identify bottle necks and
                 ensure smooth processes.
               </p>
-              <a className="img-tabs-link" href="/">
-                Read more
-              </a>
+              <div className="cta-btn">
+                <a href="/">Read more</a>
+              </div>
             </div>
             <div
               className={`tab-text content-slider ${getActiveClass(
@@ -175,9 +193,9 @@ const Tab = () => {
                 in one place and makes it easier for your company to control
                 your international employees
               </p>
-              <a className="img-tabs-link" href="/">
-                Read more
-              </a>
+              <div className="cta-btn">
+                <a href="/">Read more</a>
+              </div>
             </div>
           </div>
         </div>

@@ -6,8 +6,6 @@ import Layout from "../components/layout"
 import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 
-import landingPageFirst from "../images/illustrations/services-optimize.png"
-
 function Blog({ data, location }) {
   const allPosts = data.allMarkdownRemark.nodes
 
