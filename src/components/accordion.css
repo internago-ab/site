@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: var(--spacing-xxs);
+    margin-top: var(--spacing-xs);
     text-align: center;
 }
 
@@ -104,6 +104,10 @@
     }
 
     main .collapse {
-        margin-top: var(--spacing-xxs);
+        margin-top: var(--spacing-xs);
+    }
+
+    .accordion-text {
+        padding: var(--spacing-xs);
     }
 }

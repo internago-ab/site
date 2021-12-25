@@ -23,7 +23,7 @@ main .blog {
 
 .blog form select {
     border: none;
-    width: 70%
+    width: 100%
 }
 
 .blog form label {

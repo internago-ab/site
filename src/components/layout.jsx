@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 import PropTypes from "prop-types"
 import { motion } from "framer-motion"
+import CookieConsent, { Cookies } from "react-cookie-consent"
 
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
@@ -10,6 +11,7 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
+
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
   const data = useStaticQuery(graphql`
@@ -350,7 +352,7 @@ const Layout = ({ children }) => {
         </div>
 
         <p className="disclaimer">
-          Copyright © 2017-2019 All rights reserved to Internago AB. Contact:
+          Copyright © 2017-<span>{new Date().getFullYear()}</span> All rights reserved to Internago AB. Contact:
           info@internago.com <br />
           <br />
           Disclaimer: Communication between you and Internago are protected by
