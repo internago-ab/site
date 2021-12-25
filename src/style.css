@@ -256,4 +256,7 @@ section.error-page>* {
   section.error-page {
     padding: var(--spacing-s);
   }
+  main>section {
+    padding-top: 0;
+  }
 }
