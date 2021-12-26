@@ -50,7 +50,7 @@ const Index = () => {
             international employees
           </p>
           <div className="cta-btn">
-            <a href="mailto:info@internago.com">Book a demo</a>
+            <a href="/contact#form">Book a demo</a>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ const Index = () => {
             services.
           </p>
           <div className="cta-btn">
-            <a href="mailto:info@internago.com">Contact us</a>
+            <a href="/contact#form">Contact us</a>
           </div>
         </div>
         <Svg />

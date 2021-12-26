@@ -26,7 +26,7 @@ function Cta(props) {
         <h2>{heading}</h2>
         <p>{text}</p>
         <div className="cta-btn">
-          <a href="mailto:info@internago.com">Contact us today</a>
+          <a href="/contact#form">Contact us today</a>
         </div>
       </div>
     </section>

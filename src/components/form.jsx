@@ -15,6 +15,7 @@ function Form() {
         Submit a request
       </h2>
       <form
+        id="form"
         data-aos="fade-up"
         name="contact"
         className="formBox"
@@ -49,7 +50,7 @@ function Form() {
             Message
           </label>{" "}
         </p>
-        <p className='cta-btn btn-form-main'>
+        <p className="cta-btn btn-form-main">
           <input type="submit" value="Send Message" className="formButton" />
         </p>
       </form>

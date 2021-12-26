@@ -11,7 +11,6 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
-
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
   const data = useStaticQuery(graphql`
@@ -299,6 +298,28 @@ const Layout = ({ children }) => {
           duration: 0.3,
         }}
       >
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          cookieName="gatsby-gdpr-google-analytics"
+          style={{ background: "#fffff", width: "100%",  alignItems: "center" }}
+          buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+          buttonWrapperClasses="cookie-btn-wrapper"
+          buttonClasses="cookie-btn"
+          declineButtonText="Decline"
+          disableButtonStyles
+          disableStyles
+        >
+          <p>
+            This website uses cookies that help the website to function and also
+            to track how you interact with our website.
+            <br></br>
+            We won't set cookies unless you enable them or they are essential for the site to work. Click “Accept Cookies” to accept all cookies and go directly to the site.
+          </p>
+
+          <br></br>
+          <Link to="/privacy-policy">Privacy policy</Link>
+        </CookieConsent>
         <main>{children}</main>
       </motion.main>
 
@@ -352,8 +373,8 @@ const Layout = ({ children }) => {
         </div>
 
         <p className="disclaimer">
-          Copyright © 2017-<span>{new Date().getFullYear()}</span> All rights reserved to Internago AB. Contact:
-          info@internago.com <br />
+          Copyright © 2017-<span>{new Date().getFullYear()}</span> All rights
+          reserved to Internago AB. Contact: info@internago.com <br />
           <br />
           Disclaimer: Communication between you and Internago are protected by
           our Data Protection Policy, but your communication between our
