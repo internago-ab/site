@@ -35,7 +35,7 @@ function Services() {
         We are specialized in working with payroll on international markets. We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
         image={ServicesOptimize}
         button="Contact our experts"
-        link="mailto:info@internago.com"
+        link="/contact#form"
       />
       <GreyAnimation>
         <h2>Local support</h2>

@@ -114,7 +114,7 @@ function Payroll() {
         </ul>"
         image={PayrollShareDoc}
         button="Try it today"
-        link="mailto:info@internago.com"
+        link="/contact#form"
       />
       <div className="quotes-wrapper">
         <Quotes text="The Share document tool module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
