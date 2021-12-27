@@ -45,6 +45,7 @@ function Payroll() {
             {
               link: "/payroll#time-absence",
               icon: calendartime,
+              alt: "Calendar and hourglass icon",
               header: "Time and absence",
               text:
                 "Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets",
@@ -52,6 +53,7 @@ function Payroll() {
             {
               link: "/payroll#expense",
               icon: expense,
+              alt: "Window tab that handles expenses",
               header: "Expense Management",
               text:
                 "Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets",
@@ -59,6 +61,7 @@ function Payroll() {
             {
               link: "/payroll#share-documents",
               icon: mobile,
+              alt: "Phone icon",
               header: "Share documents",
               text:
                 "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place",
@@ -66,12 +69,14 @@ function Payroll() {
             {
               link: "/payroll#multilingual",
               icon: speech,
+              alt: "Balloon bubble icon",
               header: "Multilingual",
               text:
                 "Our portal comes in multiple languages. We easily integrate a new language according to your needs.",
             },
             {
               link: "/payroll#workflow",
+              alt: "Approving document icon",
               icon: stamp,
               header: "Payroll workflow",
               text:
@@ -79,6 +84,7 @@ function Payroll() {
             },
             {
               link: "/payroll#access",
+              alt: "Clicking button icon",
               icon: simple,
               header: "Access 24/7",
               text:
@@ -113,6 +119,7 @@ function Payroll() {
         </li>
         </ul>"
         image={PayrollShareDoc}
+        alt="Two persons sharing and exchanging payroll files"
         button="Try it today"
         link="/contact#form"
       />
@@ -124,54 +131,66 @@ function Payroll() {
         bg="bg-grey"
         id="time-absence"
         size="medium"
+        width="short"
         title="Time and absence"
         text="Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets"
         image={calendartime}
+        alt="Calendar and hourglass icon"
         active="notactive"
       />
       <ImageText
         id="expense"
         reverse="rowreverse"
         size="medium"
+        width="short"
         title="Expense Management"
         text="Sick of handling excel sheets with expense reports? We offer a standardise expense management tool that will work for all your employees on your international markets"
         image={expense}
+        alt="Window tab that handles expenses"
         active="notactive"
       />
       <ImageText
         bg="bg-grey"
         id="share-documents"
         size="medium"
+        width="short"
         title="Share documents"
         text="Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place"
         image={mobile}
+        alt="Phone icon"
         active="notactive"
       />
       <ImageText
         reverse="rowreverse"
         id="multilingual"
         size="medium"
+        width="short"
         title="Multilingual"
         text="Our portal comes in multiple languages. We easily integrate a new language according to your needs."
         image={speech}
+        alt="Balloon bubble icon"
         active="notactive"
       />
       <ImageText
         bg="bg-grey"
         id="workflow"
         size="medium"
+        width="short"
         title="Payroll workflow"
         text="Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specfic needs and payroll workflow."
         image={stamp}
+        alt="Approving document icon"
         active="notactive"
       />
       <ImageText
         reverse="rowreverse"
         id="access"
         size="medium"
+        width="short"
         title="Access 24/7"
         text="Access your payroll data and employee data at any time from anywhere thanks to our mobile device login and real time notiflications"
         image={simple}
+        alt="Clicking button icon"
         active="notactive"
       />
       <Cta content="next" />

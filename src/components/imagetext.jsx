@@ -21,7 +21,9 @@ const ImageText = props => {
 
   return (
     <section className={props.bg} data-aos="fade-up">
-      <div className={`section imagetext ${props.size} ${props.reverse}`}>
+      <div
+        className={`section imagetext ${props.size} ${props.reverse} ${props.width}`}
+      >
         <div className="info-imagetext">
           <CustomTag className="heading" id={props.id}>
             {props.title}
@@ -36,7 +38,7 @@ const ImageText = props => {
         </div>
         <img
           src={props.image}
-          alt=""
+          alt={props.alt}
           className="img-imagetext"
           style={
             props.reverse

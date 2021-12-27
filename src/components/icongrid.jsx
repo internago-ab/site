@@ -10,7 +10,7 @@ function Icongrid(props) {
       {content.map((item, index) => (
         <li key={index} className="icon-item">
           <AnchorLink to={item.link} className='anchorlink'>
-            <img src={item.icon} alt="small icon"></img>
+            <img src={item.icon} alt={item.alt}></img>
             <h3>{item.header}</h3>
             <p>{item.text}</p>
           </AnchorLink>

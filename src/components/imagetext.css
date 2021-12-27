@@ -83,6 +83,11 @@ main .large {
 
 @media screen and (max-width: 870px) {
 
+  .bg-grey {
+    padding-top: var(--spacing-xxs);
+    padding-bottom: var(--spacing-xxs);
+  }
+
   .imagetext img {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -90,6 +95,14 @@ main .large {
 
   .imagetext {
     display: block;
+  }
+
+  .short {
+    display: flex !important;
+  }
+
+  .short img {
+    width: 40% !important;
   }
 
   .imagetext.large img,
@@ -127,6 +140,15 @@ main .large {
 
   main .large {
     margin-top: var(--spacing-m);
+  }
+
+
+  .short {
+    display: block !important;
+  }
+
+  .short img {
+    width: 100% !important;
   }
 
   .large,
