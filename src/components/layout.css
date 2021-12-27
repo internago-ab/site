@@ -308,7 +308,7 @@ footer .disclaimer {
 
   .mobile-menu li {
     transition: all 1s ease-in-out;
-    animation: fadein 3s ease-in;
+    animation: fadein 3s ease;
     animation-delay: 1s;
   }
 

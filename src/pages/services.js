@@ -34,6 +34,7 @@ function Services() {
         text="Payroll can be complex on foreign markets. Local rules and regulations apply. You need to ensure that you have local employment contracts, and that you understand local taxes and social contributions.   
         We are specialized in working with payroll on international markets. We ensure that your company is fully compliant with local regulations. Our payroll portal enables you to have full control and overview of your payroll process and staff. "
         image={ServicesOptimize}
+        alt="A woman walking on an arrow graph and a man sitting on a circle diagram working on a computer"
         button="Contact our experts"
         link="/contact#form"
       />

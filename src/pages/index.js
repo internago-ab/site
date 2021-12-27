@@ -94,35 +94,41 @@ const Index = () => {
           content={[
             {
               icon: diagram,
+              alt: "Diagram icon",
               header: "Online payroll",
               text:
                 "International payroll software for all your international operations",
             },
             {
               icon: wifi,
+              alt: "Wifi icon",
               header: "Local experts",
               text:
                 "Internago is composed of a team of professionals in all countries where we operate.",
             },
             {
               icon: calendar,
+              alt: "Calendar icon",
               header: "Quick onboarding",
               text:
                 "We onboard your employees fast and efficiently on new markets",
             },
             {
               icon: settings,
+              alt: "Gearwheel icon",
               header: "Multiple international markets",
               text: "One trusted partner on all your international markets",
             },
             {
               icon: cloud,
+              alt: "Cloud icon",
               header: "GDPR Compliant",
               text:
                 "Your data is safe with us. Share and exchange data and documents in a secure and GDPR certified manner.",
             },
             {
               icon: report,
+              alt: "Document icon",
               header: "Time saving",
               text:
                 "We take care of all time-consuming payroll tasks for you. ",
@@ -137,6 +143,7 @@ const Index = () => {
         title="All salary data perfectly prepared"
         text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
         image={landingPagePayroll}
+        alt="Internagos dashborard on a computerscreen"
         button="Read more"
         link="/services"
       />
@@ -146,6 +153,7 @@ const Index = () => {
         title="Internago Payroll portal – one software for all your payroll services"
         text="Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface."
         image={landingPageComplex}
+        alt="Two colleagues or clients talking and sharing information"
         button="Read more"
         link="/payroll"
       />

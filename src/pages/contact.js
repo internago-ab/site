@@ -54,6 +54,7 @@ function Contact() {
             content={[
               {
                 icon: board,
+                alt:"dartboard icon",
                 header: "Contact Sales",
                 text:
                   "If you want to know more about our services, book a demo or have any other questions – please contact our sales department",
@@ -62,6 +63,7 @@ function Contact() {
               },
               {
                 icon: puzzle,
+                alt:"jigsaw puzzle piece icon",
                 header: "Contact Support",
                 text:
                   "If you have a question regarding our software, if you have forgotten your login or any other questions – please contact our support",
@@ -70,6 +72,7 @@ function Contact() {
               },
               {
                 icon: mailbox,
+                alt:"mailbox icon",
                 header: "Partner request",
                 text:
                   "If you are a potential partner to Internago and want to know how to enter in our network. Please drop us an email to get in touch",
@@ -171,6 +174,7 @@ function Contact() {
         title="Do you prefer that we get get back to you?"
         text="You can always get in touch with Internago with any type of question – just fill in this form and we will get back to you!"
         image={devices}
+        alt="Different devices"
       />
       <Form />
       <Cta content="next" />

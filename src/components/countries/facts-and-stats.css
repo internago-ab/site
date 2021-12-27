@@ -81,6 +81,7 @@ table td {
 }
 
 @media screen and (max-width: 768px) {
+    
     .imagetext.facts-stats {
         display: block;
     }
@@ -90,6 +91,7 @@ table td {
     }
 
     .country-inside {
+        width: 100%;
         margin-bottom: 0;
     }
 

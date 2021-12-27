@@ -31,6 +31,7 @@ function About() {
         </br></br>
         With Internago you get a trusted partner providing a one point of entry for your international business. To simplify international payroll Internago created their own web platform. A platform providing full support for the payroll process in multiple countries. By using the platform clients save valuable time by getting full transparency when administrating and managing personnel on multiple markets. We’re on a journey to modernise cross border payroll. Join us on this journey today!"
         image={AboutVision}
+        alt="Three men in suits where one climbes a ladder holding binoculars and the other two are stabilising it"
       />
       <ImageText
         active="notactive"
@@ -40,6 +41,7 @@ function About() {
         </br></br>
         Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
         image={AboutMarkets}
+        alt="Two business men shaking hands with airplanes in the background"
       />
       <Cta content="next" />
     </Layout>

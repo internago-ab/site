@@ -8,7 +8,7 @@ function ContactIcon(props) {
     <ul className="contact-icon-grid">
       {content.map((item, index) => (
         <li key={index} className="contact-icon-item">
-          <img src={item.icon} alt="small icon"></img>
+          <img src={item.icon} alt={item.alt}></img>
           <h3>{item.header}</h3>
           <p>{item.text}</p>
           <div className={`cta-btn contact-icon-btn ${item.active}`}>
