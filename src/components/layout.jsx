@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 import PropTypes from "prop-types"
@@ -12,6 +12,9 @@ import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
   const [menuDisplayed, setMenuDisplayed] = useState(false)
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0)
+  const [visible, setVisible] = useState(true)
 
   const data = useStaticQuery(graphql`
     query bioQueryAndBioQuery {
@@ -43,9 +46,48 @@ const Layout = ({ children }) => {
     )
   }
 
+  function debounce(func, wait, immediate) {
+    var timeout
+    return function () {
+      var context = this,
+        args = arguments
+      var later = function () {
+        timeout = null
+        if (!immediate) func.apply(context, args)
+      }
+      var callNow = immediate && !timeout
+      clearTimeout(timeout)
+      timeout = setTimeout(later, wait)
+      if (callNow) func.apply(context, args)
+    }
+  }
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset
+
+    setVisible(
+      (prevScrollPos > currentScrollPos &&
+        prevScrollPos - currentScrollPos > 200) ||
+        currentScrollPos < 10
+    )
+
+    setPrevScrollPos(currentScrollPos)
+  }, 50)
+
+  // new useEffect:
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [prevScrollPos, visible, handleScroll])
+
+  const navbarStyles = {
+    transition: "top 0.7s",
+  }
+
   return (
     <div className="global-wrapper">
-      <nav>
+      <nav style={{ ...navbarStyles, top: visible ? "0" : "-122px" 
+    }}>
         <Link to="/" className="logo-link">
           <img className="logo" src={darkLogo} alt="logo"></img>
         </Link>
@@ -83,25 +125,47 @@ const Layout = ({ children }) => {
 
           <ul
             className="mobile-menu"
+           
             style={{
+               top: visible ? "69px" : "-300px",
               overflow: menuDisplayed ? "unset" : "hidden",
               height: menuDisplayed ? 300 : 0,
             }}
           >
-            <li>
+            <li className={`${menuDisplayed ? "li-active" : ""}`}>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link
+                to="/services"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                Services
+              </Link>
             </li>
             <li>
-              <Link to="/payroll">Payroll portal</Link>
+              <Link
+                to="/payroll"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                Payroll portal
+              </Link>
             </li>
             <li>
-              <Link to="/blog?filter=all">Blogs and News</Link>
+              <Link
+                to="/blog?filter=all"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                Blogs and News
+              </Link>
             </li>
             <li>
-              <Link to="/about">About us</Link>
+              <Link
+                to="/about"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                About us
+              </Link>
             </li>
             <ul className="menu what-we-offer">
               <li className="has-dropdown what-we-offer">
@@ -165,10 +229,20 @@ const Layout = ({ children }) => {
               </li>
             </ul>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link
+                to="/contact"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                Contact us
+              </Link>
             </li>
             <li>
-              <a href="https://payroll.internago.com/">Go to portal</a>
+              <a
+                href="https://payroll.internago.com/"
+                className={`${menuDisplayed ? "li-active" : ""}`}
+              >
+                Go to portal
+              </a>
             </li>
           </ul>
         </div>
