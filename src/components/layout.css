@@ -10,6 +10,13 @@ nav {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
   background-color: var(--white);
   z-index: 2;
+  transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+}
+
+.nav {
+  transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+  transition-timing-function: ease-in;
+  transition: 0.5s
 }
 
 .logo-link::before {
@@ -94,8 +101,8 @@ nav .portal-btn {
 }
 
 /* Reveal  */
-.menu > li:hover > li + .submenu,
-.submenu > li:hover > .submenu {
+.menu>li:hover>li+.submenu,
+.submenu>li:hover>.submenu {
   opacity: 1;
   transform: scaleY(1);
   cursor: pointer;
@@ -306,11 +313,12 @@ footer .disclaimer {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
   }
 
-  .mobile-menu li {
-    transition: all 1s ease-in-out;
+  .li-active{
+    transition: all 5s ease-out;
     animation: fadein 3s ease;
-    animation-delay: 1s;
+    animation-delay: 6s;
   }
+
 
   .mobile-menu a {
     line-height: var(--lineHeight-large);
@@ -359,7 +367,7 @@ footer .disclaimer {
     margin-top: var(--spacing-xxs);
   }
 
-  .cookie-btn{
+  .cookie-btn {
     width: 100%;
   }
 
