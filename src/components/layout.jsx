@@ -13,8 +13,7 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
-  const location = useLocation()
-  initializeAndTrack(location)
+ 
 
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
