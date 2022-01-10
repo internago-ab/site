@@ -313,12 +313,11 @@ footer .disclaimer {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
   }
 
-  .li-active{
-    transition: all 5s ease-out;
+  .li-active {
+    animation-fill-mode: forwards;
+    transition: all 1s ease-out;
     animation: fadein 3s ease;
-    animation-delay: 6s;
   }
-
 
   .mobile-menu a {
     line-height: var(--lineHeight-large);

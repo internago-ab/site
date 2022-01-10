@@ -4,6 +4,8 @@ import "./layout.css"
 import PropTypes from "prop-types"
 import { motion } from "framer-motion"
 import CookieConsent from "react-cookie-consent"
+import { useLocation } from "@reach/router" // this helps tracking the location
+import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
@@ -11,6 +13,8 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
+ 
+
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
   const [prevScrollPos, setPrevScrollPos] = useState(0)
@@ -86,8 +90,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="global-wrapper">
-      <nav style={{ ...navbarStyles, top: visible ? "0" : "-122px" 
-    }}>
+      <nav style={{ ...navbarStyles, top: visible ? "0" : "-122px" }}>
         <Link to="/" className="logo-link">
           <img className="logo" src={darkLogo} alt="logo"></img>
         </Link>
@@ -125,15 +128,19 @@ const Layout = ({ children }) => {
 
           <ul
             className="mobile-menu"
-           
             style={{
-               top: visible ? "69px" : "-300px",
+              top: visible ? "69px" : "-300px",
               overflow: menuDisplayed ? "unset" : "hidden",
               height: menuDisplayed ? 300 : 0,
             }}
           >
-            <li className={`${menuDisplayed ? "li-active" : ""}`}>
-              <Link to="/">Home</Link>
+            <li>
+              <Link
+                to="/"
+                className={`${menuDisplayed ? "li-active" : "li-not-active"}`}
+              >
+                Home
+              </Link>
             </li>
             <li>
               <Link
@@ -167,7 +174,11 @@ const Layout = ({ children }) => {
                 About us
               </Link>
             </li>
-            <ul className="menu what-we-offer">
+            <ul
+              className={`${
+                menuDisplayed ? "li-active" : ""
+              } menu what-we-offer`}
+            >
               <li className="has-dropdown what-we-offer">
                 <li className="menu-link">
                   Countries{" "}
