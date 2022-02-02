@@ -16,10 +16,10 @@ function About() {
       <Blue>
         <h1>Internago - Who are we?</h1>
         <p>
-          Internago is strongly driven by technology and innovation and
-          constantly strives to make our customers' lives easier by reducing
-          their administrative burden to a minimum with increased control by
-          digitalization.
+          Strongly driven by technology and innovation, Internago constantly
+          strives to make our customers' lives easier by reducing their
+          administrative burden to a minimum with the increased control that
+          digitalisation offers.
         </p>
       </Blue>
       <ImageText
@@ -27,9 +27,12 @@ function About() {
         reverse="rowreverse"
         size="medium"
         title="About us"
-        text=" Internago is a service and Saas company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience and the founders' passion for technology and sustainability in business were the main pillars when starting Internago. 
+        text=" Internago is a service and SaaS company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience, along with a passion for technology and sustainability in business, were the main pillars when starting Internago.
         </br></br>
-        With Internago you get a trusted partner providing a one point of entry for your international business. To simplify international payroll Internago created their own web platform. A platform providing full support for the payroll process in multiple countries. By using the platform clients save valuable time by getting full transparency when administrating and managing personnel on multiple markets. We’re on a journey to modernise cross border payroll. Join us on this journey today!"
+        To simplify international payroll Internago created their own web platform. This platform fully supports the various payroll processes in multiple countries. This allows clients to save valuable time and provides full transparency when administering and managing personnel on a variety of markets.
+        </br></br>
+        With Internago your international business gets a trusted partner with a single point of entry. We’re on a journey to modernise cross-border payroll. Join us on this journey today!
+        "
         image={AboutVision}
         alt="Three men in suits where one climbes a ladder holding binoculars and the other two are stabilising it"
       />

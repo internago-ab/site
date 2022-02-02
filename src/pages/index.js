@@ -43,11 +43,13 @@ const Index = () => {
         style={{ backgroundImage: `url(${international})` }}
       >
         <div className="medium country-landing-content">
-          <h1 className="heading">International payroll - local experts </h1>
+          <h1 className="heading">
+            International payroll - <br></br> local experts{" "}
+          </h1>
           <p className="paragraph">
             Be efficient and save valuable time by managing your international
-            payroll with Internago. A one-stop solution for managing your
-            international employees
+            payroll with Internago. A one-stop solution for managing the payroll
+            of your international employees.
           </p>
           <div className="cta-btn">
             <a href="/contact#form">Book a demo</a>
@@ -71,13 +73,12 @@ const Index = () => {
         <div className="info-imagetext">
           <h2 className="heading">Your markets - our objective</h2>
           <p className="paragraph">
-            Internago is currently delivering payroll services and related
-            services on main European markets, both directly or together with
-            well selected local partners. <br></br>
-            <br></br>Contact us to know more on how we can support you in
-            France, Italy, Sweden, Germany, Spain, UK, Holland or other
-            countries of interest. Contact our sales team to know more about our
-            services.
+            Internago provides payroll and related services on main European
+            markets, either directly or together with carefully selected local
+            partners. <br></br>
+            <br></br>Contact us to find out how we can support you in France,
+            Italy, Sweden, Germany, Spain, United Kingdom, Holland or other
+            countries of interest.
           </p>
           <div className="cta-btn">
             <a href="/contact#form">Contact us</a>
@@ -104,7 +105,7 @@ const Index = () => {
               alt: "Wifi icon",
               header: "Local experts",
               text:
-                "Internago is composed of a team of professionals in all countries where we operate.",
+                "Internago’s team consists of local professionals in all countries where we operate.",
             },
             {
               icon: calendar,
@@ -117,7 +118,7 @@ const Index = () => {
               icon: settings,
               alt: "Gearwheel icon",
               header: "Multiple international markets",
-              text: "One trusted partner on all your international markets",
+              text: "A trusted partner with a single interface operating in all your international markets.",
             },
             {
               icon: cloud,

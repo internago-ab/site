@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import { motion } from "framer-motion"
 import CookieConsent from "react-cookie-consent"
 import { useLocation } from "@reach/router" // this helps tracking the location
-import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
+import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies"
 
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
@@ -13,8 +13,6 @@ import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
- 
-
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
   const [prevScrollPos, setPrevScrollPos] = useState(0)
@@ -90,7 +88,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className="global-wrapper">
-      <nav style={{ ...navbarStyles, top: visible ? "0" : "-122px" }}>
+      <nav>
         <Link to="/" className="logo-link">
           <img className="logo" src={darkLogo} alt="logo"></img>
         </Link>
@@ -147,7 +145,7 @@ const Layout = ({ children }) => {
                 to="/services"
                 className={`${menuDisplayed ? "li-active" : ""}`}
               >
-                Services
+                Payroll services
               </Link>
             </li>
             <li>
@@ -342,7 +340,7 @@ const Layout = ({ children }) => {
                   <Link to="/switzerland">Switzerland</Link>
                 </li>
                 <li>
-                  <Link to="/uk">Uk</Link>
+                  <Link to="/uk">United Kingdom</Link>
                 </li>
               </ul>
             </li>
@@ -384,9 +382,8 @@ const Layout = ({ children }) => {
         }}
       >
         <CookieConsent
-          debug={true}
           location="bottom"
-          expires={365}
+          hideOnAccept="true"
           buttonText="Accept"
           cookieName="gatsby-gdpr-google-analytics"
           style={{ background: "#fffff", width: "100%", alignItems: "center" }}

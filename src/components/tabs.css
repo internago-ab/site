@@ -26,17 +26,42 @@ button:hover {
     width: 40%
 }
 
-.active-btn {
-    color: var(--dark-blue);
-    text-decoration: underline;
-}
-
 .tabs-btn {
-    background: transparent;
-    border-color: transparent;
+    background-color: transparent;
+    color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+    padding: 10px 20px;
+    border-radius: 100rem;
+    display: initial;
     text-transform: capitalize;
     font-size: var(--fontSize-h3);
     margin-bottom: var(--spacing-xxs);
+}
+
+.tabs-btn:after {
+    content: url(../images/icons/arrow-svg.svg);
+    transition: transform 0.3s ease-out;
+    display: inline-block;
+    margin-left: var(--spacing-xs);
+    width: 25px;
+}
+
+.tabs-btn:hover {
+    transition: all .8s;
+    color: var(--white);
+    background-color: var(--light-blue);
+}
+
+.tabs-btn:hover:after {
+    transform: translateX(5px);
+}
+
+.active-btn {
+    color: var(--white);
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+    background-color: var(--light-blue);
 }
 
 .tabs-info {

@@ -13,7 +13,6 @@ function Blogcard({ post, setFilter }) {
       }, [])
 
     const { date, title, description, featuredimage, tags } = post.frontmatter
-      console.log(post.frontmatter)
     return (
 
         <li className="blog-card" data-aos="fade-up">

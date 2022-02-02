@@ -10,11 +10,28 @@ main .blog {
 }
 
 .blog form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: var(--spacing-s) auto;
+}
+
+.blog .input {
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    padding: var(--spacing-xxs) var(--spacing-xs);
+}
+
+.blog .input input {
+    padding: var(--spacing-xxs) 0;
+}
+
+.blog .filter {
+    margin-left: var(--spacing-s);
     text-align: left;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
     padding: var(--spacing-xxs) var(--spacing-xs);
-    margin: var(--spacing-xs) auto;
-    width: 280px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,10 +50,10 @@ main .blog {
 .blog-grid {
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: auto;
     grid-gap: var(--spacing-s);
-    padding: 0 var(--spacing-xl);
+    padding: 0 var(--spacing-l);
 }
 
 .blog-card {
@@ -122,6 +139,22 @@ select:focus {
     .blog-grid {
         padding: 0 var(--spacing-s);
     }
+
+    .blog form {
+        display: block;
+    }
+
+    .blog .input {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog .filter {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: var(--spacing-xs);
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
