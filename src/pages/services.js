@@ -10,6 +10,7 @@ import Quotes from "../components/quotes"
 import Tabs from "../components/tabs"
 
 import ServicesOptimize from "../images/illustrations/services-optimize.png"
+import landingPageFirst from "../images/illustrations/landingpage-first.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -38,6 +39,16 @@ function Services() {
         button="Contact our experts"
         link="/contact#form"
       />
+      <ImageText
+        reverse="rowreverse"
+        size="medium"
+        title="Customer Success"
+        text="Internago is committed to providing value to customers at every stage of the partnership from the initial meeting and the creation of the joint success plan, to quarterly business reviews that validate successes and surface areas for improvement."
+        image={landingPageFirst}
+        alt="A woman walking on an arrow graph and a man sitting on a circle diagram working on a computer"
+        button="Contact our experts"
+        link="/contact#form"
+      />
       <GreyAnimation>
         <h2>Local support</h2>
         <div className="grey-middle">
@@ -45,7 +56,8 @@ function Services() {
             Our experienced team has worked in various industries and with a
             wide range of challenges.
             <br />
-            We can take care of the complex and time-consuming administrative tasks before, during and after you enter a new market.
+            We can take care of the complex and time-consuming administrative
+            tasks before, during and after you enter a new market.
           </p>
         </div>
         <Tabs />
