@@ -66,7 +66,7 @@ function Contact() {
                 alt:"jigsaw puzzle piece icon",
                 header: "Contact Support",
                 text:
-                  "If you have a question regarding our software, if you have forgotten your login or any other questions – please contact our support",
+                  "If you have a question regarding our software, forgotten your login details or any other related questions - please contact our support.",
                 button: "Contact Support",
                 link: "mailto:support@internago.com",
               },
@@ -75,7 +75,7 @@ function Contact() {
                 alt:"mailbox icon",
                 header: "Partner request",
                 text:
-                  "If you are a potential partner to Internago and want to know how to enter in our network. Please drop us an email to get in touch",
+                  "If you are a potential partner to Internago and are interested in joining our network - please send us an email to get in touch.",
                 button: "Contact Management",
                 link: "mailto:info@internago.com",
               },

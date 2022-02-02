@@ -10,7 +10,7 @@ function Cta(props) {
   if (props.content === "next") {
     heading = "What's next?"
     text =
-      "A complete range of services to support your international business. We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business critical decisions."
+      "Internago offers a complete range of services to support your international business. We provide hands-on support backed up by qualitative and quantitative analysis of relevant industry information that can support you in business-critical decisions."
   } else if (props.content === "more") {
     heading = "Want to know more?"
   } else if (props.content === "about") {

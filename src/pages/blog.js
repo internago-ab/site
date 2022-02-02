@@ -5,17 +5,21 @@ import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
+import Search from "../components/search"
 
 function Blog({ data, location }) {
   const allPosts = data.allMarkdownRemark.nodes
-
-  console.log(allPosts)
   const postsToDisplay = 6
   const [posts, setPosts] = useState(allPosts)
   const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
+
+  const [filteredPosts, setFilteredPosts] = useState({
+    filteredPosts: [],
+    query: "",
+  })
   const tags = Array.from(
     new Set(
       allPosts
@@ -55,11 +59,31 @@ function Blog({ data, location }) {
     )
   }
 
+  const handleInputChange = event => {
+    const query = event.target.value
+    const filteredPosts = allPosts.filter(post => {
+      const title = post.frontmatter.title
+      const tags = post.frontmatter.tags
+      return (
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        (tags && tags.join("").toLowerCase().includes(query.toLowerCase()))
+      )
+    })
+    setFilteredPosts({
+      query,
+      filteredPosts,
+    })
+  }
+
+  const lol = filteredPosts.query ? filteredPosts.filteredPosts : posts
+
   return (
     <Layout>
       <Seo title="All posts" />
       <div className="blog">
         <form>
+        <Search handleInputChange={handleInputChange} />
+        <div className='filter'>
           <label htmlFor="categories">Filter by: </label>
           <select
             id="categories"
@@ -79,9 +103,10 @@ function Blog({ data, location }) {
               </option>
             ))}
           </select>
+          </div>
         </form>
         <ol className="blog-grid">
-          {posts.slice(0, numberOfPosts).map(post => (
+          {lol.slice(0, numberOfPosts).map(post => (
             <Blogcard
               key={post.fields.slug}
               post={post}

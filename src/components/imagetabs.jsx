@@ -141,7 +141,7 @@ const Tab = () => {
             >
               <p>
                 Simplify the onboarding process by gathering all critical
-                employee and payroll data, and upload it into Internago Web
+                employee and payroll data and upload it to the Internago Web
                 Portal.
               </p>
               <div className="cta-btn">
@@ -172,10 +172,8 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Put your payroll on autopilot. Define approval processes,
-                delegate tasks and make sure no one misses important deadlines.
-                The perfect payroll tool to quickly identify bottle necks and
-                ensure smooth processes.
+              Put your payroll on autopilot. Define approval processes, delegate tasks, and make sure no one misses important deadlines. Internago offers the perfect payroll tool to quickly identify bottlenecks and ensure smooth processes.
+
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
@@ -188,10 +186,7 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Use analytics to make data-driven decisions and become more
-                proactive in your daily work. Intenrago keeps all payroll data
-                in one place and makes it easier for your company to control
-                your international employees
+              Put your payroll on autopilot. Define approval processes, delegate tasks, and make sure no one misses important deadlines. Internago offers the perfect payroll tool to quickly identify bottlenecks and ensure smooth processes.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
