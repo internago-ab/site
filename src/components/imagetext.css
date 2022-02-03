@@ -24,6 +24,19 @@ main .large {
   padding-right: var(--spacing-xxl);
 }
 
+.margin-none {
+  margin-top: 0;
+}
+
+.margin-none .imagetext {
+  margin-top: 0;
+}
+
+.padding {
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+}
+
 .bg-grey {
   background-color: var(--light-grey);
 }

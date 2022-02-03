@@ -20,9 +20,9 @@ const ImageText = props => {
   }, [])
 
   return (
-    <section className={props.bg} data-aos="fade-up">
+    <section className={`${props.bg} ${props.margin}`} data-aos="fade-up">
       <div
-        className={`section imagetext ${props.size} ${props.reverse} ${props.width}`}
+        className={`section imagetext ${props.size} ${props.reverse} ${props.width} ${props.padding}` }
       >
         <div className="info-imagetext">
           <CustomTag className="heading" id={props.id}>
