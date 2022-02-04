@@ -10,6 +10,7 @@ import ImageText from "../components/imagetext"
 import Quotes from "../components/quotes"
 
 import Multilingual from "../images/illustrations/multilingual.png"
+import Access from "../images/illustrations/access.png"
 import PayrollShareDoc from "../images/illustrations/payroll-sharedoc.png"
 
 import mobile from "../images/icons/mobile.png"
@@ -183,7 +184,7 @@ function Payroll() {
         padding="padding"
         title="Access 24/7"
         text="Access your payroll data and employee data at any time from anywhere thanks to our mobile device login and real time notiflications."
-        image={simple}
+        image={Access}
         alt="Clicking button icon"
         active="notactive"
       />
