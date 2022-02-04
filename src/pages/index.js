@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 //Components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,6 +9,7 @@ import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageTabs from "../components/imagetabs"
 import Svg from "../components/svg"
+import Slider from "../components/slider"
 //Images
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"
@@ -18,6 +19,7 @@ import dedicare from "../images/clients/dedicare.png"
 import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
+import teamtailor from '../images/clients/teamtailor.png'
 import international from "../../static/images/city/international.jpeg"
 //Icons
 import diagram from "../images/icons/diagram.png"
@@ -26,11 +28,47 @@ import calendar from "../images/icons/calendar.png"
 import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
+import rightArrow from '../images/icons/arrow-svg.svg'
+import leftArrow from '../images/icons/arrow-left.svg'
 //animation
 import Aos from "aos"
 import "aos/dist/aos.css"
 
+const CardArray = [
+  { name: kitabsawti },
+  { name: benify },
+  { name: dedicare },
+  { name: rototilt },
+  { name: enmacc },
+  { name: sportamore },
+  { name: teamtailor },
+]
+
 const Index = () => {
+  let carouslRef = useRef(null)
+
+  const prev = () => {
+    carouslRef &&
+      carouslRef.current &&
+      carouslRef.current.scrollTo({
+        behavior: "smooth",
+        top: 0,
+        left:
+          carouslRef.current.scrollLeft - carouslRef.current.clientWidth * 0.5,
+      })
+  }
+
+  const next = () => {
+    carouslRef &&
+      carouslRef.current &&
+      carouslRef.current.scrollTo({
+        behavior: "smooth",
+        top: 0,
+        left:
+          carouslRef.current.scrollLeft + carouslRef.current.clientWidth * 0.5,
+      })
+  }
+
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -56,7 +94,21 @@ const Index = () => {
           </div>
         </div>
       </div>
-
+      <div className="carousel">
+        <button className="direction" onClick={prev}>
+        <img className='arrow' src={leftArrow} alt="left arrow" />
+        </button>
+        <div className="card-div">
+          <div className="card-scroll " ref={carouslRef}>
+            {CardArray.map((carousel, i) => (
+              <Slider {...carousel} key={i} />
+            ))}
+          </div>
+        </div>
+        <button className="direction" onClick={next}>
+        <img className='arrow' src={rightArrow} alt="right arrow" />
+        </button>
+      </div>
       <div className="clients" data-aos="fade-up">
         <img src={kitabsawti} alt="Kitab Sawti logo" />
         <img src={benify} alt="Benify logo" />
@@ -65,7 +117,6 @@ const Index = () => {
         <img src={enmacc} alt="Enmacc logo" />
         <img src={sportamore} alt="Sportamore logo" />
       </div>
-
       <section
         className="section imagetext medium rowreverse"
         data-aos="fade-up"
@@ -86,9 +137,7 @@ const Index = () => {
         </div>
         <Svg />
       </section>
-
       <ImageTabs />
-
       <GreyAnimation>
         <h2>Why Internago?</h2>
         <Icongrid
@@ -118,7 +167,8 @@ const Index = () => {
               icon: settings,
               alt: "Gearwheel icon",
               header: "Multiple international markets",
-              text: "A trusted partner with a single interface operating in all your international markets.",
+              text:
+                "A trusted partner with a single interface operating in all your international markets.",
             },
             {
               icon: cloud,
@@ -137,7 +187,6 @@ const Index = () => {
           ]}
         />
       </GreyAnimation>
-
       <ImageText
         reverse="rowreverse"
         size="medium"
@@ -148,7 +197,6 @@ const Index = () => {
         button="Read more"
         link="/services"
       />
-
       <ImageText
         size="medium"
         title="Internago Payroll portal – one software for all your payroll services"
@@ -158,7 +206,6 @@ const Index = () => {
         button="Read more"
         link="/payroll"
       />
-
       <Cta content="next" />
     </Layout>
   )
