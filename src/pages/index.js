@@ -19,7 +19,11 @@ import dedicare from "../images/clients/dedicare.png"
 import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
-import teamtailor from '../images/clients/teamtailor.png'
+import teamtailor from "../images/clients/teamtailor.png"
+import inexone from "../images/clients/inexone.png"
+import globalcitizen from "../images/clients/globalcitizen.png"
+import icmstellarcolorlogo from "../images/clients/icmstellarcolorlogo.png"
+import logoclimatepartner from "../images/clients/logoclimatepartner.jpeg"
 import international from "../../static/images/city/international.jpeg"
 //Icons
 import diagram from "../images/icons/diagram.png"
@@ -28,46 +32,12 @@ import calendar from "../images/icons/calendar.png"
 import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
-import rightArrow from '../images/icons/arrow-svg.svg'
-import leftArrow from '../images/icons/arrow-left.svg'
+
 //animation
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-const CardArray = [
-  { name: kitabsawti },
-  { name: benify },
-  { name: dedicare },
-  { name: rototilt },
-  { name: enmacc },
-  { name: sportamore },
-  { name: teamtailor },
-]
-
 const Index = () => {
-  let carouslRef = useRef(null)
-
-  const prev = () => {
-    carouslRef &&
-      carouslRef.current &&
-      carouslRef.current.scrollTo({
-        behavior: "smooth",
-        top: 0,
-        left:
-          carouslRef.current.scrollLeft - carouslRef.current.clientWidth * 0.5,
-      })
-  }
-
-  const next = () => {
-    carouslRef &&
-      carouslRef.current &&
-      carouslRef.current.scrollTo({
-        behavior: "smooth",
-        top: 0,
-        left:
-          carouslRef.current.scrollLeft + carouslRef.current.clientWidth * 0.5,
-      })
-  }
 
   useEffect(() => {
     Aos.init({ duration: 2000 })
@@ -94,28 +64,100 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="carousel">
-        <button className="direction" onClick={prev}>
-        <img className='arrow' src={leftArrow} alt="left arrow" />
-        </button>
-        <div className="card-div">
-          <div className="card-scroll " ref={carouslRef}>
-            {CardArray.map((carousel, i) => (
-              <Slider {...carousel} key={i} />
-            ))}
+      <div className="slider-wrapper section"  data-aos="fade-up">
+        <Slider show={5}>
+          <div>
+            <div className="slider-image-wrapper-first">
+              <img
+                src={kitabsawti}
+                alt="Kitab Sawti logo"
+                style={{ width: "75%" }}
+              />
+            </div>
           </div>
-        </div>
-        <button className="direction" onClick={next}>
-        <img className='arrow' src={rightArrow} alt="right arrow" />
-        </button>
-      </div>
-      <div className="clients" data-aos="fade-up">
-        <img src={kitabsawti} alt="Kitab Sawti logo" />
-        <img src={benify} alt="Benify logo" />
-        <img src={dedicare} alt="Dedicare logo" />
-        <img src={rototilt} alt="Rototilt logo" />
-        <img src={enmacc} alt="Enmacc logo" />
-        <img src={sportamore} alt="Sportamore logo" />
+          <div>
+            <div className="slider-image-wrapper">
+              <img src={benify} alt="Benify logo" style={{ width: "75%" }} />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={dedicare}
+                alt="Dedicare logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={rototilt}
+                alt="Rototilt logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img src={enmacc} alt="Enmacc logo" style={{ width: "75%" }} />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={sportamore}
+                alt="Sportamore logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={teamtailor}
+                alt="Teamtailor logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={inexone}
+                alt="InexOne Sawti logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={globalcitizen}
+                alt="GlobalCitizen logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper-last">
+              <img
+                src={logoclimatepartner}
+                alt="Climate Partner logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper-last">
+              <img
+                src={icmstellarcolorlogo}
+                alt="ICM Stellar logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+        </Slider>
       </div>
       <section
         className="section imagetext medium rowreverse"

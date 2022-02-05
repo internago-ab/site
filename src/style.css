@@ -166,20 +166,6 @@ section.error-page>* {
   margin: 0 auto;
 }
 
-.clients {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-  padding-left: var(--spacing-m);
-  padding-right: var(--spacing-m);
-  margin-top: var(--spacing-m);
-}
-
-.clients img {
-  width: 10%;
-}
-
 .howitworks {
   padding-top: var(--spacing-m);
   text-align: center;
@@ -219,9 +205,6 @@ section.error-page>* {
 }
 
 @media screen and (max-width: 1200px) {
-  .clients {
-    display: none;
-  }
 
   main {
     margin-top: 70px;
