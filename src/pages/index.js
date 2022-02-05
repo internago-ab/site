@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 //Components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,6 +9,7 @@ import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageTabs from "../components/imagetabs"
 import Svg from "../components/svg"
+import Slider from "../components/slider"
 //Images
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"
@@ -18,6 +19,11 @@ import dedicare from "../images/clients/dedicare.png"
 import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
+import teamtailor from "../images/clients/teamtailor.png"
+import inexone from "../images/clients/inexone.png"
+import globalcitizen from "../images/clients/globalcitizen.png"
+import icmstellarcolorlogo from "../images/clients/icmstellarcolorlogo.png"
+import logoclimatepartner from "../images/clients/logoclimatepartner.jpeg"
 import international from "../../static/images/city/international.jpeg"
 //Icons
 import diagram from "../images/icons/diagram.png"
@@ -26,11 +32,13 @@ import calendar from "../images/icons/calendar.png"
 import settings from "../images/icons/settings.png"
 import cloud from "../images/icons/cloud.png"
 import report from "../images/icons/report.png"
+
 //animation
 import Aos from "aos"
 import "aos/dist/aos.css"
 
 const Index = () => {
+
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -56,16 +64,101 @@ const Index = () => {
           </div>
         </div>
       </div>
-
-      <div className="clients" data-aos="fade-up">
-        <img src={kitabsawti} alt="Kitab Sawti logo" />
-        <img src={benify} alt="Benify logo" />
-        <img src={dedicare} alt="Dedicare logo" />
-        <img src={rototilt} alt="Rototilt logo" />
-        <img src={enmacc} alt="Enmacc logo" />
-        <img src={sportamore} alt="Sportamore logo" />
+      <div className="slider-wrapper section"  data-aos="fade-up">
+        <Slider show={5}>
+          <div>
+            <div className="slider-image-wrapper-first">
+              <img
+                src={kitabsawti}
+                alt="Kitab Sawti logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img src={benify} alt="Benify logo" style={{ width: "75%" }} />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={dedicare}
+                alt="Dedicare logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={rototilt}
+                alt="Rototilt logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img src={enmacc} alt="Enmacc logo" style={{ width: "75%" }} />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={sportamore}
+                alt="Sportamore logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={teamtailor}
+                alt="Teamtailor logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={inexone}
+                alt="InexOne Sawti logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper">
+              <img
+                src={globalcitizen}
+                alt="GlobalCitizen logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper-last">
+              <img
+                src={logoclimatepartner}
+                alt="Climate Partner logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+          <div>
+            <div className="slider-image-wrapper-last">
+              <img
+                src={icmstellarcolorlogo}
+                alt="ICM Stellar logo"
+                style={{ width: "75%" }}
+              />
+            </div>
+          </div>
+        </Slider>
       </div>
-
       <section
         className="section imagetext medium rowreverse"
         data-aos="fade-up"
@@ -86,9 +179,7 @@ const Index = () => {
         </div>
         <Svg />
       </section>
-
       <ImageTabs />
-
       <GreyAnimation>
         <h2>Why Internago?</h2>
         <Icongrid
@@ -118,7 +209,8 @@ const Index = () => {
               icon: settings,
               alt: "Gearwheel icon",
               header: "Multiple international markets",
-              text: "A trusted partner with a single interface operating in all your international markets.",
+              text:
+                "A trusted partner with a single interface operating in all your international markets.",
             },
             {
               icon: cloud,
@@ -137,7 +229,6 @@ const Index = () => {
           ]}
         />
       </GreyAnimation>
-
       <ImageText
         reverse="rowreverse"
         size="medium"
@@ -148,7 +239,6 @@ const Index = () => {
         button="Read more"
         link="/services"
       />
-
       <ImageText
         size="medium"
         title="Internago Payroll portal – one software for all your payroll services"
@@ -158,7 +248,6 @@ const Index = () => {
         button="Read more"
         link="/payroll"
       />
-
       <Cta content="next" />
     </Layout>
   )
