@@ -52,12 +52,6 @@ const Slider = props => {
     setTouchPosition(null)
   }
 
-  /*
-  if (window.screen.width <= 1024) {
-    show = show - 1
-    console.log(show)
-  }
-*/
   return (
     <div className="carousel-container">
       <div className="carousel-wrapper">
