@@ -27,13 +27,20 @@
 }
 
 .img-tab {
-    width: 100%;
+    text-decoration: none !important;
+    background-color: transparent;
+    border: none;
+    height: var(--spacing-s);
     margin-right: var(--spacing-xs);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     cursor: pointer;
+}
+
+.img-tab-last{
+    margin-right: 0;
 }
 
 .tab-header {

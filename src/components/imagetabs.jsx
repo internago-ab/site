@@ -95,41 +95,45 @@ const Tab = () => {
         </div>
         <div className="container">
           <ul className="tab-list">
-            <li
-              role={"button"}
-              tabIndex={0}
-              onKeyDown={handleKeyDown}
-              className={`img-tab ${getActiveClass(1, "active-tabs")}`}
-              onClick={() => toggleTab(1)}
-            >
-              Preboard
+            <li>
+              <button
+                tabIndex={0}
+                onKeyDown={handleKeyDown}
+                className={`img-tab ${getActiveClass(1, "active-tabs")}`}
+                onClick={() => toggleTab(1)}
+              >
+                Preboard
+              </button>
             </li>
-            <li
-              role={"button"}
-              tabIndex={0}
-              onKeyDown={handleKeyDown}
-              className={`img-tab ${getActiveClass(2, "active-tabs")}`}
-              onClick={() => toggleTab(2)}
-            >
-              Manage
+            <li>
+              <button
+                tabIndex={0}
+                onKeyDown={handleKeyDown}
+                className={`img-tab ${getActiveClass(2, "active-tabs")}`}
+                onClick={() => toggleTab(2)}
+              >
+                Manage
+              </button>
             </li>
-            <li
-              role={"button"}
-              tabIndex={0}
-              onKeyDown={handleKeyDown}
-              className={`img-tab ${getActiveClass(3, "active-tabs")}`}
-              onClick={() => toggleTab(3)}
-            >
-              Automate
+            <li>
+              <button
+                tabIndex={0}
+                onKeyDown={handleKeyDown}
+                className={`img-tab ${getActiveClass(3, "active-tabs")}`}
+                onClick={() => toggleTab(3)}
+              >
+                Automate
+              </button>
             </li>
-            <li
-              role={"button"}
-              tabIndex={0}
-              onKeyDown={handleKeyDown}
-              className={`img-tab ${getActiveClass(4, "active-tabs")}`}
-              onClick={() => toggleTab(4)}
-            >
-              Analyze
+            <li>
+              <button
+                tabIndex={0}
+                onKeyDown={handleKeyDown}
+                className={`img-tab img-tab-last ${getActiveClass(4, "active-tabs")}`}
+                onClick={() => toggleTab(4)}
+              >
+                Analyze
+              </button>
             </li>
           </ul>
           <div className="content-container">
@@ -172,8 +176,10 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-              Put your payroll on autopilot. Define approval processes, delegate tasks, and make sure no one misses important deadlines. Internago offers the perfect payroll tool to quickly identify bottlenecks and ensure smooth processes.
-
+                Put your payroll on autopilot. Define approval processes,
+                delegate tasks, and make sure no one misses important deadlines.
+                Internago offers the perfect payroll tool to quickly identify
+                bottlenecks and ensure smooth processes.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
@@ -186,7 +192,10 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-              Put your payroll on autopilot. Define approval processes, delegate tasks, and make sure no one misses important deadlines. Internago offers the perfect payroll tool to quickly identify bottlenecks and ensure smooth processes.
+                Put your payroll on autopilot. Define approval processes,
+                delegate tasks, and make sure no one misses important deadlines.
+                Internago offers the perfect payroll tool to quickly identify
+                bottlenecks and ensure smooth processes.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
