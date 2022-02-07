@@ -4,8 +4,6 @@ import "./layout.css"
 import PropTypes from "prop-types"
 import { motion } from "framer-motion"
 import CookieConsent from "react-cookie-consent"
-import { useLocation } from "@reach/router" // this helps tracking the location
-import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies"
 
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
@@ -81,10 +79,6 @@ const Layout = ({ children }) => {
 
     return () => window.removeEventListener("scroll", handleScroll)
   }, [prevScrollPos, visible, handleScroll])
-
-  const navbarStyles = {
-    transition: "top 0.7s",
-  }
 
   return (
     <div className="global-wrapper">
