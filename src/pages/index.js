@@ -42,9 +42,7 @@ const Index = () => {
     Aos.init({ duration: 2000 })
   }, [])
 
-  // Hook
   const [show, setShowProp] = useState(5)
-
   const [windowSize, setWindowSize] = useState()
 
   useEffect(() => {
