@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useEffect, useRef } from "react"
+import { useEffect, useState } from "react"
 //Components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -20,10 +20,10 @@ import rototilt from "../images/clients/rototilt.png"
 import enmacc from "../images/clients/enmacc.png"
 import sportamore from "../images/clients/sportamore.png"
 import teamtailor from "../images/clients/teamtailor.png"
-import inexone from "../images/clients/inexone.png"
-import globalcitizen from "../images/clients/globalcitizen.png"
-import icmstellarcolorlogo from "../images/clients/icmstellarcolorlogo.png"
-import logoclimatepartner from "../images/clients/logoclimatepartner.jpeg"
+import inexone from "../images/clients/inexOne.png"
+import globalcitizen from "../images/clients/globalCitizen.png"
+import icmstellarcolorlogo from "../images/clients/ICMStellarColorLogo.png"
+import logoclimatepartner from "../images/clients/LogoClimatePartner.jpeg"
 import international from "../../static/images/city/international.jpeg"
 //Icons
 import diagram from "../images/icons/diagram.png"
@@ -38,10 +38,35 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const Index = () => {
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
+
+  const [show, setShowProp] = useState(5)
+  const [windowSize, setWindowSize] = useState()
+
+  useEffect(() => {
+    
+    function handleResize() {
+      setWindowSize(window.innerWidth)
+    }
+    
+    window.addEventListener("resize", handleResize)
+    handleResize()
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
+  useEffect(() => {
+    if (windowSize <= 600) {
+      setShowProp(2)
+    } else if (windowSize >= 600 && windowSize <= 768) {
+      setShowProp(3)
+    } else if (windowSize <= 1199) {
+      setShowProp(4)
+    }else if (windowSize >= 1200) {
+      setShowProp(5)
+    }
+  }, [windowSize])
 
   return (
     <Layout>
@@ -64,8 +89,8 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="slider-wrapper section"  data-aos="fade-up">
-        <Slider show={5}>
+      <div className="slider-wrapper section" data-aos="fade-up">
+        <Slider show={show}>
           <div>
             <div className="slider-image-wrapper-first">
               <img

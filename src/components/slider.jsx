@@ -8,10 +8,8 @@ const Slider = props => {
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [length, setLength] = useState(children.length)
-
   const [touchPosition, setTouchPosition] = useState(null)
 
-  // Set the length to match current children from props
   useEffect(() => {
     setLength(children.length)
   }, [children])
@@ -54,12 +52,6 @@ const Slider = props => {
     setTouchPosition(null)
   }
 
-  /*
-  if (window.screen.width <= 1024) {
-    show = show - 1
-    console.log(show)
-  }
-*/
   return (
     <div className="carousel-container">
       <div className="carousel-wrapper">
