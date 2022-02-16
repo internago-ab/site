@@ -46,11 +46,10 @@ const Index = () => {
   const [windowSize, setWindowSize] = useState()
 
   useEffect(() => {
-    
     function handleResize() {
       setWindowSize(window.innerWidth)
     }
-    
+
     window.addEventListener("resize", handleResize)
     handleResize()
     return () => window.removeEventListener("resize", handleResize)
@@ -63,7 +62,7 @@ const Index = () => {
       setShowProp(3)
     } else if (windowSize <= 1199) {
       setShowProp(4)
-    }else if (windowSize >= 1200) {
+    } else if (windowSize >= 1200) {
       setShowProp(5)
     }
   }, [windowSize])
@@ -89,121 +88,45 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="slider-wrapper section" data-aos="fade-up">
-        <Slider show={show}>
-          <div>
-            <div className="slider-image-wrapper-first">
-              <img
-                src={kitabsawti}
-                alt="Kitab Sawti logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img src={benify} alt="Benify logo" style={{ width: "75%" }} />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={dedicare}
-                alt="Dedicare logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={rototilt}
-                alt="Rototilt logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img src={enmacc} alt="Enmacc logo" style={{ width: "75%" }} />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={sportamore}
-                alt="Sportamore logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={teamtailor}
-                alt="Teamtailor logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={inexone}
-                alt="InexOne Sawti logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper">
-              <img
-                src={globalcitizen}
-                alt="GlobalCitizen logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper-last">
-              <img
-                src={logoclimatepartner}
-                alt="Climate Partner logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="slider-image-wrapper-last">
-              <img
-                src={icmstellarcolorlogo}
-                alt="ICM Stellar logo"
-                style={{ width: "75%" }}
-              />
-            </div>
-          </div>
-        </Slider>
-      </div>
-      <section
-        className="section imagetext medium rowreverse"
-        data-aos="fade-up"
-      >
-        <div className="info-imagetext">
-          <h2 className="heading">Your markets - our objective</h2>
-          <p className="paragraph">
-            Internago provides payroll and related services on main European
-            markets, either directly or together with carefully selected local
-            partners. <br></br>
-            <br></br>Contact us to find out how we can support you in France,
-            Italy, Sweden, Germany, Spain, United Kingdom, Holland or other
-            countries of interest.
-          </p>
-          <div className="cta-btn">
-            <a href="/contact#form">Contact us</a>
-          </div>
+      <section className="section">
+        <div className="clients" data-aos="fade-up">
+          <img src={kitabsawti} alt="Kitab Sawti logo" />
+          <img src={benify} alt="Benify logo" />
+          <img src={dedicare} alt="Dedicare logo" />
+          <img src={rototilt} alt="Rototilt logo" />
+          <img src={enmacc} alt="Enmacc logo" />
+          <img src={sportamore} alt="Sportamore logo" />
         </div>
-        <Svg />
+        <div className="clients" data-aos="fade-up">
+          <img src={teamtailor} alt="Kitab Sawti logo" />
+          <img src={inexone} alt="Benify logo" />
+          <img src={globalcitizen} alt="Dedicare logo" />
+          <img src={icmstellarcolorlogo} alt="Rototilt logo" />
+          <img src={logoclimatepartner} alt="Enmacc logo" />
+        </div>
       </section>
+      <div className="bg-light-blue">
+        <section
+          className="section imagetext medium rowreverse"
+          data-aos="fade-up"
+        >
+          <div className="info-imagetext">
+            <h2 className="heading">Your markets - our objective</h2>
+            <p className="paragraph">
+              Internago provides payroll and related services on main European
+              markets, either directly or together with carefully selected local
+              partners. <br></br>
+              <br></br>Contact us to find out how we can support you in France,
+              Italy, Sweden, Germany, Spain, United Kingdom, Holland or other
+              countries of interest.
+            </p>
+            <div className="cta-btn">
+              <a href="/contact#form">Contact us</a>
+            </div>
+          </div>
+          <Svg />
+        </section>
+      </div>
       <ImageTabs />
       <GreyAnimation>
         <h2>Why Internago?</h2>

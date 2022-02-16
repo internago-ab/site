@@ -101,6 +101,7 @@ function Payroll() {
       </div>
 
       <ImageText
+        reverse="rowreverse"
         bg="bg-grey"
         id="time-absence"
         size="medium"
@@ -147,7 +148,6 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
-        reverse="rowreverse"
         id="multilingual"
         size="medium"
         padding="padding"
@@ -162,6 +162,7 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
+        reverse="rowreverse"
         bg="bg-grey"
         id="workflow"
         size="medium"
@@ -177,7 +178,6 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
-        reverse="rowreverse"
         id="access"
         size="medium"
         width="short"

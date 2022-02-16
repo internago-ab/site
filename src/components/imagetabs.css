@@ -9,15 +9,14 @@
     align-items: center;
 }
 
-.tab-list {
-    border-bottom: 2px solid var(--light-grey);
-}
-
 .container {
+    width: 100%;
     padding-left: var(--spacing-m);
 }
 
 .tab-list {
+    border-bottom: 2px solid var(--light-grey);
+    justify-content: space-between;
     height: var(--spacing-s);
     display: flex;
     list-style: none;
@@ -39,7 +38,7 @@
     cursor: pointer;
 }
 
-.img-tab-last{
+.img-tab-last {
     margin-right: 0;
 }
 
@@ -213,6 +212,6 @@
     }
 
     .tabs-main {
-       margin-top: var(--spacing-xs);
+        margin-top: var(--spacing-xs);
     }
 }

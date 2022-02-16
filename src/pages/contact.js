@@ -45,7 +45,7 @@ function Contact() {
         <h1>Contact us</h1>
         <p>
           We are happy to hear from you, and our team is ready to assist you
-          with any question you might have.
+          with any question you might have
         </p>
       </Blue>
       <Grey>
@@ -54,7 +54,7 @@ function Contact() {
             content={[
               {
                 icon: board,
-                alt:"dartboard icon",
+                alt: "dartboard icon",
                 header: "Contact Sales",
                 text:
                   "If you want to know more about our services, book a demo or have any other questions – please contact our sales department",
@@ -63,7 +63,7 @@ function Contact() {
               },
               {
                 icon: puzzle,
-                alt:"jigsaw puzzle piece icon",
+                alt: "jigsaw puzzle piece icon",
                 header: "Contact Support",
                 text:
                   "If you have a question regarding our software, forgotten your login details or any other related questions - please contact our support.",
@@ -72,7 +72,7 @@ function Contact() {
               },
               {
                 icon: mailbox,
-                alt:"mailbox icon",
+                alt: "mailbox icon",
                 header: "Partner request",
                 text:
                   "If you are a potential partner to Internago and are interested in joining our network - please send us an email to get in touch.",
@@ -125,7 +125,7 @@ function Contact() {
             </li>
             <li>
               <img src={spain} alt="flag-spain" />
-              <a href="mailto:spain@internago.com">spain@internago.comn</a>
+              <a href="mailto:spain@internago.com">spain@internago.com</a>
             </li>
             <li>
               <img src={sweden} alt="flag-sweden" />
@@ -144,10 +144,10 @@ function Contact() {
           </ul>
         </div>
       </section>
-      <section className="medium section-top">
+      <section className="medium section-top bg-light-blue">
         <div className="header-text" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
-          <p>
+          <p className="white">
             We get many questions from our customers, and we have collected the
             most common ones here for you with a suggested solution
           </p>
