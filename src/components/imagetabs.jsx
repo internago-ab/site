@@ -102,7 +102,7 @@ const Tab = () => {
                 className={`img-tab ${getActiveClass(1, "active-tabs")}`}
                 onClick={() => toggleTab(1)}
               >
-                Preboard
+                Onboarding
               </button>
             </li>
             <li>
@@ -122,14 +122,17 @@ const Tab = () => {
                 className={`img-tab ${getActiveClass(3, "active-tabs")}`}
                 onClick={() => toggleTab(3)}
               >
-                Automate
+                Process
               </button>
             </li>
             <li>
               <button
                 tabIndex={0}
                 onKeyDown={handleKeyDown}
-                className={`img-tab img-tab-last ${getActiveClass(4, "active-tabs")}`}
+                className={`img-tab img-tab-last ${getActiveClass(
+                  4,
+                  "active-tabs"
+                )}`}
                 onClick={() => toggleTab(4)}
               >
                 Analyze
@@ -144,9 +147,9 @@ const Tab = () => {
               )}`}
             >
               <p>
-                Simplify the onboarding process by gathering all critical
-                employee and payroll data and upload it to the Internago Web
-                Portal.
+                Simplify the onboarding process by using Internago’s payroll
+                platform to gather and upload your critical employee and payroll
+                data.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
@@ -160,10 +163,11 @@ const Tab = () => {
               )}`}
             >
               <p>
-                Store all important payroll and employee data in one place. Get
-                a 360 degree view of critical personal information, promotions,
-                salaries, employment contracts, insurance documents and
-                absences.
+                Store and manage all payroll and employee data in one place
+                online. Get an instant view of critical personal information,
+                salaries, employment contracts, insurance documents and absences
+                on multiple markets. Add new employees, update salaries, bonuses
+                etc. as your company grows.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
@@ -176,10 +180,11 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Put your payroll on autopilot. Define approval processes,
-                delegate tasks, and make sure no one misses important deadlines.
-                Internago offers the perfect payroll tool to quickly identify
-                bottlenecks and ensure smooth processes.
+                Use the payroll platform to improve work efficiency. Define and
+                customise approval processes, delegate tasks and use specific
+                reminders to make sure no one in your organization misses
+                important deadlines. A perfect payroll tool to ensure a smooth
+                payroll process.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>
@@ -192,10 +197,10 @@ const Tab = () => {
               )}`}
             >
               <p className="">
-                Put your payroll on autopilot. Define approval processes,
-                delegate tasks, and make sure no one misses important deadlines.
-                Internago offers the perfect payroll tool to quickly identify
-                bottlenecks and ensure smooth processes.
+                Use the data to make qualified decisions and become more
+                proactive in your daily work. Internago keeps all payroll data
+                in one place and makes it easy for your company to manage your
+                international employees.
               </p>
               <div className="cta-btn">
                 <a href="/">Read more</a>

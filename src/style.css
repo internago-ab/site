@@ -44,6 +44,7 @@
   --light-grey: #f6f6f6;
   --dark-blue: #00446e;
   --light-blue: #81aecc;
+  --lighter-blue: #5185A8;
 }
 
 html {
@@ -89,7 +90,7 @@ a::before {
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.anchorlink::before{
+.anchorlink::before {
   display: none;
 }
 
@@ -166,6 +167,21 @@ section.error-page>* {
   margin: 0 auto;
 }
 
+.clients {
+  filter: grayscale(1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  padding-left: var(--spacing-m);
+  padding-right: var(--spacing-m);
+  margin-top: var(--spacing-m);
+}
+
+.clients img {
+  width: 10%;
+}
+
 .howitworks {
   padding-top: var(--spacing-m);
   text-align: center;
@@ -205,6 +221,10 @@ section.error-page>* {
 }
 
 @media screen and (max-width: 1200px) {
+  
+  .clients {
+    display: none;
+  }
 
   main {
     margin-top: 70px;
@@ -239,7 +259,27 @@ section.error-page>* {
   section.error-page {
     padding: var(--spacing-s);
   }
+
   main>section {
     padding-top: 0;
   }
+}
+
+.bg-light-blue {
+  margin-top: var(--spacing-m);
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+  background-color: var(--lighter-blue);
+}
+
+.bg-light-blue .imagetext {
+  margin-top: 0;
+}
+
+.bg-light-blue .imagetext p {
+  color: var(--white);
+}
+
+.bg-light-blue .white {
+  color: var(--white);
 }

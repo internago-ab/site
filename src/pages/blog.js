@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
+import Blue from "../components/blue"
 import Search from "../components/search"
 
 function Blog({ data, location }) {
@@ -80,29 +81,38 @@ function Blog({ data, location }) {
   return (
     <Layout>
       <Seo title="All posts" />
+      <Blue>
+        <h1>Blogs and News</h1>
+        <p>
+          This is where we collect our latest blogs and insights on different
+          relevant topics on payroll, taxes and other subjects for you to read.
+          If you have questions or suggestions on a topic than please contact us
+          at Internago
+        </p>
+      </Blue>
       <div className="blog">
         <form>
-        <Search handleInputChange={handleInputChange} />
-        <div className='filter'>
-          <label htmlFor="categories">Filter by: </label>
-          <select
-            id="categories"
-            name="categories"
-            onChange={e => setFilter(e.target.value)}
-          >
-            <option value="all" className="filter-option" id="all">
-              {" "}
-            </option>
-            {tags.map((tag, index) => (
-              <option
-                key={index}
-                value={tag.toLowerCase()}
-                className="filter-option"
-              >
-                {tag}
+          <Search handleInputChange={handleInputChange} />
+          <div className="filter">
+            <label htmlFor="categories">Filter by: </label>
+            <select
+              id="categories"
+              name="categories"
+              onChange={e => setFilter(e.target.value)}
+            >
+              <option value="all" className="filter-option" id="all">
+                {" "}
               </option>
-            ))}
-          </select>
+              {tags.map((tag, index) => (
+                <option
+                  key={index}
+                  value={tag.toLowerCase()}
+                  className="filter-option"
+                >
+                  {tag}
+                </option>
+              ))}
+            </select>
           </div>
         </form>
         <ol className="blog-grid">

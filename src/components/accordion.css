@@ -55,7 +55,7 @@
 .accordion-text {
     row-gap: var(--spacing-xs);
     padding: var(--spacing-s) var(--spacing-xs);
-    background-color: var(--light-grey);
+    background-color: var(--light-blue);
 }
 
 .show {

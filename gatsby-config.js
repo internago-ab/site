@@ -64,7 +64,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-cookiebot",
       options: {
-        cookiebotId: "d1108fab-5ff6-4dcd-bbec-192f52dbe414", // Required. Site's Cookiebot ID.
+        cookiebotId: "", // Required. Site's Cookiebot ID. d1108fab-5ff6-4dcd-bbec-192f52dbe414
         manualMode: true, // Optional. Turns on Cookiebot's manual mode. Defaults to false.
         blockGtm: false, //  Optional. Skip blocking of GTM. Defaults to true if manualMode is set to true.
         includeInDevelopment: true, // Optional. Enables plugin in development. Will cause gatsby-plugin-google-tagmanager to thrown an error when pushing to dataLayer. Defaults to false.

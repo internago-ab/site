@@ -19,7 +19,7 @@ function About() {
           Strongly driven by technology and innovation, Internago constantly
           strives to make our customers' lives easier by reducing their
           administrative burden to a minimum with the increased control that
-          digitalisation offers.
+          digitalisation offers
         </p>
       </Blue>
       <ImageText
