@@ -190,6 +190,11 @@ footer .disclaimer {
   padding: var(--spacing-xs) var(--spacing-s);
 }
 
+#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertising,
+#CybotCookiebotDialogDetailBodyContentCookieContainerStatistics {
+  position: relative;
+}
+
 #CybotCookiebotDialogBodyLevelButtonsSelectPane fieldset {
   display: none !important;
 }
@@ -214,7 +219,7 @@ footer .disclaimer {
   transition: all 0.3s ease-in-out !important;
   cursor: pointer !important;
   display: block !important;
-  background-color: var(--white) !important;
+  background-color: var(--dark-blue) !important;
   color: var(--dark-blue) !important;
   position: relative !important;
   z-index: 1 !important;
