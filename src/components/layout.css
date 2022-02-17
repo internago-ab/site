@@ -190,6 +190,10 @@ footer .disclaimer {
   padding: var(--spacing-xs) var(--spacing-s);
 }
 
+.CybotCookiebotDialogDetailFooter a {
+  color: var(--dark-blue) !important;
+}
+
 #CybotCookiebotDialogDetailBodyContentCookieContainerAdvertising,
 #CybotCookiebotDialogDetailBodyContentCookieContainerStatistics {
   position: relative;
@@ -209,6 +213,21 @@ footer .disclaimer {
   color: var(--dark-blue) !important;
 }
 
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  font-size: inherit !important;
+  border: 2px solid var(--dark-blue) !important;
+  padding: 10px 20px !important;
+  border-radius: 100rem !important;
+  display: initial !important;
+  transition: all 0.3s ease-in-out !important;
+  cursor: pointer !important;
+  display: block !important;
+  background-color: var(--dark-blue) !important;
+  color: var(--white) !important;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
+}
 
 #CybotCookiebotDialogBodyButtonDecline {
   font-size: inherit !important;
@@ -219,14 +238,14 @@ footer .disclaimer {
   transition: all 0.3s ease-in-out !important;
   cursor: pointer !important;
   display: block !important;
-  background-color: var(--dark-blue) !important;
+  background-color: var(--white) !important;
   color: var(--dark-blue) !important;
   position: relative !important;
   z-index: 1 !important;
   overflow: hidden !important;
 }
 
-#CybotCookiebotDialogBodyButtonDecline::after {
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll::before {
   content: "" !important;
   background: var(--white) !important;
   position: absolute !important;
@@ -239,6 +258,27 @@ footer .disclaimer {
   color: var(--dark-blue) !important;
 }
 
+#CybotCookiebotDialogBodyButtonDecline::after {
+  content: "" !important;
+  background: var(--dark-blue) !important;
+  position: absolute !important;
+  z-index: -1 !important;
+  display: block !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: -100% !important;
+  right: 100% !important;
+  color: var(--white) !important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover::after {
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  transition: all 0.35s !important;
+}
+
 #CybotCookiebotDialogBodyButtonDecline:hover::after {
   left: 0 !important;
   right: 0 !important;
@@ -247,8 +287,12 @@ footer .disclaimer {
   transition: all 0.35s !important;
 }
 
-#CybotCookiebotDialogBodyButtonDecline:hover {
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
   color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogBodyButtonDecline:hover {
+  color: var(--dark-white) !important;
 }
 
 #CybotCookiebotDialogBodyEdgeMoreDetailsLink {
