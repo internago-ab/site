@@ -201,10 +201,10 @@ footer .disclaimer {
 
 #CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
   border-bottom: 1px solid var(--dark-blue) !important;
-  color: #1032CF;
+  color: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+
 #CybotCookiebotDialogBodyButtonDecline {
   font-size: inherit !important;
   border: 2px solid var(--dark-blue) !important;
@@ -214,14 +214,13 @@ footer .disclaimer {
   transition: all 0.3s ease-in-out !important;
   cursor: pointer !important;
   display: block !important;
-  background-color: var(--dark-blue) !important;
+  background-color: var(--white) !important;
   color: var(--dark-blue) !important;
   position: relative !important;
   z-index: 1 !important;
   overflow: hidden !important;
 }
 
-#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
 #CybotCookiebotDialogBodyButtonDecline::after {
   content: "" !important;
   background: var(--white) !important;
@@ -235,7 +234,6 @@ footer .disclaimer {
   color: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
 #CybotCookiebotDialogBodyButtonDecline:hover::after {
   left: 0 !important;
   right: 0 !important;
@@ -244,7 +242,6 @@ footer .disclaimer {
   transition: all 0.35s !important;
 }
 
-#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
 #CybotCookiebotDialogBodyButtonDecline:hover {
   color: var(--dark-blue) !important;
 }
