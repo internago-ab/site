@@ -199,18 +199,21 @@ footer .disclaimer {
   font-size: var(--fontSize-p-s);
 }
 
-#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard label , #CybotCookiebotDialogDetailBodyContentCookieContainerStatistics label,
+#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard label,
+#CybotCookiebotDialogDetailBodyContentCookieContainerStatistics label,
 #CybotCookiebotDialogDetailBodyContentCookieContainerStatistics label,
 #CybotCookiebotDialogDetailBodyContentCookieContainerPreference label,
 #CybotCookiebotDialogDetailBodyContentCookieContainerNecessary label {
   position: initial !important;
 }
 
-#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li.CookiebotWidget-approved svg{
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li.CookiebotWidget-approved svg {
   fill: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogNavDeclaration , #CybotCookiebotDialogNav, #CybotCookiebotDialogNavDetails{
+#CybotCookiebotDialogNavDeclaration,
+#CybotCookiebotDialogNav,
+#CybotCookiebotDialogNavDetails {
 
   border-bottom: 1px solid var(--dark-blue) !important;
   color: var(--dark-blue) !important;
@@ -221,6 +224,17 @@ footer .disclaimer {
 }
 
 #CybotCookiebotDialogDetailFooter a {
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover,
+#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab:hover,
+#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount):hover {
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogDetailBodyContentCookieLink,
+.CybotCookiebotDialogDetailBodyContentCookieLink {
   color: var(--dark-blue) !important;
 }
 
@@ -236,13 +250,13 @@ footer .disclaimer {
   color: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogBodyButtonDecline{
+#CybotCookiebotDialogBodyButtonDecline {
   border-radius: 100rem !important;
   border-color: var(--dark-blue) !important;
   color: var(--dark-blue) !important;
 }
 
-#CookiebotWidget-btn-change{
+#CookiebotWidget-btn-change {
   background-color: var(--dark-blue) !important;
   border-color: var(--dark-blue) !important;
   border-radius: 100rem !important;
@@ -254,7 +268,7 @@ footer .disclaimer {
   color: var(--dark-blue) !important;
 }
 
-#CookiebotWidget .CookiebotWidget-consent-details button{
+#CookiebotWidget .CookiebotWidget-consent-details button {
   color: var(--dark-blue) !important;
 }
 

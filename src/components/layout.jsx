@@ -3,8 +3,6 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 import PropTypes from "prop-types"
 import { motion } from "framer-motion"
-import CookieConsent from "react-cookie-consent"
-
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
 import linkedin from "../images/linkedin.svg"
@@ -375,31 +373,6 @@ const Layout = ({ children }) => {
           duration: 0.3,
         }}
       >
-        <CookieConsent
-          location="bottom"
-          hideOnAccept="true"
-          buttonText="Accept"
-          cookieName="gatsby-gdpr-google-analytics"
-          style={{ background: "#fffff", width: "100%", alignItems: "center" }}
-          buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-          buttonWrapperClasses="cookie-btn-wrapper"
-          buttonClasses="cookie-btn"
-          declineButtonText="Decline"
-          disableButtonStyles
-          disableStyles
-        >
-          <p>
-            This website uses cookies that help the website to function and also
-            to track how you interact with our website.
-            <br></br>
-            We won't set cookies unless you enable them or they are essential
-            for the site to work. Click “Accept Cookies” to accept all cookies
-            and go directly to the site.
-          </p>
-
-          <br></br>
-          <Link to="/privacy-policy">Privacy policy</Link>
-        </CookieConsent>
         <main>{children}</main>
       </motion.main>
 
