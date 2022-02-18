@@ -50,7 +50,7 @@ function Form() {
             Message
           </label>{" "}
         </p>
-        <p className="cta-btn btn-form-main">
+        <p className="btn-form-main">
           <input type="submit" value="Send Message" className="formButton" />
         </p>
       </form>

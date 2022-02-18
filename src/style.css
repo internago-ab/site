@@ -125,20 +125,62 @@ button {
 }
 
 .cta-btn {
+  font-size: inherit !important;
+  border: 2px solid var(--dark-blue);
+  border-radius: 100rem;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: fit-content;
   background-color: var(--dark-blue);
   color: var(--white);
-  border: 2px solid var(--dark-blue);
-  padding: 10px 20px;
-  border-radius: 100rem;
-  display: initial;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .cta-btn a {
+  display: block;
+  padding: 10px 20px;
   color: var(--white);
 }
 
 .cta-btn a::before {
-  background-color: var(--white);
+  display: none;
+}
+
+
+.cta-btn::after {
+  content: "";
+  background: var(--white);
+  position: absolute;
+  z-index: -1;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  color: var(--dark-blue) !important;
+}
+
+.cta-btn:hover::after {
+  background: var(--white);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+  color: var(--dark-blue);
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
+}
+
+.cta-btn a:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
 }
 
 main {
@@ -221,7 +263,7 @@ section.error-page>* {
 }
 
 @media screen and (max-width: 1200px) {
-  
+
   .clients {
     display: none;
   }
