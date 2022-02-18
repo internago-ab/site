@@ -38,7 +38,7 @@ nav .desktop-menu li {
   margin-left: var(--spacing-xs);
 }
 
-nav .desktop-menu .submenu li{
+nav .desktop-menu .submenu li {
   margin-left: 0;
 }
 
@@ -190,8 +190,8 @@ footer .disclaimer {
   padding: var(--spacing-xs) var(--spacing-s);
 }
 
-.CybotCookiebotDialogBodyLevelButtonsSelectPane fieldset{
-  display: none !important; 
+.CybotCookiebotDialogBodyLevelButtonsSelectPane fieldset {
+  display: none !important;
 }
 
 .CookieConsent p {
@@ -199,6 +199,41 @@ footer .disclaimer {
   font-size: var(--fontSize-p-s);
 }
 
+#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertisingCard label {
+  position: initial !important;
+}
+
+#CybotCookiebotDialogNavDeclaration {
+
+  border-bottom: 1px solid var(--dark-blue) !important;
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogTabContent input:checked+.CybotCookiebotDialogBodyLevelButtonSlider {
+  background-color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogDetailFooter a {
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  background-color: var(--dark-blue) !important;
+  border-color: var(--dark-blue) !important;
+  border-radius: 100rem !important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+  border-radius: 100rem !important;
+  border-color: var(--dark-blue) !important;
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogBodyButtonDecline{
+  border-radius: 100rem !important;
+  border-color: var(--dark-blue) !important;
+  color: var(--dark-blue) !important;
+}
 
 .privacy {
   padding-top: var(--spacing-m);
