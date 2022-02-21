@@ -207,15 +207,21 @@ footer .disclaimer {
   position: initial !important;
 }
 
+#CybotCookiebotDialog {
+  max-height: calc(100% - 200px) !important;
+}
+
 #CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li.CookiebotWidget-approved svg {
   fill: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogNavDeclaration,
-#CybotCookiebotDialogNav,
-#CybotCookiebotDialogNavDetails {
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
 
   border-bottom: 1px solid var(--dark-blue) !important;
+  color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink:hover {
   color: var(--dark-blue) !important;
 }
 
@@ -270,6 +276,20 @@ footer .disclaimer {
 
 #CookiebotWidget .CookiebotWidget-consent-details button {
   color: var(--dark-blue) !important;
+}
+
+#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:hover {
+  opacity: 1 !important;
+}
+
+@media screen and (min-width: 601px) {
+  #CybotCookiebotDialog {
+    max-width: 700px !important;
+  }
+}
+
+.CybotCookiebotDialogBodyLevelButtonLabel {
+  position: initial !important;
 }
 
 .privacy {
