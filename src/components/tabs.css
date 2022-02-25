@@ -104,6 +104,12 @@ button:hover {
         margin-bottom: 0;
     }
 
+    .tabs-btn:after{
+        width: 20px;
+        margin-left: var(--spacing-xxs);
+        transform: rotate(90deg);
+    }
+
     .tabs-info {
         padding: var(--spacing-xxs);
     }

@@ -139,7 +139,7 @@ button {
   overflow: hidden;
 }
 
-.cta-btn-button{
+.cta-btn-button {
   padding: 10px 20px;
 }
 
@@ -321,7 +321,9 @@ section.error-page>* {
 .bg-light-blue .imagetext {
   margin-top: 0;
 }
-.bg-light-blue .imagetext h2, .bg-light-blue .imagetext p{
+
+.bg-light-blue .imagetext h2,
+.bg-light-blue .imagetext p {
   color: var(--white);
 }
 
@@ -331,4 +333,10 @@ section.error-page>* {
 
 .bg-light-blue .white {
   color: var(--white);
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-none-sm {
+    margin-top: 0 !important;
+  }
 }
