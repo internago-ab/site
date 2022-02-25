@@ -105,7 +105,7 @@ const Index = () => {
           <img src={logoclimatepartner} alt="Enmacc logo" />
         </div>
       </section>
-      <div className="bg-light-blue">
+      <div className="bg-light-blue margin-top-none-sm">
         <section
           className="section imagetext medium rowreverse"
           data-aos="fade-up"

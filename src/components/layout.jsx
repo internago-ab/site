@@ -44,39 +44,39 @@ const Layout = ({ children }) => {
     )
   }
 
-  function debounce(func, wait, immediate) {
-    var timeout
-    return function () {
-      var context = this,
-        args = arguments
-      var later = function () {
-        timeout = null
-        if (!immediate) func.apply(context, args)
-      }
-      var callNow = immediate && !timeout
-      clearTimeout(timeout)
-      timeout = setTimeout(later, wait)
-      if (callNow) func.apply(context, args)
-    }
-  }
-  const handleScroll = debounce(() => {
-    const currentScrollPos = window.pageYOffset
+  // function debounce(func, wait, immediate) {
+  //   var timeout
+  //   return function () {
+  //     var context = this,
+  //       args = arguments
+  //     var later = function () {
+  //       timeout = null
+  //       if (!immediate) func.apply(context, args)
+  //     }
+  //     var callNow = immediate && !timeout
+  //     clearTimeout(timeout)
+  //     timeout = setTimeout(later, wait)
+  //     if (callNow) func.apply(context, args)
+  //   }
+  // }
+  // const handleScroll = debounce(() => {
+  //   const currentScrollPos = window.pageYOffset
 
-    setVisible(
-      (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 200) ||
-        currentScrollPos < 10
-    )
+  //   setVisible(
+  //     (prevScrollPos > currentScrollPos &&
+  //       prevScrollPos - currentScrollPos > 200) ||
+  //       currentScrollPos < 10
+  //   )
 
-    setPrevScrollPos(currentScrollPos)
-  }, 50)
+  //   setPrevScrollPos(currentScrollPos)
+  // }, 50)
 
-  // new useEffect:
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+  // // new useEffect:
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll)
 
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [prevScrollPos, visible, handleScroll])
+  //   return () => window.removeEventListener("scroll", handleScroll)
+  // }, [prevScrollPos, visible, handleScroll])
 
   return (
     <div className="global-wrapper">
@@ -119,7 +119,7 @@ const Layout = ({ children }) => {
           <ul
             className="mobile-menu"
             style={{
-              top: visible ? "69px" : "-300px",
+              top: visible ? "69px" : "-69px",
               overflow: menuDisplayed ? "unset" : "hidden",
               height: menuDisplayed ? 300 : 0,
             }}
