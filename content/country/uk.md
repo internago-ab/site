@@ -55,7 +55,7 @@ Generally, in the UK, employees cannot work more than an average of 48 hours per
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays
@@ -145,10 +145,10 @@ Learn how employment taxes and statutory fees affect your payroll and your emplo
 
 <div class='taxes-content'>
 
-|     |                                                                                                                                                                         |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | <p>NIC letter A up to earnings at, or above Lower Earnings Limit, up to and including Primary Threshold: 0.00% <strong>OR</strong></p>                                  |
-|     | <p>NIC letter A earnings above Primary Threshold, up to and including Upper Earnings Limit: 12.00%<strong>OR</strong></p>                                               |
+|     |                                                                                                                                                                                     |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | <p>NIC letter A up to earnings at, or above Lower Earnings Limit, up to and including Primary Threshold: 0.00% <strong>OR</strong></p>                                              |
+|     | <p>NIC letter A earnings above Primary Threshold, up to and including Upper Earnings Limit: 12.00%<strong>OR</strong></p>                                                           |
 |     | <p>NIC letter A Balance of earning above Upper Earnings Limit: 2.00%<br><br>Employees Pension Contribution: 5.00%<br><br><strong>Employees Pension Contribution: 5.00%</strong></p> |
 
 </div>

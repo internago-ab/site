@@ -126,7 +126,7 @@ function Blog({ data, location }) {
         </ol>
         {numberOfPosts < posts.length && (
           <button
-            className="cta-btn"
+            className="cta-btn cta-btn-button"
             onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}
           >
             View more posts

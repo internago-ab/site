@@ -49,7 +49,7 @@ Italy’s standard working hours are 8 hours per day (40 hours per week). Any ad
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays

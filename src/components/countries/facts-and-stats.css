@@ -8,6 +8,14 @@
     background-color: var(--light-grey);
 }
 
+.blue-country{
+    background-color: var(--lighter-blue);
+}
+
+.blue-country h2{
+    color: var(--white);
+}
+
 .grey-inside-country {
     padding: var(--spacing-m) var(--spacing-l);
 }

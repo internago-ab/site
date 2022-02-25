@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react"
-import landingPageFirst from "../images/illustrations/landingpage-first.png"
+import timeAbsence from '../images/screenshots/time-and-absence.png'
+import employees from '../images/screenshots/employees.png'
+import expenseClaims from '../images/screenshots/expense-claims.png'
+import dashboard from '../images/screenshots/dashboard.png'
 import "./imagetabs.css"
 
 import Aos from "aos"
@@ -35,7 +38,7 @@ const Tab = () => {
               1,
               "active-content"
             )}`}
-            src={landingPageFirst}
+            src={dashboard}
             alt="computer"
           />
           <div
@@ -51,7 +54,7 @@ const Tab = () => {
               2,
               "active-content"
             )}`}
-            src={landingPageFirst}
+            src={employees}
             alt="computer"
           />
           <div
@@ -67,7 +70,7 @@ const Tab = () => {
               3,
               "active-content"
             )}`}
-            src={landingPageFirst}
+            src={timeAbsence}
             alt="computer"
           />
           <div
@@ -83,7 +86,7 @@ const Tab = () => {
               4,
               "active-content"
             )}`}
-            src={landingPageFirst}
+            src={expenseClaims}
             alt="computer"
           />
           <div
@@ -152,7 +155,7 @@ const Tab = () => {
                 data.
               </p>
               <div className="cta-btn">
-                <a href="/">Read more</a>
+                <a href="/payroll">Read more</a>
               </div>
             </div>
 
@@ -170,7 +173,7 @@ const Tab = () => {
                 etc. as your company grows.
               </p>
               <div className="cta-btn">
-                <a href="/">Read more</a>
+                <a href="/payroll">Read more</a>
               </div>
             </div>
             <div
@@ -187,7 +190,7 @@ const Tab = () => {
                 payroll process.
               </p>
               <div className="cta-btn">
-                <a href="/">Read more</a>
+                <a href="/payroll">Read more</a>
               </div>
             </div>
             <div
@@ -203,7 +206,7 @@ const Tab = () => {
                 international employees.
               </p>
               <div className="cta-btn">
-                <a href="/">Read more</a>
+                <a href="/payroll">Read more</a>
               </div>
             </div>
           </div>

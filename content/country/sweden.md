@@ -98,7 +98,7 @@ When it comes to parental leave, mothers and fathers are expected to equally sha
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays

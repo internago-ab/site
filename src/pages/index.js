@@ -177,16 +177,18 @@ const Index = () => {
           ]}
         />
       </GreyAnimation>
-      <ImageText
-        reverse="rowreverse"
-        size="medium"
-        title="All salary data perfectly prepared"
-        text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
-        image={landingPagePayroll}
-        alt="Internagos dashborard on a computerscreen"
-        button="Read more"
-        link="/services"
-      />
+      <div className="bg-light-blue margin-top-none">
+        <ImageText
+          reverse="rowreverse"
+          size="medium"
+          title="All salary data perfectly prepared"
+          text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
+          image={landingPagePayroll}
+          alt="Internagos dashborard on a computerscreen"
+          button="Read more"
+          link="/services"
+        />
+      </div>
       <ImageText
         size="medium"
         title="Internago Payroll portal – one software for all your payroll services"

@@ -12,6 +12,10 @@ import Quotes from "../components/quotes"
 import Multilingual from "../images/illustrations/multilingual.png"
 import Access from "../images/illustrations/access.png"
 import PayrollShareDoc from "../images/illustrations/payroll-sharedoc.png"
+import timeAbsence from "../images/screenshots/time-and-absence.png"
+import employees from "../images/screenshots/employees.png"
+import expenseClaims from "../images/screenshots/expense-claims.png"
+import dashboard from "../images/screenshots/dashboard.png"
 
 import mobile from "../images/icons/mobile.png"
 import expense from "../images/icons/expense.png"
@@ -111,7 +115,7 @@ function Payroll() {
         text="With Internago’s payroll portal, you have the perfect tool to manage your international employees in one single interface. It’s simple to use and gives your company the possibility to use the same system for your domestic and international employees when registering absence, vacations and other deviations. 
         <br></br>
         All is done directly on the portal. By handling everything in the same place your management and HR will have a clear calendar overview of all absences which significantly improves personnel planning."
-        image={calendartime}
+        image={timeAbsence}
         alt="Calendar and hourglass icon"
         active="notactive"
       />
@@ -142,7 +146,7 @@ function Payroll() {
         text="Sick of handling excel sheets and emails with expense reports? Our built-in expense management tool standardises this work for all your employees and on all your international markets. 
         <br></br>
         Using a simple online access, it provides a quick overview of all your expenses. With a smooth and easy registration process, as well as a rapid and easy handling and approval of errands, your previous time is saved, and your company’s internal efficiency is increased."
-        image={expense}
+        image={expenseClaims}
         alt="Window tab that handles expenses"
         active="notactive"
       />
@@ -172,7 +176,7 @@ function Payroll() {
         text="Many organisations have multiple approving managers and several different roles. A local director that may handle the absence management for his or her employees, but it is the responsibility of central HR to manage payroll and absences of that local director. 
         <br></br>
         As all our customers have their specific requirements, we have created an advanced configuration tool to handle your organisation’s specific needs and payroll workflow. This will eliminate the risk of error and make your payroll workflow more efficient and secure."
-        image={stamp}
+        image={employees}
         alt="Approving document icon"
         active="notactive"
       />
