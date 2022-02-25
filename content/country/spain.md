@@ -53,7 +53,7 @@ Second paragraph is about the overall strength of job security and what it means
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays

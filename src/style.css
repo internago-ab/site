@@ -44,7 +44,7 @@
   --light-grey: #f6f6f6;
   --dark-blue: #00446e;
   --light-blue: #81aecc;
-  --lighter-blue: #5185A8;
+  --lighter-blue: rgba(81, 133, 168, .9)
 }
 
 html {
@@ -128,7 +128,7 @@ button {
   font-size: inherit !important;
   border: 2px solid var(--dark-blue);
   border-radius: 100rem;
-  display: block;
+  display: inline-block;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   width: fit-content;
@@ -137,6 +137,10 @@ button {
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+.cta-btn-button{
+  padding: 10px 20px;
 }
 
 .cta-btn a {
@@ -317,9 +321,12 @@ section.error-page>* {
 .bg-light-blue .imagetext {
   margin-top: 0;
 }
-
-.bg-light-blue .imagetext p {
+.bg-light-blue .imagetext h2, .bg-light-blue .imagetext p{
   color: var(--white);
+}
+
+.margin-top-none {
+  margin-top: 0 !important;
 }
 
 .bg-light-blue .white {

@@ -70,7 +70,7 @@ Childcare in the Netherlands is very expensive and as a consequence of this, a l
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays

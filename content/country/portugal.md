@@ -53,7 +53,7 @@ There is no law that states that employment contracts have to be in written, exc
 
 </section>
 
-<section class='grey-country country-top'>
+<section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
 ## List of Public Holidays

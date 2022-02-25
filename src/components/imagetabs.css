@@ -119,7 +119,7 @@
     height: 15vw;
     border-radius: 50%;
     position: absolute;
-    bottom: 15px;
+    bottom: -30px;
     left: -200px;
     z-index: -3;
     -webkit-transition: all 0.7s linear;
