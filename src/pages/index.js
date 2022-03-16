@@ -84,7 +84,7 @@ const Index = () => {
             of your international employees.
           </p>
           <div className="cta-btn">
-            <a href="/contact#form">Book a demo</a>
+            <a href="/contact#form">Contact us</a>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ const Index = () => {
               alt: "Diagram icon",
               header: "Online payroll",
               text:
-                "International payroll software for all your international operations",
+                "International payroll software for all your international operations.",
             },
             {
               icon: wifi,
@@ -151,7 +151,7 @@ const Index = () => {
               alt: "Calendar icon",
               header: "Quick onboarding",
               text:
-                "We onboard your employees fast and efficiently on new markets",
+                "We onboard your employees fast and efficiently on new markets.",
             },
             {
               icon: settings,
@@ -163,16 +163,16 @@ const Index = () => {
             {
               icon: cloud,
               alt: "Cloud icon",
-              header: "GDPR Compliant",
+              header: "GDPR compliant",
               text:
-                "Your data is safe with us. Share and exchange data and documents in a secure and GDPR certified manner.",
+                "Your data is safe with us. Share and exchange data and documents in a secure and GDPR compliant manner.",
             },
             {
               icon: report,
               alt: "Document icon",
               header: "Time saving",
               text:
-                "We take care of all time-consuming payroll tasks for you. ",
+                "We take care of all time-consuming payroll tasks for you.",
             },
           ]}
         />
