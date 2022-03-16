@@ -38,13 +38,13 @@ function Payroll() {
       <Grey>
         <h2 className="heading">Payroll and HR Management</h2>
         <p>
-          Let's be honest, international payroll is not fun, but it has to be
-          done. We have the perfect tool for managing international payroll and
-          HR related tasks for your international employees. We let you store
-          and manage all important employee and payroll data in one place. In
-          this way you will increase your control and efficiency by using one
-          online interface for all your international employees. Your job is
-          simply to check and approve in the portal.
+          Let's be honest, international payroll can be challenging, but it has
+          to be done. We have the perfect tool for managing international
+          payroll and HR related tasks for your international employees. We let
+          you store and manage all important employee and payroll data in one
+          place. In this way you will increase your control and efficiency by
+          using one online interface for all your international employees. Your
+          job is simply to check and approve in the portal.
         </p>
         <Icongrid
           content={[
@@ -60,7 +60,7 @@ function Payroll() {
               link: "/payroll#share-documents",
               icon: mobile,
               alt: "Phone icon",
-              header: "ShareDoc",
+              header: "Share documents",
               text:
                 "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place.",
             },
@@ -101,7 +101,7 @@ function Payroll() {
       </Grey>
 
       <div className="quotes-wrapper">
-        <Quotes text="The ShareDoc module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
+        <Quotes text="The Share documents module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
       </div>
 
       <ImageText
@@ -125,7 +125,7 @@ function Payroll() {
         size="medium"
         padding="padding"
         width="short"
-        title="ShareDoc"
+        title="Share documents"
         text="Don't remember where you stored that employment contract? With Share documents you will have all your sensitive and important documents in one place. You can share the documents directly with your colleagues or external collaborators through hyperlinks accessible only by permitted personnel. 
         <br></br>
         Additionally, this tool allows you to access all files in one place, which means you spend less time searching for information and more time focussing on your job. We support all types of files like PDF, Word, JPEG etc. and our log feature makes it transparent who has added, deleted, or made any changes to files. "
