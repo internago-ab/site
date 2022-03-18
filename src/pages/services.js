@@ -12,6 +12,7 @@ import Tabs from "../components/tabs"
 import ServicesOptimize from "../images/illustrations/services-optimize.png"
 import landingPageFirst from "../images/illustrations/landingpage-first.png"
 import processOrientedApproach from "../images/illustrations/services-process-oriented-approach.png"
+import servicesQualityFocus from "../images/illustrations/services-quality-focus.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -74,8 +75,8 @@ function Services() {
           International payroll is often complex and needs to be thoroughly analysed and prepared by our experts. 
           At Internago we focus on quality, not quantity. 
           We enjoy complex payroll assignments, and we make sure that we always deliver quality for our customers regardless of the size of the headcount."
-          image={landingPageFirst}
-          alt="A woman walking on an arrow graph and a man sitting on a circle diagram working on a computer"
+          image={servicesQualityFocus}
+          alt="A checklist, stars and a certification stamp"
           active="notactive"
         />
       </div>
