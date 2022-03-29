@@ -41,7 +41,7 @@ function Form() {
             required
           />
           <label htmlFor="email" className="email-label">
-            Mail
+            E-mail
           </label>{" "}
         </p>
         <p className="input-field input-text">

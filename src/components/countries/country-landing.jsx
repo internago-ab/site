@@ -9,7 +9,7 @@ function CountryLanding({ title, bgimg }) {
       style={{ backgroundImage: `url(${bgimg})` }}
     >
       <div className="medium country-landing-content">
-        <h1 className="heading">Hire employees and contractors in {title}</h1>
+        <h1 className="heading">Hire employees and manage payroll in {title}</h1>
         <p className="paragraph">Our guide to employing in {title}.</p>
         <div className="cta-btn">
           <a href="mailto:info@internago.com">Contact us</a>

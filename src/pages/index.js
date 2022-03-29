@@ -111,10 +111,10 @@ const Index = () => {
           data-aos="fade-up"
         >
           <div className="info-imagetext">
-            <h2 className="heading">Your markets - our objective</h2>
+            <h2 className="heading">Your markets - our objectives</h2>
             <p className="paragraph">
-              Internago provides payroll and related services on main European
-              markets, either directly or together with carefully selected local
+              nternago provides payroll and related services on main European
+              markets, in-house or together with carefully selected local
               partners. <br></br>
               <br></br>Contact us to find out how we can support you in France,
               Italy, Sweden, Germany, Spain, United Kingdom, Holland or other
@@ -156,7 +156,7 @@ const Index = () => {
             {
               icon: settings,
               alt: "Gearwheel icon",
-              header: "Multiple international markets",
+              header: "Multiple markets",
               text:
                 "A trusted partner with a single interface operating in all your international markets.",
             },
@@ -172,7 +172,7 @@ const Index = () => {
               alt: "Document icon",
               header: "Time saving",
               text:
-                "We take care of all time-consuming payroll tasks for you.",
+                "Our knowledge and automated processes improves the efficiency of your payroll.",
             },
           ]}
         />
@@ -182,7 +182,7 @@ const Index = () => {
           reverse="rowreverse"
           size="medium"
           title="All salary data perfectly prepared"
-          text="Avoid working with excel sheets and handwritten checklists before every payroll run. All salary relevant data is automatically managed by Internago. Your job is just to check and approve."
+          text="Replace excel sheets and checklists with our payroll portal. All payroll data is automatically managed by Internago. Your job is just to check and approve."
           image={landingPagePayroll}
           alt="Internagos dashborard on a computerscreen"
           button="Read more"
@@ -191,7 +191,7 @@ const Index = () => {
       </div>
       <ImageText
         size="medium"
-        title="Internago Payroll portal – one software for all your payroll services"
+        title="Internago payroll portal – one software for all your payroll services"
         text="Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface."
         image={landingPageComplex}
         alt="Two colleagues or clients talking and sharing information"
@@ -202,5 +202,6 @@ const Index = () => {
     </Layout>
   )
 }
+
 
 export default Index
