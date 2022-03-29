@@ -89,8 +89,6 @@ The above could give a general idea of ideal EU markets to recruit on, but of co
 
 Internago can assist with cost calculations and full payroll service on most European markets. Please click [here ](https://www.internago.com/our-services)to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
 
-
-
 ### Disclaimer
 
 Please note that this blog post only gives an overview and provides some introductory examples to payroll. In practice, there are more detailed aspects to consider, which is why this blog post should only be seen as a general guide. For a more in-depth discussion, do not hesitate to contact us at [info@internago.com](mailto:info@internago.com) 
