@@ -3,22 +3,24 @@ layout: blog
 title: What EU countries have the lowest salaries?
 date: 2022-03-29T09:21:43.638Z
 tags:
-  - "#payroll"
+  - Payroll
 featuredimage: /images/ibrahim-boran-kkacmu0gyko-unsplash-1-.jpg
+type: blog
 ---
+
 <!--StartFragment-->
 
 ## Introduction
 
-An integral part of strategic international payroll management is planning the hiring of foreign workers. In turn, a key component of this is of course salary levels in different countries. Beyond market value and bureaucratic hurdles such as employer or company registration requirements, the basis for the decision will likely be human capital level and cost. This article addresses these two aspects. 
+An integral part of strategic international payroll management is planning the hiring of foreign workers. In turn, a key component of this is of course salary levels in different countries. Beyond market value and bureaucratic hurdles such as employer or company registration requirements, the basis for the decision will likely be human capital level and cost. This article addresses these two aspects.
 
 Many international companies see the value of establishing operations in the European Union, thereby gaining access to the common market which, in 2020, was estimated at a nominal GDP of approximately 15 trillion USD - effectively ⅙ of the global GDP.
 
-If a local entity with employees is to be established, but the exact location is of lesser importance, as long as it is based in the EU, a question that may arise is: what EU countries have the lowest salaries? 
+If a local entity with employees is to be established, but the exact location is of lesser importance, as long as it is based in the EU, a question that may arise is: what EU countries have the lowest salaries?
 
 ## EU minimum monthly wages compared
 
-Below we list the EU countries which have a statutory minimum wage. 
+Below we list the EU countries which have a statutory minimum wage.
 
 1. Romania: 308€
 2. Bulgaria: 332€
@@ -44,20 +46,20 @@ Below we list the EU countries which have a statutory minimum wage. 
 
 A number of EU countries do not have a statutory minimum wage, and instead rely on collective bargaining agreements to set such rates, which differ from sector to sector. These countries are:
 
-* Sweden
-* Finland
-* Austria
-* Cyprus
-* Italy
-* Denmark
+- Sweden
+- Finland
+- Austria
+- Cyprus
+- Italy
+- Denmark
 
-It should be noted that this list, for the sake of comparison, mentions amounts in euro, even though some countries are not eurozone members. The eurozone member with the lowest minimum wage is Latvia. 
+It should be noted that this list, for the sake of comparison, mentions amounts in euro, even though some countries are not eurozone members. The eurozone member with the lowest minimum wage is Latvia.
 
 ## Weighing minimum wages against HDI
 
-Human Development Index is an internationally accepted measure balancing citizens’ average life expectancy, education, and income. Many EU countries score above 0.900, which is considered very high, and all of them score above 0.800. For international comparison, Norway is the global leader scoring 0.957, and the world’s lowest ranking countries usually score below 0.400. 
+Human Development Index is an internationally accepted measure balancing citizens’ average life expectancy, education, and income. Many EU countries score above 0.900, which is considered very high, and all of them score above 0.800. For international comparison, Norway is the global leader scoring 0.957, and the world’s lowest ranking countries usually score below 0.400.
 
-We use HDI as a rough measurement to indicate an average of skill, competence and capacity as well as health and welfare in the country’s labour force. 
+We use HDI as a rough measurement to indicate an average of skill, competence and capacity as well as health and welfare in the country’s labour force.
 
 We have here ranked the EU countries that have a national minimum wage, and weighted HDI score and minimum wage equally:
 
@@ -83,7 +85,7 @@ We have here ranked the EU countries that have a national minimum wage, and weig
 20. Luxembourg
 21. Portugal
 
-The above could give a general idea of ideal EU markets to recruit on, but of course many other aspects also affect the recruitment attractiveness, such as total cost of employment including expat packages, legal framework such as employer registration, etc. For insights in such matters, Internago offers a [range of valuable material](https://www.internago.com/blog-news/). 
+The above could give a general idea of ideal EU markets to recruit on, but of course many other aspects also affect the recruitment attractiveness, such as total cost of employment including expat packages, legal framework such as employer registration, etc. For insights in such matters, Internago offers a [range of valuable material](https://www.internago.com/blog-news/).
 
 ## Do you want more information or need help with employment and payroll management?
 
@@ -91,6 +93,6 @@ Internago can assist with cost calculations and full payroll service on most Eur
 
 ### Disclaimer
 
-Please note that this blog post only gives an overview and provides some introductory examples to payroll. In practice, there are more detailed aspects to consider, which is why this blog post should only be seen as a general guide. For a more in-depth discussion, do not hesitate to contact us at [info@internago.com](mailto:info@internago.com) 
+Please note that this blog post only gives an overview and provides some introductory examples to payroll. In practice, there are more detailed aspects to consider, which is why this blog post should only be seen as a general guide. For a more in-depth discussion, do not hesitate to contact us at [info@internago.com](mailto:info@internago.com)
 
 <!--EndFragment-->
