@@ -436,8 +436,7 @@ const Layout = ({ children }) => {
           a law firm or a substitute for an attorney or law firm. We cannot
           provide any kind of advice, explanation, opinion, or recommendation
           about possible legal rights, remedies, options, or selection of forms
-          or strategies. Your access to the website is subject to our Terms &
-          Conditions.
+          or strategies. 
         </p>
       </footer>
     </div>
