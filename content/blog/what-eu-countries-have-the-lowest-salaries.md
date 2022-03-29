@@ -3,7 +3,7 @@ layout: blog
 title: What EU countries have the lowest salaries?
 date: 2022-03-29T09:21:43.638Z
 tags:
-  - "#globalPayroll;"
+  - "#payroll"
 featuredimage: /images/markus-spiske-sxnfy2nnpue-unsplash-1-.jpg
 ---
 <!--StartFragment-->
