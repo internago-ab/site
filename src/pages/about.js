@@ -36,16 +36,6 @@ function About() {
         image={AboutVision}
         alt="Three men in suits where one climbes a ladder holding binoculars and the other two are stabilising it"
       />
-      <ImageText
-        active="notactive"
-        size="medium"
-        title="Your markets – our objective"
-        text="Internago is currently delivering payroll services and related services on main European markets, both directly or together with well selected local partners.
-        </br></br>
-        Contact us to know more on how we can support you in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest. Contact our sales team to know more about our services."
-        image={AboutMarkets}
-        alt="Two business men shaking hands with airplanes in the background"
-      />
       <Cta content="next" />
     </Layout>
   )

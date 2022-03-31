@@ -436,7 +436,11 @@ const Layout = ({ children }) => {
           a law firm or a substitute for an attorney or law firm. We cannot
           provide any kind of advice, explanation, opinion, or recommendation
           about possible legal rights, remedies, options, or selection of forms
-          or strategies. 
+          or strategies.
+          <br /> <br />
+          <a href="/" className="white-link">
+            Data and privacy policy
+          </a>
         </p>
       </footer>
     </div>

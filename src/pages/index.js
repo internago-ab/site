@@ -113,7 +113,7 @@ const Index = () => {
           <div className="info-imagetext">
             <h2 className="heading">Your markets - our objectives</h2>
             <p className="paragraph">
-              nternago provides payroll and related services on main European
+              Internago provides payroll and related services on main European
               markets, in-house or together with carefully selected local
               partners. <br></br>
               <br></br>Contact us to find out how we can support you in France,
