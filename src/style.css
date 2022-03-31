@@ -90,6 +90,10 @@ a::before {
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.white-link::before{
+  background-color: var(--white);
+}
+
 .anchorlink::before {
   display: none;
 }

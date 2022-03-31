@@ -167,6 +167,11 @@ footer .disclaimer {
   width: 65%;
 }
 
+footer .disclaimer a{
+  font-size: var(--fontSize-p-s);
+  color: var(--white);
+}
+
 .mobile-menu {
   display: none;
 }
