@@ -9,7 +9,7 @@ const PrivacyPolicy = () => (
     <Seo title="Privacy-policy" />
     <section className="section ">
       <div className="medium privacy">
-        <h2 className='heading'>Data and Privacy policy</h2>
+        <h2 className="heading">Data and Privacy policy</h2>
         <p>
           Your privacy and data is of key concern to us at Internago and we will
           always take the appropriate actions to protect your information.
@@ -25,7 +25,8 @@ const PrivacyPolicy = () => (
           <br></br>
           If you wish for your information to be deleted or corrected from our
           systems, you can contact us directly by sending an email to:
-          info@internago.com<br></br>
+          <a href="mailto:info@internago.com">info@internago.com</a>
+          <br></br>
           <br></br>
           Internago will not provide any of your personal information to other
           companies or individuals for marketing purposes without your explicit

@@ -137,7 +137,7 @@ const Index = () => {
               alt: "Diagram icon",
               header: "Online payroll",
               text:
-                "International payroll software for all your international operations.",
+                "Payroll software for alla you international operations.",
             },
             {
               icon: wifi,
@@ -158,7 +158,7 @@ const Index = () => {
               alt: "Gearwheel icon",
               header: "Multiple markets",
               text:
-                "A trusted partner with a single interface operating in all your international markets.",
+                "A trusted partner with a single interface operating in your international markets.",
             },
             {
               icon: cloud,

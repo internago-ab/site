@@ -438,7 +438,7 @@ const Layout = ({ children }) => {
           about possible legal rights, remedies, options, or selection of forms
           or strategies.
           <br /> <br />
-          <a href="/" className="white-link">
+          <a href="/privacy-policy" className="white-link">
             Data and privacy policy
           </a>
         </p>
