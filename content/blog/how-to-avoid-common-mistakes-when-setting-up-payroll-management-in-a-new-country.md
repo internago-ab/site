@@ -12,9 +12,9 @@ featuredimage: /images/pexels-eberhard-grossgasteiger-1612461.jpg
 
 ## Introduction
 
-When moving into new legal territory, i.e. into a new country, and a new international payroll is set up, a variety of things can easily go wrong, causing increased costs, delays and missed business opportunities. 
+**When moving into new legal territory, i.e. into a new country, and a new international payroll is set up, a variety of things can easily go wrong, causing increased costs, delays and missed business opportunities.** 
 
-Below, our international payroll team at Internago shares some of the most common mistakes in such situations, and provides remedies for how to avoid them.
+**Below, our international payroll team at Internago shares some of the most common mistakes in such situations, and provides remedies for how to avoid them.**
 
 ## A contract is a contract, right?
 
