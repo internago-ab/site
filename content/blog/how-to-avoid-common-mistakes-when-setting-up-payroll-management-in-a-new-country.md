@@ -5,7 +5,7 @@ title: How to avoid common mistakes when setting up payroll management in a new
   country
 date: 2022-04-05T12:49:33.948Z
 tags:
-  - "#internationalPayroll"
+  - internationalPayroll
 featuredimage: /images/pexels-eberhard-grossgasteiger-1612461.jpg
 ---
 <!--StartFragment-->
