@@ -180,7 +180,7 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#00446e`,
         display: `minimal-ui`,
         icon: `src/images/internago-icon.png`, // This path is relative to the root of the site.
       },

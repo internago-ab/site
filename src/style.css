@@ -90,7 +90,7 @@ a::before {
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.white-link::before{
+.white-link::before {
   background-color: var(--white);
 }
 
@@ -211,7 +211,7 @@ section.error-page>* {
   margin-bottom: var(--spacing-xs);
 }
 
-.section {
+.section>div {
   width: 100%;
   max-width: 1450px;
   margin: 0 auto;
