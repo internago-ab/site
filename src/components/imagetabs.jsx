@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
-import timeAbsence from '../images/screenshots/time-and-absence.png'
-import employees from '../images/screenshots/employees.png'
-import expenseClaims from '../images/screenshots/expense-claims.png'
-import dashboard from '../images/screenshots/dashboard.png'
+import timeAbsence from "../images/screenshots/time-and-absence.png"
+import employees from "../images/screenshots/employees.png"
+import expenseClaims from "../images/screenshots/expense-claims.png"
+import dashboard from "../images/screenshots/dashboard.png"
 import "./imagetabs.css"
 
 import Aos from "aos"
@@ -30,7 +30,7 @@ const Tab = () => {
 
   return (
     <div className="section tabs-large" data-aos="fade-up">
-      <h2 className="tab-header">Smooth and powerful</h2>
+      <h2 className="tab-header heading">Smooth and powerful</h2>
       <div className=" tabs-main">
         <div className="tab-img-wrapper">
           <img
