@@ -225,6 +225,10 @@ section.error-page>* {
   -webkit-justify-content: space-between;
   padding-left: var(--spacing-m);
   padding-right: var(--spacing-m);
+  margin-top: var(--spacing-m) !important;
+}
+
+.clients:last-child {
   margin-top: var(--spacing-m);
 }
 
@@ -267,6 +271,10 @@ section.error-page>* {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
+  }
+
+  .clients:first-child {
+    margin-top: var(--spacing-m);
   }
 }
 

@@ -136,8 +136,7 @@ const Index = () => {
               icon: diagram,
               alt: "Diagram icon",
               header: "Online payroll",
-              text:
-                "Payroll software for alla you international operations.",
+              text: "Payroll software for alla you international operations.",
             },
             {
               icon: wifi,
@@ -202,6 +201,5 @@ const Index = () => {
     </Layout>
   )
 }
-
 
 export default Index

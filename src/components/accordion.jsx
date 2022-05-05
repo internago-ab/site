@@ -3,7 +3,6 @@ import { useEffect, useState, useRef } from "react"
 import Chevron from "./chevron"
 import "./accordion.css"
 
-
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -27,6 +26,7 @@ function Accordion(props) {
         : "accordion-icon rotate"
     )
   }
+
   return (
     <section className="collapse section " data-aos="fade-up">
       <div className={`collapse-btn ${setActive}`} onClick={toggleAccordion}>

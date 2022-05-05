@@ -17,6 +17,7 @@
 }
 
 .accordion-title {
+    text-align: left;
     max-width: 540px;
     margin-right: var(--spacing-xs);
 }
@@ -28,6 +29,9 @@
 }
 
 .accordion-grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
     margin-top: var(--spacing-s);
 }
 
@@ -98,7 +102,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+
     .collapse-btn {
         padding: var(--spacing-xs) var(--spacing-xxs);
     }
