@@ -128,6 +128,10 @@ button {
   cursor: pointer;
 }
 
+.error-page a {
+  padding: 10px 20px;
+}
+
 .cta-btn {
   font-size: inherit !important;
   border: 2px solid var(--dark-blue);
