@@ -1,5 +1,7 @@
 import * as React from "react"
 import { useEffect, useState } from "react"
+
+import "../components/countries/country-landing.css"
 //Components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -79,9 +81,8 @@ const Index = () => {
             International payroll - <br></br> local experts{" "}
           </h1>
           <p className="paragraph">
-            Be efficient and save valuable time by managing your international
-            payroll with Internago. A one-stop solution for managing the payroll
-            of your international employees.
+            Your one-stop payroll solution. Be more efficient and save valuable
+            time by managing your international payroll through Internago.
           </p>
           <div className="cta-btn">
             <a href="/contact#form">Contact us</a>
@@ -106,25 +107,22 @@ const Index = () => {
         </div>
       </section>
       <div className="bg-light-blue margin-top-none-sm">
-        <section
-          className="section imagetext medium rowreverse"
-          data-aos="fade-up"
-        >
-          <div className="info-imagetext">
-            <h2 className="heading">Your markets - our objectives</h2>
-            <p className="paragraph">
-              Internago provides payroll and related services on main European
-              markets, in-house or together with carefully selected local
-              partners. <br></br>
-              <br></br>Contact us to find out how we can support you in France,
-              Italy, Sweden, Germany, Spain, United Kingdom, Holland or other
-              countries of interest.
-            </p>
-            <div className="cta-btn">
-              <a href="/contact#form">Contact us</a>
+        <section className=" section" data-aos="fade-up">
+          <div className="imagetext medium rowreverse">
+            <div className="info-imagetext">
+              <h2 className="heading">Your markets are our markets</h2>
+              <p className="paragraph">
+                Internago provides payroll and related services covering most
+                major European markets - including France, Germany, Italy,
+                Netherlands, Spain, Sweden, United Kingdom. <br></br>
+                <br></br>Contact us to find out how we can support you.
+              </p>
+              <div className="cta-btn">
+                <a href="/contact#form">Contact us</a>
+              </div>
             </div>
+            <Svg />
           </div>
-          <Svg />
         </section>
       </div>
       <ImageTabs />
@@ -136,42 +134,41 @@ const Index = () => {
               icon: diagram,
               alt: "Diagram icon",
               header: "Online payroll",
-              text: "Payroll software for alla you international operations.",
+              text: "Software that accommodates your international operations.",
             },
             {
               icon: wifi,
               alt: "Wifi icon",
               header: "Local experts",
               text:
-                "Internago’s team consists of local professionals in all countries where we operate.",
+                "Our team includes local professionals in all the countries where we operate.",
             },
             {
               icon: calendar,
               alt: "Calendar icon",
               header: "Quick onboarding",
-              text:
-                "We onboard your employees fast and efficiently on new markets.",
+              text: "Your employees can be onboarded quickly and efficiently.",
             },
             {
               icon: settings,
               alt: "Gearwheel icon",
               header: "Multiple markets",
               text:
-                "A trusted partner with a single interface operating in your international markets.",
+                "Your trusted partner, with a single interface, across various international markets.",
             },
             {
               icon: cloud,
               alt: "Cloud icon",
               header: "GDPR compliant",
               text:
-                "Your data is safe with us. Share and exchange data and documents in a secure and GDPR compliant manner.",
+                "Data and documents are securely stored and can be shared in a ‎way that is GDPR compliant.",
             },
             {
               icon: report,
               alt: "Document icon",
               header: "Time saving",
               text:
-                "Our knowledge and automated processes improves the efficiency of your payroll.",
+                "Our knowledge, expertise and automated processes combine to improve your payroll quality and efficiency.",
             },
           ]}
         />
@@ -180,8 +177,8 @@ const Index = () => {
         <ImageText
           reverse="rowreverse"
           size="medium"
-          title="All salary data perfectly prepared"
-          text="Replace excel sheets and checklists with our payroll portal. All payroll data is automatically managed by Internago. Your job is just to check and approve."
+          title="All Salary data perfectly prepared"
+          text="Replace excel sheets and checklists with our payroll portal. All payroll data is managed by Internago. We work in partnership with you. You oversee, check, and approve."
           image={landingPagePayroll}
           alt="Internagos dashborard on a computerscreen"
           button="Read more"
@@ -190,8 +187,8 @@ const Index = () => {
       </div>
       <ImageText
         size="medium"
-        title="Internago payroll portal – one software for all your payroll services"
-        text="Transfer, store and handle documents, payslips and more in a secure and GDPR compliant way with the Internago Payroll Portal. Share relevant information with your colleagues or clients and control access rights and passwords in a single online interface."
+        title="Internago payroll portal - one software for all your payroll needs"
+        text="Store, handle and transfer documents, payslips and more in a secure ‎and GDPR compliant way. Share information with colleagues and service providers. Control access rights and passwords in a single online interface. "
         image={landingPageComplex}
         alt="Two colleagues or clients talking and sharing information"
         button="Read more"

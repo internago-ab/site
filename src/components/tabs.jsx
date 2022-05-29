@@ -11,18 +11,20 @@ function Tabs() {
       <div className="tabs">
         <div className="btn-container">
           {info.map((job, index) => (
-              <button
-                key={job.id}
-                className={`tabs-btn ${index === value && "active-btn"}`}
-                onClick={() => setValue(index)}
-              >
-                {job.company}
-              </button>
+            <button
+              key={job.id}
+              className={`tabs-btn ${index === value && "active-btn"}`}
+              onClick={() => setValue(index)}
+            >
+              {job.company}
+            </button>
           ))}
         </div>
 
-        <ul className="tabs-info">         
-          {duties.map((dutie, index) => <li key={index}>{dutie}</li>)}
+        <ul className="tabs-info">
+          {duties.map((dutie, index) => (
+            <li key={index}>{dutie}</li>
+          ))}
         </ul>
       </div>
     </section>
