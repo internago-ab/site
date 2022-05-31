@@ -215,7 +215,7 @@ section.error-page>* {
   margin-bottom: var(--spacing-xs);
 }
 
-.section>div {
+.section>div:first-of-type {
   width: 100%;
   max-width: 1550px;
   margin: 0 auto;
@@ -271,7 +271,7 @@ section.error-page>* {
 }
 
 @media screen and (max-width: 1440px) {
-  .section div {
+  .section>div:first-of-type {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -284,6 +284,7 @@ section.error-page>* {
 
 @media screen and (max-width: 1200px) {
 
+  .hide-mobile,
   .clients {
     display: none;
   }
