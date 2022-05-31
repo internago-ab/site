@@ -29,184 +29,184 @@ const Tab = () => {
     toggleState === index ? className : ""
 
   return (
-    <div className="section tabs-large" data-aos="fade-up">
-      <h2 className="tab-header heading">Smooth and powerful</h2>
-      <div className=" tabs-main">
-        <div className="tab-img-wrapper">
-          <img
-            className={`tab-img content-slider ${getActiveClass(
-              1,
-              "active-content"
-            )}`}
-            src={dashboard}
-            alt="computer"
-          />
-          <div
-            className={`tab-img content-slider circle ${getActiveClass(
-              1,
-              "active-content"
-            )}`}
-          ></div>
-        </div>
-        <div className="tab-img-wrapper">
-          <img
-            className={`tab-img content-slider ${getActiveClass(
-              2,
-              "active-content"
-            )}`}
-            src={employees}
-            alt="computer"
-          />
-          <div
-            className={`tab-img content-slider circle ${getActiveClass(
-              2,
-              "active-content"
-            )}`}
-          ></div>
-        </div>
-        <div className="tab-img-wrapper">
-          <img
-            className={`tab-img content-slider ${getActiveClass(
-              3,
-              "active-content"
-            )}`}
-            src={timeAbsence}
-            alt="computer"
-          />
-          <div
-            className={`tab-img content-slider circle ${getActiveClass(
-              3,
-              "active-content"
-            )}`}
-          ></div>
-        </div>
-        <div className="tab-img-wrapper">
-          <img
-            className={`tab-img content-slider ${getActiveClass(
-              4,
-              "active-content"
-            )}`}
-            src={expenseClaims}
-            alt="computer"
-          />
-          <div
-            className={`tab-img content-slider circle ${getActiveClass(
-              4,
-              "active-content"
-            )}`}
-          ></div>
-        </div>
-        <div className="container">
-          <ul className="tab-list">
-            <li>
-              <button
-                tabIndex={0}
-                onKeyDown={handleKeyDown}
-                className={`img-tab ${getActiveClass(1, "active-tabs")}`}
-                onClick={() => toggleTab(1)}
-              >
-                Onboarding
-              </button>
-            </li>
-            <li>
-              <button
-                tabIndex={0}
-                onKeyDown={handleKeyDown}
-                className={`img-tab ${getActiveClass(2, "active-tabs")}`}
-                onClick={() => toggleTab(2)}
-              >
-                Manage
-              </button>
-            </li>
-            <li>
-              <button
-                tabIndex={0}
-                onKeyDown={handleKeyDown}
-                className={`img-tab ${getActiveClass(3, "active-tabs")}`}
-                onClick={() => toggleTab(3)}
-              >
-                Process
-              </button>
-            </li>
-            <li>
-              <button
-                tabIndex={0}
-                onKeyDown={handleKeyDown}
-                className={`img-tab img-tab-last ${getActiveClass(
-                  4,
-                  "active-tabs"
-                )}`}
-                onClick={() => toggleTab(4)}
-              >
-                Analyze
-              </button>
-            </li>
-          </ul>
-          <div className="content-container">
-            <div
-              className={`tab-text content-slider ${getActiveClass(
+    <div className="section tabs-top" data-aos="fade-up">
+      <div className="tabs-large">
+        <h2 className="tab-header heading">Simple, efficient and powerful</h2>
+        <div className=" tabs-main">
+          <div className="tab-img-wrapper">
+            <img
+              className={`tab-img content-slider ${getActiveClass(
                 1,
                 "active-content"
               )}`}
-            >
-              <p>
-                Simplify the onboarding process by using Internago’s payroll
-                platform to gather and upload your critical employee and payroll
-                data.
-              </p>
-              <div className="cta-btn">
-                <a href="/payroll">Read more</a>
-              </div>
-            </div>
-
+              src={dashboard}
+              alt="computer"
+            />
             <div
-              className={`tab-text content-slider ${getActiveClass(
+              className={`tab-img content-slider circle ${getActiveClass(
+                1,
+                "active-content"
+              )}`}
+            ></div>
+          </div>
+          <div className="tab-img-wrapper">
+            <img
+              className={`tab-img content-slider ${getActiveClass(
                 2,
                 "active-content"
               )}`}
-            >
-              <p>
-                Store and manage all payroll and employee data in one place
-                online. Get an instant view of critical personal information,
-                salaries, employment contracts, insurance documents and absences
-                on multiple markets. Add new employees, update salaries, bonuses
-                etc. as your company grows.
-              </p>
-              <div className="cta-btn">
-                <a href="/payroll">Read more</a>
-              </div>
-            </div>
+              src={employees}
+              alt="computer"
+            />
             <div
-              className={`tab-text content-slider ${getActiveClass(
+              className={`tab-img content-slider circle ${getActiveClass(
+                2,
+                "active-content"
+              )}`}
+            ></div>
+          </div>
+          <div className="tab-img-wrapper">
+            <img
+              className={`tab-img content-slider ${getActiveClass(
                 3,
                 "active-content"
               )}`}
-            >
-              <p className="">
-                Use the payroll platform to improve work efficiency. Define and
-                customise approval processes, delegate tasks and use specific
-                reminders to make sure no one in your organization misses
-                important deadlines. A perfect payroll tool to ensure a smooth
-                payroll process.
-              </p>
-              <div className="cta-btn">
-                <a href="/payroll">Read more</a>
-              </div>
-            </div>
+              src={timeAbsence}
+              alt="computer"
+            />
             <div
-              className={`tab-text content-slider ${getActiveClass(
+              className={`tab-img content-slider circle ${getActiveClass(
+                3,
+                "active-content"
+              )}`}
+            ></div>
+          </div>
+          <div className="tab-img-wrapper">
+            <img
+              className={`tab-img content-slider ${getActiveClass(
                 4,
                 "active-content"
               )}`}
-            >
-              <p className="">
-                Use the data to make qualified decisions and become more
-                proactive in your daily work. Internago keeps all payroll data
-                in one place and makes it easy for your company to manage your
-                international employees.
-              </p>
-              <div className="cta-btn">
-                <a href="/payroll">Read more</a>
+              src={expenseClaims}
+              alt="computer"
+            />
+            <div
+              className={`tab-img content-slider circle ${getActiveClass(
+                4,
+                "active-content"
+              )}`}
+            ></div>
+          </div>
+          <div className="container">
+            <ul className="tab-list">
+              <li>
+                <button
+                  tabIndex={0}
+                  onKeyDown={handleKeyDown}
+                  className={`img-tab ${getActiveClass(1, "active-tabs")}`}
+                  onClick={() => toggleTab(1)}
+                >
+                  Onboarding
+                </button>
+              </li>
+              <li>
+                <button
+                  tabIndex={0}
+                  onKeyDown={handleKeyDown}
+                  className={`img-tab ${getActiveClass(2, "active-tabs")}`}
+                  onClick={() => toggleTab(2)}
+                >
+                  Manage
+                </button>
+              </li>
+              <li>
+                <button
+                  tabIndex={0}
+                  onKeyDown={handleKeyDown}
+                  className={`img-tab ${getActiveClass(3, "active-tabs")}`}
+                  onClick={() => toggleTab(3)}
+                >
+                  Process
+                </button>
+              </li>
+              <li>
+                <button
+                  tabIndex={0}
+                  onKeyDown={handleKeyDown}
+                  className={`img-tab img-tab-last ${getActiveClass(
+                    4,
+                    "active-tabs"
+                  )}`}
+                  onClick={() => toggleTab(4)}
+                >
+                  Analyze
+                </button>
+              </li>
+            </ul>
+            <div className="content-container">
+              <div
+                className={`tab-text content-slider ${getActiveClass(
+                  1,
+                  "active-content"
+                )}`}
+              >
+                <p>
+                  Simplify the onboarding process by using our platform to
+                  upload employee and payroll data.
+                </p>
+                <div className="cta-btn">
+                  <a href="/payroll">Read more</a>
+                </div>
+              </div>
+
+              <div
+                className={`tab-text content-slider ${getActiveClass(
+                  2,
+                  "active-content"
+                )}`}
+              >
+                <p>
+                  Store and manage all payroll and employee data in one place
+                  online. Instant access to personal information‎, salary
+                  details, employment contracts, insurance policies, and absence
+                  records. As your business evolves, easily add new employees
+                  and update salaries, bonuses and other details.
+                </p>
+                <div className="cta-btn">
+                  <a href="/payroll">Read more</a>
+                </div>
+              </div>
+              <div
+                className={`tab-text content-slider ${getActiveClass(
+                  3,
+                  "active-content"
+                )}`}
+              >
+                <p className="">
+                  Utilise our payroll platform to improve business efficiency.
+                  ‎Approval processes and delegation levels can be defined and
+                  customised, and reminders set around important deadlines. In
+                  short, the perfect tool for a trouble-free payroll process.
+                </p>
+                <div className="cta-btn">
+                  <a href="/payroll">Read more</a>
+                </div>
+              </div>
+              <div
+                className={`tab-text content-slider ${getActiveClass(
+                  4,
+                  "active-content"
+                )}`}
+              >
+                <p className="">
+                  With payroll information in one place, we make it easier for
+                  you to manage your employees on an international basis. You
+                  will have the data to inform decisions, and to enable your HR
+                  team to be more proactive and productive.
+                </p>
+                <div className="cta-btn">
+                  <a href="/payroll">Read more</a>
+                </div>
               </div>
             </div>
           </div>

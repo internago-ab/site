@@ -18,14 +18,31 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
+
+  createRedirect({
+    fromPath: `/our-services`,
+    toPath: `/services`,
+  })
+
+  createRedirect({
+    fromPath: `/blog-news`,
+    toPath: `/blog`,
+  })
+  createRedirect({
+    fromPath: `/payroll-portal`,
+    toPath: `/payroll`,
+  })
+
+  createRedirect({
+    fromPath: `/payroll-services`,
+    toPath: `/payroll`,
+  })
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const country = path.resolve(`./src/templates/country.js`)
 
-
-  
   // Get all markdown blog posts sorted by date
   const result = await graphql(
     `
@@ -40,7 +57,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               slug
             }
             frontmatter {
-             
               type
             }
           }

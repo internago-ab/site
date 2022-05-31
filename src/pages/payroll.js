@@ -29,22 +29,20 @@ function Payroll() {
     <Layout>
       <Seo title="Payroll" />
       <Blue>
-        <h1>Internago Payroll Portal</h1>
+        <h1>‎Internago Payroll Portal</h1>
         <p>
-          Manage your payroll on multiple international markets with one online
-          interface
+          Manage your payroll across multiple international markets with one
+          online interface.
         </p>
       </Blue>
       <Grey>
         <h2 className="heading">Payroll and HR Management</h2>
         <p>
-          Let's be honest, international payroll can be challenging, but it has
-          to be done. We have the perfect tool for managing international
-          payroll and HR related tasks for your international employees. We let
-          you store and manage all important employee and payroll data in one
-          place. In this way you will increase your control and efficiency by
-          using one online interface for all your international employees. Your
-          job is simply to check and approve in the portal.
+          International payroll can be challenging, but it is important and has
+          to be done. ‎And we have the perfect tool to help you with payroll and
+          a variety of other HR tasks. You can efficiently store and manage
+          employee and payroll data in one place, controlled via one online
+          interface. All you have to do is check and approve.
         </p>
         <Icongrid
           content={[
@@ -54,7 +52,7 @@ function Payroll() {
               alt: "Calendar and hourglass icon",
               header: "Time and absence",
               text:
-                "Let your employees enter absence directly into the portal. You just approve or reject. You will get a nice overview of all absence for all your employees on all your international markets.",
+                "Your employees can enter holidays and other absences directly into the portal for you to approve or decline. You will have access to an overview of all absences for every employee.",
             },
             {
               link: "/payroll#share-documents",
@@ -62,15 +60,15 @@ function Payroll() {
               alt: "Phone icon",
               header: "Share documents",
               text:
-                "Don't know where you stored that employment contract? With our Document sharing tool you will have all your sensitive documents in one place.",
+                "With our sharing tool you can have employment contracts and all other relevant documents in one place.",
             },
             {
               link: "/payroll#expense",
               icon: expense,
               alt: "Window tab that handles expenses",
-              header: "Expense Management",
+              header: "Expense management",
               text:
-                "Sick of handling excel sheets with expense reports? We offer a standardised expense management tool that will work for all your employees on your international markets.",
+                "We offer a standardised expense management tool that can work for all employees",
             },
             {
               link: "/payroll#multilingual",
@@ -78,7 +76,7 @@ function Payroll() {
               alt: "Balloon bubble icon",
               header: "Multilingual",
               text:
-                "Our portal comes in multiple languages. We easily integrate a new language according to your needs.",
+                "Our portal is available in various languages, and new ones can be added to meet your needs.",
             },
             {
               link: "/payroll#workflow",
@@ -86,7 +84,7 @@ function Payroll() {
               icon: stamp,
               header: "Payroll workflow",
               text:
-                "Do you have multiple approvers and roles? Our payroll workflow is fully configurable to handle your specific needs and processes.",
+                "Our workflow can be fully configured to handle your specific needs and processes, including multiple approvers.",
             },
             {
               link: "/payroll#access",
@@ -94,19 +92,14 @@ function Payroll() {
               icon: simple,
               header: "Access 24/7",
               text:
-                "Access your payroll data and employee data at any time and from anywhere thanks to our mobile device login and real time notifications.",
+                "Access your payroll and employee data anytime, anywhere, thanks to our mobile device login and real-time notifications.",
             },
           ]}
         />
       </Grey>
 
-      <div className="quotes-wrapper">
-        <Quotes text="The Share documents module greatly facilitates the sharing and management of payroll and accounting related files. A perfect tool for payroll management and various declarations to individuals and companies." />
-      </div>
-
       <ImageText
         reverse="rowreverse"
-        bg="bg-grey"
         id="time-absence"
         size="medium"
         padding="padding"
@@ -121,6 +114,7 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
+        bg="bg-grey"
         id="share-documents"
         size="medium"
         padding="padding"
@@ -136,7 +130,6 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
-        bg="bg-grey"
         id="expense"
         reverse="rowreverse"
         size="medium"
@@ -152,6 +145,7 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
+        bg="bg-grey"
         id="multilingual"
         size="medium"
         padding="padding"
@@ -167,7 +161,6 @@ function Payroll() {
       <ImageText
         margin="margin-none"
         reverse="rowreverse"
-        bg="bg-grey"
         id="workflow"
         size="medium"
         width="short"
@@ -182,6 +175,7 @@ function Payroll() {
       />
       <ImageText
         margin="margin-none"
+        bg="bg-grey"
         id="access"
         size="medium"
         width="short"

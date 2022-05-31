@@ -1,4 +1,4 @@
-.grey-top{
+.grey-top {
     margin-top: 0;
     padding-top: 0;
     background-color: var(--light-grey);
@@ -11,17 +11,17 @@
 }
 
 .grey-inside {
-    padding: var(--spacing-m) var(--spacing-l);
+    padding: var(--spacing-l) var(--spacing-l);
 }
 
-.grey-middle{
+.grey-middle {
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.grey-middle p{
+.grey-middle p {
     max-width: 800px;
 }
 
@@ -39,21 +39,22 @@
 @media only screen and (max-width: 768px) {
     .grey-inside {
         padding: var(--spacing-xs);
-        
+
     }
 
-    .grey-bottom{
-        padding-bottom: var(--spacing-s);;
+    .grey-bottom {
+        padding-bottom: var(--spacing-s);
+        ;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .grey-inside {
         padding: var(--spacing-xs);
-        
+
     }
 
-    .grey-bottom{
+    .grey-bottom {
         padding-bottom: 0;
     }
 }
