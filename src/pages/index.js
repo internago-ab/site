@@ -89,7 +89,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <section className="section">
+      <section className="section hide-mobile">
         <div className="clients" data-aos="fade-up">
           <img src={kitabsawti} alt="Kitab Sawti logo" />
           <img src={benify} alt="Benify logo" />
