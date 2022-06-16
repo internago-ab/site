@@ -5,7 +5,7 @@ title: "Do you have employees wanting to work from abroad? This is what you
   should think about.  "
 date: 2022-06-16T12:37:13.803Z
 tags: []
-featuredimage: /images/bonnie-kittle-giizsko7guk-unsplash.jpg
+featuredimage: /images/humphrey-muleba-vvlbpw3us4q-unsplash.jpg
 ---
 **The Covid pandemic has resulted in changes to working patterns, bringing flexible and mobile working more to the fore. Working from home, or outside the office, has become common for many employees. This includes employees who opted to work from overseas locations, for at least some of the time, and are keen for this to continue. At Internago, we have many clients who are grappling with this particular issue, and we often get questions about it. In this blog we highlight some of the key considerations for employers (aside from the fundamental considerations relating to productivity, effectiveness, team working etc.) when evaluating employee requests to work from an overseas location.**
 
