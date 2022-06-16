@@ -6,7 +6,7 @@ title: Five things that your organization can do today to have a more efficient
 date: 2022-06-16T13:01:00.234Z
 featuredimage: /images/dan-schiumarini-dcl8esbsgis-unsplash.jpg
 ---
-Payroll management is for most companies a mission critical structure. If employees aren’t paid they don’t work, and the entire operation grinds to a halt. To maintain efficiency and fluidity in this structure should therefore be a top priority for all employers.  In this article Internago shares five quick takeaways from our payrolling expertise to help you run a more efficient payroll and ensure that you use the right global payroll services. 
+**Payroll management is for most companies a mission critical structure. If employees aren’t paid they don’t work, and the entire operation grinds to a halt. To maintain efficiency and fluidity in this structure should therefore be a top priority for all employers.  In this article Internago shares five quick takeaways from our payrolling expertise to help you run a more efficient payroll and ensure that you use the right global payroll services.** 
 
 ## 1. Establish a straightforward system
 
