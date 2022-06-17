@@ -3,7 +3,7 @@ layout: blog
 type: blog
 title: Five things that your organization can do today to have a more efficient
   international payroll management
-date: 2022-06-16T13:01:00.234Z
+date: 2022-06-17T13:01:00.234Z
 tags:
   - Payroll
 featuredimage: /images/dan-schiumarini-dcl8esbsgis-unsplash.jpg
