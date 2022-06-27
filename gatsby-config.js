@@ -65,7 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.internago.com`,
+        siteUrl: `https://www.internago.com/blog/`,
         stripQueryString: true,
       },
     },
