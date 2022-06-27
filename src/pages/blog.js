@@ -35,7 +35,7 @@ function Blog({ data, location }) {
       window.history.pushState(
         filter,
         "",
-        `blog?filter=${filter.toLowerCase()}`
+        `?filter=${filter.toLowerCase()}`
       )
       document.querySelector("#categories").value = filter.toLowerCase()
     }
