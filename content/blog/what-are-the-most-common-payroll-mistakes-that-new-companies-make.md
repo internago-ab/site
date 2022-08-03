@@ -3,7 +3,8 @@ layout: blog
 type: blog
 title: What are the most common payroll mistakes that new companies make?
 date: 2022-08-03T09:08:54.960Z
-tags: []
+tags:
+  - payroll
 featuredimage: /images/kenny-eliason-cmz06-0btw-unsplash.jpg
 ---
 **In assisting a broad range of international clients, Internago comes across a variety of different challenges and hurdles that cause problems in companies’ payroll management. We see many kinds of mistakes being made, from broad structural ones involving a whole organisation, to specific and detailed slip-ups which often have costly repercussions far beyond what could have been foreseen. This is even more true when it comes to international payroll.** 
