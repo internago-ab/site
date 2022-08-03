@@ -22,12 +22,11 @@ Most legislative environments require employers to keep a backlog of payroll rec
 
 We’ve all been there: something seems amiss with your salary pay-out, your holiday pay wasn’t received as expected, or perhaps your salary was paid out late, or not at all! When this happens even the most loyal and motivated employees get frustrated, and decide to prioritise their own needs before those of their employer. This is only natural.  Every such hick-up, where the employee themselves are forced to take the initiative and find the erring link in the chain is a waste of time and resources. It may even lead to lost business. If your payroll system is inefficient, or ad-hoc, it will inevitably rely on the employees’ own engagement from time to time to make it right. This may be an “invisible” problem that continuously occurs without your organisation’s management ever being made aware. There are no shortcuts to right this issue – a reliable and consistent payroll has to be established as soon as possible!
 
-## \
-Managing your payroll alone
+## Managing your payroll alone
 
 Today, efficient tools exist to take away many of the above headaches. If your organisation’s payroll is handled completely internally, and perhaps even by a single person (you’d be surprised how often we hear about this), you are creating unnecessary risks. Not only are you committing yourself to keeping up with all legal updates with regards to employer obligations, but you have no back-up should the one employee with payroll competence fall ill, or leave your organisation for other reasons. A strong recommendation, in order to ensure business continuity, is payroll outsourcing or payroll consulting. 
 
-### Do you want more information or need help with employment and payroll ?
+## Do you want more information or need help with employment and payroll ?
 
 Internago can assist with cost calculations and full payroll service on most European markets. Please click [here ](https://www.internago.com/our-services)to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
 
