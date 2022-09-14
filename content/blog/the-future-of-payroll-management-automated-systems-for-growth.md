@@ -4,7 +4,7 @@ type: blog
 title: "The future of payroll management: automated systems for growth"
 date: 2022-09-14T08:54:18.017Z
 tags:
-  - "#"
+  - "#globalPayroll"
 featuredimage: /images/digitization-gf6b0c5d08_640.jpg
 ---
 **Digitisation is a driver of all domains in business, and HR and international payroll management systems are no exceptions. As new technology is implemented in these fields, increased automation and changes in job roles can be expected.**
