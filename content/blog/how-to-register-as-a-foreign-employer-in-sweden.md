@@ -7,9 +7,7 @@ tags:
   - "#sweden"
 featuredimage: /images/raphael-andres-3cwvfd-yptk-unsplash.jpg
 ---
-**If you are planning to recruit people and manage payroll in Sweden, an important first step is to register as an employer. It is a legal requirement to do so if your company is accountable for employees in Sweden. Regardless of your form of entity (whether sole trader or company / legal person) this obligation applies. This is because hiring local staff may oblige your company to pay taxes.**
-
-In addition to employer registration, this brief guide also covers aspects of VAT and company tax registration. 
+**If you are planning to recruit people and manage payroll in Sweden, an important first step is to register as an employer. It is a legal requirement to do so if your company is accountable for employees in Sweden. Regardless of your form of entity (whether sole trader or company / legal person) this obligation applies. This is because hiring local staff may oblige your company to pay taxes. In addition to employer registration, this brief guide also covers aspects of VAT and company tax registration.** 
 
 ## A single, digitized point of contact
 
