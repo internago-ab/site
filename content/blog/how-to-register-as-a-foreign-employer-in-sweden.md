@@ -35,7 +35,7 @@ You should account for at least one month’s processing time. From time to time
 
 ## Do you want more information or need help with employment and payroll management?
 
-Internago can assist with the local setup cost calculations and full payroll service in Sweden and on most European markets. Please click [here ](https://www.internago.com/our-services)to find more information, or if you prefer contact us directly at sweden[info@internago.com](mailto:info@internago.com)
+Internago can assist with the local setup cost calculations and full payroll service in Sweden and on most European markets. Please click [here ](https://www.internago.com/our-services)to find more information, or if you prefer contact us directly at sweden[@internago.com](mailto:sweden@internago.com)
 
 ### Disclaimer
 
