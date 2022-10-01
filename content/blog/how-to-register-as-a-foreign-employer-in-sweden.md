@@ -1,7 +1,7 @@
 ---
 layout: blog
 type: blog
-title: How to register as a foreign employer in Sweden?
+title: How to register as a foreign employer in Sweden
 date: 2022-09-30T08:50:03.076Z
 tags:
   - "#sweden"
