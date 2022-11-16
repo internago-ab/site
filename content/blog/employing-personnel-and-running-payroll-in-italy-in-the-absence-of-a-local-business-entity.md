@@ -8,7 +8,7 @@ featuredimage: /images/erin-doering-kfoh7gacj_0-unsplash.jpg
 ---
 **At Internago we are often asked by international companies how they can employ personnel in Italy without establishing a local entity.** **In today’s highly competitive employment market, companies are searching for talented employees around the world. And digitalisation is sometimes enabling the right talent to work remotely, without needing a direct physical presence. However, there will still be a need to manage their payroll, while complying with local regulations.**
 
-## Employing personnel based in Italy as an overseas company.
+## Employing personnel based in Italy as an overseas company
 
 Based on our experience with clients, there is often a straightforward and light touch solution, namely registering as a foreign employer and running payroll locally, without setting up a local business entity. Adopting this approach to payroll does not constitute a permanent establishment in Italy.
 
