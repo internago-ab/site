@@ -14,11 +14,7 @@ Based on our experience with clients, there is often a straightforward and light
 
 ## Social Security Representative
 
-In Italy this form of arrangement involves appointing a Social Security Representative. They are responsible for the payment of social security charges on behalf of the employer and represent them when dealing with the relevant authorities. The representative can be an employee, or it can be  a bought-in service.
-
-Employees are subject to local labour laws just like their counterparts working for domestic companies.
-
-Internago will take care of payroll, and provide guidance as to when payments need to be done, ensuring the company remains fully compliant at all times.
+In Italy this form of arrangement involves appointing a Social Security Representative. They are responsible for the payment of social security charges on behalf of the employer and represent them when dealing with the relevant authorities. The representative can be an employee, or it can be  a bought-in service. Employees are subject to local labour laws just like their counterparts working for domestic companies. Internago will take care of payroll, and provide guidance as to when payments need to be done, ensuring the company remains fully compliant at all times.
 
 ## Payroll Portal
 
