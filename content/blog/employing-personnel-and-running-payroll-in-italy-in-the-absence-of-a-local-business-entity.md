@@ -27,5 +27,3 @@ Internago can assist with local set-up considerations and cost calculations and 
 ## Disclaimer
 
 Please note that this blog post only gives an overview, with some introductory  payroll related examples. In practice, there are more detailed aspects to consider, which is why this blog post should only be seen as a general guide. For a more in-depth discussion, do not hesitate to contact us at [info@internago.com](mailto:info@internago.com)
-
-<!--EndFragment-->
