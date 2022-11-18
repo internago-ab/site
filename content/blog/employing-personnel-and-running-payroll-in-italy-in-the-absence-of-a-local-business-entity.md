@@ -4,7 +4,7 @@ type: blog
 title: Employing personnel, and running payroll, in Italy in the absence of a
   local business entity
 date: 2022-11-16T08:06:38.676Z
-featuredimage: /images/photo-1545256633-9d719bec17c6.jpg
+featuredimage: /images/landscape.jpg
 ---
 **At Internago we are often asked by international companies how they can employ personnel in Italy without establishing a local entity.** **In today’s highly competitive employment market, companies are searching for talented employees around the world. And digitalisation is sometimes enabling the right talent to work remotely, without needing a direct physical presence. However, there will still be a need to manage their payroll, while complying with local regulations.**
 
