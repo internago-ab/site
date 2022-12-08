@@ -156,6 +156,7 @@ main .questions_answers {
 }
 
 .filter-tags {
+  flex-direction: column;
   display: flex;
   overflow-x: scroll;
   display: flex;
@@ -225,6 +226,15 @@ main .questions_answers {
 
   .questions_answers .filter h3 {
     margin-right: var(--spacing-xxs);
+  }
+
+  .filter-tags {
+    flex-direction: inherit;
+  }
+
+  .questions_answers .filter button {
+    height: 50px;
+    margin-top: 0;
   }
 }
 
