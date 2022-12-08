@@ -39,6 +39,10 @@ main .questions_answers {
   justify-content: flex-start;
 }
 
+.countries-filter {
+  margin-top: var(--spacing-xs);
+}
+
 .questions_answers .filter button {
   /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); */
   /* padding: var(--spacing-xxs) var(--spacing-xs); */
@@ -56,6 +60,7 @@ main .questions_answers {
   text-align: left;
   font-size: var(--fontSize-p);
   width: max-content;
+  text-decoration: underline;
 }
 
 .questions_answers .filter .show-more-btn {
@@ -143,6 +148,12 @@ main .questions_answers {
   align-items: baseline;
 }
 
+.questions_answers-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .questions_answers_tab span {
   margin-right: 5px;
   font-weight: var(--fontWeight-semibold);
@@ -182,6 +193,14 @@ main .questions_answers {
     padding: 0;
   }
 
+  .countries-filter {
+    margin-top: 0;
+  }
+
+  .questions_answers-content {
+    flex-direction: column;
+  }
+
   .questions_answers form {
     display: block;
   }
@@ -194,7 +213,8 @@ main .questions_answers {
   .questions_answers .filter {
     flex-direction: initial;
     align-items: baseline;
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-xxs);
+    overflow-x: scroll;
   }
 
   .questions_answers .filter h3 {

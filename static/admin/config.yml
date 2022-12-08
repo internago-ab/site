@@ -42,5 +42,10 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", required: true }
-      - { label: "Countries", name: "country", widget: "list", required: true }
+      - {
+          label: "Countries",
+          name: "countries",
+          widget: "list",
+          required: true,
+        }
       - { label: "Description", name: "description", widget: "markdown" }

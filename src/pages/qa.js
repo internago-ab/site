@@ -15,6 +15,7 @@ function QuestionsAnswers({ data, location }) {
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
+  
 
   const emptyQuery = ""
 
@@ -68,12 +69,11 @@ function QuestionsAnswers({ data, location }) {
   }
 
   const handleInputChange = (event) => {
-    console.log(event.target.value)
+    
     const query = event.target.value
 
-
-    const filteredPosts = allPosts.filter((post) => {
-      const { description, title, tags } = post.frontmatter
+    let filteredPosts = allPosts.filter((post) => {
+      const { description, title, tags, countries } = post.frontmatter
       return (
         description.toLowerCase().includes(query.toLowerCase()) ||
         title.toLowerCase().includes(query.toLowerCase()) ||
@@ -82,13 +82,24 @@ function QuestionsAnswers({ data, location }) {
             .join("")
             .toLowerCase()
             .includes(query.toLowerCase()))
-      )
+      ) ||(countries &&
+        countries
+          .join("")
+          .toLowerCase()
+          .includes(query.toLowerCase()))
+    
     })
 
     setFilteredPosts({
       query,
       filteredPosts,
     })
+  }
+
+  const test = (event) => {
+    const query = event.target.value
+    console.log(query)
+
   }
 
   const postFiltered = filteredPosts.query ? filteredPosts.filteredPosts : posts
@@ -110,7 +121,7 @@ function QuestionsAnswers({ data, location }) {
                 onInput={handleInputChange}
               />
               <div className="questions_answers-btn-wrapper">
-                <button className="cta-btn cta-btn-button" type="submit"  onClick={ (console.log('hej'))}>
+                <button className="cta-btn cta-btn-button" type="submit"  >
                   Search now
                 </button>
               </div>
@@ -120,9 +131,9 @@ function QuestionsAnswers({ data, location }) {
       </Blue>
       <section className="section">
         <div className="questions_answers">
-          <div className="tabs medium">
+          <div className="questions_answers-content medium">
             <select id="categories"></select>
-
+<div>
             <div className="filter">
               <h3>Categories:</h3>
               <button onClick={e => setFilter(e.target.value)} value="all">
@@ -149,7 +160,8 @@ function QuestionsAnswers({ data, location }) {
               Show more
             </button>
           )} 
-              <div className="categoty-country filter">
+            </div>
+              <div className="countries-filter filter">
                 <h3>Countries:</h3>
                 {countries.slice(0, numberOfPosts).map((country, index) => (
                   <button
@@ -170,7 +182,7 @@ function QuestionsAnswers({ data, location }) {
             </button>
           )}
               </div>
-            </div>
+              </div>
             <ol className="questions_answers-grid">
               {postFiltered.slice(0, numberOfPosts).map(post => (
                 <Blogcard

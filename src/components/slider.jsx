@@ -15,6 +15,7 @@ const Slider = props => {
   }, [children])
 
   const next = () => {
+    
     if (currentIndex < length - show) {
       setCurrentIndex(prevState => prevState + 1)
     }
@@ -56,7 +57,7 @@ const Slider = props => {
     <div className="carousel-container">
       <div className="carousel-wrapper">
         {/* You can alwas change the content of the button to other things */}
-        {currentIndex > 0 && (
+        {currentIndex < 0 && window.screen.width <= 1024 (
           <button onClick={prev} className="left-arrow">
             <img src={leftArrow} alt="left arrow" />
           </button>
