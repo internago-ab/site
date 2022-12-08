@@ -1,12 +1,25 @@
-{
-    "root": true,
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/eslint-recommended",
-      "plugin:@typescript-eslint/recommended"
-    ]
-  }
+module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+  },
+  rules: {
+    'no-param-reassign': 'off',
+    'import/prefer-default-export': 'off',
+    'padded-blocks': 'off',
+    'no-multiple-empty-lines': 'off',
+    'no-floating-decimal': 'off',
+    eqeqeq: 'off',
+    camelcase: 'off',
+    'comma-dangle': ['error', 'always-multiline'],
+    'one-var': 'off',
+    'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+    'no-console': 'off',
+    'import/no-dynamic-require': 'off',
+    'global-require': 'off',
+    'no-plusplus': 'off',
+  },
+
+ 
+};

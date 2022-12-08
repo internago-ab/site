@@ -61,6 +61,7 @@ main .questions_answers {
   font-size: var(--fontSize-p);
   width: max-content;
   text-decoration: underline;
+  white-space: pre;
 }
 
 .questions_answers .filter .show-more-btn {
@@ -154,6 +155,12 @@ main .questions_answers {
   width: 100%;
 }
 
+.filter-tags {
+  display: flex;
+  overflow-x: scroll;
+  display: flex;
+}
+
 .questions_answers_tab span {
   margin-right: 5px;
   font-weight: var(--fontWeight-semibold);
@@ -214,7 +221,6 @@ main .questions_answers {
     flex-direction: initial;
     align-items: baseline;
     margin-bottom: var(--spacing-xxs);
-    overflow-x: scroll;
   }
 
   .questions_answers .filter h3 {
@@ -224,12 +230,41 @@ main .questions_answers {
 
 @media only screen and (max-width: 600px) {
   .questions_answers-grid {
-    padding: 0 var(--spacing-xs);
+    padding: 0;
+  }
+
+  .questions_answers-card .text h2 {
+    font-size: var(--fontSize-p);
   }
 
   .questions_answers form {
     padding: var(--spacing-xxs) var(--spacing-xs);
     margin: var(--spacing-xs);
     width: auto;
+  }
+
+  .qa-btn {
+    padding: 0;
+  }
+
+  .questions_answers .filter h3 {
+    font-size: var(--fontSize-p);
+  }
+
+  .questions_answers .filter button {
+    margin-right: var(--spacing-xxs);
+    font-size: var(--fontSize-p-s);
+  }
+
+  .questions_answers-btn-wrapper button {
+    display: none;
+  }
+
+  .questions_answers .input {
+    padding: var(--spacing-xxs) var(--spacing-xxs);
+  }
+
+  .questions_answers .input input {
+    padding: 8px 0;
   }
 }

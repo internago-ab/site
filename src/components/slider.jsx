@@ -3,7 +3,7 @@ import "./slider.css"
 import rightArrow from "../images/icons/arrow-svg.svg"
 import leftArrow from "../images/icons/arrow-left.svg"
 
-const Slider = props => {
+const Slider = (props) => {
   const { children, show } = props
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -27,12 +27,12 @@ const Slider = props => {
     }
   }
 
-  const handleTouchStart = e => {
+  const handleTouchStart = (e) => {
     const touchDown = e.touches[0].clientX
     setTouchPosition(touchDown)
   }
 
-  const handleTouchMove = e => {
+  const handleTouchMove = (e) => {
     const touchDown = touchPosition
 
     if (touchDown === null) {

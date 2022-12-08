@@ -15,7 +15,6 @@ function QuestionsAnswers({ data, location }) {
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
-  
 
   const emptyQuery = ""
 
@@ -69,7 +68,6 @@ function QuestionsAnswers({ data, location }) {
   }
 
   const handleInputChange = (event) => {
-    
     const query = event.target.value
 
     let filteredPosts = allPosts.filter((post) => {
@@ -77,17 +75,10 @@ function QuestionsAnswers({ data, location }) {
       return (
         description.toLowerCase().includes(query.toLowerCase()) ||
         title.toLowerCase().includes(query.toLowerCase()) ||
-        (tags &&
-          tags
-            .join("")
-            .toLowerCase()
-            .includes(query.toLowerCase()))
-      ) ||(countries &&
-        countries
-          .join("")
-          .toLowerCase()
-          .includes(query.toLowerCase()))
-    
+        (tags && tags.join("").toLowerCase().includes(query.toLowerCase())) ||
+        (countries &&
+          countries.join("").toLowerCase().includes(query.toLowerCase()))
+      )
     })
 
     setFilteredPosts({
@@ -96,14 +87,7 @@ function QuestionsAnswers({ data, location }) {
     })
   }
 
-  const test = (event) => {
-    const query = event.target.value
-    console.log(query)
-
-  }
-
   const postFiltered = filteredPosts.query ? filteredPosts.filteredPosts : posts
-
 
   return (
     <Layout>
@@ -121,7 +105,7 @@ function QuestionsAnswers({ data, location }) {
                 onInput={handleInputChange}
               />
               <div className="questions_answers-btn-wrapper">
-                <button className="cta-btn cta-btn-button" type="submit"  >
+                <button className="cta-btn cta-btn-button" type="submit">
                   Search now
                 </button>
               </div>
@@ -133,56 +117,63 @@ function QuestionsAnswers({ data, location }) {
         <div className="questions_answers">
           <div className="questions_answers-content medium">
             <select id="categories"></select>
-<div>
-            <div className="filter">
-              <h3>Categories:</h3>
-              <button onClick={e => setFilter(e.target.value)} value="all">
-                {" "}
-                All questions
-              </button>
-              {tags.slice(0, numberOfPosts).map((tag, index) => (
-                <button
-                  onClick={e => setFilter(e.target.value)}
-                  key={index}
-                  value={tag.toLowerCase()}
-                  className="filter-option"
-                >
-                  {tag}
-                </button>
-              ))}
-        
-                  {
-                  numberOfPosts < tags.length && (
-            <button
-              className="show-more-btn"
-              onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}
-            >
-              Show more
-            </button>
-          )} 
-            </div>
+            <div>
+              <div className="filter">
+                <h3>Categories:</h3>
+                <div className="filter-tags">
+                  <button onClick={e => setFilter(e.target.value)} value="all">
+                    {" "}
+                    All questions
+                  </button>
+                  {tags.slice(0, numberOfPosts).map((tag, index) => (
+                    <button
+                      onClick={e => setFilter(e.target.value)}
+                      key={index}
+                      value={tag.toLowerCase()}
+                      className="filter-option"
+                    >
+                      {tag}
+                    </button>
+                  ))}
+                  {numberOfPosts < tags.length && (
+                    <button
+                      className="show-more-btn"
+                      onClick={() =>
+                        setNumberOfPosts(numberOfPosts + postsToDisplay)
+                      }
+                    >
+                      Show more
+                    </button>
+                  )}
+                </div>
+              </div>
               <div className="countries-filter filter">
                 <h3>Countries:</h3>
-                {countries.slice(0, numberOfPosts).map((country, index) => (
-                  <button
-                    onClick={e => setFilter(e.target.value)}
-                    key={index}
-                    value={country.toLowerCase()}
-                    className="filter-option"
-                  >
-                    {country}
-                  </button>
-                ))}
-                 {numberOfPosts < countries.length && (
-            <button
-              className="show-more-btn"
-              onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}
-            >
-              Show more
-            </button>
-          )}
+                <div className="filter-tags">
+                  {countries.slice(0, numberOfPosts).map((country, index) => (
+                    <button
+                      onClick={e => setFilter(e.target.value)}
+                      key={index}
+                      value={country.toLowerCase()}
+                      className="filter-option"
+                    >
+                      {country}
+                    </button>
+                  ))}
+
+                  {numberOfPosts < countries.length && (
+                    <button
+                      className="show-more-btn"
+                      onClick={() =>
+                        setNumberOfPosts(numberOfPosts + postsToDisplay)
+                      }
+                    >
+                      Show more
+                    </button>
+                  )}
+                </div>
               </div>
-              </div>
+            </div>
             <ol className="questions_answers-grid">
               {postFiltered.slice(0, numberOfPosts).map(post => (
                 <Blogcard
@@ -193,8 +184,6 @@ function QuestionsAnswers({ data, location }) {
               ))}
             </ol>
           </div>
-
-         
         </div>
       </section>
       <Cta content="more" />

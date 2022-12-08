@@ -18,11 +18,9 @@ function Blogcard({ post, setFilter }) {
 
   useEffect(() => {
     const checkIfClickedOutside = (e) => {
-      console.log(e.taget)
       if (setActive && ref.current && !ref.current.contains(e.target)) {
         //setActiveState(false)
         //setHeight("0px")
-        console.log('clicked')
         setHeightState(setActive === "" ? "0px" : "300px")
         //document.getElementById("height").style.height = "0px"
       }

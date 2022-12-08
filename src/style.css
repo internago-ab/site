@@ -305,7 +305,7 @@ section.error-page > * {
   }
 
   main > section {
-    padding-top: var(--spacing-s);
+    margin-top: var(--spacing-s);
   }
 
   section.error-page {
