@@ -179,7 +179,7 @@ main .questions_answers {
 
 @media only screen and (max-width: 768px) {
   .questions_answers-grid {
-    padding: 0 var(--spacing-s);
+    padding: 0;
   }
 
   .questions_answers form {
@@ -192,9 +192,13 @@ main .questions_answers {
   }
 
   .questions_answers .filter {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: var(--spacing-xs);
+    flex-direction: initial;
+    align-items: baseline;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .questions_answers .filter h3 {
+    margin-right: var(--spacing-xxs);
   }
 }
 
