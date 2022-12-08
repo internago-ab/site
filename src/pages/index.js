@@ -11,7 +11,7 @@ import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageTabs from "../components/imagetabs"
 import Svg from "../components/svg"
-import Slider from "../components/slider"
+
 //Images
 import landingPagePayroll from "../images/illustrations/landingpage-payrollportal.png"
 import landingPageComplex from "../images/illustrations/landingpage-complexsimple.png"

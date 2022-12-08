@@ -42,6 +42,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const country = path.resolve(`./src/templates/country.js`)
+  const qaPost = path.resolve(`./src/templates/questions_answers.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -94,7 +95,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             nextPostId,
           },
         })
-      } else {
+      } else if(post.frontmatter.type === "questions_answers" ){
+        createPage({
+          path: post.fields.slug,
+          component: qaPost,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      }
+      
+      else {
         createPage({
           path: post.fields.slug,
           component: blogPost,

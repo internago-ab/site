@@ -7,7 +7,6 @@ import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 
 import AboutVision from "../images/illustrations/about-vision.png"
-import AboutMarkets from "../images/illustrations/about-markets.png"
 
 function About() {
   return (

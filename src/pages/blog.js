@@ -32,11 +32,7 @@ function Blog({ data, location }) {
 
   useEffect(() => {
     if (filter) {
-      window.history.pushState(
-        filter,
-        "",
-        `?filter=${filter.toLowerCase()}`
-      )
+      window.history.pushState(filter, "", `?filter=${filter.toLowerCase()}`)
       document.querySelector("#categories").value = filter.toLowerCase()
     }
 
@@ -60,9 +56,9 @@ function Blog({ data, location }) {
     )
   }
 
-  const handleInputChange = event => {
+  const handleInputChange = (event) => {
     const query = event.target.value
-    const filteredPosts = allPosts.filter(post => {
+    const filteredPosts = allPosts.filter((post) => {
       const title = post.frontmatter.title
       const tags = post.frontmatter.tags
       return (

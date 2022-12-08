@@ -1,0 +1,211 @@
+main .questions_answers {
+  text-align: center;
+}
+
+.questions_answers {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.questions_answers .search-wrapper {
+  display: flex;
+}
+
+.questions_answers .input {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+  padding: var(--spacing-xxs) var(--spacing-xs);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  max-width: 750px;
+  background: var(--white);
+}
+
+.questions_answers .input input {
+  padding: var(--spacing-xxs) 0;
+}
+
+.questions_answers .filter {
+  /* margin: var(--spacing-s) auto; */
+  text-align: left;
+  /* display: flex;
+  align-items: center; */
+  position: relative;
+  justify-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.questions_answers .filter button {
+  /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); */
+  /* padding: var(--spacing-xxs) var(--spacing-xs); */
+  margin-right: var(--spacing-xs);
+  border-radius: 5px;
+  /* border: 2px solid transparent;
+  background: var(--light-blue);
+  color: var(--white); */
+  box-sizing: border-box;
+
+  margin-top: 8px;
+  background-color: transparent;
+  border: none;
+  color: var(--black);
+  text-align: left;
+  font-size: var(--fontSize-p);
+  width: max-content;
+}
+
+.questions_answers .filter .show-more-btn {
+  text-decoration: underline;
+  width: max-content;
+  font-weight: var(--fontWeight-bold);
+}
+
+.questions_answers .filter button:hover {
+  /* background: var(--white); */
+  box-sizing: border-box;
+  /* border: 2px solid var(--dark-blue); */
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+.questions_answers .filter h3 {
+  margin-bottom: var(--spacing-xxs);
+  color: var(--dark-blue);
+}
+
+.questions_answers .filter .categoty-country {
+  margin-top: var(--spacing-xs);
+}
+
+.questions_answers #categories {
+  display: none;
+}
+
+.qa-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.qa-btn:hover {
+  text-decoration: none !important;
+}
+
+.qa-btn span {
+  font-size: var(--fontSize-h3);
+  font-weight: bold;
+  margin-right: var(--spacing-xxs);
+  color: var(--dark-blue);
+}
+
+.questions_answers-grid {
+  list-style-type: none;
+  padding: var(--spacing-xs) 0 0 var(--spacing-s);
+}
+
+.questions_answers-card {
+  border-top: 2px solid var(--grey);
+
+  position: relative;
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.questions_answers-card .text {
+  margin-top: var(--spacing-xxs);
+  margin-bottom: var(--spacing-xxs);
+  text-align: left;
+}
+
+.questions_answers-btn-wrapper button {
+  width: max-content;
+}
+
+.questions_answers-card .text button {
+  background-color: var(--white);
+  color: var(--dark-grey);
+  border: none;
+  margin-right: 5px;
+}
+
+.questions_answers_tab {
+  margin-left: 25px;
+}
+
+.tab-tag-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.questions_answers_tab span {
+  margin-right: 5px;
+  font-weight: var(--fontWeight-semibold);
+}
+
+.questions_answers-card .text button:hover {
+  text-decoration: underline;
+}
+
+.questions_answers-card .text h2 {
+  font-size: var(--fontSize-h3);
+}
+
+.questions_answers-card .text p {
+  font-size: var(--fontSize-p-s);
+}
+
+.questions_answers-card .text .description {
+  font-size: var(--fontSize-p-s);
+  margin-top: var(--spacing-xxs);
+  margin-bottom: var(--spacing-xxs);
+  color: var(--black);
+}
+
+.questions_answers-card .read-more {
+  position: absolute;
+  bottom: var(--spacing-xxs);
+  left: var(--spacing-xxs);
+}
+
+.categories {
+  overflow: auto !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .questions_answers-grid {
+    padding: 0 var(--spacing-s);
+  }
+
+  .questions_answers form {
+    display: block;
+  }
+
+  .questions_answers .input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .questions_answers .filter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: var(--spacing-xs);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .questions_answers-grid {
+    padding: 0 var(--spacing-xs);
+  }
+
+  .questions_answers form {
+    padding: var(--spacing-xxs) var(--spacing-xs);
+    margin: var(--spacing-xs);
+    width: auto;
+  }
+}

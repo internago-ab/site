@@ -1,0 +1,216 @@
+import React, { useEffect, useState } from "react"
+import { graphql } from "gatsby"
+
+import Seo from "../components/seo"
+import Layout from "../components/layout"
+import Blogcard from "../components/questions_answers_card"
+import Cta from "../components/cta"
+import Blue from "../components/blue"
+
+function QuestionsAnswers({ data, location }) {
+  const allPosts = data.allMarkdownRemark.nodes
+  const postsToDisplay = 4
+  const [posts, setPosts] = useState(allPosts)
+  const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
+  const [filter, setFilter] = useState(
+    new URLSearchParams(location.search.substring(1)).get("filter")
+  )
+
+  const emptyQuery = ""
+
+  const [filteredPosts, setFilteredPosts] = useState({
+    filteredPosts: [],
+    query: emptyQuery,
+  })
+
+  const tags = Array.from(
+    new Set(
+      allPosts
+        .map(post => post.frontmatter.tags)
+        .flat()
+        .filter(tag => tag != null)
+    )
+  )
+
+  const countries = Array.from(
+    new Set(
+      allPosts
+        .map(post => post.frontmatter.countries)
+        .flat()
+        .filter(country => country != null)
+    )
+  )
+
+  useEffect(() => {
+    if (filter) {
+      window.history.pushState(filter, "", `?filter=${filter.toLowerCase()}`)
+      document.querySelector("#categories").value = filter.toLowerCase()
+    }
+
+    setPosts(
+      filter === "all" || !filter
+        ? allPosts
+        : allPosts.filter(post =>
+            post.frontmatter.tags
+              .concat(post.frontmatter.countries)
+              .includes(filter[0].toUpperCase() + filter.substring(1))
+          )
+    )
+  }, [filter, allPosts])
+
+  if (posts.length === 0) {
+    return (
+      <Layout>
+        <Seo title="All posts" />
+        <p>No blog posts found.</p>
+      </Layout>
+    )
+  }
+
+  const handleInputChange = (event) => {
+    console.log(event.target.value)
+    const query = event.target.value
+
+
+    const filteredPosts = allPosts.filter((post) => {
+      const { description, title, tags } = post.frontmatter
+      return (
+        description.toLowerCase().includes(query.toLowerCase()) ||
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        (tags &&
+          tags
+            .join("")
+            .toLowerCase()
+            .includes(query.toLowerCase()))
+      )
+    })
+
+    setFilteredPosts({
+      query,
+      filteredPosts,
+    })
+  }
+
+  const postFiltered = filteredPosts.query ? filteredPosts.filteredPosts : posts
+
+
+  return (
+    <Layout>
+      <Seo title="All posts" />
+      <Blue>
+        <h1>Hello, how can we help you?</h1>
+        <div className=" questions_answers">
+          <div className="input ">
+            <div className="search-wrapper ">
+              <input
+                type="text"
+                aria-label="Search"
+                value={filteredPosts.query}
+                placeholder="Search for questions.."
+                onInput={handleInputChange}
+              />
+              <div className="questions_answers-btn-wrapper">
+                <button className="cta-btn cta-btn-button" type="submit"  onClick={ (console.log('hej'))}>
+                  Search now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Blue>
+      <section className="section">
+        <div className="questions_answers">
+          <div className="tabs medium">
+            <select id="categories"></select>
+
+            <div className="filter">
+              <h3>Categories:</h3>
+              <button onClick={e => setFilter(e.target.value)} value="all">
+                {" "}
+                All questions
+              </button>
+              {tags.slice(0, numberOfPosts).map((tag, index) => (
+                <button
+                  onClick={e => setFilter(e.target.value)}
+                  key={index}
+                  value={tag.toLowerCase()}
+                  className="filter-option"
+                >
+                  {tag}
+                </button>
+              ))}
+        
+                  {
+                  numberOfPosts < tags.length && (
+            <button
+              className="show-more-btn"
+              onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}
+            >
+              Show more
+            </button>
+          )} 
+              <div className="categoty-country filter">
+                <h3>Countries:</h3>
+                {countries.slice(0, numberOfPosts).map((country, index) => (
+                  <button
+                    onClick={e => setFilter(e.target.value)}
+                    key={index}
+                    value={country.toLowerCase()}
+                    className="filter-option"
+                  >
+                    {country}
+                  </button>
+                ))}
+                 {numberOfPosts < countries.length && (
+            <button
+              className="show-more-btn"
+              onClick={() => setNumberOfPosts(numberOfPosts + postsToDisplay)}
+            >
+              Show more
+            </button>
+          )}
+              </div>
+            </div>
+            <ol className="questions_answers-grid">
+              {postFiltered.slice(0, numberOfPosts).map(post => (
+                <Blogcard
+                  key={post.fields.slug}
+                  post={post}
+                  setFilter={setFilter}
+                />
+              ))}
+            </ol>
+          </div>
+
+         
+        </div>
+      </section>
+      <Cta content="more" />
+    </Layout>
+  )
+}
+
+export default QuestionsAnswers
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "questions_answers" } } }
+    ) {
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          description
+          tags
+          countries
+          type
+        }
+      }
+    }
+  }
+`

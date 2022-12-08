@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "./layout.css"
 import PropTypes from "prop-types"
@@ -11,7 +11,6 @@ import twitter from "../images/twitter.svg"
 const Layout = ({ children }) => {
   const [menuDisplayed, setMenuDisplayed] = useState(false)
 
-  const [prevScrollPos, setPrevScrollPos] = useState(0)
   const [visible, setVisible] = useState(true)
 
   const data = useStaticQuery(graphql`
@@ -149,10 +148,7 @@ const Layout = ({ children }) => {
               </Link>
             </li>
             <li>
-              <a
-                href="/blog"
-                className={`${menuDisplayed ? "li-active" : ""}`}
-              >
+              <a href="/blog" className={`${menuDisplayed ? "li-active" : ""}`}>
                 Blogs and News
               </a>
             </li>

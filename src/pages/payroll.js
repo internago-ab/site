@@ -7,7 +7,6 @@ import Grey from "../components/grey"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
-import Quotes from "../components/quotes"
 
 import Multilingual from "../images/illustrations/multilingual.png"
 import Access from "../images/illustrations/access.png"
@@ -15,7 +14,6 @@ import PayrollShareDoc from "../images/illustrations/payroll-sharedoc.png"
 import timeAbsence from "../images/screenshots/time-and-absence.png"
 import employees from "../images/screenshots/employees.png"
 import expenseClaims from "../images/screenshots/expense-claims.png"
-import dashboard from "../images/screenshots/dashboard.png"
 
 import mobile from "../images/icons/mobile.png"
 import expense from "../images/icons/expense.png"
@@ -39,7 +37,7 @@ function Payroll() {
         <h2 className="heading">Payroll and HR Management</h2>
         <p>
           International payroll can be challenging, but it is important and has
-          to be done. ‎And we have the perfect tool to help you with payroll and
+          to be done. And we have the perfect tool to help you with payroll and
           a variety of other HR tasks. You can efficiently store and manage
           employee and payroll data in one place, controlled via one online
           interface. All you have to do is check and approve.
