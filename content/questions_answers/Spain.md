@@ -1,10 +1,17 @@
 ---
 layout: questions_answers
 type: questions_answers
-title: Spain question?
+title: Can the employer impose vacation days for the employee in France
 tags:
-  - Legal
+  - Vacation
 countries:
-  - Spain
-description: Internago recently Internago recently had a case with a Nordic e-commerce company selling consumer goods online to a few EU-markets. In this particular case, the company wanted to know if they were obliged to register a local company or a branch in order to pursue sales on the French market.
+  - France
+description: >-
+  Short anwswer is yes. In the absence of a collective agreement or convention
+  it is the employer who defines the dates of the paid leave. The employee is
+  not free to determine the dates of his or her leave. 
+
+  The employee must make a request to the employer the employer. The latter may refuse.
+
+  In this case, the paid leave must be taken on another date.
 ---
