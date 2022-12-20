@@ -3,7 +3,7 @@ layout: questions_answers
 type: questions_answers
 title: How to calculate the number of paid vacations
 tags:
-  - "#france#vacationdays#payslip"
+  - vacation
 countries:
   - France
 description: >-
