@@ -3,8 +3,7 @@ layout: questions_answers
 type: questions_answers
 title: What is the period of paid leave imposed by the employer in France?
 tags:
-  - Social
-  - Payslip
+  - Vacation
 countries:
   - France
 description: >
