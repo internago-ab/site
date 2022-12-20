@@ -1,7 +1,7 @@
 ---
 layout: questions_answers
 type: questions_answers
-title: How to calculate the number of paid vacations
+title: How to calculate the number of paid vacation days in France
 tags:
   - Vacation
 countries:
