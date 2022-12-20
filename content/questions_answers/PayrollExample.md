@@ -1,11 +1,20 @@
 ---
 layout: questions_answers
 type: questions_answers
-title: social charges question?
+title: What is the period of paid leave imposed by the employer in France?
 tags:
   - Social
   - Payslip
 countries:
-  - Sweden
-description: Internago recently Internago recently had a case with a Nordic e-commerce company selling consumer goods online to a few EU-markets. In this particular case, the company wanted to know if they were obliged to register a local company or a branch in order to pursue sales on the French market.
+  - France
+description: >
+  The organization of paid leave is the responsibility of the employer's power
+  of direction. The employer has the possibility of imposing paid vacations to
+  the employee.
+
+  The employee must necessarily take his/her days off during a specific day of leave during a specific period, normally the country’s normal holiday season. 
+
+  In principle, this period is fixed by a company agreement or, by a default collective bargain agreement. 
+
+  The legal period adjusting the vacation balances in France is between May 1 to October 31.
 ---
