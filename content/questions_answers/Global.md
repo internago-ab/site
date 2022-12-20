@@ -1,15 +1,22 @@
 ---
 layout: questions_answers
 type: questions_answers
-title: Another question here?
+title: How to calculate the paid leave indemnity in France
 tags:
   - Payslip
 countries:
-  - Sweden
+  - France
 country:
   - Norway
-description: Internago recently Internago recently had a case with a Nordic
-  e-commerce company selling consumer goods online to a few EU-markets. In this
-  particular case, the company wanted to know if they were obliged to register a
-  local company or a branch in order to pursue sales on the French market.
+description: >
+  During the paid leave period, the employer must pay the employee a leave
+  indemnity.
+
+  This indemnity can be calculated according to two different methods
+
+  1)” Maintenance” method - the salary maintenance method: the indemnity is equal to the amount of remuneration that would have been received during the period of leave if the employee had continued to work;
+
+  2) The “one-tenth method”: the indemnity is equal to one tenth of the total gross remuneration received by the employee during the reference period.
+
+  The employer must compare these two methods of calculation and choose the most advantageous amount for the employee.
 ---
