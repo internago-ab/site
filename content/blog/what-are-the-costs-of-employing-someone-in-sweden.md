@@ -65,7 +65,7 @@ Below is an example of the total employer cost for an employee with a gross sala
 * **Total cost per year: 499 036 SEK/employee**
 * **Total cost per month:: 41 586 SEK/employee**
 
-### Payroll frequency, obligatory and customary benefits
+## Payroll frequency, obligatory and customary benefits
 
 Employees in Sweden are by custom paid their salary in 12 monthly installments. A 13th or 14th salary, Christmas bonuses and the like, which are seen in some European nations, are not common in Sweden. 
 
