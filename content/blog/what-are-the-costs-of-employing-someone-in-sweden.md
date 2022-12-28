@@ -33,7 +33,7 @@ The main additional cost for the employer, besides the base salary, is social fe
 * 0,20% Occupational Injury fees (Arbetsskadeavgift)
 * 2,60% Parental insurance fees (Föräldraförsäkringsavgift)
 * 2,64% Labour market fees (Arbetsmarknadsavgift)
-* 11,62% ? General salary fee (Allmän löneavgift).
+* 11,62%  General salary fee (Allmän löneavgift).
 
 ## Variations in social fees for certain age groups
 
