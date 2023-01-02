@@ -149,7 +149,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               <a href="/blog" className={`${menuDisplayed ? "li-active" : ""}`}>
-                Blogs and News
+                Blogs and QA
               </a>
             </li>
             <li>
@@ -334,7 +334,7 @@ const Layout = ({ children }) => {
             </li>
           </ul>
           <li>
-            <a href="/blog">Blogs and News</a>
+            <a href="/blog">Blogs and QA</a>
           </li>
           <li>
             <Link to="/about">About us</Link>

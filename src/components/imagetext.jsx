@@ -5,7 +5,7 @@ import "./imagetext.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-const ImageText = props => {
+const ImageText = (props) => {
   let CustomTag
   if (props.size === "large") {
     CustomTag = "h1"
@@ -22,7 +22,7 @@ const ImageText = props => {
   return (
     <section
       className={`${props.bg} ${props.margin} section`}
-      data-aos="fade-up"
+      data-aos="fade-in"
     >
       <div
         className={`section imagetext ${props.size} ${props.reverse} ${props.width} ${props.padding}`}

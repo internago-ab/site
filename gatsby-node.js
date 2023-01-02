@@ -113,6 +113,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           component: blogPost,
           context: {
             id: post.id,
+            prev: index === 0 ? null : posts[index - 1].node,
+            next: index === posts.length - 1 ? null : posts[index + 1].node,
             previousPostId,
             nextPostId,
           },

@@ -11,7 +11,7 @@ function GreyAnimation({ children, props }) {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <section className="grey" data-aos="fade-up">
+    <section className="grey" data-aos="fade-in">
       <div className="section grey-inside">
         <div className="grey-bottom">{children}</div>
       </div>

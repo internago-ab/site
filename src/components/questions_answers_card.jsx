@@ -1,10 +1,13 @@
 import React, { useEffect, useState, useRef } from "react"
+import { Link } from "gatsby"
+import arrow from '../images/icons/arrow-svg.svg'
+
 import "./questions_answers.css"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-function Blogcard({ post, setFilter }) {
+function Blogcard({ post, setFilterQA }) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const ref = useRef()
@@ -13,7 +16,7 @@ function Blogcard({ post, setFilter }) {
 
   function toggleAccordion(e) {
     setActiveState(setActive === "" ? "active" : "")
-    setHeightState(setActive === "active" ? "0px" : "300px")
+    setHeightState(setActive === "active" ? "0px" : "650px")
   }
 
   useEffect(() => {
@@ -21,7 +24,7 @@ function Blogcard({ post, setFilter }) {
       if (setActive && ref.current && !ref.current.contains(e.target)) {
         //setActiveState(false)
         //setHeight("0px")
-        setHeightState(setActive === "" ? "0px" : "300px")
+        setHeightState(setActive === "" ? "0px" : "650px")
         //document.getElementById("height").style.height = "0px"
       }
     }
@@ -39,10 +42,9 @@ function Blogcard({ post, setFilter }) {
   const { title, description, tags, countries } = post.frontmatter
 
   return (
-    <li className="questions_answers-card" >
+    <li className="questions_answers-card">
       <div className="text">
         <button
-       
           className={`qa-btn ${setActive}`}
           onClick={() => {
             toggleAccordion()
@@ -64,7 +66,7 @@ function Blogcard({ post, setFilter }) {
               <span>Tag: </span>{" "}
               <p>
                 {tags.map((tag, index) => (
-                  <button key={index} onClick={() => setFilter(tag)}>
+                  <button key={index} onClick={() => setFilterQA(tag)}>
                     {" "}
                     {tag},
                   </button>
@@ -75,9 +77,9 @@ function Blogcard({ post, setFilter }) {
               <span>Country:</span>
               <p>
                 {countries.map((country, index) => (
-                  <button key={index} onClick={() => setFilter(country)}>
+                  <button key={index} onClick={() => setFilterQA(country)}>
                     {" "}
-                    {country}
+                    {country},
                   </button>
                 ))}
               </p>
@@ -86,6 +88,11 @@ function Blogcard({ post, setFilter }) {
               className="description"
               dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
             ></p>
+            <Link to={post.fields.slug} className="questions_answers-redirect">
+              <div className="questions_answers-redirect-content">
+              <p> Open in new tab</p> <img src={arrow} alt="arrow icon"/>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

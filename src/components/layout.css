@@ -16,7 +16,7 @@ nav {
 .nav {
   transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
   transition-timing-function: ease-in;
-  transition: 0.5s
+  transition: 0.5s;
 }
 
 .logo-link::before {
@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-  height: 2.75rem;
+  height: 2.85rem;
 }
 
 nav ul {
@@ -105,8 +105,8 @@ nav .portal-btn {
 }
 
 /* Reveal  */
-.menu>li:hover>li+.submenu,
-.submenu>li:hover>.submenu {
+.menu > li:hover > li + .submenu,
+.submenu > li:hover > .submenu {
   opacity: 1;
   transform: scaleY(1);
   cursor: pointer;
@@ -167,7 +167,7 @@ footer .disclaimer {
   width: 65%;
 }
 
-footer .disclaimer a{
+footer .disclaimer a {
   font-size: var(--fontSize-p-s);
   color: var(--white);
 }
@@ -216,12 +216,16 @@ footer .disclaimer a{
   max-height: calc(100% - 200px) !important;
 }
 
-#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li.CookiebotWidget-approved svg {
+#CookiebotWidget
+  .CookiebotWidget-body
+  .CookiebotWidget-consents-list
+  li.CookiebotWidget-approved
+  svg {
   fill: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
-
+#CybotCookiebotDialogNav
+  .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
   border-bottom: 1px solid var(--dark-blue) !important;
   color: var(--dark-blue) !important;
 }
@@ -230,7 +234,9 @@ footer .disclaimer a{
   color: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialogTabContent input:checked+.CybotCookiebotDialogBodyLevelButtonSlider {
+#CybotCookiebotDialogTabContent
+  input:checked
+  + .CybotCookiebotDialogBodyLevelButtonSlider {
   background-color: var(--dark-blue) !important;
 }
 
@@ -238,9 +244,14 @@ footer .disclaimer a{
   color: var(--dark-blue) !important;
 }
 
-#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover,
-#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab:hover,
-#CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount):hover {
+#CybotCookiebotDialog
+  .CookieCard
+  .CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover,
+#CybotCookiebotDialog
+  .CookieCard
+  .CybotCookiebotDialogDetailBodyContentIABv2Tab:hover,
+#CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+  .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount):hover {
   color: var(--dark-blue) !important;
 }
 
@@ -319,7 +330,7 @@ footer .disclaimer a{
   }
 
   .logo {
-    height: 2.125rem;
+    height: 2.525rem;
   }
 
   .desktop-menu {

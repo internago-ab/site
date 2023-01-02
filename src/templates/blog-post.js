@@ -11,15 +11,28 @@ import Cta from "../components/cta"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-const BlogPostTemplate = ({ data, location }) => {
-  console.log(data, "tetststtss")
+const BlogPostTemplate = ({ data, location, pageContext }) => {
+
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
 
   const post = data.markdownRemark
-  console.log(post, "post")
 
+
+  const next = pageContext.nextPostId
+  ? {
+       url: `/blog/${pageContext.previousPostId.fields}`,
+       title: post.frontmatter.title,
+    }
+  : null
+// const prev = pageContext.previousPostId
+//   ? {
+//        url: `/blog/${pageContext.prev.fields.slug}`,
+//        title: pageContext.prev.frontmatter.title,
+//     }
+//   : null
+// console.log(next.title)
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   const latestPosts = data.allMarkdownRemark.nodes.slice(0, 5)
@@ -73,8 +86,8 @@ const BlogPostTemplate = ({ data, location }) => {
   )
 }
 
-export default BlogPostTemplate
 
+export default BlogPostTemplate
 export const pageQuery = graphql`
   query BlogPostBySlug($id: String!) {
     site {
@@ -107,7 +120,9 @@ export const pageQuery = graphql`
         featuredimage
         tags
         type
+        
       }
+      
     }
   }
 `

@@ -15,7 +15,7 @@ const Tab = () => {
 
   const [toggleState, setToggleState] = useState(1)
 
-  const toggleTab = index => {
+  const toggleTab = (index) => {
     setToggleState(index)
   }
 
@@ -29,7 +29,7 @@ const Tab = () => {
     toggleState === index ? className : ""
 
   return (
-    <div className="section tabs-top" data-aos="fade-up">
+    <div className="section tabs-top" data-aos="fade-in">
       <div className="tabs-large">
         <h2 className="tab-header heading">Simple, efficient and powerful</h2>
         <div className=" tabs-main">

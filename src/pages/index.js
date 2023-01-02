@@ -107,7 +107,7 @@ const Index = () => {
         </div>
       </section>
       <div className="bg-light-blue margin-top-none-sm">
-        <section className=" section" data-aos="fade-up">
+        <section className=" section" data-aos="fade-in">
           <div className="imagetext medium rowreverse">
             <div className="info-imagetext">
               <h2 className="heading">Your markets are our markets</h2>

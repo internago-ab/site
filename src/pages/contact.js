@@ -85,10 +85,10 @@ function Contact() {
       </Grey>
       <section className="section medium ">
         <div className="section-top">
-          <div className="header-text" data-aos="fade-up">
+          <div className="header-text" data-aos="fade-in">
             <h2>Emails for our main markets</h2>
           </div>
-          <ul className="flags-grid" data-aos="fade-up">
+          <ul className="flags-grid" data-aos="fade-in">
             <li>
               <img src={belgium} alt="flag-belgium" />
               <a href="mailto:belgium@internago.com">belgium@internago.com</a>
