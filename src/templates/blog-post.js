@@ -20,12 +20,12 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
   const post = data.markdownRemark
 
 
-  const next = pageContext.nextPostId
-  ? {
-       url: `/blog/${pageContext.previousPostId.fields}`,
-       title: post.frontmatter.title,
-    }
-  : null
+  // const next = pageContext.nextPostId
+  // ? {
+  //      url: `/blog/${pageContext.previousPostId.fields}`,
+  //      title: post.frontmatter.title,
+  //   }
+  // : null
 // const prev = pageContext.previousPostId
 //   ? {
 //        url: `/blog/${pageContext.prev.fields.slug}`,
