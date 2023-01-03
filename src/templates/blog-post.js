@@ -19,22 +19,20 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
 
   const post = data.markdownRemark
 
+  const next = pageContext.nextPostId
+  ? {
+       url: `${pageContext.nextPostId.fields.slug}`,
+       title: pageContext.nextPostId.title,
+    }
+  : null
+const prev = pageContext.previousPostId
+  ? {
+       url: `${pageContext.previousPostId.fields.slug}`,
+       title: pageContext.previousPostId.title,
+    }
+  : null
 
-  // const next = pageContext.nextPostId
-  // ? {
-  //      url: `/blog/${pageContext.previousPostId.fields}`,
-  //      title: post.frontmatter.title,
-  //   }
-  // : null
-// const prev = pageContext.previousPostId
-//   ? {
-//        url: `/blog/${pageContext.prev.fields.slug}`,
-//        title: pageContext.prev.frontmatter.title,
-//     }
-//   : null
-// console.log(next.title)
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
   const latestPosts = data.allMarkdownRemark.nodes.slice(0, 5)
   const tags = Array.from(
     new Set(
@@ -75,12 +73,24 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
             itemProp="articleBody"
             className="article-body"
           />
-          <Link to="/blog?filter=all">← Go back to blog overview</Link>
+          <div className="prev_next">
+          {prev && (
+               <Link to={prev.url}>
+                  <span>Previous</span>
+               </Link>
+            )}
+            {next && (
+               <Link to={next.url}>
+                  <span>Next</span>
+               </Link>
+            )}
+            </div>
+            <Link to="/blog?filter=all">← Go back to blog overview</Link>
         </article>
 
         <Sidebar posts={latestPosts} tags={tags} />
       </div>
-
+      
       <Cta content="about" noMargin={true} />
     </Layout>
   )

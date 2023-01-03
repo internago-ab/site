@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Seo from "../components/seo"
 import Layout from "../components/layout"
-import Blogcard from "../components/questions_answers_card"
+import QAcard from "../components/questions_answers_card"
 import Cta from "../components/cta"
 import Blue from "../components/blue"
 
@@ -58,11 +58,15 @@ function QuestionsAnswers({ data, location }) {
     )
   }, [filter, allPosts])
 
+ 
   if (posts.length === 0) {
     return (
       <Layout>
         <Seo title="All posts" />
-        <p>No blog posts found.</p>
+        <div className="posts-found medium">
+        <h3>No QA's found.</h3>
+        </div>
+        <Cta content="next" />
       </Layout>
     )
   }
@@ -80,6 +84,13 @@ function QuestionsAnswers({ data, location }) {
           countries.join("").toLowerCase().includes(query.toLowerCase()))
       )
     })
+    if (query != 0) {
+      document.querySelector(
+        ".posts_found"
+      ).innerHTML = `${filteredPosts.length} posts found `
+    } else if (query == 0) {
+      document.querySelector(".posts_found").innerHTML = ` `
+    }
 
     setFilteredPosts({
       query,
@@ -111,6 +122,7 @@ function QuestionsAnswers({ data, location }) {
               </div>
             </div>
           </div>
+          <p className="posts_found"></p>
         </div>
       </Blue>
       <section className="section">
@@ -176,7 +188,7 @@ function QuestionsAnswers({ data, location }) {
             </div>
             <ol className="questions_answers-grid">
               {postFiltered.slice(0, numberOfPosts).map(post => (
-                <Blogcard
+                <QAcard
                   key={post.fields.slug}
                   post={post}
                   setFilter={setFilter}

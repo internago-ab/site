@@ -39,7 +39,6 @@ const QaPostTemplate = ({ data, location }) => {
 
   useEffect(() => {
     if (filter) {
-      console.log('när kör jag')
       window.history.replaceState("blog", "", `?filter=${filter.toLowerCase()}`)
      
       // window.history.back()
@@ -94,7 +93,7 @@ const QaPostTemplate = ({ data, location }) => {
                 <div className="filter-tags">
                  
                   <a
-                      href={`/blog/?qa=all`}
+                      href={`/qa/?filter=all`}
                       value="all"
                       className="filter-option"
                     >
@@ -102,7 +101,7 @@ const QaPostTemplate = ({ data, location }) => {
                     </a>
                   {tags.slice(0, numberOfPosts).map((tag, index) => (
                     <a
-                      href={`/blog?qa=${tag.toLowerCase()}`}
+                      href={`/qa?filter=${tag.toLowerCase()}`}
                       key={index}
                       value={tag.toLowerCase()}
                       className="filter-option"
@@ -127,7 +126,7 @@ const QaPostTemplate = ({ data, location }) => {
                 <div className="filter-tags">
                   {countries.slice(0, numberOfPosts).map((country, index) => (
                     <a
-                      href={`/blog/?qa=${country.toLowerCase()}`}
+                      href={`/qa/?filter=${country.toLowerCase()}`}
                       key={index}
                       value={country.toLowerCase()}
                       className="filter-option"
@@ -163,7 +162,7 @@ const QaPostTemplate = ({ data, location }) => {
                           {post.frontmatter.tags.map((tag, index) => (
                             <Link
                               key={index}
-                              to={`/blog/?filter=${tag.toLowerCase()}`}
+                              to={`/qa/?filter=${tag.toLowerCase()}`}
                             >
                               {tag}, <br></br>
                             </Link>
@@ -176,7 +175,7 @@ const QaPostTemplate = ({ data, location }) => {
                           {post.frontmatter.countries.map((country, index) => (
                             <Link
                               key={index}
-                              to={`/blog?qa=${country.toLowerCase()}`}
+                              to={`/qa/?filter=${country.toLowerCase()}`}
                             >
                               {country}
                             </Link>

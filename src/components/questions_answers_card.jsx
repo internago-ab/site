@@ -7,7 +7,7 @@ import "./questions_answers.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-function Blogcard({ post, setFilterQA }) {
+function Blogcard({ post, setFilter }) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const ref = useRef()
@@ -66,7 +66,7 @@ function Blogcard({ post, setFilterQA }) {
               <span>Tag: </span>{" "}
               <p>
                 {tags.map((tag, index) => (
-                  <button key={index} onClick={() => setFilterQA(tag)}>
+                  <button key={index} onClick={() => setFilter(tag)}>
                     {" "}
                     {tag},
                   </button>
@@ -77,7 +77,7 @@ function Blogcard({ post, setFilterQA }) {
               <span>Country:</span>
               <p>
                 {countries.map((country, index) => (
-                  <button key={index} onClick={() => setFilterQA(country)}>
+                  <button key={index} onClick={() => setFilter(country)}>
                     {" "}
                     {country},
                   </button>

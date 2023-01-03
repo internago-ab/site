@@ -145,6 +145,18 @@ select:focus {
   padding-bottom: var(--spacing-m);
 }
 
+.prev_next {
+  padding-bottom: var(--spacing-xxs);
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+.prev_next span {
+  color: var(--black);
+  font-size: var(--fontSize-h3);
+}
+
 @media only screen and (max-width: 768px) {
   .blog-grid {
     padding: 0 var(--spacing-s);
@@ -183,5 +195,9 @@ select:focus {
   .blog .input,
   .blog .filter {
     width: 100%;
+  }
+
+  .prev_next span {
+    font-size: var(--fontSize-p);
   }
 }

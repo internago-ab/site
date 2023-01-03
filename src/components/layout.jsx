@@ -120,7 +120,7 @@ const Layout = ({ children }) => {
             style={{
               top: visible ? "69px" : "-69px",
               overflow: menuDisplayed ? "unset" : "hidden",
-              height: menuDisplayed ? 300 : 0,
+              height: menuDisplayed ? 350 : 0,
             }}
           >
             <li>
@@ -149,7 +149,12 @@ const Layout = ({ children }) => {
             </li>
             <li>
               <a href="/blog" className={`${menuDisplayed ? "li-active" : ""}`}>
-                Blogs and QA
+                Blogs and News
+              </a>
+            </li>
+            <li>
+              <a href="/qa" className={`${menuDisplayed ? "li-active" : ""}`}>
+               Q&A
               </a>
             </li>
             <li>
@@ -334,7 +339,10 @@ const Layout = ({ children }) => {
             </li>
           </ul>
           <li>
-            <a href="/blog">Blogs and QA</a>
+            <a href="/blog">Blogs and News</a>
+          </li>
+          <li>
+            <a href="/qa">Q&A</a>
           </li>
           <li>
             <Link to="/about">About us</Link>

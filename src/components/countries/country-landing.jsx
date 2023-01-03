@@ -2,7 +2,6 @@ import React from "react"
 import "./country-landing.css"
 
 function CountryLanding({ title, bgimg }) {
-  console.log(title)
   return (
     <div
       className="country-landing-main country-section"
