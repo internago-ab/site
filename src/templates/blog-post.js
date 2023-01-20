@@ -12,25 +12,26 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const BlogPostTemplate = ({ data, location, pageContext }) => {
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
 
+  console.log(pageContext, "pageContext")
+
   const post = data.markdownRemark
 
-  const next = pageContext.nextPostId
-  ? {
-       url: `${pageContext.nextPostId.fields.slug}`,
-       title: pageContext.nextPostId.title,
-    }
-  : null
-const prev = pageContext.previousPostId
-  ? {
-       url: `${pageContext.previousPostId.fields.slug}`,
-       title: pageContext.previousPostId.title,
-    }
-  : null
+  // const next = pageContext.nextPostId
+  //   ? {
+  //       url: `${pageContext.nextPostId.fields.slug}`,
+  //       title: pageContext.nextPostId.title,
+  //     }
+  //   : null
+  // const prev = pageContext.previousPostId
+  //   ? {
+  //       url: `${pageContext.previousPostId.fields.slug}`,
+  //       title: pageContext.previousPostId.title,
+  //     }
+  //   : null
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const latestPosts = data.allMarkdownRemark.nodes.slice(0, 5)
@@ -73,29 +74,28 @@ const prev = pageContext.previousPostId
             itemProp="articleBody"
             className="article-body"
           />
-          <div className="prev_next">
-          {prev && (
-               <Link to={prev.url}>
-                  <span>Previous</span>
-               </Link>
+          {/* <div className="prev_next">
+            {prev && (
+              <Link to={prev.url}>
+                <span>Previous</span>
+              </Link>
             )}
             {next && (
-               <Link to={next.url}>
-                  <span>Next</span>
-               </Link>
+              <Link to={next.url}>
+                <span>Next</span>
+              </Link>
             )}
-            </div>
-            <Link to="/blog?filter=all">← Go back to blog overview</Link>
+          </div> */}
+          <Link to="/blog?filter=all">← Go back to blog overview</Link>
         </article>
 
         <Sidebar posts={latestPosts} tags={tags} />
       </div>
-      
+
       <Cta content="about" noMargin={true} />
     </Layout>
   )
 }
-
 
 export default BlogPostTemplate
 export const pageQuery = graphql`
@@ -130,9 +130,7 @@ export const pageQuery = graphql`
         featuredimage
         tags
         type
-        
       }
-      
     }
   }
 `

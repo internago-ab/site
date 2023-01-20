@@ -16,6 +16,8 @@ function QuestionsAnswers({ data, location }) {
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
 
+  console.log(allPosts)
+
   const emptyQuery = ""
 
   const [filteredPosts, setFilteredPosts] = useState({
@@ -58,23 +60,22 @@ function QuestionsAnswers({ data, location }) {
     )
   }, [filter, allPosts])
 
- 
   if (posts.length === 0) {
     return (
       <Layout>
         <Seo title="All posts" />
         <div className="posts-found medium">
-        <h3>No QA's found.</h3>
+          <h3>No QA's found.</h3>
         </div>
         <Cta content="next" />
       </Layout>
     )
   }
 
-  const handleInputChange = (event) => {
+  const handleInputChange = event => {
     const query = event.target.value
 
-    let filteredPosts = allPosts.filter((post) => {
+    let filteredPosts = allPosts.filter(post => {
       const { description, title, tags, countries } = post.frontmatter
       return (
         description.toLowerCase().includes(query.toLowerCase()) ||

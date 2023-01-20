@@ -11,8 +11,7 @@ import "../components/countries/frontmatter.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-const Country = ({ data, location }) => {
-
+const Country = ({ data, location, pageContext }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -30,7 +29,10 @@ const Country = ({ data, location }) => {
       <div>
         <CountryLanding title={title} bgimg={bgimg} />
         <FactsStats description={description} countryImg={countryImg} />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} data-aos="fade-up"/>
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          data-aos="fade-up"
+        />
       </div>
       <Cta content="about" />
     </Layout>

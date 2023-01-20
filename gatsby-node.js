@@ -82,8 +82,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (posts.length > 0) {
     posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1]
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1]
+      // const previousPostId = index === 0 ? null : posts[index - 1]
+      // const nextPostId = index === posts.length - 1 ? null : posts[index + 1]
 
       if (post.frontmatter.type === "country") {
         createPage({
@@ -93,7 +93,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id: post.id,
           },
         })
-      } else if(post.frontmatter.type === "questions_answers" ){
+      } else if (post.frontmatter.type === "questions_answers") {
         createPage({
           path: post.fields.slug,
           component: qaPost,
@@ -101,16 +101,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id: post.id,
           },
         })
-      }
-      
-      else {
+      } else if (post.frontmatter.type === "blog") {
         createPage({
           path: post.fields.slug,
           component: blogPost,
           context: {
             id: post.id,
-            previousPostId,
-            nextPostId,
+            // previousPostId,
+            // nextPostId,
           },
         })
       }
