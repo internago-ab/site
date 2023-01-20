@@ -7,9 +7,9 @@ tags:
   - France
 featuredimage: /images/wesley-tingey-58cc8avplga-unsplash.jpg
 ---
-***In this blog post, we address the subject of paternity leave in France. From experience, companies can provide information that is incorrect, including dates, with the result that qualifying employees miss out on payments from the relevant social security fund, CPAM.*** 
+**In this blog post, we address the subject of paternity leave in France. From experience, companies can provide information that is incorrect, including dates, with the result that qualifying employees miss out on payments from the relevant social security fund, CPAM.** 
 
-***In order to minimise issues, and the time spent dealing with them, we detail below some of the salient information.***
+**In order to minimise issues, and the time spent dealing with them, we detail below some of the salient information.**
 
 In France, employed fathers or second parents qualify for paternity leave provided they have been registered for social security for at least 10 months and have worked for more than 150 hours in the three months prior to their leave. Paternity leave is paid for by the social security system and not by employers, with a daily allowance based on the average wage of the employee over the preceding three months up to a ceiling (presently €95.22 per day, lower for second parents and the self-employed).
 
