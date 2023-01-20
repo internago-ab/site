@@ -27,9 +27,9 @@ Child is born on a Saturday.  Immediately thereafter, the employee is entitled 
 
 The secondary stage of paternity leave, of 21 days, based on calendar days, can be taken all together or split in two, each period being of at least five days duration. This is voluntary, and has to be taken within six months of the child’s date of birth, subject to providing one month's notice.
 
-Example:
+Example: 
 
-Child is born on Sunday 4 July 2021, so leave would be taken as follows
+Child is born on Sunday 4 July 2021, so leave would be taken as follows: 
 
 \- Childbirth leave of three working days immediately after the birth, so from Monday 5 July to Wednesday 7 July inclusive.
 
