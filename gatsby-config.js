@@ -70,6 +70,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.internago.com/`,
+        stripQueryString: true,
+      },
+    },
+    {
       resolve: "gatsby-plugin-cookiebot",
       options: {
         cookiebotId: "d1108fab-5ff6-4dcd-bbec-192f52dbe414", // Required. Site's Cookiebot ID.
