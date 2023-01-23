@@ -14,7 +14,6 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
-
   const post = data.markdownRemark
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -40,7 +39,6 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
   useEffect(() => {
     if (filter) {
       window.history.replaceState("blog", "", `?filter=${filter.toLowerCase()}`)
-
       // window.history.back()
       // window.history.pushState(filter, "", `?filter=${filter.toLowerCase()}`)
       document.querySelector("#categories").value = filter.toLowerCase()
