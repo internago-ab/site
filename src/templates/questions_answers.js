@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Cta from "../components/cta"
 
-const QaPostTemplate = ({ data, location }) => {
+const QaPostTemplate = ({ data, location, pageContext }) => {
   const allPosts = data.allMarkdownRemark.nodes
   const postsToDisplay = 4
   const [posts, setPosts] = useState(allPosts)
@@ -40,7 +40,7 @@ const QaPostTemplate = ({ data, location }) => {
   useEffect(() => {
     if (filter) {
       window.history.replaceState("blog", "", `?filter=${filter.toLowerCase()}`)
-     
+
       // window.history.back()
       // window.history.pushState(filter, "", `?filter=${filter.toLowerCase()}`)
       document.querySelector("#categories").value = filter.toLowerCase()
@@ -57,7 +57,6 @@ const QaPostTemplate = ({ data, location }) => {
     )
   }, [filter, allPosts])
 
-
   if (posts.length === 0) {
     return (
       <Layout>
@@ -67,10 +66,8 @@ const QaPostTemplate = ({ data, location }) => {
     )
   }
 
-
-
-  function shouldUpdateScroll  ( ) {
-   // window.location.reload()
+  function shouldUpdateScroll() {
+    // window.location.reload()
     // window.scrollTo(...(`/blog` || [0, 0]))
     // window.location.reload()
     // return false
@@ -91,14 +88,13 @@ const QaPostTemplate = ({ data, location }) => {
               <div className="filter">
                 <h3>Categories:</h3>
                 <div className="filter-tags">
-                 
                   <a
-                      href={`/qa/?filter=all`}
-                      value="all"
-                      className="filter-option"
-                    >
-                      All questions
-                    </a>
+                    href={`/qa/?filter=all`}
+                    value="all"
+                    className="filter-option"
+                  >
+                    All questions
+                  </a>
                   {tags.slice(0, numberOfPosts).map((tag, index) => (
                     <a
                       href={`/qa?filter=${tag.toLowerCase()}`}

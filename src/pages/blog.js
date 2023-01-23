@@ -11,14 +11,13 @@ import QAcard from "../components/questions_answers_card"
 
 function Blog({ data, location }) {
   //blog
-  const allPosts = data.blog.nodes
+  const allPosts = data.allMarkdownRemark.nodes
   const postsToDisplay = 6
   const [posts, setPosts] = useState(allPosts)
   const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
-  
 
   const [filteredPosts, setFilteredPosts] = useState({
     filteredPosts: [],
@@ -58,17 +57,16 @@ function Blog({ data, location }) {
       <Layout>
         <Seo title="All posts" />
         <div className="posts-found medium content">
-        <h3>No blog posts found.</h3>
-        
+          <h3>No blog posts found.</h3>
         </div>
         <Cta content="next" />
       </Layout>
     )
   }
 
-  const handleInputChange = (event) => {
+  const handleInputChange = event => {
     const query = event.target.value
-    const filteredPosts = allPosts.filter((post) => {
+    const filteredPosts = allPosts.filter(post => {
       const title = post.frontmatter.title
       const tags = post.frontmatter.tags
       return (
@@ -149,7 +147,7 @@ export default Blog
 
 export const pageQuery = graphql`
   query {
-    blog: allMarkdownRemark(
+    allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "blog" } } }
     ) {

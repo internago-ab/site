@@ -16,6 +16,7 @@ const Country = ({ data, location, pageContext }) => {
     Aos.init({ duration: 2000 })
   }, [])
 
+
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const title = post.frontmatter.title
@@ -42,13 +43,16 @@ const Country = ({ data, location, pageContext }) => {
 export default Country
 
 export const pageQuery = graphql`
-  query CountriesSlugBySlug($id: String!) {
+  query CountriesSlugBySlug {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "country" } } }
+    ) {
       nodes {
         fields {
           slug
@@ -58,8 +62,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    markdownRemark(id: { eq: $id }) {
-      id
+    markdownRemark(frontmatter: { type: { eq: "country" } }) {
       excerpt(pruneLength: 160)
       html
       frontmatter {
@@ -70,6 +73,9 @@ export const pageQuery = graphql`
         type
       }
       html
+      fields {
+        slug
+      }
     }
   }
 `

@@ -16,22 +16,20 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
     Aos.init({ duration: 2000 })
   }, [])
 
-  console.log(pageContext, "pageContext")
-
   const post = data.markdownRemark
 
-  // const next = pageContext.nextPostId
-  //   ? {
-  //       url: `${pageContext.nextPostId.fields.slug}`,
-  //       title: pageContext.nextPostId.title,
-  //     }
-  //   : null
-  // const prev = pageContext.previousPostId
-  //   ? {
-  //       url: `${pageContext.previousPostId.fields.slug}`,
-  //       title: pageContext.previousPostId.title,
-  //     }
-  //   : null
+  const next = pageContext.nextPostId
+    ? {
+        url: `${pageContext.nextPostId.fields.slug}`,
+        title: pageContext.nextPostId.title,
+      }
+    : null
+  const prev = pageContext.previousPostId
+    ? {
+        url: `${pageContext.previousPostId.fields.slug}`,
+        title: pageContext.previousPostId.title,
+      }
+    : null
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const latestPosts = data.allMarkdownRemark.nodes.slice(0, 5)
@@ -74,18 +72,18 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
             itemProp="articleBody"
             className="article-body"
           />
-          {/* <div className="prev_next">
-            {prev && (
-              <Link to={prev.url}>
+          <div className="prev_next">
+            {next && (
+              <Link to={next.url}>
                 <span>Previous</span>
               </Link>
             )}
-            {next && (
-              <Link to={next.url}>
+            {prev && (
+              <Link to={prev.url}>
                 <span>Next</span>
               </Link>
             )}
-          </div> */}
+          </div>
           <Link to="/blog?filter=all">← Go back to blog overview</Link>
         </article>
 

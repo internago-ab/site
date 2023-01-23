@@ -1,19 +1,3 @@
-/*
-exports.createPages = ({ actions: { createPage } }) => {
-  const countries = require("./data/countries.json")
-  countries.forEach(country => {
-    createPage({
-      path: `/country/${country.slug}`,
-      component: require.resolve("./src/templates/country.js"),
-      context: {
-        title: country.title,
-        description: country.description,
-      },
-    })
-  })
-}
-*/
-
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -45,12 +29,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const qaPost = path.resolve(`./src/templates/questions_answers.js`)
 
   // Get all markdown blog posts sorted by date
-  const result = await graphql(
+  const result_qa = await graphql(
     `
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
+          filter: { frontmatter: { type: { glob: "questions_answers" } } }
         ) {
           nodes {
             id
@@ -66,24 +51,76 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     `
   )
 
-  if (result.errors) {
+  const result_country = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: ASC }
+          limit: 1000
+          filter: { frontmatter: { type: { glob: "country" } } }
+        ) {
+          nodes {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              type
+            }
+          }
+        }
+      }
+    `
+  )
+
+  const result_blog = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: ASC }
+          limit: 1000
+          filter: { frontmatter: { type: { glob: "blog" } } }
+        ) {
+          nodes {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              type
+            }
+          }
+        }
+      }
+    `
+  )
+  if (result_qa.errors) {
     reporter.panicOnBuild(
       `There was an error loading your blog posts`,
-      result.errors
+      result_qa.errors
     )
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
+  if (result_blog.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your blog posts`,
+      result_blog.errors
+    )
+    return
+  }
 
+  const posts_qa = result_qa.data.allMarkdownRemark.nodes
+  const posts_country = result_country.data.allMarkdownRemark.nodes
+  const posts_blog = result_blog.data.allMarkdownRemark.nodes
+  console.log("posts", posts_blog)
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
-
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      // const previousPostId = index === 0 ? null : posts[index - 1]
-      // const nextPostId = index === posts.length - 1 ? null : posts[index + 1]
+  if (posts_country.length > 0) {
+    posts_country.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : posts_country[index - 1]
+      const nextPostId = index === posts_country.length - 1 ? null : posts_country[index + 1]
 
       if (post.frontmatter.type === "country") {
         createPage({
@@ -91,24 +128,46 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           component: country,
           context: {
             id: post.id,
+            previousPostId,
+            nextPostId,
           },
         })
-      } else if (post.frontmatter.type === "questions_answers") {
-        createPage({
-          path: post.fields.slug,
-          component: qaPost,
-          context: {
-            id: post.id,
-          },
-        })
-      } else if (post.frontmatter.type === "blog") {
+      }
+    })
+  }
+
+  if (posts_blog.length > 0) {
+    posts_blog.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : posts_blog[index - 1]
+      const nextPostId = index === posts_blog.length - 1 ? null : posts_blog[index + 1]
+      console.log("previousPostId", previousPostId)
+      console.log("nextPostId", nextPostId)
+      if (post.frontmatter.type === "blog") {
         createPage({
           path: post.fields.slug,
           component: blogPost,
           context: {
             id: post.id,
-            // previousPostId,
-            // nextPostId,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      }
+    })
+  }
+  if (posts_qa.length > 0) {
+    posts_qa.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : posts_qa[index - 1]
+      const nextPostId = index === posts_qa.length - 1 ? null : posts_qa[index + 1]
+
+      if (post.frontmatter.type === "questions_answers") {
+        createPage({
+          path: post.fields.slug,
+          component: qaPost,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
           },
         })
       }
@@ -121,7 +180,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-
+    console.log("value", value, node)
     createNodeField({
       name: `slug`,
       node,
