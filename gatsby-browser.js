@@ -17,7 +17,7 @@ export const wrapPageElement = ({ element }) => (
 // wait until page exit animation has completed before updating scroll position
 export const shouldUpdateScroll = ({
   routerProps: { location },
-  getSavedScrollPosition
+  getSavedScrollPosition,
 }) => {
   // transition duration from `layout.js` * 1000 to get time in ms
   const TRANSITION_DELAY = 0.3 * 1000 * 2

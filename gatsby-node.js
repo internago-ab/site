@@ -1,26 +1,43 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
+  if (stage === 'build-javascript') {
+    const config = getConfig()
+    const miniCssExtractPlugin = config.plugins.find(
+      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
+    )
+    if (miniCssExtractPlugin) {
+      miniCssExtractPlugin.options.ignoreOrder = true
+    }
+    actions.replaceWebpackConfig(config)
+  }
+}
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage, createRedirect } = actions
 
   createRedirect({
     fromPath: `/our-services`,
     toPath: `/services`,
+    isPermanent: true ,
   })
 
   createRedirect({
     fromPath: `/blog-news`,
     toPath: `/blog`,
+    isPermanent: true ,
   })
   createRedirect({
     fromPath: `/payroll-portal`,
     toPath: `/payroll`,
+    isPermanent: true ,
   })
 
   createRedirect({
     fromPath: `/payroll-services`,
     toPath: `/payroll`,
+    isPermanent: true, 
   })
 
   // Define a template for blog post
@@ -113,14 +130,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts_qa = result_qa.data.allMarkdownRemark.nodes
   const posts_country = result_country.data.allMarkdownRemark.nodes
   const posts_blog = result_blog.data.allMarkdownRemark.nodes
-  console.log("posts", posts_blog)
+  console.log("posts_country", posts_country)
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
   if (posts_country.length > 0) {
     posts_country.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts_country[index - 1]
-      const nextPostId = index === posts_country.length - 1 ? null : posts_country[index + 1]
 
       if (post.frontmatter.type === "country") {
         createPage({
@@ -128,8 +143,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           component: country,
           context: {
             id: post.id,
-            previousPostId,
-            nextPostId,
+         
           },
         })
       }

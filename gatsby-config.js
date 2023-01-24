@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+  //  { resolve: `gatsby-plugin-netlify-cms`},
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -203,7 +204,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
-    `gatsby-plugin-netlify-cms`,
+    // `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-client-side-redirect`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

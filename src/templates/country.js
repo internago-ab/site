@@ -18,6 +18,7 @@ const Country = ({ data, location, pageContext }) => {
 
 
   const post = data.markdownRemark
+  console.log(data)
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const title = post.frontmatter.title
   const description = post.frontmatter.description
@@ -43,7 +44,7 @@ const Country = ({ data, location, pageContext }) => {
 export default Country
 
 export const pageQuery = graphql`
-  query CountriesSlugBySlug {
+  query CountriesSlugBySlug($id: String!) {
     site {
       siteMetadata {
         title
@@ -59,11 +60,13 @@ export const pageQuery = graphql`
         }
         frontmatter {
           title
+          tags
+          countries
         }
       }
     }
-    markdownRemark(frontmatter: { type: { eq: "country" } }) {
-      excerpt(pruneLength: 160)
+    markdownRemark(id: { eq: $id }) {
+      id
       html
       frontmatter {
         title
