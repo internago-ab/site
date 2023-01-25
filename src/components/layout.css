@@ -127,7 +127,8 @@ footer p {
   justify-content: space-between;
 }
 
-.footer-flex p {
+.footer-flex p,
+.footer-flex a {
   margin-top: var(--spacing-xxs);
   font-size: var(--fontSize-p-s);
   text-align: right;
@@ -146,6 +147,14 @@ footer .right {
 
 footer .socials :nth-child(1) {
   margin-right: 10px;
+}
+
+footer a {
+  color: var(--white);
+}
+
+a::before {
+  background-color: var(--white);
 }
 
 footer .socials img {
@@ -403,7 +412,8 @@ footer .disclaimer a {
     padding: var(--spacing-xs);
   }
 
-  .footer-flex p {
+  .footer-flex p,
+  .footer-flex a {
     font-size: var(--fontSize-p-xs);
   }
 

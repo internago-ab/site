@@ -154,7 +154,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               <a href="/qa" className={`${menuDisplayed ? "li-active" : ""}`}>
-               Q&A
+                Q&A
               </a>
             </li>
             <li>
@@ -404,6 +404,8 @@ const Layout = ({ children }) => {
               Tegelbacken 4A
               <br />
               111 52 Stockholm
+              <br />
+              <a href="tel:+468-50256535">+468-50256535</a>
               <br />
               Sweden
             </p>
