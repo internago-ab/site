@@ -81,16 +81,15 @@ Childcare in the Netherlands is very expensive and as a consequence of this, a l
 | ----------------------------------- | ------------------------------ |
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day</p>          |
-| <p><strong>15 April</strong></p>    | <p>Good Friday </p>            |
-| <p><strong>17 April</strong></p>    | <p>Easter Sunday</p>           |
-| <p><strong>18 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>7 April</strong></p>     | <p>Good Friday </p>            |
+| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>           |
+| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
 | <p><strong>27 April</strong></p>    | <p>Kings Day</p>               |
 | <p><strong>5 May</strong></p>       | <p>Liberation Day</p>          |
-| <p><strong>26 May</strong></p>      | <p>Ascension Day</p>           |
-| <p><strong>5 June</strong></p>      | <p>Whit Sunday</p>             |
-| <p><strong>6 June</strong></p>      | <p>Whit Monday</p>             |
+| <p><strong>18 May</strong></p>      | <p>Ascension Day</p>           |
+| <p><strong>28 May</strong></p>      | <p> Whit Sunday</p>            |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
-| <p><strong>26 December</strong></p> | <p>Boxing Day</p>              |
+| <p><strong>26 December</strong></p> | <p>2nd Day of Christmas</p>    |
 
 </div>
 </div>

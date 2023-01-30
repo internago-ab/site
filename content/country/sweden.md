@@ -110,19 +110,17 @@ When it comes to parental leave, mothers and fathers are expected to equally sha
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day</p>          |
 | <p><strong>6 January</strong></p>   | <p>Epiphany</p>                |
-| <p><strong>15 April</strong></p>    | <p> Good Friday</p>            |
-| <p><strong>17 April</strong></p>    | <p>Easter Sunday</p>           |
-| <p><strong>18 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>7 April</strong></p>     | <p> Good Friday</p>            |
+| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>           |
+| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
 | <p><strong>1 May</strong></p>       | <p>Labour Day</p>              |
-| <p><strong>26 May</strong></p>      | <p>Ascension Day</p>           |
-| <p><strong>5 June</strong></p>      | <p>Whitsun</p>                 |
+| <p><strong>18 May</strong></p>      | <p>Ascension Day</p>           |
+| <p><strong>18 June</strong></p>     | <p> Whit Sunday</p>            |
 | <p><strong>6 June</strong></p>      | <p>National Day of Sweden</p>  |
-| <p><strong>25 June</strong></p>     | <p>Midsummer's Day</p>         |
-| <p><strong>5 November</strong></p>  | <p>All Saints' Day</p>         |
-| <p><strong>24 December</strong></p> | <p>Christmas Eve</p>           |
+| <p><strong>24 June</strong></p>     | <p>Midsummer's Day</p>         |
+| <p><strong>4 November</strong></p>  | <p>All Saints' Day</p>         |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
-| <p><strong>26 December</strong></p> | <p>St. Stephen's Day</p>       |
-| <p><strong>31 December</strong></p> | <p>New Year's Eve</p>          |
+| <p><strong>26 December</strong></p> | <p> 2nd Day of Christmas</p>   |
 
 </div>
 </div>

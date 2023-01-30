@@ -64,8 +64,11 @@ Second paragraph is about the overall strength of job security and what it means
 | ----------------------------------- | -------------------------------- |
 | <strong>Date</strong>               | <strong>Holiday Name </strong>   |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day</p>            |
-| <p><strong>2 April</strong></p>     | <p>Good Friday </p>              |
+| <p><strong>6 January</strong></p>   | <p>Epiphany</p>                  |
+| <p><strong>6 April</strong></p>     | <p>Maundy Thursday </p>          |
+| <p><strong>7 April</strong></p>     | <p>Good Friday </p>              |
 | <p><strong>1 May</strong></p>       | <p>Labor Day / May Day</p>       |
+| <p><strong>15 August</strong></p>   | <p>Assumption of Mary</p>        |
 | <p><strong>12 October</strong></p>  | <p>Hispanic Day</p>              |
 | <p><strong>1 November</strong></p>  | <p>All Saints' Day</p>           |
 | <p><strong>6 December</strong></p>  | <p>Immaculate Conception Day</p> |

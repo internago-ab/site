@@ -71,24 +71,19 @@ Generally speaking, the weekly working time in Belgium is 38 hours a week.
 
 <div class='holidays-table holiday-first'>
 
-|                                       |                                                                        |
-| ------------------------------------- | ---------------------------------------------------------------------- |
-| <strong>Date</strong>                 | <strong>Holiday Name </strong>                                         |
-| <p><strong>1st January</strong></p>   | <p>New Years Day</p>                                                   |
-| <p><strong>15 April</strong></p>      | <p>Good Friday</p>                                                     |
-| <p><strong>17 April</strong></p>      | <p>Easter </p>                                                         |
-| <p><strong>18 April</strong></p>      | <p>Easter monday</p>                                                   |
-| <p><strong>1st May</strong></p>       | <p>Labour Day </p>                                                     |
-| <p><strong>26 May</strong></p>        | <p>Ascension day</p>                                                   |
-| <p><strong>27 May</strong></p>        | <p>In substitution for 1 may being on a sunday</p>                     |
-| <p><strong>5 June</strong></p>        | <p>Whitsun</p>                                                         |
-| <p><strong>6 June</strong></p>        | <p>Whit Monday</p>                                                     |
-| <p><strong>21 July</strong></p>       | <p>Independence day</p>                                                |
-| <p><strong>15 August</strong></p>     | <p>Assumption of the holy virgin</p>                                   |
-| <p><strong>1st November</strong></p>  | <p>All Saints Day</p>                                                  |
-| <p><strong>11 November</strong></p>   | <p>Armistice Day</p>                                                   |
-| <p><strong>25th December</strong></p> | <p>Christmas Day</p>                                                   |
-| <p><strong>26th December</strong></p> | <p>Christmas HolidayBoxing day, in substitution for sunday 25 december |
+|                                     |                                |
+| ----------------------------------- | ------------------------------ |
+| <strong>Date</strong>               | <strong>Holiday Name </strong> |
+| <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
+| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>1 May</strong></p>       | <p>Labour Day </p>             |
+| <p><strong>18 May</strong></p>      | <p>Ascension day</p>           |
+| <p><strong>29 May</strong></p>      | <p>Whit Monday</p>             |
+| <p><strong>21 July</strong></p>     | <p> National Day</p>           |
+| <p><strong>15 August</strong></p>   | <p>Assumption day</p>          |
+| <p><strong>1 November</strong></p>  | <p>All Saints Day</p>          |
+| <p><strong>11 November</strong></p> | <p>Armistice Day</p>           |
+| <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
 
 </div>
 </div>

@@ -130,7 +130,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts_qa = result_qa.data.allMarkdownRemark.nodes
   const posts_country = result_country.data.allMarkdownRemark.nodes
   const posts_blog = result_blog.data.allMarkdownRemark.nodes
-  console.log("posts_country", posts_country)
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
@@ -154,8 +153,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     posts_blog.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts_blog[index - 1]
       const nextPostId = index === posts_blog.length - 1 ? null : posts_blog[index + 1]
-      console.log("previousPostId", previousPostId)
-      console.log("nextPostId", nextPostId)
       if (post.frontmatter.type === "blog") {
         createPage({
           path: post.fields.slug,
@@ -194,7 +191,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-    console.log("value", value, node)
     createNodeField({
       name: `slug`,
       node,

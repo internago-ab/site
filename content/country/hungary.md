@@ -76,10 +76,10 @@ For expats, the following is required: Passport, Tax number, Address card, Emplo
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
 | <p><strong>15 Mars</strong></p>     | <p> Revolution Day</p>         |
-| <p><strong>15 April</strong></p>    | <p>Good Friday</p>             |
-| <p><strong>18 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>7 April</strong></p>     | <p>Good Friday</p>             |
+| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
 | <p><strong>1 May</strong></p>       | <p>Labour Day</p>              |
-| <p><strong>6 June</strong></p>      | <p>Whit Monday</p>             |
+| <p><strong>29 May</strong></p>      | <p>Whit Monday</p>             |
 | <p><strong>20 August</strong></p>   | <p>Saint Stephen's Day</p>     |
 | <p><strong>23 October</strong></p>  | <p>Republic Day</p>            |
 | <p><strong>1 November</strong></p>  | <p>All Saints' Day</p>         |

@@ -60,25 +60,22 @@ There is no law that states that employment contracts have to be in written, exc
 
 <div class='holidays-table holiday-first'>
 
-|                                       |                                      |
-| ------------------------------------- | ------------------------------------ |
-| <strong>Date</strong>                 | <strong>Holiday Name </strong>       |
-| <p><strong>1st January</strong></p>   | <p>New Years Day</p>                 |
-| <p><strong>2nd April</strong></p>     | <p>Good Friday</p>                   |
-| <p><strong>4th April</strong></p>     | <p>Easter Sunday </p>                |
-| <p><strong>25th April</strong></p>    | <p>Freedom Day</p>                   |
-| <p><strong>1st May</strong></p>       | <p>Labour Day </p>                   |
-| <p><strong>24th May</strong></p>      | <p>Day of the Azores</p>             |
-| <p><strong>3rd June</strong></p>      | <p>Corpus Christi</p>                |
-| <p><strong>10th June</strong></p>     | <p>Portugal Day </p>                 |
-| <p><strong>24th June</strong></p>     | <p>Feast of St. John the Baptist</p> |
-| <p><strong>1st July</strong></p>      | <p>Madeira Day</p>                   |
-| <p><strong>5th October</strong></p>   | <p>Republic Day</p>                  |
-| <p><strong>1st November</strong></p>  | <p>All Saints Day</p>                |
-| <p><strong>1st December</strong></p>  | <p>Restoration of Independence</p>   |
-| <p><strong>8th December</strong></p>  | <p>Immaculate Conception Day</p>     |
-| <p><strong>25th December</strong></p> | <p>Christmas Day</p>                 |
-| <p><strong>26th December</strong></p> | <p>Christmas Holiday</p>             |
+|                                     |                                    |
+| ----------------------------------- | ---------------------------------- |
+| <strong>Date</strong>               | <strong>Holiday Name </strong>     |
+| <p><strong>1 January</strong></p>   | <p>New Years Day</p>               |
+| <p><strong>7 April</strong></p>     | <p>Good Friday</p>                 |
+| <p><strong>9 April</strong></p>     | <p>Easter Sunday </p>              |
+| <p><strong>25 April</strong></p>    | <p>Freedom Day</p>                 |
+| <p><strong>1 May</strong></p>       | <p>Labour Day </p>                 |
+| <p><strong>8 June</strong></p>      | <p>Corpus Christi</p>              |
+| <p><strong>10 June</strong></p>     | <p>National Day </p>               |
+| <p><strong>15 August</strong></p>   | <p>Assumption Day</p>              |
+| <p><strong>5 October</strong></p>   | <p>Republic Day</p>                |
+| <p><strong>1 November</strong></p>  | <p>All Saints Day</p>              |
+| <p><strong>1 December</strong></p>  | <p>Restoration of Independence</p> |
+| <p><strong>8 December</strong></p>  | <p>Immaculate Conception Day</p>   |
+| <p><strong>25 December</strong></p> | <p>Christmas Day</p>               |
 
 </div>
 </div>
