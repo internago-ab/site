@@ -3,6 +3,8 @@ layout: blog
 type: blog
 title: Payroll in Italy - understanding the Italian payslip
 date: 2023-02-21T14:49:29.919Z
+tags:
+  - Italy
 featuredimage: /images/umit-yildirim-5cly2xbcaja-unsplash.jpg
 ---
 **Sometimes we get lots of questions on subjects that are not, shall we say, especially exciting to the layman. But still nonetheless important. Italian payslips is one of those…** 
@@ -43,8 +45,6 @@ As well as the employer's details and the name of the employee, the top section 
 
 ○      Superminimo (if applicable), being the share of salary that exceeds the minimum pay and which can be established individually or through the collective agreement. 
 
- 
-
 ## Middle section of payslip
 
 This is where you find additional elements that are included in the gross salary for the month. These can differ from month to month, but common elements include:
@@ -63,8 +63,6 @@ This is where you find additional elements that are included in the gross salary
 
 ●      Vacation pay.
 
- 
-
 ## Bottom section of the payslip
 
 This is where you find information relating to social security and tax deductions, and of course the net pay for the month, “netto in busta”. Accrued severance pay (TFR) is also found here, as well as:
@@ -77,8 +75,9 @@ This is where you find information relating to social security and tax deduction
 
 ●      Altre movimentazioni - former public holidays that are essentially now hours that the employee treats similar to holidays.
 
-## \
-Do you want more information or need help with employment and payroll in Italy?
+![](/images/italian-payslip.png)
+
+## Do you want more information or need help with employment and payroll in Italy?
 
 Internago can assist with full payroll services in Italy as well as other European markets. Please click [here](https://www.internago.com/our-services) to find more information, or if you prefer contact us directly at [sales@internago.com](mailto:sales@internago.com) or [info@internago.com](<>)
 
