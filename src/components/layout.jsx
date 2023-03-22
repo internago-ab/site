@@ -241,7 +241,8 @@ const Layout = ({ children }) => {
             <li>
               <a
                 href="https://payroll.internago.com/"
-                className={`${menuDisplayed ? "li-active" : ""}`}
+                target="_blank"
+                className={`${menuDisplayed ? "li-active" : ""}`} rel="noreferrer"
               >
                 Go to portal
               </a>
@@ -351,7 +352,7 @@ const Layout = ({ children }) => {
             <Link to="/contact">Contact us</Link>
           </li>
           <li className="cta-btn">
-            <a href="https://payroll.internago.com/">Go to portal</a>
+            <a href="https://payroll.internago.com/" target="_blank" rel="noreferrer" >Go to portal</a>
           </li>
         </ul>
       </nav>
@@ -387,11 +388,11 @@ const Layout = ({ children }) => {
               <a
                 href={`https://www.linkedin.com/company/${
                   social?.linkedin || ``
-                }`}
+                }`} target="_blank" rel="noreferrer"
               >
                 <img src={linkedin} alt="linkedin"></img>
               </a>
-              <a href={`https://twitter.com/${social?.twitter || ``}`}>
+              <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
                 <img src={twitter} alt="twitter"></img>
               </a>
             </div>
