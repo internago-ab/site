@@ -34,7 +34,7 @@
   --fontSize-h1: 3rem;
   --fontSize-h2: 2.2rem;
   --fontSize-h3: 1.325rem;
-  --fontSize-p: 1.2rem;
+  --fontSize-p: 1.1rem;
   --fontSize-p-s: 0.975rem;
   --fontSize-p-xs: 0.825rem;
 
@@ -120,7 +120,8 @@ h3 {
 }
 
 p,
-a {
+a,
+.menu-link {
   font-size: var(--fontSize-p);
 }
 

@@ -21,6 +21,4 @@ description: >
 
 
   The employer must compare these two methods of calculation and choose the most advantageous amount for the employee.
-
-  
 ---
