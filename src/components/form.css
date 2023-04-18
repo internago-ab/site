@@ -1,169 +1,163 @@
 .form-main {
-    margin-top: var(--spacing-m);
+  margin-top: var(--spacing-m);
 }
 
 .contact-form {
-    background-color: var(--light-grey);
-    padding: var(--spacing-m);
+  background-color: var(--light-grey);
+  padding: var(--spacing-m);
 }
 
 .form-header {
-    text-align: center;
+  text-align: center;
 }
 
 .input-field {
-    position: relative;
-    line-height: 44px;
+  position: relative;
+  line-height: 44px;
 }
 
 .input-flex {
-    display: flex;
+  display: flex;
 }
 
-
 .input-field {
-
-    box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
-    background-color: white;
-    width: 100%;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+  background-color: white;
+  width: 100%;
 }
 
 .input-text,
 .input-mail {
-    margin-top: var(--spacing-xs);
+  margin-top: var(--spacing-xs);
 }
 
 .input-field {
-    margin-right: var(--var);
+  margin-right: var(--var);
 }
 
 label {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    width: 100%;
-    color: var(--dark-grey);
-    transition: 0.2s all;
-    cursor: text;
-    text-align: left;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  color: var(--dark-grey);
+  transition: 0.2s all;
+  cursor: text;
+  text-align: left;
 }
 
 input {
-    border: none;
-    width: 100%;
-    border-radius: none;
-    padding: 5px 10px;
-    box-shadow: none;
-    color: var(--black);
-    font-size: var(--font-size-medium);
+  border: none;
+  width: 100%;
+  border-radius: none;
+  padding: 5px 10px;
+  box-shadow: none;
+  color: var(--black);
+  font-size: var(--font-size-medium);
 }
 
 input:invalid {
-    outline: 0;
+  outline: 0;
 }
 
 input:focus,
 input:valid,
 textarea:focus,
 textarea:valid {
-    outline: none;
-    border-color: var(--dark-blue);
+  outline: none;
+  border-color: var(--dark-blue);
 }
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label,
-.input-mail input:focus~.email-label,
-.input-mail input:not(:placeholder-shown)~.email-label {
-    top: -40px;
-    color: var(--dark-blue);
-    font-size: var(--fontSize-p-s);
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label,
+.input-mail input:focus ~ .email-label,
+.input-mail input:not(:placeholder-shown) ~ .email-label {
+  top: -40px;
+  color: var(--dark-blue);
+  font-size: var(--fontSize-p-s);
 }
-
-
 
 textarea {
-    padding: 10px 10px;
-    height: 200px;
-    border: none;
-    background-color: transparent;
-    resize: none;
-    width: 100%;
+  padding: 10px 10px;
+  height: 200px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  width: 100%;
 }
 
 .btn-form-main {
-    
-    margin-top: var(--spacing-xs);
-    font-size: inherit !important;
-    border: 2px solid var(--dark-blue);
-    border-radius: 100rem;
-    display: block;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    width: fit-content;
-    background-color: transparent;
-    color: var(--dark-blue);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-  
-  .cta-btn a::before {
-    display: none;
-  }
-  
-  
-  .btn-form-main::after {
-    content: "";
-    background: var(--dark-blue);
-    position: absolute;
-    z-index: -1;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: -100%;
-    right: 100%;
-    color: var(--white) !important;
-  }
-  
-  .btn-form-main:hover::after {
-    background: var(--dark-blue);
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    transition: all 0.35s;
-    color: var(--white);
-  }
-  
-  .btn-form-main:hover {
-    cursor: pointer;
-    color: var(--white);
-  }
-  
-  .cta-btn a:hover {
-    cursor: pointer;
-    color: var(--dark-blue);
-  }
+  margin-top: var(--spacing-xs);
+  font-size: inherit !important;
+  border: 2px solid var(--dark-blue);
+  border-radius: 100rem;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: fit-content;
+  background-color: transparent;
+  color: var(--dark-blue);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
 
-.formButton {
-    cursor: pointer;
-    line-height: var(--lineHeight);
-    width: fit-content;
-    background: none;
-    color: var(--dark-blue);
-    display: block;
-    padding: 10px 20px;
+.cta-btn a::before {
+  display: none;
+}
+
+.btn-form-main::after {
+  content: "";
+  background: var(--dark-blue);
+  position: absolute;
+  z-index: -1;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  color: var(--white) !important;
+}
+
+.btn-form-main:hover::after {
+  background: var(--dark-blue);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+  color: var(--white);
 }
 
 .btn-form-main:hover {
-    transition: .5s ease-in;
-    color: var(--white);
-    background-color: var(--dark-blue);
+  cursor: pointer;
+  color: var(--white);
+}
+
+.cta-btn a:hover {
+  cursor: pointer;
+  color: var(--dark-blue);
+}
+
+.formButton {
+  cursor: pointer;
+  line-height: var(--lineHeight);
+  width: fit-content;
+  background: none;
+  color: var(--dark-blue);
+  display: block;
+  padding: 10px 20px;
+}
+
+.btn-form-main:hover {
+  transition: 0.5s ease-in;
+  color: var(--white);
+  background-color: var(--dark-blue);
 }
 
 .btn-form-main,
 .formButton:hover {
-    color: var(--white);
+  color: var(--white);
 }

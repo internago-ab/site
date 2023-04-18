@@ -9,7 +9,7 @@ nav {
   padding: var(--spacing-xs) var(--spacing-m);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
   background-color: var(--white);
-  z-index: 2;
+  z-index: 99;
   transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
 }
 
@@ -130,7 +130,7 @@ footer p {
 .footer-flex p,
 .footer-flex a {
   margin-top: var(--spacing-xxs);
-  font-size: var(--fontSize-p-s);
+  font-size: var(--fontSize-p);
   text-align: right;
 }
 
@@ -158,7 +158,7 @@ a::before {
 }
 
 footer .socials img {
-  width: 1.8rem;
+  width: 2rem;
 }
 
 .socials a::before {
@@ -173,12 +173,16 @@ footer .disclaimer {
   font-size: var(--fontSize-p-xs);
   position: absolute;
   bottom: var(--spacing-s);
-  width: 65%;
+  width: 60%;
 }
 
 footer .disclaimer a {
   font-size: var(--fontSize-p-s);
   color: var(--white);
+}
+
+footer .logo {
+  height: 3.85rem;
 }
 
 .mobile-menu {
@@ -414,7 +418,7 @@ footer .disclaimer a {
 
   .footer-flex p,
   .footer-flex a {
-    font-size: var(--fontSize-p-xs);
+    font-size: var(--fontSize-p-s);
   }
 
   footer .socials img {
@@ -473,6 +477,15 @@ footer .disclaimer a {
     transition: all 1s ease-in-out;
     animation: fadein 3s ease-in;
     animation-delay: 1s;
+  }
+
+  .footer-flex p,
+  .footer-flex a {
+    font-size: var(--fontSize-p-xs);
+  }
+
+  footer .logo {
+    height: 3.225rem;
   }
 }
 

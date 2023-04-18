@@ -1,0 +1,91 @@
+.link-arrow a {
+  font-size: var(--fontSize-p);
+  color: var(--white);
+  padding: 0;
+  background-color: transparent;
+}
+
+.link-arrow a img {
+  margin-left: 5px;
+  width: 50px;
+  margin-bottom: -5px;
+}
+
+.link-arrow-black {
+  margin-top: var(--spacing-xxs);
+}
+
+.link-arrow-black a img {
+  margin-left: 0;
+  width: 45px !important;
+  margin-bottom: -3px !important;
+}
+
+.link-arrow a::before,
+.link-arrow-black a::before {
+  background-color: transparent !important;
+}
+
+.link-arrow a {
+  padding-bottom: 5px;
+  border-radius: unset;
+  background-image: linear-gradient(#ffffff, #ffffff),
+    linear-gradient(#ffffff, #ffffff);
+  background-size: 20px 2px, 100% 2px, 0 2px;
+  background-position: -webkit-calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.3s linear,
+    background-position 0.3s linear;
+  transition: background-size 0.3s linear, background-position 0.3s linear;
+}
+.link-arrow a:hover {
+  color: var(--white);
+  background-size: 19px 2px, 0 2px, 99% 2px;
+  background-position: -webkit-calc(100% + 20px) 100%, 100% 100%, 0 100%;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
+.link-arrow a img:hover {
+  transition: ease-in 0.4s;
+  margin-left: var(--spacing-xs);
+}
+
+.link-arrow-black a {
+  font-size: var(--fontSize-h3);
+  font-weight: bold;
+  color: var(--black);
+  padding-bottom: 5px;
+  border-radius: unset;
+  background-image: linear-gradient(#282829, #282829),
+    linear-gradient(#282829, #282829);
+  background-size: 20px 2px, 100% 2px, 0 2px;
+  background-position: -webkit-calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.3s linear,
+    background-position 0.3s linear;
+  transition: background-size 0.3s linear, background-position 0.3s linear;
+}
+
+.link-arrow-black a:hover {
+  color: var(--black);
+  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: -webkit-calc(100% + 20px) 100%, 100% 100%, 0 100%;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
+.link-arrow-black a:hover img {
+  transition: ease-in 0.4s;
+  margin-left: var(--spacing-xs);
+}
+
+.link-arrow-black a img {
+  margin-left: var(--spacing-xxs);
+}
+
+@media only screen and (max-width: 768px) {
+  .link-arrow-black a {
+    font-size: var(--fontSize-p);
+  }
+}

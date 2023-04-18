@@ -88,7 +88,6 @@ main .large {
 }
 
 @media screen and (max-width: 1200px) {
-
   .large,
   .tabs-large,
   .medium,
@@ -99,13 +98,12 @@ main .large {
 }
 
 @media screen and (max-width: 870px) {
-
   .bg-grey {
     padding-top: var(--spacing-xxs);
     padding-bottom: var(--spacing-xxs);
   }
 
-  .imagetext img {
+  section .section.imagetext.medium img {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
@@ -135,7 +133,6 @@ main .large {
 }
 
 @media screen and (max-width: 768px) {
-
   .imagetext {
     margin-top: var(--spacing-s);
   }
@@ -154,11 +151,9 @@ main .large {
 }
 
 @media screen and (max-width: 600px) {
-
   main .large {
     margin-top: var(--spacing-m);
   }
-
 
   .short {
     display: block !important;

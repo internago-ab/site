@@ -1,0 +1,125 @@
+.icon-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: var(--spacing-s);
+  margin-top: var(--spacing-s);
+  list-style-type: none;
+  margin-bottom: var(--spacing-m);
+  margin-left: var(--spacing-m);
+  margin-right: var(--spacing-m);
+}
+
+.icon-col li h3 {
+  margin-bottom: var(--spacing-xxs);
+  font-size: calc(var(--fontSize-h3) + 20%);
+}
+
+.icon-col-item {
+  align-items: end;
+  border-radius: 20px;
+  padding: var(--spacing-xs);
+  text-align: left;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: end; */
+  box-shadow: 0 6px 24px 0 rgb(0 0 0 / 10%);
+}
+
+/* .icon-col-item:hover {
+  color: var(--white);
+  background-color: var(--dark-blue);
+} */
+
+/* .icon-item:hover {
+  transform: scale(1.05);
+  -webkit-transition: all 0.8s ease-in;
+  -o-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
+  cursor: pointer;
+  background: var(--white);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 8%);
+  border-radius: 5px;
+} */
+
+.icon-col-flex {
+}
+.icon-col-item .icon-img {
+  height: 4em;
+  margin-bottom: var(--spacing-xs);
+  align-items: end;
+  justify-content: end;
+}
+
+.icon-bg {
+  left: 0;
+  width: 100%;
+  background: var(--new-blue);
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+  top: -15%;
+}
+
+.icon-wrapper {
+  margin-top: var(--spacing-l);
+  position: relative;
+}
+
+.icon-wrapper .link-arrow-black {
+  /* width: 100%; */
+}
+
+.icon-wrapper h2 {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  .icon-col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--spacing-xs);
+  }
+
+  .icon-col-item img {
+    margin-bottom: var(--spacing-xxs);
+  }
+
+  .icon-bg {
+    top: -7%;
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .icon-col {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-s);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-col-item .icon-img {
+    height: 3.5em;
+  }
+
+  .icon-wrapper {
+  }
+
+  .icon-bg {
+    top: -5%;
+    height: 840px;
+  }
+
+  .icon-wrapper h2 {
+    font-size: calc(var(--fontSize-h2) - 40%);
+  }
+}
