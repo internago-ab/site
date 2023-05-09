@@ -1,6 +1,6 @@
 ---
 title: "Italy"
-description: "The Italian Republic is a member of the European Union and the Eurozone, the UN, the Group of Seven, the G20, NATO and the OECD. Its nominal GDP in 2021 was 2.106 trillion USD, which makes it the eighth largest economy in the world. Its Human Development Index is at 0.892, which is categorized as very high, with a global ranking of 29th."
+description: "<strong>The Italian Republic is a member of the European Union and the Eurozone, the UN, the Group of Seven, the G20, NATO and the OECD.</strong><br></br> Its nominal GDP in 2021 was 2.106 trillion USD, which makes it the eighth largest economy in the world. Its Human Development Index is at 0.892, which is categorized as very high, with a global ranking of 29th."
 bgimg: /images/background/italy.jpg
 countryImg: /images/country/italy.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-In order to pay out salaries in Italy, it is generally necessary to register a local company.
+<strong>In order to pay out salaries in Italy, it is generally necessary to register a local company.</strong>
 
 <br>
 
@@ -50,7 +50,7 @@ Italy’s standard working hours are 8 hours per day (40 hours per week). Any ad
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

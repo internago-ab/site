@@ -31,11 +31,11 @@
   --lineHeight-large: 2;
   --lineHeight: 1.6;
   --fontSize-root: 16px;
-  --fontSize-h1: 3rem;
+  --fontSize-h1: calc(3rem + 85%);
   --fontSize-h2: 2.2rem;
   --fontSize-h3: 1.325rem;
-  --fontSize-p: 1.1rem;
-  --fontSize-p-s: 0.975rem;
+  --fontSize-p: 1.15rem;
+  --fontSize-p-s: 1.075rem;
   --fontSize-p-xs: 0.825rem;
 
   --black: #000000;
@@ -297,7 +297,7 @@ section.error-page > * {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: var(--fontSize-h2);
+    font-size: calc(var(--fontSize-h1) - 40%);
   }
 
   p,
@@ -320,6 +320,14 @@ section.error-page > * {
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    font-size: calc(var(--fontSize-h2) + 25%);
+  }
+
+  h2 {
+    font-size: calc(var(--fontSize-h2) - 40%);
+  }
+
   section.error-page {
     padding: var(--spacing-s);
   }
@@ -329,11 +337,15 @@ section.error-page > * {
   }
 }
 
+.bg-new-blue .section {
+  margin-top: 0;
+}
+
 .bg-light-blue {
-  margin-top: var(--spacing-m);
-  padding-top: var(--spacing-m);
-  padding-bottom: var(--spacing-m);
-  background-color: var(--lighter-blue);
+  /* margin-top: 0; */
+  padding-top: var(--spacing-s);
+  padding-bottom: var(--spacing-s);
+  background-color: var(--new-blue);
 }
 
 .bg-light-blue .imagetext {
@@ -342,7 +354,7 @@ section.error-page > * {
 
 .bg-light-blue .imagetext h2,
 .bg-light-blue .imagetext p {
-  color: var(--white);
+  color: var(--black);
 }
 
 .margin-top-none {
@@ -356,5 +368,15 @@ section.error-page > * {
 @media screen and (max-width: 1200px) {
   .margin-top-none-sm {
     margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bg-light-blue {
+    padding-top: var(--spacing-xs);
+  }
+
+  .margin-top-none .bg-light-blue .imagetext {
+    padding-top: var(--spacing-xs);
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: "Hungary"
-description: "Hungary, a member of several international organisations including UN, NATO, WTO, the World Bank, International Investment Bank, the Asian infrastructure Investment Bank, the Council of Europe, and the Visegrád Group. It is also a full EU member and is part of the Schengen Area. Its nominal GDP in 2021 was 181 billion USD, ranking it as the world’s 53rd economy. Hungary’s Human Development Index is at 0.854, classified as very high, with a global rank of 40."
+description: "<strong>Hungary, a member of several international organisations including UN, NATO, WTO, the World Bank, International Investment Bank, the Asian infrastructure Investment Bank, the Council of Europe, and the Visegrád Group. </strong><br></br>It is also a full EU member and is part of the Schengen Area. Its nominal GDP in 2021 was 181 billion USD, ranking it as the world’s 53rd economy. Hungary’s Human Development Index is at 0.854, classified as very high, with a global rank of 40."
 bgimg: /images/background/hungary.jpg
 countryImg: /images/country/hungary.svg
 type: country
@@ -27,8 +27,8 @@ type: country
 
 <div>
 
-Registering a company in Hungary is generally prerequisite for doing business. A local registered attorney must sign the company’s constitutive documents. Incorporation is carried out as a request, which is filed with a Hungarian Court of Registration within 30 days from the conclusion of the constitutive document. The registration procedure is digitized.
-<br>
+<strong>Registering a company in Hungary is generally prerequisite for doing business. A local registered attorney must sign the company’s constitutive documents. Incorporation is carried out as a request, which is filed with a Hungarian Court of Registration within 30 days from the conclusion of the constitutive document. The registration procedure is digitized.</strong>
+<br></br>
 
 In sum, the timeframe to consider for incorporating in Hungary includes: 1 day to prepare registration documents, 1 one to open a bank account, followed by incorporation and the issuance of the certificate of registration from the Trade Register, which usually takes up to 15 days. Finally social insurance registration takes 1 day. A registration certificate is then issued, which the company needs to operate.
 
@@ -65,7 +65,7 @@ For expats, the following is required: Passport, Tax number, Address card, Emplo
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

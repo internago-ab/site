@@ -1,38 +1,61 @@
 section.cta {
-    text-align: center;
-    line-height: 0;
-    overflow: hidden;
-    width: 100%;
+  text-align: center;
+  line-height: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.cta::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  top: inherit;
+  left: 0;
+  background: rgba(0, 68, 110, 0.45);
 }
 
 section.cta-no-margin {
-    margin: 0;
+  margin: 0;
 }
 
 section.cta img {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
 section.cta .content {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--light-blue);
-    line-height: var(--lineHeight);
-    padding: var(--spacing-m) var(--spacing-xl);
+  margin: auto;
+  height: 100%;
+  justify-content: center;
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  line-height: var(--lineHeight);
+  /* padding: 0 var(--spacing-xl) var(--spacing-m) var(--spacing-xl); */
+}
+
+section.cta .content h2,
+section.cta .content p {
+  z-index: 2;
+  color: var(--white);
 }
 
 section.cta .content p {
-    max-width: 800px;
-    margin: var(--spacing-xs) 0;
-    color: var(--black)
+  max-width: 800px;
+  margin: var(--spacing-xs) 0;
 }
 
 /* -------------------------------------------------------- MOBILE */
 
 @media only screen and (max-width: 768px) {
-    section.cta .content {
-        padding: var(--spacing-s);
-    }
+  section.cta .content {
+    padding: var(--spacing-s);
+  }
 }

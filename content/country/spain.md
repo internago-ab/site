@@ -1,6 +1,6 @@
 ---
 title: "Spain"
-description: "The Kingdom of Spain is a member of the European Union and the Eurozone, the UN, NATO, the Organization of Ibero-American States (OEI) and the OECD, as well as being a permanent guest of the G20. Its nominal GDP in 2021 was 1.450 trillion USD, which makes it the thirteenth largest economy in the world. Its Human Development Index is at 0.904, which is categorized as very high, with a global ranking of 25th."
+description: "<strong>The Kingdom of Spain is a member of the European Union and the Eurozone, the UN, NATO, the Organization of Ibero-American States (OEI) and the OECD, as well as being a permanent guest of the G20. </strong><br></br>Its nominal GDP in 2021 was 1.450 trillion USD, which makes it the thirteenth largest economy in the world. Its Human Development Index is at 0.904, which is categorized as very high, with a global ranking of 25th."
 bgimg: /images/background/spain.jpg
 countryImg: /images/country/spain.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-In preparation of becoming an employer a local company has to be formed. Procedures to achieve this in Spain are generally similar to other EU countries. However, Spain obligates companies to establish so-called equality plans in Spain if their number of employees exceeds 100. Starting on 7 March 2022, the same will apply for companies with more than 50 employees. Such equality plans have certain obligatory contents, including aspects of quantification, and training, as well as continuous follow-up and review of these plans.
+<strong>In preparation of becoming an employer a local company has to be formed. Procedures to achieve this in Spain are generally similar to other EU countries. </strong><br></br>However, Spain obligates companies to establish so-called equality plans in Spain if their number of employees exceeds 100. Starting on 7 March 2022, the same will apply for companies with more than 50 employees. Such equality plans have certain obligatory contents, including aspects of quantification, and training, as well as continuous follow-up and review of these plans.
 
 <br>
 
@@ -54,7 +54,7 @@ Second paragraph is about the overall strength of job security and what it means
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

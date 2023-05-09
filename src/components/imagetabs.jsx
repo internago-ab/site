@@ -29,7 +29,7 @@ const Tab = () => {
     toggleState === index ? className : ""
 
   return (
-    <div className="section tabs-top" data-aos="fade-in">
+    <div className="section tabs-top">
       <div className="tabs-large">
         <h2 className="tab-header heading">Simple, efficient and powerful</h2>
         <div className=" tabs-main">
@@ -42,12 +42,6 @@ const Tab = () => {
               src={dashboard}
               alt="computer"
             />
-            <div
-              className={`tab-img content-slider circle ${getActiveClass(
-                1,
-                "active-content"
-              )}`}
-            ></div>
           </div>
           <div className="tab-img-wrapper">
             <img
@@ -58,12 +52,6 @@ const Tab = () => {
               src={employees}
               alt="computer"
             />
-            <div
-              className={`tab-img content-slider circle ${getActiveClass(
-                2,
-                "active-content"
-              )}`}
-            ></div>
           </div>
           <div className="tab-img-wrapper">
             <img
@@ -74,12 +62,6 @@ const Tab = () => {
               src={timeAbsence}
               alt="computer"
             />
-            <div
-              className={`tab-img content-slider circle ${getActiveClass(
-                3,
-                "active-content"
-              )}`}
-            ></div>
           </div>
           <div className="tab-img-wrapper">
             <img
@@ -90,12 +72,6 @@ const Tab = () => {
               src={expenseClaims}
               alt="computer"
             />
-            <div
-              className={`tab-img content-slider circle ${getActiveClass(
-                4,
-                "active-content"
-              )}`}
-            ></div>
           </div>
           <div className="container">
             <ul className="tab-list">

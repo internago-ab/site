@@ -15,11 +15,6 @@ const ImageText = props => {
           <h2 className="heading" id={props.id}>
             {props.title}
           </h2>
-          <p
-            className="paragraph_intro"
-            dangerouslySetInnerHTML={{ __html: props.text_intro }}
-          ></p>
-          <br></br>
           <p className="" dangerouslySetInnerHTML={{ __html: props.text }}></p>
           <div className={`link-arrow-black ${props.active}`}>
             {props.button && (

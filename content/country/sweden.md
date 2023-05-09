@@ -1,6 +1,6 @@
 ---
 title: Sweden
-description: "The Kingdom of Sweden is a member of the EU, and the Schengen Area, but not of the Eurozone. It is also a member of the UN, the Nordic Council, the Council of Europe, the WTO and the OECD. With a nominal GDP of USD 529 billion in 2020, it is the 23rd largest economy in the world. Its Human Development Ranking is at 0.945, which is classified as very high, with a global ranking of 7th. "
+description: "<strong>The Kingdom of Sweden is a member of the EU, and the Schengen Area, but not of the Eurozone. It is also a member of the UN, the Nordic Council, the Council of Europe, the WTO and the OECD. </strong><br></br>With a nominal GDP of USD 529 billion in 2020, it is the 23rd largest economy in the world. Its Human Development Ranking is at 0.945, which is classified as very high, with a global ranking of 7th. "
 bgimg: /images/background/sweden.jpg
 countryImg: /images/country/sweden.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-Employee salary taxation in Sweden is paid to three levels of government: the municipality, the county council, and the central government and social security contributions are paid for the social security system financing. It is the employer that deducts the income tax on salaries, following a PAYE system. This is paid directly from the employer to the Swedish Tax Agency (Skatteverket).
+<strong>Employee salary taxation in Sweden is paid to three levels of government: the municipality, the county council, and the central government and social security contributions are paid for the social security system financing. </strong><br></br>It is the employer that deducts the income tax on salaries, following a PAYE system. This is paid directly from the employer to the Swedish Tax Agency (Skatteverket).
 
 <br>
 
@@ -99,7 +99,7 @@ When it comes to parental leave, mothers and fathers are expected to equally sha
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

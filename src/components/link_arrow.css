@@ -11,18 +11,23 @@
   margin-bottom: -5px;
 }
 
-.link-arrow-black {
+.link-arrow-black,
+.link-arrow-black .link {
   margin-top: var(--spacing-xxs);
 }
 
-.link-arrow-black a img {
+.link-arrow-black a img,
+.link-arrow-black .link img,
+.link-arrow-black button img {
   margin-left: 0;
   width: 45px !important;
   margin-bottom: -3px !important;
 }
 
 .link-arrow a::before,
-.link-arrow-black a::before {
+.link-arrow-black a::before,
+.link-arrow-black .link::before,
+.link-arrow-black button::before {
   background-color: transparent !important;
 }
 
@@ -51,7 +56,9 @@
   margin-left: var(--spacing-xs);
 }
 
-.link-arrow-black a {
+.link-arrow-black a,
+.link-arrow-black .link,
+.link-arrow-black button {
   font-size: var(--fontSize-h3);
   font-weight: bold;
   color: var(--black);
@@ -68,24 +75,31 @@
   transition: background-size 0.3s linear, background-position 0.3s linear;
 }
 
-.link-arrow-black a:hover {
+.link-arrow-black a:hover,
+.link-arrow-black .link:hover,
+.link-arrow-black button:hover {
   color: var(--black);
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: -webkit-calc(100% + 20px) 100%, 100% 100%, 0 100%;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
 
-.link-arrow-black a:hover img {
+.link-arrow-black a:hover img,
+.link-arrow-black .link:hover img,
+.link-arrow-black button:hover img {
   transition: ease-in 0.4s;
   margin-left: var(--spacing-xs);
 }
 
-.link-arrow-black a img {
+.link-arrow-black a img,
+.link-arrow-black .link img,
+.link-arrow-black button img {
   margin-left: var(--spacing-xxs);
 }
 
 @media only screen and (max-width: 768px) {
-  .link-arrow-black a {
+  .link-arrow-black a,
+  .link-arrow-black .link {
     font-size: var(--fontSize-p);
   }
 }

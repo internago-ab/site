@@ -60,6 +60,10 @@ main > section.section_home:first-of-type {
     text-align: left;
   }
 
+  .home_imagetext {
+    padding: var(--spacing-xs);
+  }
+
   .section.section_home > div:first-of-type {
     width: 100%;
     border-radius: 0;

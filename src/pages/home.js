@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import "../components/home.css"
+import "../components/imagetextover.css"
 
 //Components
 import Layout from "../components/layout"
@@ -100,8 +101,7 @@ const Home = () => {
         //   reverse="rowreverse"
         size="large"
         title="The challange"
-        text_intro="If you’re managing an international team, you already know how challenging handling payroll for employees in multiple countries can be."
-        text="From navigating complex tax regulations and compliance requirements to managing different currencies and payment methods, international payroll can be a major headache for businesses of all sizes."
+        text="<strong>If you’re managing an international team, you already know how challenging handling payroll for employees in multiple countries can be.</strong> <br><br>From navigating complex tax regulations and compliance requirements to managing different currencies and payment methods, international payroll can be a major headache for businesses of all sizes."
         image={Phones}
         alt="Internagos dashborard on a computerscreen"
         button="See all powerful features"
@@ -111,8 +111,7 @@ const Home = () => {
         reverse="rowreverse"
         size="large"
         title="Our solution"
-        text_intro="That’s where our international payroll portal and consultancy services come in."
-        text="We’ve developed a comprehensive solution that streamlines the payroll process regardless of your team members location. Our software is designed to integrate seamlessly with your existing systems, making it easy to manage payroll and stay on top of compliance requirements."
+        text="<strong>That’s where our international payroll portal and consultancy services come in.</strong><br></br>We’ve developed a comprehensive solution that streamlines the payroll process regardless of your team members location. Our software is designed to integrate seamlessly with your existing systems, making it easy to manage payroll and stay on top of compliance requirements."
         image={PhoneTablet}
         alt="Internagos dashborard on a computerscreen"
         button="See all powerful features"
@@ -158,12 +157,16 @@ const Home = () => {
                 We also provide expert consultancy services to help you navigate
                 the complexities of international payroll.{" "}
               </p>
-              <p>Our team of experienced professionals can guide everything from tax and compliance issues to local labor laws and cultural considerations.</p>
-              <div className='link-arrow-black'>
-                  <a href='/home#formDemo'>
-                    Book a demo
-                    <img alt="arrow icon" src={arrow} />
-                  </a>
+              <p>
+                Our team of experienced professionals can guide everything from
+                tax and compliance issues to local labor laws and cultural
+                considerations.
+              </p>
+              <div className="link-arrow-black">
+                <a href="/home#formDemo">
+                  Book a demo
+                  <img alt="arrow icon" src={arrow} />
+                </a>
               </div>
             </div>
             <div className="image-container">
@@ -173,15 +176,19 @@ const Home = () => {
         </div>
       </section>
       <section className="cta cta-home">
-      <div className="content">
-        <h2>Don’t let international payroll be a 
-headache for your business. </h2>
-        <p>Contact us today to learn how our software and consultancy services can simplify the process and save you time and money.</p>
-        <div className="cta-btn">
-          <a href="/contact#form">Contact us today</a>
+        <div className="content">
+          <h2>
+            Don’t let international payroll be a headache for your business.{" "}
+          </h2>
+          <p>
+            Contact us today to learn how our software and consultancy services
+            can simplify the process and save you time and money.
+          </p>
+          <div className="cta-btn">
+            <a href="/contact#form">Contact us today</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
       {/* <Cta content="next" /> */}
     </Layout>
   )

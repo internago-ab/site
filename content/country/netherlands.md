@@ -1,6 +1,6 @@
 ---
 title: "Netherlands"
-description: "The Kingdom of the Netherlands is a parliamentary constitutional monarchy with a nominal GDP of 1.012 trillion USD in 2021, making it the 17th largest economy in the world. The Netherlands are members of the EU and the Eurozone, G10, NATO, OECD, WTO, the Trilateral Benelux union and the Schengen area. The Netherlands has a 0.944 rating in the Human development index which is considered very high, with a global ranking of 8th. They host several intergovernmental courts, many of them are located in The Hague, which is one of the country's largest cities."
+description: "<strong>The Kingdom of the Netherlands is a parliamentary constitutional monarchy with a nominal GDP of 1.012 trillion USD in 2021, making it the 17th largest economy in the world. </strong><br></br>The Netherlands are members of the EU and the Eurozone, G10, NATO, OECD, WTO, the Trilateral Benelux union and the Schengen area. The Netherlands has a 0.944 rating in the Human development index which is considered very high, with a global ranking of 8th. They host several intergovernmental courts, many of them are located in The Hague, which is one of the country's largest cities."
 bgimg: /images/background/netherlands.jpg
 countryImg: /images/country/netherlands.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-Dutch social security is comprised of a variety of different schemes. These can be divided into 3 groups: National insurances, social security, and voluntary insurances. The first are paid as part of wage taxes, the second are paid to the tax office and the monthly tax report details this on individual employee level. The tax office shares such information with the social security office, UWV (Uitvoeringsinstituut Werknemersverzekeringen).
+<strong>Dutch social security is comprised of a variety of different schemes. These can be divided into 3 groups: National insurances, social security, and voluntary insurances. </strong><br></br>The first are paid as part of wage taxes, the second are paid to the tax office and the monthly tax report details this on individual employee level. The tax office shares such information with the social security office, UWV (Uitvoeringsinstituut Werknemersverzekeringen).
 
 <br>
 
@@ -71,7 +71,7 @@ Childcare in the Netherlands is very expensive and as a consequence of this, a l
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

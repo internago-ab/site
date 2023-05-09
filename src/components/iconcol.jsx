@@ -10,7 +10,7 @@ function IconCol(props) {
   const content = props.content
 
   return (
-    <section className="section icon-wrapper">
+    <section className="section home icon-wrapper">
       <div>
         <div className="icon-bg"></div>
         <h2>With our international payroll software, you can:</h2>

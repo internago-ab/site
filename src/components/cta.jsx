@@ -2,6 +2,8 @@ import React from "react"
 
 import "./cta.css"
 import largeWave from "../images/wave.svg"
+import international from "../../static/images/city/street.jpg"
+import arrow from "../images/icons/arrow-white.svg"
 
 function Cta(props) {
   let heading
@@ -20,13 +22,17 @@ function Cta(props) {
   }
 
   return (
-    <section className={props.noMargin ? "cta cta-no-margin" : "cta"}>
-      <img src={largeWave} alt="wave border"></img>
+    <section
+      className={props.noMargin ? "cta cta-no-margin" : "cta"}
+      style={{ backgroundImage: `url(${international})` }}
+    >
       <div className="content">
         <h2>{heading}</h2>
         <p>{text}</p>
-        <div className="cta-btn">
-          <a href="/contact#form">Contact us today</a>
+        <div className="link-arrow">
+          <a href="/contact#form">
+            Contact us <img alt="arrow icon" src={arrow} />
+          </a>
         </div>
       </div>
     </section>

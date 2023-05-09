@@ -1,6 +1,6 @@
 ---
 title: "Belgium"
-description: "The Kingdom of Belgium is not only a member of the EU and the Eurozone, but its capital, Brussels, hosts the seats of the European Commission, the Council of the European Union, and the European Council, as well as one of two seats of the European Parliament. It is also a member of the Eurozone, NATO, OECD, and WTO, as well as the Benelux Union and the Schengen Area. With a nominal GDP of 503 billion USD in 2020, it is the world’s 26th largest economy. Its Human Development Index is at 0.919, which is classified as very high, with a global ranking of 17th."
+description: "<strong>The Kingdom of Belgium is not only a member of the EU and the Eurozone, but its capital, Brussels, hosts the seats of the European Commission, the Council of the European Union, and the European Council, as well as one of two seats of the European Parliament.</strong> <br></br>It is also a member of the Eurozone, NATO, OECD, and WTO, as well as the Benelux Union and the Schengen Area. With a nominal GDP of 503 billion USD in 2020, it is the world’s 26th largest economy. Its Human Development Index is at 0.919, which is classified as very high, with a global ranking of 17th."
 bgimg: /images/background/belgium.jpg
 countryImg: /images/country/belgium.svg
 type: country
@@ -28,7 +28,8 @@ type: country
 
 <div>
 
-To employ personnel in Belgium, a company must do the following things:
+<strong>To employ personnel in Belgium, a company must do the following things:</strong>
+<br></br>
 
 - <p>Register as a business with the central bank of enterprises</p>
 - <p>Register as an employer with the social security administration</p>
@@ -65,11 +66,11 @@ Generally speaking, the weekly working time in Belgium is 38 hours a week.
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
-
-## List of Public Holidays - 2022
+<div class='section blue-inside-country medium table-header'>
 
 <div class='holidays-table holiday-first'>
+
+## List of Public Holidays - 2022
 
 |                                     |                                |
 | ----------------------------------- | ------------------------------ |

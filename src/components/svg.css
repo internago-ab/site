@@ -1,31 +1,30 @@
 .svg-map {
-    width: 65%;
-    margin-right: var(--spacing-s);
+  width: 65%;
+  margin-right: var(--spacing-s);
 }
 
 .svg-map polygon,
 .svg-map path {
-    fill: rgb(255, 255, 255);
-    stroke: rgb(110, 110, 110);
-    stroke-width: .5;
+  fill: rgb(255, 255, 255);
+  stroke: rgb(110, 110, 110);
+  stroke-width: 0.5;
 }
 
-
 .active {
-    fill: var(--dark-blue) !important;
-    transition: all 2s ease-out;
+  fill: var(--dark-blue) !important;
+  transition: all 2s ease-out;
 }
 
 .active:hover {
-    cursor: pointer;
-    stroke: rgb(110, 110, 110);
-    fill: rgb(200, 200, 200) !important;
-    transition: all 2s ease-out;
+  cursor: pointer;
+  stroke: rgb(110, 110, 110);
+  fill: rgb(200, 200, 200) !important;
+  transition: all 2s ease-out;
 }
 
 @media screen and (max-width: 1024px) {
-    .svg-map {
-        width: 100%;
-        margin-right: 0;
-    }
+  .svg-map {
+    width: 100%;
+    margin-right: 0;
+  }
 }

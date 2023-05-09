@@ -1,6 +1,6 @@
 ---
 title: "Germany"
-description: "The Federal Republic of Germany is a member of the European Union and the Eurozone, the UN, the Group of Seven, the G20, NATO and the OECD. Its nominal GDP in 2021 was 4.319 trillion USD, which makes it the fourth largest economy in the world. Its Human Development Index is at 0.947, which is categorized as very high, with a global ranking of 6th."
+description: "<strong>The Federal Republic of Germany is a member of the European Union and the Eurozone, the UN, the Group of Seven, the G20, NATO and the OECD. </strong><br></br>Its nominal GDP in 2021 was 4.319 trillion USD, which makes it the fourth largest economy in the world. Its Human Development Index is at 0.947, which is categorized as very high, with a global ranking of 6th."
 bgimg: /images/background/germany.jpg
 countryImg: /images/country/germany.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-To enable running a local payroll in Germany companies must register the new business with the local municipality’s authorities. These include:
+<strong>To enable running a local payroll in Germany companies must register the new business with the local municipality’s authorities. These include:</strong><br></br>
 
 - <p>Local Trade Office (Gewerbeamt)</p>
 - <p>Trade Register (Handelsregister)</p>
@@ -82,7 +82,7 @@ New employees must also be registered with Germany’s Electronic Payroll Tax De
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

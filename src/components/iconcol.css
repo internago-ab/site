@@ -66,7 +66,8 @@
   top: -15%;
 }
 
-.icon-wrapper {
+main .home.icon-wrapper {
+  background-color: transparent;
   margin-top: var(--spacing-l);
   position: relative;
 }
@@ -75,9 +76,9 @@
   /* width: 100%; */
 }
 
-.icon-wrapper h2 {
-  width: 80%;
+.home.icon-wrapper h2 {
   text-align: center;
+  width: 90%;
   margin: 0 auto;
 }
 

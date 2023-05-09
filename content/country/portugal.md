@@ -1,6 +1,6 @@
 ---
 title: "Portugal"
-description: "The Portuguese Republic is an EU-member and also a member of the UN, the Schengen Area, the Council of Europe and the Eurozone, OECD and NATO. By nominal GDP it is ranked as the 47th economy in the world and by Human Development Index it is categorized as very high, on 38th place globally. "
+description: "<strong>The Portuguese Republic is an EU-member and also a member of the UN, the Schengen Area, the Council of Europe and the Eurozone, OECD and NATO. </strong><br></br> By nominal GDP it is ranked as the 47th economy in the world and by Human Development Index it is categorized as very high, on 38th place globally. "
 bgimg: /images/background/portugal.jpg
 countryImg: /images/country/portugal.svg
 type: country
@@ -28,14 +28,15 @@ type: country
 
 <div>
 
-Much of the EU’s legal system with regards to employment is similarly applied in Portugal. Also its directives regulating labour relations originate in the EU and are thus very similar to many EU neighbours. When it comes to the regulatory landscape surrounding collective labour, Portugal also uses collective employment contracts. Foreigners employed in Portugal have strong legal protection, and are on equal terms with local portuguese employees.
+<strong>Much of the EU’s legal system with regards to employment is similarly applied in Portugal. </strong><br></br>Also its directives regulating labour relations originate in the EU and are thus very similar to many EU neighbours. When it comes to the regulatory landscape surrounding collective labour, Portugal also uses collective employment contracts. Foreigners employed in Portugal have strong legal protection, and are on equal terms with local portuguese employees.<br></br>There is no law that states that employment contracts have to be in written, except for when it comes to foreign employees or contracts that are only part-time or fixed term. Portuguese is widely required, among public authorities,as the language that the local paperwork is done in, and so it is recommended to use this locally.
 
 </div>
 </div>
 
 <div class='half second-half'>
 
-There is no law that states that employment contracts have to be in written, except for when it comes to foreign employees or contracts that are only part-time or fixed term. Portuguese is widely required, among public authorities,as the language that the local paperwork is done in, and so it is recommended to use this locally. It is often the case that a range of obligatory statutory provisions are included in an employment contract, guided by collective bargaining agreements and the Portuguese Employment Code. The following components are obligatory in an employment contract:
+It is often the case that a range of obligatory statutory provisions are included in an employment contract, guided by collective bargaining agreements and the Portuguese Employment Code. The following components are obligatory in an employment contract:
+<br></br>
 
 - Full identity of employer
 - Working periods
@@ -54,7 +55,7 @@ There is no law that states that employment contracts have to be in written, exc
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

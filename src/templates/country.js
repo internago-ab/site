@@ -18,7 +18,6 @@ const Country = ({ data, location, pageContext }) => {
 
 
   const post = data.markdownRemark
-  console.log(data)
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const title = post.frontmatter.title
   const description = post.frontmatter.description
@@ -33,10 +32,9 @@ const Country = ({ data, location, pageContext }) => {
         <FactsStats description={description} countryImg={countryImg} />
         <div
           dangerouslySetInnerHTML={{ __html: post.html }}
-          data-aos="fade-up"
         />
       </div>
-      <Cta content="about" />
+      <Cta content="about" noMargin='cta-no-margin' />
     </Layout>
   )
 }

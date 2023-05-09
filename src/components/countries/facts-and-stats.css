@@ -1,146 +1,154 @@
 .facts-stats {
-    position: relative;
-    align-items: center;
-    display: flex;
+  position: relative;
+  align-items: center;
+  display: flex;
 }
 
 .grey-country {
-    background-color: var(--light-grey);
+  background-color: var(--light-grey);
 }
 
-.blue-country{
-    background-color: var(--lighter-blue);
+.blue-country {
+  background-color: var(--new-blue);
 }
 
-.blue-country h2{
-    color: var(--white);
+.blue-country h2 {
+  color: var(--black);
 }
 
 .grey-inside-country {
-    padding: var(--spacing-m) var(--spacing-l);
+  padding: var(--spacing-s) var(--spacing-s) var(--spacing-l);
+}
+
+.blue-inside-country {
+  padding: var(--spacing-m) var(--spacing-m) var(--spacing-l) 0;
 }
 
 .facts-stats-img {
-    width: 40%;
-    margin-left: var(--spacing-s);
+  width: 40%;
+  margin-left: var(--spacing-s);
 }
 
 .imagetext.facts-stats {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .country-inside {
-    width: 60%;
-    margin-bottom: var(--spacing-m);
+  width: 60%;
 }
 
 .table-top {
-    margin-top: -6.25rem;
+  margin-top: -4.5rem !important;
 }
 
 table {
-    background-color: var(--white);
-    border-collapse: collapse;
-    width: 100%;
+  background-color: var(--white);
+  border-collapse: collapse;
+  width: 100%;
 }
 
 td {
-    padding: var(--spacing-xs) var(--spacing-xxs);
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
+  padding: var(--spacing-xs) var(--spacing-xxs);
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
 }
 
 .table-wrapper td p {
-    padding-bottom: var(--spacing-xxs);
+  padding-bottom: var(--spacing-xxs);
 }
 
 .table-top table td p {
-    margin-bottom: var(--spacing-xxs);
+  margin-bottom: var(--spacing-xxs);
 }
 
 table td {
-    max-width: 100px;
-    border: 1px solid #dee2e6;
+  max-width: 100px;
+  border: 1px solid #dee2e6;
 }
 
 @media screen and (max-width: 1400px) {
+  .grey-inside-country {
+    padding: var(--spacing-s) var(--spacing-l);
+  }
 
-    .grey-inside-country {
-        padding: var(--spacing-s) var(--spacing-l);
-    }
+  .blue-inside-country {
+    padding: var(--spacing-m) var(--spacing-m) var(--spacing-m) 0;
+  }
 
-    .table-top {
-        margin-top: -3.75rem;
-    }
+  .table-top {
+    margin-top: -3.75rem;
+  }
 
-    .country-inside {
-        margin-bottom: var(--spacing-s);
-    }
+  .country-inside {
+    margin-bottom: var(--spacing-s);
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .imagetext.facts-stats {
-        display: flex;
-    }
+  .imagetext.facts-stats {
+    display: flex;
+  }
 
-    .imagetext.medium.facts-stats img {
-        width: 40%;
-    }
+  .imagetext.medium.facts-stats img {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    
-    .imagetext.facts-stats {
-        display: block;
-    }
+  .imagetext.facts-stats {
+    display: block;
+  }
 
-    .table-top {
-        margin-top: -1.75rem;
-    }
+  .table-top {
+    margin-top: -1.75rem;
+  }
 
-    .country-inside {
-        width: 100%;
-        margin-bottom: 0;
-    }
+  .country-inside {
+    width: 100%;
+    margin-bottom: 0;
+  }
 
-    .imagetext.medium.facts-stats img {
-        width: 100%;
-        padding-left: var(--spacing-m);
-        padding-right: var(--spacing-m);
-    }
+  .imagetext.medium.facts-stats img {
+    width: 100%;
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-m);
+  }
 
-    td {
-        padding: var(--spacing-xxs);
-    }
+  td {
+    padding: var(--spacing-xxs);
+  }
 
-    .grey-inside-country {
-        padding-top: var(--spacing-s);
-    }
+  .grey-inside-country {
+    padding-top: var(--spacing-s);
+  }
+
+  .blue-inside-country {
+    padding-top: var(--spacing-s);
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .imagetext.medium.facts-stats img {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .imagetext.medium.facts-stats img {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    table td {
-        max-width: inherit;
-    }
+  table td {
+    max-width: inherit;
+  }
 
-    td {
-        width: 100%;
-        display: inline-block;
-    }
+  td {
+    width: 100%;
+    display: inline-block;
+  }
 
-    .grey-inside {
-        padding: var(--spacing-xs);
-    }
+  .grey-inside {
+    padding: var(--spacing-xs);
+  }
 
-    .grey-inside-country {
-        padding-top: var(--spacing-s);
-        padding-left: var(--spacing-xs);
-        padding-right: var(--spacing-xs);
-    }
-
+  .grey-inside-country {
+    padding-top: var(--spacing-s);
+    padding-left: var(--spacing-xs);
+    padding-right: var(--spacing-xs);
+  }
 }

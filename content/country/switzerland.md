@@ -1,6 +1,6 @@
 ---
 title: "Switzerland"
-description: "The Swiss Confederation is a federal republic made up of 26 cantons. The country is a top performer in terms of quality of life and economic performance according to several international rankings. Its nominal GDP in 2020 was 749 billion USD, making it the 20th largest economy in the world. In terms of Human Development Index, it ranks as second in the world, with a score of 0.955. Although not a member of the EU or the Eurozone, it is through different treaties a participant in the Schengen Area and the European Single Market. Switzerland was also a founding member of the European Free Trade Association."
+description: "<strong>The Swiss Confederation is a federal republic made up of 26 cantons. </strong><br></br>The country is a top performer in terms of quality of life and economic performance according to several international rankings. Its nominal GDP in 2020 was 749 billion USD, making it the 20th largest economy in the world. In terms of Human Development Index, it ranks as second in the world, with a score of 0.955. Although not a member of the EU or the Eurozone, it is through different treaties a participant in the Schengen Area and the European Single Market. Switzerland was also a founding member of the European Free Trade Association."
 bgimg: /images/background/switzerland.jpg
 countryImg: /images/country/switzerland.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-It is customary, but not obligatory to register a legal entity in order to employ people in Switzerland. When hiring takes place, the employee’s details should be reported to the Social Security authorities known as AHV (“Ausgleichkasse”). This will yield a specific registration number that is used on all official correspondence.
+<strong>It is customary, but not obligatory to register a legal entity in order to employ people in Switzerland. </strong><br></br>When hiring takes place, the employee’s details should be reported to the Social Security authorities known as AHV (“Ausgleichkasse”). This will yield a specific registration number that is used on all official correspondence.
 
 <br>
 
@@ -54,7 +54,7 @@ Employers are also legally bound to provide a Pension Fund for every employee ag
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

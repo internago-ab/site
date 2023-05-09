@@ -9,18 +9,19 @@ function FactsStats({ description, countryImg }) {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <div className="grey-country">
+    <section className="margin-top-none">
+    <div className="grey-country section ">
       <div
         className="section grey-inside-country imagetext medium facts-stats country-section"
-        data-aos="fade-up"
       >
         <div className="country-inside">
           <h2 className="heading">Country Facts</h2>
-          <p>{description}</p>
+          <p    dangerouslySetInnerHTML={{ __html: description }}></p>
         </div>
         <img src={countryImg} alt="country" className="country-inside" />
       </div>
     </div>
+    </section>
   )
 }
 

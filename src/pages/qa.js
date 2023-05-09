@@ -104,7 +104,7 @@ function QuestionsAnswers({ data, location }) {
     <Layout>
       <Seo title="All posts" />
       <Blue>
-        <h1>Hello, how can we help you?</h1>
+        <h1>How can we help you?</h1>
         <div className=" questions_answers">
           <div className="input ">
             <div className="search-wrapper ">

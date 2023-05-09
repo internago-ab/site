@@ -19,8 +19,8 @@ main .large {
 }
 
 .medium {
-  padding-left: var(--spacing-xl);
-  padding-right: var(--spacing-xl);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
 }
 
 .small {
@@ -72,7 +72,7 @@ main .large {
 }
 
 .imagetext.medium img {
-  width: 40%;
+  width: 45%;
 }
 
 .imagetext.small img {
@@ -103,21 +103,17 @@ main .large {
     padding-bottom: var(--spacing-xxs);
   }
 
+  section .section.imagetext.medium .link-arrow-black img {
+    margin-left: var(--spacing-xxs) !important;
+  }
+
   section .section.imagetext.medium img {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
 
   .imagetext {
-    display: block;
-  }
-
-  .short {
-    display: flex !important;
-  }
-
-  .short img {
-    width: 40% !important;
+    display: block !important;
   }
 
   .imagetext.large img,
@@ -127,7 +123,7 @@ main .large {
   }
 
   .info-imagetext {
-    margin-bottom: var(--spacing-xs);
+    padding-bottom: var(--spacing-xs);
     width: 100%;
   }
 }
@@ -151,6 +147,10 @@ main .large {
 }
 
 @media screen and (max-width: 600px) {
+  .tabs-top {
+    margin-top: var(--spacing-s);
+  }
+
   main .large {
     margin-top: var(--spacing-m);
   }
@@ -163,12 +163,29 @@ main .large {
     width: 100% !important;
   }
 
+  .info-imagetext {
+    padding-bottom: 0;
+  }
+
   .large,
   .tabs-large,
   .medium,
   .small {
     padding-left: var(--spacing-xs);
     padding-right: var(--spacing-xs);
+  }
+
+  .padding {
+    padding-top: var(--spacing-s);
+    padding-bottom: var(--spacing-s);
+  }
+
+  .imagetext-content .paragraph {
+    padding-bottom: 0;
+  }
+
+  section .section.imagetext.medium .img-imagetext {
+    margin-top: var(--spacing-xs);
   }
 
   .info-imagetext {

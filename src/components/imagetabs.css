@@ -1,217 +1,219 @@
 .tabs-large {
-    margin-top: var(--spacing-m);
+  margin-top: var(--spacing-m);
 }
 
 .tabs-main {
-    margin-top: var(--spacing-s);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: var(--spacing-s);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    width: 100%;
-    padding-left: var(--spacing-m);
+  width: 100%;
+  padding-left: var(--spacing-m);
 }
 
 .tab-list {
-    border-bottom: 2px solid var(--light-grey);
-    justify-content: space-between;
-    height: var(--spacing-s);
-    display: flex;
-    list-style: none;
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
+  border-bottom: 2px solid var(--light-grey);
+  justify-content: space-between;
+  height: var(--spacing-s);
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 
 .img-tab {
-    text-decoration: none !important;
-    background-color: transparent;
-    border: none;
-    height: var(--spacing-s);
-    margin-right: var(--spacing-xs);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
+  text-decoration: none !important;
+  background-color: transparent;
+  border: none;
+  height: var(--spacing-s);
+  margin-right: var(--spacing-xs);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
 }
 
 .img-tab-last {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .tab-header {
-    text-align: center;
+  text-align: center;
 }
 
 .active-tabs {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 .tab-list {
-    position: relative;
+  position: relative;
 }
 
 .active-tabs::after {
-    position: absolute;
-    content: '';
-    background-color: var(--dark-blue);
-    width: -webkit-calc(100%);
-    width: calc(100%);
-    height: 2px;
-    top: 58px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    animation: fadeIn 1s ease-in;
+  position: absolute;
+  content: "";
+  background-color: var(--dark-blue);
+  width: -webkit-calc(100%);
+  width: calc(100%);
+  height: 2px;
+  top: 58px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  animation: fadeIn 0.5s ease-in;
 }
 
 .active-tabs::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -4px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% + 2px);
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
 }
 
 .content-slider {
-    display: none;
+  display: none;
 }
 
 .active-content {
-    display: block;
+  display: block;
 }
 
 .tab-text {
-    margin-top: var(--spacing-s);
-    animation: fadeIn 1s ease-in;
+  margin-top: var(--spacing-s);
+  animation: fadeIn 0.5s ease-in;
 }
 
 .tab-text p {
-    margin-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
 }
 
 .img-tabs-link {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 .tab-img-wrapper {
-    position: relative;
+  position: relative;
 }
 
 .tab-img {
-    margin-right: var(--spacing-s);
-    width: 100%;
-    animation-delay: 0.4s;
-    animation: fadeInRight .8s ease-in;
-    transition: all 0.9s linear, opacity 0.2s linear;
+  z-index: 5;
+  margin-right: var(--spacing-s);
+  width: 100%;
+  animation-delay: 0.4s;
+  animation: fadeInRight 0.5s ease-in;
+  transition: all 0.5s linear, opacity 0.2s linear;
 }
 
 .circle {
-    margin-left: var(--spacing-l);
-    width: 15vw;
-    background: var(--light-blue);
-    height: 15vw;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -30px;
-    left: -200px;
-    z-index: -3;
-    -webkit-transition: all 0.7s linear;
-    -o-transition: all 0.7s linear;
-    transition: all 0.7s linear;
-    -webkit-animation: circle-bounce 2.5s ease-in;
-    animation: circle-bounce 2.5s ease-in;
+  margin-left: var(--spacing-l);
+  width: 15vw;
+  background: var(--light-blue);
+  height: 15vw;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30px;
+  left: -200px;
+  z-index: -3;
+  -webkit-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+  -webkit-animation: circle-bounce 1.5s ease-in;
+  animation: circle-bounce 1.5s ease-in;
 }
 
 @keyframes circle-bounce {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+  }
 
-    0% {
-        opacity: 0;
-        transform: scale(0.4);
-        -webkit-transform: scale(0.4);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.0);
-        -webkit-transform: scale(1.0);
-    }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
 }
 
 @keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: scale(0.8);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
 
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .tabs-main {
-        flex-direction: column-reverse;
-    }
+  .tabs-main {
+    flex-direction: column-reverse;
+  }
 
+  .container {
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: var(--spacing-xs);
+  }
 
-    .container {
-        padding-left: 0;
-        width: 100%;
-        margin-bottom: var(--spacing-xs);
-    }
-
-    .circle {
-        padding-left: var(--spacing-l);
-        width: 25vw;
-        height: 25vw;
-        bottom: 15px;
-        left: -140px;
-    }
-
+  .circle {
+    padding-left: var(--spacing-l);
+    width: 25vw;
+    height: 25vw;
+    bottom: 15px;
+    left: -140px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .img-tab {
-        font-size: var(--fontSize-p);
-    }
+  .img-tab {
+    font-size: var(--fontSize-p);
+  }
 
-    .circle {
-        padding-left: var(--spacing-xs);
-        width: 30vw;
-        height: 30vw;
-        bottom: 15px;
-    }
+  .circle {
+    padding-left: var(--spacing-xs);
+    width: 30vw;
+    height: 30vw;
+    bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .img-tab {
-        font-size: var(--fontSize-p-s);
-        margin-right: var(--spacing-xxs);
-    }
+  .img-tab {
+    font-size: var(--fontSize-p-s);
+    margin-right: var(--spacing-xxs);
+  }
 
-    .circle {
-        bottom: -10px;
-    }
+  .circle {
+    bottom: -10px;
+  }
 
-    .tabs-main {
-        margin-top: var(--spacing-xs);
-    }
+  .tabs-main {
+    margin-top: 0;
+  }
+
+  .tab-text {
+    margin-top: var(--spacing-xs);
+  }
 }

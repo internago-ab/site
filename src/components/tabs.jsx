@@ -1,5 +1,7 @@
 import React, { useState } from "react"
+import arrow from "../images/icons/link-arrow.svg"
 import "./tabs.css"
+import "./link_arrow.css"
 import info from "./tabs-data"
 
 function Tabs() {
@@ -11,13 +13,16 @@ function Tabs() {
       <div className="tabs">
         <div className="btn-container">
           {info.map((job, index) => (
-            <button
-              key={job.id}
-              className={`tabs-btn ${index === value && "active-btn"}`}
-              onClick={() => setValue(index)}
-            >
-              {job.company}
-            </button>
+            <div className="link-arrow-black">
+              <button
+                key={job.id}
+                className={`tabs-btn ${index === value && "active-btn"}`}
+                onClick={() => setValue(index)}
+              >
+                {job.company}
+                <img alt="arrow icon" src={arrow} />
+              </button>
+            </div>
           ))}
         </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "France"
-description: "The French Republic is a member of the European Union and the Eurozone, UN, the Group of Seven, the G20, NATO, the OECD and La Francophonie. Its nominal GDP in 2021 was 2.938 trillion USD, which makes it the seventh largest economy in the world. Its Human Development Index is at 0.901, which is categorized as very high, with a global ranking of 11th. "
+description: "<strong>The French Republic is a member of the European Union and the Eurozone, UN, the Group of Seven, the G20, NATO, the OECD and La Francophonie.</strong><br></br> Its nominal GDP in 2021 was 2.938 trillion USD, which makes it the seventh largest economy in the world. Its Human Development Index is at 0.901, which is categorized as very high, with a global ranking of 11th. "
 bgimg: /images/background/france.jpg
 countryImg: /images/country/france.svg
 type: country
@@ -27,7 +27,7 @@ type: country
 
 <div>
 
-When hiring in France it is customary, but not obligatory, to register a local company, or a branch of an international company, when employing in France. A foreign employer not registering a local company is known as a SEF (“sans établissement en France”). Regardless of legal form the employer is obliged to contact the managing authority for French social security known as URSSAF (Union de recouvrement des cotisations de Sécurité sociale et d'allocations familiales). This is to ensure alignment with mandatory health insurance, retirement pensions and family allowances for employees. It is also obligatory to register with a pension organization, depending on the field of business activity.
+<strong>When hiring in France it is customary, but not obligatory, to register a local company, or a branch of an international company, when employing in France.</strong><br></br> A foreign employer not registering a local company is known as a SEF (“sans établissement en France”). Regardless of legal form the employer is obliged to contact the managing authority for French social security known as URSSAF (Union de recouvrement des cotisations de Sécurité sociale et d'allocations familiales). This is to ensure alignment with mandatory health insurance, retirement pensions and family allowances for employees. It is also obligatory to register with a pension organization, depending on the field of business activity.
 
 <br>
 
@@ -60,7 +60,7 @@ Cases of sick-leave and parental leave are partly paid by social security and de
 </section>
 
 <section class='blue-country country-top'>
-<div class='section grey-inside-country medium table-header'>
+<div class='section blue-inside-country medium table-header'>
 
 ## List of Public Holidays - 2022
 

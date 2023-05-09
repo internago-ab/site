@@ -1,6 +1,6 @@
 ---
 title: "United Kingdom"
-description: "The United Kingdom of Great Britain and Northern Ireland, is a member of the Commonwealth of Nations, the Council of Europe, the G7, the Group of Ten, the G20, the UN, NATO, the OECD and the WTO. It was a member of the EC/EU from 1973 until 2020. The UK consists of four countries: England, Scotland, Wales and Northern Ireland. The islands Isle of Man, Guernsey and Jersey are not part of the UK, and are known as Crown Dependencies. Around the globe there are also 14 British Overseas Territories. 
+description: "<strong>The United Kingdom of Great Britain and Northern Ireland, is a member of the Commonwealth of Nations, the Council of Europe, the G7, the Group of Ten, the G20, the UN, NATO, the OECD and the WTO.</strong><br></br>It was a member of the EC/EU from 1973 until 2020. The UK consists of four countries: England, Scotland, Wales and Northern Ireland. The islands Isle of Man, Guernsey and Jersey are not part of the UK, and are known as Crown Dependencies. Around the globe there are also 14 British Overseas Territories. 
 The UK has the world's fifth-largest economy, with a nominal GDP of 3.108 trillion USD in 2021. Its Human Development Index is at 0.932, classed as very high, and ranked as 11th in the world. "
 bgimg: /images/background/uk.jpg
 countryImg: /images/country/uk.svg
@@ -30,7 +30,7 @@ type: country
 
 <div>
 
-In order to register in the UK as an overseas company, registration is done at the so called Companies House, but this is only if you intend to have a base in the UK. The UK office of an foreign company, can either be established as a branch or as a subsidiary.
+<strong>In order to register in the UK as an overseas company, registration is done at the so called Companies House, but this is only if you intend to have a base in the UK. </strong><br></br>The UK office of an foreign company, can either be established as a branch or as a subsidiary.
 <br><br>
 Once you employ a person in the UK, you’re obliged to provide an employer’s liability insurance, and companies who don’t will be fined on a continuous daily basis. Additionally, if the employee needs a work permit to work in the UK, a so called Employer Sponsorship Licence will be needed.
 Employers must also register with HM Revenue and Customs before the first payday. This process usually takes up to five days. This will yield your employer Pay As You Earn (PAYE) number which is your main reference with regards to tax payments in the UK.

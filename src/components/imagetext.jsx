@@ -1,11 +1,8 @@
 import * as React from "react"
-import { useEffect } from "react"
+import arrow from "../images/icons/arrow-black.svg"
 import "./imagetext.css"
 
-import Aos from "aos"
-import "aos/dist/aos.css"
-
-const ImageText = (props) => {
+const ImageText = props => {
   let CustomTag
   if (props.size === "large") {
     CustomTag = "h1"
@@ -15,19 +12,12 @@ const ImageText = (props) => {
     CustomTag = "h3"
   }
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
-
   return (
-    <section
-      className={`${props.bg} ${props.margin} section`}
-      data-aos="fade-in"
-    >
+    <section className={`${props.bg} ${props.margin} section`}>
       <div
         className={`section imagetext ${props.size} ${props.reverse} ${props.width} ${props.padding}`}
       >
-        <div className="info-imagetext">
+        <div className="imagetext-content">
           <CustomTag className="heading" id={props.id}>
             {props.title}
           </CustomTag>
@@ -35,8 +25,12 @@ const ImageText = (props) => {
             className="paragraph"
             dangerouslySetInnerHTML={{ __html: props.text }}
           ></p>
-          <div className={`cta-btn ${props.active}`}>
-            {props.button && <a href={props.link}>{props.button}</a>}
+          <div className="link-arrow-black">
+            {props.button && (
+              <a href={props.link}>
+                {props.button} <img alt="arrow icon" src={arrow} />
+              </a>
+            )}
           </div>
         </div>
         <img

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react"
 import { Link } from "gatsby"
-import arrow from '../images/icons/arrow-svg.svg'
+import arrow from "../images/icons/link-arrow.svg"
 
 import "./questions_answers.css"
 
@@ -89,9 +89,13 @@ function Blogcard({ post, setFilter }) {
               dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
             ></p>
             <Link to={post.fields.slug} className="questions_answers-redirect">
-              <div className="questions_answers-redirect-content">
-              <p> Open in new tab</p> <img src={arrow} alt="arrow icon"/>
+            <div className="link-arrow-black">
+                <div className="link">
+                Open in new tab
+                  <img alt="arrow icon" src={arrow} />
+                </div>
               </div>
+            
             </Link>
           </div>
         </div>

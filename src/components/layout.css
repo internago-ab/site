@@ -34,6 +34,11 @@ nav ul {
   align-items: center;
 }
 
+nav .desktop-menu li,
+nav .desktop-menu li a {
+  font-size: calc(var(--fontSize-p) - 5%);
+}
+
 nav .desktop-menu li {
   margin-left: var(--spacing-xs);
 }

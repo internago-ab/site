@@ -130,7 +130,7 @@ main .questions_answers {
 
 .questions_answers-card .text {
   margin-top: var(--spacing-xxs);
-  margin-bottom: var(--spacing-xxs);
+  margin-bottom: var(--spacing-xs);
   text-align: left;
 }
 
@@ -144,7 +144,7 @@ main .questions_answers {
   color: var(--dark-grey);
   border: none;
   margin-right: 5px;
-  font-size: var(--fontSize-p-s);
+  font-size: var(--fontSize-p);
 }
 
 .questions_answers_tab {
@@ -193,6 +193,7 @@ main .questions_answers {
 
 .questions_answers_tab span,
 .tab-tag-wrapper span {
+  font-size: var(--fontSize-p);
   color: var(--dark-grey);
   margin-right: 5px;
   font-weight: var(--fontWeight-semibold);
@@ -203,7 +204,7 @@ main .questions_answers {
 }
 
 .questions_answers-card .text h2 {
-  font-size: var(--fontSize-h3);
+  font-size: calc(var(--fontSize-h3) + 20%);
 }
 
 .questions_answers-card .text p {
@@ -275,9 +276,11 @@ main .questions_answers {
   }
 
   .questions_answers-card .text h2 {
-    font-size: var(--fontSize-p);
+    font-size: var(--fontSize-h3);
   }
-
+  .questions_answers-card .text {
+    margin-bottom: var(--spacing-xxs);
+  }
   .questions_answers form {
     padding: var(--spacing-xxs) var(--spacing-xs);
     margin: var(--spacing-xs);
@@ -290,7 +293,7 @@ main .questions_answers {
 
   .questions_answers .filter button {
     margin-right: var(--spacing-xxs);
-    font-size: var(--fontSize-p-s);
+    font-size: var(--fontSize-p);
   }
 
   .questions_answers-btn-wrapper button {
