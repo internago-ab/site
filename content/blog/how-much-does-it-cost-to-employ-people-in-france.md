@@ -1,7 +1,7 @@
 ---
 layout: blog
 type: blog
-title: How much does it cost to employ people in France?
+title: How much does it cost to employ someone in France?
 date: 2019-06-18T13:58:04.519Z
 tags:
   - Reports
@@ -22,7 +22,7 @@ This is the average income tax rate applied to the individual in question during
 
 Neutral (‘‘Neutre”)
 
-In the absence of an identifiable tax rate, a “neutral rate” may apply. This is based on a 'single, no children' household. An employee can also demand a neutral rate for integrity reasons \[what does this mean?]. 
+In the absence of an identifiable tax rate, a “neutral rate” may apply. This is based on a 'single, no children' household. An employee can also demand a neutral rate for integrity reasons. 
 
 Individual (‘‘Taux individualisé”)
 
@@ -43,7 +43,7 @@ In order to understand the cost of employing someone in France it is important t
 
 In this example, we assume a manager with a gross salary of €3500 (based on a 35-hour working week) per month. On average, employee social charges ('charges salariales) are around 22% of gross salary - so €770. This equates to a 'net salary' of €2,730.
 
-Withholding tax will de deducted from this, depending on whether it is 'personalised', neutral' or 'individual'.  As such, income tax will vary depending on salary and family circumstances. Assuming a neutral tax rate, income tax will be 14 %. Hence the “net net” salary for the employee would be € 2,730 x  0,86 = €2,347.80.
+Withholding tax will be deducted from this, depending on whether it is 'personalised', neutral' or 'individual'.  As such, income tax will vary depending on salary and family circumstances. Assuming a neutral tax rate, income tax will be 14 %. Hence the “net net” salary for the employee would be € 2,730 x  0,86 = €2,347.80.
 
 Account then needs to be taken of employer social charges ('charges patronales'). On average (but there are many exceptions) these are circa 42% of gross salary. So, in our example,  €1470 - €3500 x 0.42.
 
