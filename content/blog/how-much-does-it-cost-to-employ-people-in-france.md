@@ -45,7 +45,7 @@ In this example, we assume a manager with a gross salary of €3500 (based on a 
 
 Withholding tax will be deducted from this, depending on whether it is 'personalised', neutral' or 'individual'.  As such, income tax will vary depending on salary and family circumstances. Assuming a neutral tax rate, income tax will be 14 %. Hence the “net net” salary for the employee would be € 2,730 x  0,86 = €2,347.80.
 
-Account then needs to be taken of employer social charges ('charges patronales'). On average (but there are many exceptions) these are circa 42% of gross salary. So, in our example,  €1470 - €3500 x 0.42.
+Account then needs to be taken of employer social charges ('charges patronales'). On average (but there are many exceptions) these are circa 42% of gross salary. So, in our example,  €3500 x 0.42 = €1470
 
 Therefore, in this case, the total cost for the employer will be: €3500 + €1470  = €4970.
 
