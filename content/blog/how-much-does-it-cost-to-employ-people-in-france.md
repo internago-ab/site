@@ -49,11 +49,18 @@ Account then needs to be taken of employer social charges ('charges patronales')
 
 Therefore, in this case, the total cost for the employer will be: €3500 + €1470  = €4970.
 
+\- Gross salary: 3500 EUR 
+- Employee charges: 770 EUR (22 % of gross salary)
+- Employer charges: 1470 EUR ( 42 % of gross salary)
+- Total cost for the employer: 4970 EUR (142 % of gross salary)
+- Taxable net: 2730 EUR (78 % of gross salary)
+- Net salary for the employee (neutral withholding tax rate): 2359,84 EUR (67 % of gross salary)
+
 Please note that this calculation is based on the minimum health/accident/life insurance requirement. Collective agreements may stipulate an enhanced offering, with higher associated costs.  These can also often be an element for negotiation in the recruitment process.
 
 ## Treat online estimation tools with caution
 
-The French unemployment agency (Pôle d’emploi) offers a tool that provides a rough calculation, but is unable to factor in specific benefits and associated costs arising from collective agreements.
+The French unemployment agency (Pôle d’Emploi) offers a tool that provides a rough calculation, but is unable to factor in specific benefits and associated costs arising from collective agreements.
 
 There are also some other factors that impact overall employment costs, in addition to to the broader issues of office related expenses, from desks to phones. Employment contracts are another general cost that needs to be factored in. 
 
@@ -63,4 +70,4 @@ Companies may also opt to compensate for commuting costs. For example, companies
 
 ## Do you want more information or need help with employment and payroll in France?
 
-Internago can assist with cost calculations and provide a full payroll service in France and other European markets. Please click here to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
+Internago can assist with cost calculations and provide a full payroll service in France and other European markets. Please [click ](https://www.internago.com/services/)here to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
