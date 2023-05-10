@@ -1,25 +1,36 @@
 ---
 layout: blog
+type: blog
 title: How much does it cost to employ people in France?
 date: 2019-06-18T13:58:04.519Z
 tags:
   - Reports
   - France
 featuredimage: /images/report.jpg
-type: blog
 ---
-Internago often gets the question of how much it costs to employ staff in France, which is why we want to share some information about this topic. This blog is an introduction to how to calculate the cost and to explain the different salary components. In practise it is very important to consider the collective agreements affecting specific employer taxes in order to reach the exact cost figure.
-
+Internago often gets questions about the cost of employing staff in France, which is why we thought it was a good time to address this topic. This blog serves as an introduction to the cost of employing someone and what this is comprised of. In practice, it is also very important to take account of any collective agreements in place that can involve additional benefits and related costs.
 
 ## What is a French net salary?
-When calculating the costs for hiring workers and managers, the first distinction to make is between gross- and net salary. In France the net salary is actually rereferred to as the salary before income tax when the employee and the employer deductions have been made. This is often an element for confusion for foreign employers.
 
+When calculating the cost of employing someone, there is a need to distinguish between gross and net salary. In France, net salary is before income tax but after employee social deductions. This can sometimes confuse foreign employers.
 
-It should be noted that the employee will pay an income tax on his or her French “net salary”. This is new from January 2019 to withhold directly from the gross salary as a withholding tax. Read more about withholding tax in France in this blog post.
+Since January 2019 withholding tax has been applied to salaries in France, with three main rates: personalised; neutral; and individual.
 
+Personalised (‘‘Personnalisé”)
 
-## The different salary components
-In order to understand the personnel cost in France it is important to understand the main components making up a French salary:
+This is the average income tax rate applied to the individual in question during the previous calendar tax year.
+
+Neutral (‘‘Neutre”)
+
+In the absence of an identifiable tax rate, a “neutral rate” may apply. This is based on a 'single, no children' household. An employee can also demand a neutral rate for integrity reasons \[what does this mean?]. 
+
+Individual (‘‘Taux individualisé”)
+
+If they wish, a couple can opt for individual assessment, based on their respective incomes.
+
+## Salary components
+
+In order to understand the cost of employing someone in France it is important to understand the main salary components:
 
 * Salary
 * Social security and unemployment contributions
@@ -28,34 +39,28 @@ In order to understand the personnel cost in France it is important to understan
 * Pension
 * Other contributions (e.g. contributions to professional training)
 
-
 ## An example of employee cost calculation
-In this example, we have a manager with a gross salary of €3500 (based on a 35-hour working week). For the purpose of the example we could say that this will yield a net salary of about € 2744 (€770 less) due to payment of employee social charges, hence the employee’s contribution of the above components.
 
+In this example, we assume a manager with a gross salary of €3500 (based on a 35-hour working week) per month. On average, employee social charges ('charges salariales) are around 22% of gross salary - so €770. This equates to a 'net salary' of €2,730.
 
-On average, the employee social charges (in French “charges salariales”) correspond to about 22 % of the gross salary. In our example it will therefore be €770. Hence, the employee will have a net salary of € 2730 from which withholding tax will be deducted.
+Withholding tax will de deducted from this, depending on whether it is 'personalised', neutral' or 'individual'.  As such, income tax will vary depending on salary and family circumstances. Assuming a neutral tax rate, income tax will be 14 %. Hence the “net net” salary for the employee would be € 2,730 x  0,86 = €2,347.80.
 
+Account then needs to be taken of employer social charges ('charges patronales'). On average (but there are many exceptions) these are circa 42% of gross salary. So, in our example,  €1470 - €3500 x 0.42.
 
-The income tax varies a lot depending on family situation and level of the salary. A table for neutral tax rate could be found here.  If we assume this employee has a neutral tax rate, the income tax will be 14 %. Hence the “net net” salary for the employee would be € 2744 * 0,86 = 2359,84.
+Therefore, in this case, the total cost for the employer will be: €3500 + €1470  = €4970.
 
+Please note that this calculation is based on the minimum health/accident/life insurance requirement. Collective agreements may stipulate an enhanced offering, with higher associated costs.  These can also often be an element for negotiation in the recruitment process.
 
-The next step is to calculate the social charges of the employer. In French this is called “charges patronales”. On average (but there many exceptions) they are approximately 42 % of the gross salary. In our example this will be €1470 (€3500 * 0.42).
+## Treat online estimation tools with caution
 
+The French unemployment agency (Pôle d’emploi) offers a tool that provides a rough calculation, but is unable to factor in specific benefits and associated costs arising from collective agreements.
 
-So in this example, the total cost for the employer will be: €3500 + €1470 (0.42 %) = €4970.
+There are also some other factors that impact overall employment costs, in addition to to the broader issues of office related expenses, from desks to phones. Employment contracts are another general cost that needs to be factored in. 
 
+Some early stage companies involved in R&D can apply for 'JEI' (Jeune entreprise innovante) status, which offers substantial reductions to social contributions. 
 
-## Be cautious about online estimation tools
-French unemployment agency (Pôle d’emploi) presents a rough calculation here for simulations, but it does not consider other specific taxes and costs related to collective agreements, which is why it only a rough indication.
+Companies may also opt to compensate for commuting costs. For example, companies based in Paris can provide up to €75 per month towards travel costs.
 
+## Do you want more information or need help with employment and payroll in France?
 
-## Other important factors affecting the employment costs
-Apart from standard costs associated with employment such as office space, phone costs for employees etc. there are some other considerations that the employer should be aware of in terms of cost and benefits;
-
-* Companies employing R&D personnel could also apply for the status “JEI” (Jeune entreprise innovante) and be granted substantial reductions of social contributions. A specific demand has to be made to be granted this status.
-* Companies can choose to compensate for transport costs and commuting, e.g. Paris companies can pay for monthly commuting cost of approximately €75 per month, or at least 50 % of this sum.
-* Costs for employment contracts should be considered. This will vary depending on the complexity and number of employment contracts to be written.
-
-
-Do you want more information or need help with employment and payroll in France?
-Internago can assist with cost calculations and full payroll service in France and on other European markets. Please [click here](https://internago.com/services) to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
+Internago can assist with cost calculations and provide a full payroll service in France and other European markets. Please click here to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
