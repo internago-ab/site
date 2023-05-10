@@ -50,11 +50,12 @@ Account then needs to be taken of employer social charges ('charges patronales')
 Therefore, in this case, the total cost for the employer will be: €3500 + €1470  = €4970.
 
 \- Gross salary: 3500 EUR 
-- Employee charges: 770 EUR (22 % of gross salary)
-- Employer charges: 1470 EUR ( 42 % of gross salary)
-- Total cost for the employer: 4970 EUR (142 % of gross salary)
-- Taxable net: 2780 EUR (79 % of gross salary)
-- Net salary for the employee (neutral withholding tax rate): 2390,80 EUR (68 % of gross salary)
+
+* Employee charges: 770 EUR (22 % of gross salary)
+* Employer charges: 1470 EUR ( 42 % of gross salary)
+* Total cost for the employer: 4970 EUR (142 % of gross salary)
+* Taxable net: 2780 EUR (79 % of gross salary)
+* Net salary for the employee (neutral withholding tax rate): 2390,80 EUR (68 % of gross salary)
 
 Please note that this calculation is based on the minimum health/accident/life insurance requirement. Collective agreements may stipulate an enhanced offering, with higher associated costs.  These can also often be an element for negotiation in the recruitment process.
 
@@ -70,4 +71,4 @@ Companies may also opt to compensate for commuting costs. For example, companies
 
 ## Do you want more information or need help with employment and payroll in France?
 
-Internago can assist with cost calculations and provide a full payroll service in France and other European markets. Please [click ](https://www.internago.com/services/)here to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
+Internago can assist with cost calculations and provide a full payroll service in France and other European markets. Please [click ](https://www.internago.com/services/)[here ](https://www.internago.com/services/)to find more information, or if you prefer contact us directly at [info@internago.com](mailto:info@internago.com)
