@@ -43,7 +43,7 @@ In order to understand the cost of employing someone in France it is important t
 
 In this example, we assume a manager with a gross salary of €3500 (based on a 35-hour working week) per month. On average, employee social charges ('charges salariales) are around 22% of gross salary - so €770. This equates to a 'net salary' of €2,730.
 
-Withholding tax will be deducted from this, depending on whether it is 'personalised', neutral' or 'individual'.  As such, income tax will vary depending on salary and family circumstances. Assuming a neutral tax rate, income tax will be 14 %. Hence the “net net” salary for the employee would be € 2,730 x  0,86 = €2,347.80.
+Withholding tax will be deducted from this, depending on whether it is 'personalised', neutral' or 'individual'. As such, income tax will vary depending on salary and family circumstances. Technically taxable net is calculated by taking the gross salary, deducting employee charges, adding employer's share of the health insurance , and then deducting possible exemptions for overtime. Yet, for the purpose of this example we can assume a neutral tax rate, income tax will be 14 % and an employer health insurance part of 50 EUR. Hence the “net net” salary for the employee would be € 2,780 x 0,86 = €2,390.80
 
 Account then needs to be taken of employer social charges ('charges patronales'). On average (but there are many exceptions) these are circa 42% of gross salary. So, in our example,  €3500 x 0.42 = €1470
 
@@ -53,8 +53,8 @@ Therefore, in this case, the total cost for the employer will be: €3500 + €1
 - Employee charges: 770 EUR (22 % of gross salary)
 - Employer charges: 1470 EUR ( 42 % of gross salary)
 - Total cost for the employer: 4970 EUR (142 % of gross salary)
-- Taxable net: 2730 EUR (78 % of gross salary)
-- Net salary for the employee (neutral withholding tax rate): 2359,84 EUR (67 % of gross salary)
+- Taxable net: 2780 EUR (79 % of gross salary)
+- Net salary for the employee (neutral withholding tax rate): 2390,80 EUR (68 % of gross salary)
 
 Please note that this calculation is based on the minimum health/accident/life insurance requirement. Collective agreements may stipulate an enhanced offering, with higher associated costs.  These can also often be an element for negotiation in the recruitment process.
 
