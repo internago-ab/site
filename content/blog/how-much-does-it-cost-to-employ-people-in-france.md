@@ -2,7 +2,7 @@
 layout: blog
 type: blog
 title: How much does it cost to employ someone in France?
-date: 2019-06-18T13:58:04.519Z
+date: 2023-05-10T13:58:04.519Z
 tags:
   - Reports
   - France
