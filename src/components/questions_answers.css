@@ -130,7 +130,7 @@ main .questions_answers {
 
 .questions_answers-card .text {
   margin-top: var(--spacing-xxs);
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-xxs);
   text-align: left;
 }
 

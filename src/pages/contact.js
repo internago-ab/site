@@ -11,8 +11,8 @@ import ContactIcon from "../components/contact-icon"
 import Grey from "../components/grey"
 import Form from "../components/form"
 import Accordion from "../components/accordion"
-//images
-import devices from "../images/illustrations/contact-devices.png"
+import AccordionCountries from "../components/accordionCountries"
+
 //icons
 import board from "../images/icons/board.png"
 import puzzle from "../images/icons/puzzle.png"
@@ -83,71 +83,77 @@ function Contact() {
           />
         </div>
       </Grey>
-      <section className="section medium ">
-        <div className="section-top" id="market">
-          <div className="header-text" data-aos="fade-in">
-            <h2>Emails for our main markets</h2>
-          </div>
-          <ul className="flags-grid" data-aos="fade-in">
-            <li>
-              <img src={belgium} alt="flag-belgium" />
-              <a href="mailto:belgium@internago.com">belgium@internago.com</a>
-            </li>
-            <li>
-              <img src={finland} alt="flag-finland" />
-              <a href="mailto:finland@internago.com">finland@internago.com</a>
-            </li>
-            <li>
-              <img src={france} alt="flag-france" />
-              <a href="mailto:france@internago.com">france@internago.com</a>
-            </li>
-            <li>
-              <img src={germany} alt="flag-germany" />
-              <a href="mailto:germany@internago.com">germany@internago.com</a>
-            </li>
-            <li>
-              <img src={hungary} alt="flag-hungary" />
-              <a href="mailto:hungary@internago.com">hungary@internago.com</a>
-            </li>
-            <li>
-              <img src={italy} alt="flag-italy" />
-              <a href="mailto:italy@internago.com">italy@internago.com</a>
-            </li>
-            <li>
-              <img src={netherlands} alt="netherlands-netherlands" />
-              <a href="mailto:netherlands@internago.com">
-                netherlands@internago.com
-              </a>
-            </li>
-            <li>
-              <img src={portugal} alt="flag-portugal" />
-              <a href="mailto:portugal@internago.com">portugal@internago.com</a>
-            </li>
-            <li>
-              <img src={spain} alt="flag-spain" />
-              <a href="mailto:spain@internago.com">spain@internago.com</a>
-            </li>
-            <li>
-              <img src={sweden} alt="flag-sweden" />
-              <a href="mailto:sweden@internago.com">sweden@internago.com</a>
-            </li>
-            <li>
-              <img src={switzerland} alt="flag-switzerland" />
-              <a href="mailto:switzerland@internago.com">
-                switzerland@internago.com
-              </a>
-            </li>
-            <li>
-              <img src={uk} alt="flag-uk" />
-              <a href="mailto:uk@internago.com">uk@internago.com</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+
+      <AccordionCountries
+        title="Emails for our main markets:"
+        contentMail={[
+          {
+            mail: "mailto:belgium@internago.com",
+            adress: "belgium@internago.com",
+            flag: belgium,
+          },
+          {
+            mail: "mailto:finland@internago.com",
+            adress: "finland@internago.com",
+            flag: finland,
+          },
+          {
+            mail: "mailto:france@internago.com",
+            adress: "france@internago.com",
+            flag: france,
+          },
+          {
+            mail: "mailto:germany@internago.com",
+            adress: "germany@internago.com",
+            flag: germany,
+          },
+          {
+            mail: "mailto:hungary@internago.com",
+            adress: "hungary@internago.com",
+            flag: hungary,
+          },
+          {
+            mail: "mailto:italy@internago.com",
+            adress: "italy@internago.com",
+            flag: italy,
+          },
+          {
+            mail: "mailto:netherlands@internago.com",
+            adress: "netherlands@internago.com",
+            flag: netherlands,
+          },
+          {
+            mail: "mailto:portugal@internago.com",
+            adress: "portugal@internago.com",
+            flag: portugal,
+          },
+          {
+            mail: "mailto:spain@internago.com",
+            adress: "spain@internago.com",
+            flag: spain,
+          },
+          {
+            mail: "mailto:sweden@internago.com",
+            adress: "sweden@internago.com",
+            flag: sweden,
+          },
+          {
+            mail: "mailto:switzerland@internago.com",
+            adress: "switzerland@internago.com",
+            flag: switzerland,
+          },
+          {
+            mail: "mailto:uk@internago.com",
+            adress: "uk@internago.com",
+            flag: uk,
+          },
+        ]}
+      />
+
       <section className="medium section-top bg-light-blue">
-        <div className="header-text" data-aos="fade-up">
+        <div className="header-text">
           <h2>Frequently Asked Questions</h2>
-          <p className="white">
+          <p className="">
             We get many questions from our customers, and we have collected the
             most common ones here for you with a suggested solution
           </p>
@@ -168,16 +174,21 @@ function Contact() {
           />
         </div>
       </section>
-      <ImageText
-        active="notactive"
-        size="medium"
-        title="Do you prefer that we get get back to you?"
-        text="You can always get in touch with Internago with any type of question – just fill in this form and we will get back to you!"
-        image={devices}
-        alt="Different devices"
-      />
-      <Form />
-      <Cta content="next" />
+
+      <div className="landing-wrapper contact">
+        <div className="flex-left">
+          <h2 className="heading">
+            Do you prefer that we get get back to you?
+          </h2>
+          <p className="paragraph">
+            You can always get in touch with Internago with any type of question
+            – just fill in this form and we will get back to you!
+          </p>
+        </div>
+        <Form />
+      </div>
+
+      <Cta content="next" noMargin={true} />
     </Layout>
   )
 }

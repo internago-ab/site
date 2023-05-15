@@ -36,16 +36,7 @@
 
 .landing-wrapper .form-demo-header {
   width: 50%;
-  height: auto;
   margin: 0 0 0 auto;
-  padding: var(--spacing-s) var(--spacing-xs);
-  border-radius: 40px;
-  background-color: #fafafa;
-  box-shadow: 0 6px 24px 0 rgb(0 0 0 / 10%);
-}
-
-.landing-wrapper .form-demo-header h2 {
-  font-size: calc(var(--fontSize-h2) - 40%);
 }
 
 .form-flex {

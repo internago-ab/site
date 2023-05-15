@@ -1,117 +1,116 @@
 .accordion__section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .accordion {
-    transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
 }
 
 .accordion-icon {
-    margin-left: auto;
-    transition: transform 0.6s ease;
+  width: 30px;
+  margin-left: auto;
+  transition: transform 0.6s ease;
 }
 
 .rotate {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .accordion-title {
-    text-align: left;
-    max-width: 540px;
-    margin-right: var(--spacing-xs);
+  font-weight: var(--fontWeight-semibold);
+  text-align: left;
+  max-width: 540px;
+  margin-right: var(--spacing-xs);
 }
 
 .accordion-content {
-    width: inherit;
-    overflow: hidden;
-    transition: max-height 1s ease;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 1s ease;
 }
 
 .accordion-grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    margin-top: var(--spacing-s);
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: var(--spacing-s);
 }
 
 .collapse {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: var(--spacing-xs);
-    text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing-xs);
+  text-align: center;
 }
 
 .collapse-content {
-    display: flex;
-    width: auto;
-    height: auto;
-    display: none;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-
+  display: flex;
+  width: auto;
+  height: auto;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .accordion-text {
-    row-gap: var(--spacing-xs);
-    padding: var(--spacing-s) var(--spacing-xs);
-    background-color: var(--light-blue);
+  text-align: left;
+  border-top: 2px solid var(--dark-grey);
+  row-gap: var(--spacing-xs);
+  padding: var(--spacing-s) var(--spacing-s);
+  background-color: var(--white);
 }
 
 .show {
-    display: flex;
+  display: flex;
 }
 
 .collapse-btn {
-    display: flex;
-    align-items: center;
-    padding: var(--spacing-xs) var(--spacing-m);
-    background: #ffffff;
-    color: rgb(101, 101, 101);
-    cursor: pointer;
-    box-shadow: 2px 2px 10px rgb(0 0 0 / 8%);
-    transition: all .3s;
-    border: none;
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-s);
+  background: #ffffff;
+  color: rgb(101, 101, 101);
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 8%);
+  transition: all 0.3s;
+  border: none;
 }
 
 @media only screen and (max-width: 1024px) {
-
-    .accordion-grid {
-        margin-top: var(--spacing-s);
-    }
-
+  .accordion-grid {
+    margin-top: var(--spacing-s);
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .collapse {
+    margin-top: var(--spacing-s);
+  }
 
-    .collapse {
-        margin-top: var(--spacing-s);
-    }
+  .accordion-grid {
+    margin-top: var(--spacing-xs);
+  }
 
-    .accordion-grid {
-        margin-top: var(--spacing-xs);
-    }
-
-    .accordion-icon {
-        width: 50px;
-    }
+  .accordion-icon {
+    width: 50px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .collapse-btn {
+    padding: var(--spacing-xs) var(--spacing-xxs);
+  }
 
-    .collapse-btn {
-        padding: var(--spacing-xs) var(--spacing-xxs);
-    }
+  main .collapse {
+    margin-top: var(--spacing-xs);
+  }
 
-    main .collapse {
-        margin-top: var(--spacing-xs);
-    }
-
-    .accordion-text {
-        padding: var(--spacing-xs);
-    }
+  .accordion-text {
+    padding: var(--spacing-xs);
+  }
 }

@@ -171,7 +171,7 @@ const Layout = ({ children }) => {
               } menu what-we-offer`}
             >
               <li className="has-dropdown what-we-offer">
-                <li className="menu-link">
+                <div className="menu-link">
                   Countries{" "}
                   <svg
                     className="toggle-icon"
@@ -186,7 +186,7 @@ const Layout = ({ children }) => {
                       fill="#4E4E4E"
                     />
                   </svg>
-                </li>
+                </div>
 
                 <ul className="submenu">
                   <li className="has-dropdown menu-link">
@@ -282,7 +282,7 @@ const Layout = ({ children }) => {
           </ul>
           <ul className="menu what-we-offer">
             <li className="has-dropdown what-we-offer">
-              <li className="menu-link">
+              <div className="menu-link">
                 Countries{" "}
                 <svg
                   className="toggle-icon"
@@ -297,7 +297,7 @@ const Layout = ({ children }) => {
                     fill="#4E4E4E"
                   />
                 </svg>
-              </li>
+              </div>
 
               <ul className="submenu">
                 <li>

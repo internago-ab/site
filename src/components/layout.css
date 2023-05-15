@@ -47,6 +47,13 @@ nav .desktop-menu .submenu li {
   margin-left: 0;
 }
 
+nav .menu .menu-link {
+  margin-left: var(--spacing-xs);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 nav .desktop-menu .has-dropdown {
   margin-left: 0;
 }
@@ -111,7 +118,8 @@ nav .portal-btn {
 
 /* Reveal  */
 .menu > li:hover > li + .submenu,
-.submenu > li:hover > .submenu {
+.submenu > .menu-link:hover > .submenu,
+.menu > li:hover > .menu-link + .submenu {
   opacity: 1;
   transform: scaleY(1);
   cursor: pointer;
@@ -157,10 +165,10 @@ footer .socials :nth-child(1) {
 footer a {
   color: var(--white);
 }
-
+/* 
 a::before {
   background-color: var(--white);
-}
+} */
 
 footer .socials img {
   width: 2rem;

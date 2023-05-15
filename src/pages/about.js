@@ -6,7 +6,7 @@ import Blue from "../components/blue"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 
-import AboutVision from "../images/illustrations/about-vision.png"
+import AboutVision from "../images/illustrations/services-optimize.png"
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
         reverse="rowreverse"
         size="medium"
         title="About us"
-        text=" Internago is a service and SaaS company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience, along with a passion for technology and sustainability in business, were the main pillars when starting Internago.
+        text=" <strong>Internago is a service and SaaS company founded in Sweden 2017. The co-founders have a profound knowledge of working with international clients on international markets. This experience, along with a passion for technology and sustainability in business, were the main pillars when starting Internago.</strong>
         </br></br>
         To simplify international payroll Internago created their own web platform. This platform fully supports the various payroll processes in multiple countries. This allows clients to save valuable time and provides full transparency when administering and managing personnel on a variety of markets.
         </br></br>

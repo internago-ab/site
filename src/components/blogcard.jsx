@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
+import arrow from "../images/icons/arrow-black.svg"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -33,9 +34,14 @@ function Blogcard({ post, setFilter }) {
           dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
         ></p>
       </div>
-      <Link to={post.fields.slug} className="read-more">
-        Read more
-      </Link>
+      <div className="link-arrow-black">
+            
+             <Link to={post.fields.slug} className="read-more">
+                Read more <img alt="arrow icon" src={arrow} />
+                </Link>
+          
+          </div>
+          
     </li>
   )
 }

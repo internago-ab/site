@@ -10,13 +10,10 @@ function Form() {
     Aos.init({ duration: 2000 })
   }, [])
   return (
-    <section className="section small form-main">
-      <h2 className="form-header heading" data-aos="fade-up">
-        Submit a request
-      </h2>
+    <section className="section small form-main form-demo-header landing">
+      <h2 className="form-header heading">Submit a request</h2>
       <form
         id="form"
-        data-aos="fade-up"
         name="contact"
         className="formBox"
         method="POST"
@@ -26,24 +23,27 @@ function Form() {
       >
         <input type="hidden" name="form-name" value="contact" />
 
-        <p className="input-field input-name">
-          <input type="text" id="name" name="name" placeholder=" " required />
-          <label htmlFor="name" className="test">
-            Subject
-          </label>{" "}
-        </p>
-        <p className="input-field input-mail">
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder=" "
-            required
-          />
-          <label htmlFor="email" className="email-label">
-            E-mail
-          </label>{" "}
-        </p>
+        <div className="form-flex">
+          <p className="input-field input-name">
+            <input type="text" id="name" name="name" placeholder=" " required />
+            <label htmlFor="name" className="test">
+              Subject
+            </label>{" "}
+          </p>
+          <p className="input-field input-mail">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=" "
+              required
+            />
+            <label htmlFor="email" className="email-label">
+              E-mail
+            </label>{" "}
+          </p>
+        </div>
+
         <p className="input-field input-text">
           <textarea id="message" name="message" required></textarea>
           <label htmlFor="message" className="inputField messageField">

@@ -53,7 +53,7 @@ main .blog {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: auto;
   grid-gap: var(--spacing-s);
-  padding: 0 var(--spacing-l);
+  padding: 0 var(--spacing-m);
 }
 
 .blog-card {
@@ -67,6 +67,10 @@ main .blog {
   width: 100%;
   height: 12.25rem;
   object-fit: cover;
+}
+
+.blog-card .link-arrow-black img {
+  height: auto;
 }
 
 .blog-card .text {
@@ -104,9 +108,13 @@ main .blog {
   color: var(--black);
 }
 
+.blog-card .link-arrow-black {
+  padding-bottom: var(--spacing-xxs);
+}
+
 .blog-card .read-more {
   position: absolute;
-  bottom: var(--spacing-xxs);
+  bottom: 1em;
   left: var(--spacing-xxs);
 }
 
