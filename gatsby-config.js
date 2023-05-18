@@ -6,7 +6,7 @@ module.exports = {
       summary: `provides payroll services in France, Italy, Sweden, Germany, Spain, UK, Holland or other countries of interest.`,
     },
     description: `Internago provides payroll services and a cloud based payroll portal for international companies that want to increase efficiency.`,
-    siteUrl: `https://internago.com`,
+    siteUrl: `https://www.internago.com`,
     social: {
       twitter: `Interna_GO`,
       linkedin: `internago-ab`,
@@ -212,4 +212,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  trailingSlash: "never",
 }

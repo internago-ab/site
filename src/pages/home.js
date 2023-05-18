@@ -16,6 +16,7 @@ import Phones from "../images/mockups/payroll-three-phones.png"
 import PhoneTablet from "../images/mockups/payroll-desktop-tablet.png"
 import Services from "../images/photos/services.jpg"
 import arrow from "../images/icons/link-arrow.svg"
+import happyUser from '../images/photos/happyUser.jpg'
 
 //Logos
 import kitabsawti from "../images/clients/kitab-sawti.png"
@@ -175,7 +176,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="cta cta-home">
+      <section className="cta cta-home" style={{ backgroundImage: `url(${happyUser})` }}>
         <div className="content">
           <h2>
             Don’t let international payroll be a headache for your business.{" "}
