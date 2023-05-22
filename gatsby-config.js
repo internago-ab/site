@@ -1,5 +1,4 @@
 module.exports = {
-  trailingSlash: `never`,
   siteMetadata: {
     title: `Internago: International payroll services with digital edge`,
     author: {
