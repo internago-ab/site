@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-remove-trailing-slashes`,
     { resolve: `gatsby-plugin-netlify-cms` },
     `gatsby-plugin-image`,
     {
@@ -212,5 +213,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  trailingSlash: "never",
+  // trailingSlash: "never",
 }
