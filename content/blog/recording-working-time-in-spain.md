@@ -4,7 +4,7 @@ type: blog
 title: Recording working time in Spain
 date: 2023-07-12T14:28:03.392Z
 tags:
-  - "#workingtime;#timesheets;#spain"
+  - spain
 featuredimage: /images/jorge-fernandez-salas-chszetoal-i-unsplash.jpg
 ---
 When operating payroll in Spain, it is essential to record employees' attendance and time worked to comply with Spanish labour laws and regulations, particularly regarding the maximum number of working hours, rest periods, and overtime.
