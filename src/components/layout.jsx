@@ -402,9 +402,9 @@ const Layout = ({ children }) => {
             <p>
               Internago Sweden
               <br />
-              Tegelbacken 4A
+              Östermalmstorg 1
               <br />
-              111 52 Stockholm
+              114 42 Stockholm
               <br />
               <a href="tel:+468-50256535">+468-50256535</a>
               <br />
