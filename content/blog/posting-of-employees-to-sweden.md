@@ -6,7 +6,6 @@ date: 2023-10-04T14:18:10.752Z
 tags:
   - Sweden
   - A1
-  - expats
 featuredimage: /images/martin-magnemyr-rbslzxcxzj0-unsplash.jpg
 ---
 In some cases, companies that bring employees to Sweden do not need to pay the employer's social security contributions. This applies if the employees are considered to be "posted" and will then belong to the social security system of another country. The rules vary depending on the country from which the employees are posted and how long they will stay in Sweden.
