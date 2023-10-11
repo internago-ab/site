@@ -8,7 +8,7 @@ countries:
   - France
 description: >-
   The amount of reimbursement of fuel costs by the employer must be set by the
-  collective agreement, or by the unilateral decision of the employer.  
+  collective agreement, or by an unilateral decision of the employer.  
 
 
   Reimbursement of fuel costs can take the form of payment of a “transport or fuel allowance” or reimbursement of mileage costs by the employer.
@@ -16,10 +16,7 @@ description: >-
   The law provides for an exemption from reimbursement of gasoline costs by the employer up to a certain limit.
 
 
-  ## 
-
   Transport or fuel allowance
-
 
 
   Reimbursement of transport costs by the employer or power costs for electric vehicles (rechargeable hybrids or hydrogen) is exempt from social security contributions up to an annual limit of:
