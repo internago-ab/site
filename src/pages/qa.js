@@ -9,12 +9,18 @@ import Blue from "../components/blue"
 
 function QuestionsAnswers({ data, location }) {
   const allPosts = data.allMarkdownRemark.nodes
-  const postsToDisplay = 4
+  const postsToDisplay = 5
   const [posts, setPosts] = useState(allPosts)
   const [numberOfPosts, setNumberOfPosts] = useState(postsToDisplay)
   const [filter, setFilter] = useState(
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
+  const [showButton, setShowButton] = useState(true);
+
+  const toggleButton = () => {
+    setShowButton(!showButton);
+  };
+
 
   const emptyQuery = ""
 
@@ -75,6 +81,7 @@ function QuestionsAnswers({ data, location }) {
     const query = event.target.value
 
     let filteredPosts = allPosts.filter((post) => {
+      console.log(post, 'post')
       const { description, title, tags, countries } = post.frontmatter
       return (
         description.toLowerCase().includes(query.toLowerCase()) ||
@@ -147,11 +154,11 @@ function QuestionsAnswers({ data, location }) {
                       {tag}
                     </button>
                   ))}
-                  {numberOfPosts < tags.length && (
+           {numberOfPosts > tags.length  && showButton &&(
                     <button
                       className="show-more-btn"
                       onClick={() =>
-                        setNumberOfPosts(numberOfPosts + postsToDisplay)
+                        {toggleButton(); setNumberOfPosts(numberOfPosts + postsToDisplay) ;}
                       }
                     >
                       Show more
