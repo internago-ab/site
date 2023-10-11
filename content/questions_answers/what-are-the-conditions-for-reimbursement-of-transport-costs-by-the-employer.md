@@ -32,6 +32,5 @@ description: >-
 
   * it must be applied in the same way to all employees who qualify for it; 
 
-  * the employer must be able to justify the payment of fuel expenses with supporting receipts. 
-    💡 Good to know: due to rising fuel prices, the employer may exceptionally reimburse all or part of the fuel costs incurred by employees for travel between home and work for the year 2023, without taking into account conditions relating to certain zones or working hours.
+  * the employer must be able to justify the payment of fuel expenses with supporting receipts.
 ---
