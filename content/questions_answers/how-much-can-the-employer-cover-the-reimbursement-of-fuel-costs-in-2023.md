@@ -15,7 +15,12 @@ description: >-
 
   The law provides for an exemption from reimbursement of gasoline costs by the employer up to a certain limit.
 
+
+  ## 
+
   Transport or fuel allowance
+
+
 
   Reimbursement of transport costs by the employer or power costs for electric vehicles (rechargeable hybrids or hydrogen) is exempt from social security contributions up to an annual limit of:
 
