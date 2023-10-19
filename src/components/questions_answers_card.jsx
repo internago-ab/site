@@ -86,7 +86,7 @@ function Blogcard({ post, setFilter }) {
             </div>
             <p
               className="description"
-              dangerouslySetInnerHTML={{ __html: post.excerpt }}
+              dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
             ></p>
             <Link to={post.fields.slug} className="questions_answers-redirect">
             <div className="link-arrow-black">

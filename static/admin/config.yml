@@ -48,4 +48,4 @@ collections:
           widget: "list",
           required: true,
         }
-      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }

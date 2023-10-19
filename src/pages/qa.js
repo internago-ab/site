@@ -219,13 +219,13 @@ export const pageQuery = graphql`
     ) {
       nodes {
         excerpt
-        html
         fields {
           slug
         }
         frontmatter {
           title
           tags
+          description
           countries
           type
         }
