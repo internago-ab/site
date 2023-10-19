@@ -15,7 +15,7 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
   const post = data.markdownRemark
-console.log(post, )
+console.log(post, 'post!!!!')
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   const tags = Array.from(
@@ -75,7 +75,7 @@ console.log(post, )
     <Layout location={location} title={siteTitle}>
       <Seo
         title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        description={post.excerpt}
       />
 
       <section className="section">
@@ -146,9 +146,9 @@ console.log(post, )
               <ol className="questions_answers-card">
                 <article itemScope itemType="http://schema.org/Article">
                   <div className="text">
-                    <h1 itemProp="headline" className="headline-redirect">
+                    <h2 itemProp="headline" className="headline-redirect">
                       {post.frontmatter.title}{" "}
-                    </h1>
+                    </h2>
                     <div className="">
                       <div className="tab-tag-wrapper">
                         <span>Tag: </span>{" "}
@@ -176,7 +176,10 @@ console.log(post, )
                           ))}
                         </p>
                       </div>
-                      <p className="description" itemProp="headline" dangerouslySetInnerHTML={{ __html: post.html }}>
+             
+                      <p className="description" itemProp="headline"  
+                      dangerouslySetInnerHTML={{ __html: post.html}}>
+
                       </p>
                     </div>
                   </div>
@@ -220,7 +223,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        description
         tags
         countries
         type

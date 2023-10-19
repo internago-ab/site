@@ -82,9 +82,8 @@ function QuestionsAnswers({ data, location }) {
 
     let filteredPosts = allPosts.filter((post) => {
       console.log(post, 'post')
-      const { description, title, tags, countries } = post.frontmatter
+      const {  title, tags, countries } = post.frontmatter
       return (
-        description.toLowerCase().includes(query.toLowerCase()) ||
         title.toLowerCase().includes(query.toLowerCase()) ||
         (tags && tags.join("").toLowerCase().includes(query.toLowerCase())) ||
         (countries &&
@@ -220,12 +219,12 @@ export const pageQuery = graphql`
     ) {
       nodes {
         excerpt
+        html
         fields {
           slug
         }
         frontmatter {
           title
-          description
           tags
           countries
           type
