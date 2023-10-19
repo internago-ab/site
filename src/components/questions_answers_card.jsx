@@ -85,6 +85,7 @@ function Blogcard({ post, setFilter }) {
               </p>
             </div>
             <p
+            
               className="description"
               dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
             ></p>

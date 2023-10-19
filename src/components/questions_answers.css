@@ -204,7 +204,11 @@ main .questions_answers {
 }
 
 .questions_answers-card .text h2 {
-  font-size: calc(var(--fontSize-h3) + 20%);
+  font-size: calc(var(--fontSize-h3) + 10%);
+}
+
+.questions_answers-card .text h1 {
+  font-size: calc(var(--fontSize-h2));
 }
 
 .questions_answers-card .text p {
@@ -277,6 +281,10 @@ main .questions_answers {
 
   .questions_answers-card .text h2 {
     font-size: var(--fontSize-h3);
+  }
+
+  .questions_answers-card .text h1 {
+    font-size: calc(var(--fontSize-h2) * 0.8);
   }
   .questions_answers-card .text {
     margin-bottom: var(--spacing-xxs);

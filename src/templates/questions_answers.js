@@ -15,7 +15,7 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
     new URLSearchParams(location.search.substring(1)).get("filter")
   )
   const post = data.markdownRemark
-
+console.log(post, )
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   const tags = Array.from(
@@ -146,9 +146,9 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
               <ol className="questions_answers-card">
                 <article itemScope itemType="http://schema.org/Article">
                   <div className="text">
-                    <h2 itemProp="headline" className="headline-redirect">
+                    <h1 itemProp="headline" className="headline-redirect">
                       {post.frontmatter.title}{" "}
-                    </h2>
+                    </h1>
                     <div className="">
                       <div className="tab-tag-wrapper">
                         <span>Tag: </span>{" "}
@@ -176,8 +176,7 @@ const QaPostTemplate = ({ data, location, pageContext }) => {
                           ))}
                         </p>
                       </div>
-                      <p className="description" itemProp="headline">
-                        {post.frontmatter.description}
+                      <p className="description" itemProp="headline" dangerouslySetInnerHTML={{ __html: post.html }}>
                       </p>
                     </div>
                   </div>
