@@ -48,7 +48,7 @@ main .questions_answers {
   margin-top: var(--spacing-xs);
 }
 
-.questions_answers .filter button,
+.questions_answers-content button,
 .filter-tags a {
   margin-right: var(--spacing-xs);
   border-radius: 5px;
@@ -64,13 +64,14 @@ main .questions_answers {
   white-space: pre;
 }
 
-.questions_answers .filter .show-more-btn {
+.questions_answers-content .show-more-btn {
   text-decoration: underline;
   width: max-content;
   font-weight: var(--fontWeight-bold);
+  padding: 0 0 0 var(--spacing-s);
 }
 
-.questions_answers .filter button:hover,
+.questions_answers-content button:hover,
 .filter-tags a:hover {
   box-sizing: border-box;
   /* border: 2px solid var(--dark-blue); */
@@ -122,7 +123,7 @@ main .questions_answers {
 
 .questions_answers-card {
   border-top: 2px solid var(--grey);
-
+  width: fit-content;
   position: relative;
   margin: 0 auto;
   min-width: 300px;
@@ -160,6 +161,11 @@ main .questions_answers {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.questions_answers-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 .questions_answers-selected {
@@ -233,8 +239,13 @@ main .questions_answers {
 }
 
 @media only screen and (max-width: 768px) {
-  .questions_answers-grid {
+  .questions_answers-grid,
+  .questions_answers-content .show-more-btn {
     padding: 0;
+  }
+
+  .questions_answers-grid {
+    overflow: scroll;
   }
 
   .countries-filter {

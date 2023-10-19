@@ -81,7 +81,6 @@ function QuestionsAnswers({ data, location }) {
     const query = event.target.value
 
     let filteredPosts = allPosts.filter((post) => {
-      console.log(post, 'post')
       const {  title, tags, countries } = post.frontmatter
       return (
         title.toLowerCase().includes(query.toLowerCase()) ||
@@ -153,16 +152,7 @@ function QuestionsAnswers({ data, location }) {
                       {tag}
                     </button>
                   ))}
-           {numberOfPosts > tags.length  && showButton &&(
-                    <button
-                      className="show-more-btn"
-                      onClick={() =>
-                        {toggleButton(); setNumberOfPosts(numberOfPosts + postsToDisplay) ;}
-                      }
-                    >
-                      Show more
-                    </button>
-                  )}
+               
                 </div>
               </div>
               <div className="countries-filter filter">
@@ -179,19 +169,11 @@ function QuestionsAnswers({ data, location }) {
                     </button>
                   ))}
 
-                  {numberOfPosts < countries.length && (
-                    <button
-                      className="show-more-btn"
-                      onClick={() =>
-                        setNumberOfPosts(numberOfPosts + postsToDisplay)
-                      }
-                    >
-                      Show more
-                    </button>
-                  )}
+                  
                 </div>
               </div>
             </div>
+            <div className="questions_answers-flex">
             <ol className="questions_answers-grid">
               {postFiltered.slice(0, numberOfPosts).map(post => (
                 <QAcard
@@ -201,6 +183,17 @@ function QuestionsAnswers({ data, location }) {
                 />
               ))}
             </ol>
+            {numberOfPosts >= 5  && showButton &&(
+                    <button
+                      className="show-more-btn"
+                      onClick={() =>
+                        {toggleButton(); setNumberOfPosts(numberOfPosts + postsToDisplay) ;}
+                      }
+                    >
+                      Show more
+                    </button>
+                  )}
+          </div>
           </div>
         </div>
       </section>
