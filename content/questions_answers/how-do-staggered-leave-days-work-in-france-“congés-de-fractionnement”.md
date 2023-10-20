@@ -5,7 +5,7 @@ title: How do staggered leave days work in France (“congés de fractionnement�
 tags:
   - Payroll
 countries:
-  - Franc
+  - France
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
