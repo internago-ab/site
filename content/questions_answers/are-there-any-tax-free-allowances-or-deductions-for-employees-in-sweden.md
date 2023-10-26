@@ -7,8 +7,4 @@ tags:
 countries:
   - Sweden
 ---
-<!--StartFragment-->
-
-Yes, employees in Sweden can claim deductions for various work-related expenses, such as travel between home and work, union fees, and professional literature. The standard deduction for work travel is based on distance and mode of transportation
-
-<!--EndFragment-->
+Yes, employees in Sweden can claim deductions for various work-related expenses, such as travel between home and work, union fees, and professional literature. The standard deduction for work travel is based on distance and mode of transportation.
