@@ -100,12 +100,13 @@ function ManualsPage({ data, location }) {
                 <h3>Categories:</h3>
                 <div className="manual-filter-tags">
                   {tags.map((tag, index) => (
-                    <div className={tag === activeTag ? 'active-tag' : ''  } onClick={e => {setFilter(e.target.value); handleTagClick(tag)}}>
+                    <div className={tag === activeTag ? 'active-tag' : ''  } 
+                    >
                        <img  src={tagImages[tag]}  className="manuals-icon" alt='icon' />
                       <button
                         className="filter-option " 
+                        onClick={e => {setFilter(e.target.value); handleTagClick(tag)}}
                         key={index}
-                        
                         value={tag.toLowerCase()}
                         >
                         {tag}
