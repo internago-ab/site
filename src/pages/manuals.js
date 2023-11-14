@@ -47,7 +47,8 @@ function ManualsPage({ data, location }) {
     if (filter) {
       window.history.pushState(filter, "", `?filter=${filter.toLowerCase()}`)
     }
-  
+  console.log(allPosts.filter(post => post.frontmatter.tags.includes(allPosts[0].frontmatter.tags[0])))
+  console.log(posts[0])
     setPosts(
       filter === "all" || !filter
         ? allPosts.filter(post => post.frontmatter.tags.includes(allPosts[0].frontmatter.tags[0]))
