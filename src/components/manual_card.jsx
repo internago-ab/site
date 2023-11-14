@@ -68,10 +68,12 @@ function ManualCard({ post, setFilter }) {
                 ))}
               </p>
             </div>
-            <p
+           
+            <div
               className="description"
-              dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
-            ></p>
+              dangerouslySetInnerHTML={{ __html: `<div> ${post.html} </div>` }}
+              // dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
+            ></div>
           </div>
         </div>
       </div>

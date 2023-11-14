@@ -81,7 +81,7 @@ function ManualsPage({ data, location }) {
   }
 
   const postFiltered = filteredPosts.query ? filteredPosts.filteredPosts : posts
-
+console.log(postFiltered.map(post => (post)), 'test')
   return (
     <Layout>
       <Seo title="All posts" />
@@ -121,7 +121,6 @@ function ManualsPage({ data, location }) {
             <ol className="manuals-grid">
             {postFiltered.map(post => (
                 <ManualCard
-                setPosts={setPosts}
                   key={post.fields.slug}
                   post={post}
                   setFilter={setFilter}
