@@ -6,7 +6,7 @@ import Aos from "aos"
 import "./manuals.css"
 
 
-function ManualCard({ post, setFilter,setPosts }) {
+function ManualCard({ post, setFilter }) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const ref = useRef()
@@ -70,8 +70,8 @@ function ManualCard({ post, setFilter,setPosts }) {
             </div>
             <p
               className="description"
-              // dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
-            >{post.html || ''}</p>
+              dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
+            ></p>
           </div>
         </div>
       </div>
