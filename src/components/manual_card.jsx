@@ -75,7 +75,7 @@ function ManualCard({ post, setFilter }) {
             <p
               className="description"
               // dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
-            > {post.html || post.excerpt}</p>
+            > {post.excerpt}</p>
             {/* <Link to={post.fields.slug} className="questions_answers-redirect">
             <div className="link-arrow-black">
                 <div className="link">
