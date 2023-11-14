@@ -51,7 +51,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "manuals" # Used in routes, e.g., /admin/collections/blog
     label: "Manuals" # Used in the UI
-    type: "manuals
+    type: "Manuals"
     folder: "content/manuals" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md
@@ -62,13 +62,7 @@ collections:
           widget: "hidden",
           default: "manuals",
         }
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "manuals",
-        }
+      - { label: "Type", name: "type", widget: "hidden", default: "manuals" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Category", name: "tags", widget: "list", required: true }
       - { label: "Body", name: "body", widget: "markdown" }
-
