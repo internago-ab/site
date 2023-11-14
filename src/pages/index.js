@@ -37,6 +37,14 @@ import arrow from "../images/icons/arrow-white.svg"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
+import "../components/blue.css"
+import "../components/cta.css"
+import "../components/home_imagetext.css"
+import "../components/icongrid.css"
+import "../components/imagetext.css"
+import "../components/layout.css"
+
+
 const Index = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 })
@@ -153,35 +161,43 @@ const Index = () => {
         header="Why Internago?"
         text="<strong> International payroll can be challenging, but it is important and has to be done.</strong> <br></br> And we have the perfect tool to help you with payroll and a variety of other HR tasks. You can efficiently store and manage employee and payroll data in one place, controlled via one online interface. All you have to do is check and approve.          "
         button="Read more"
+        link="/payroll"
         content={[
           {
             alt: "Diagram icon",
             header: "Online payroll",
             text: "Software that accommodates your international operations.",
+            link:"/payroll"
           },
           {
             header: "Local experts",
             text:
               "Our team includes local professionals in all the countries where we operate.",
+            link:"/payroll"
+
           },
           {
             header: "Quick onboarding",
             text: "Your employees can be onboarded quickly and efficiently.",
+            link:"/payroll"
           },
           {
             header: "Multiple markets",
             text:
               "Your trusted partner, with a single interface, across various international markets.",
+            link:"/payroll"
           },
           {
             header: "GDPR compliant",
             text:
               "Data and documents are securely stored and can be shared in a ‎way that is GDPR compliant.",
+            link:"/payroll"
           },
           {
             header: "Time saving",
             text:
               "Our knowledge, expertise and automated processes combine to improve your payroll quality and efficiency.",
+            link:"/payroll"
           },
         ]}
       />

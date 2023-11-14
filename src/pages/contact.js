@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Blue from "../components/blue"
 import Cta from "../components/cta"
-import ImageText from "../components/imagetext"
 import ContactIcon from "../components/contact-icon"
 import Grey from "../components/grey"
 import Form from "../components/form"
@@ -32,7 +31,6 @@ import hungary from "../images/flags/hungary.png"
 import uk from "../images/flags/uk.png"
 //animation
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 function Contact() {
   useEffect(() => {

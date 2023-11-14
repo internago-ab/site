@@ -1,5 +1,4 @@
 import React from "react"
-import "./icongrid.css"
 
 function ContactIcon(props) {
   const content = props.content

@@ -9,7 +9,6 @@ import Sidebar from "../components/sidebar"
 import Cta from "../components/cta"
 
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 const BlogPostTemplate = ({ data, location, pageContext }) => {
   useEffect(() => {

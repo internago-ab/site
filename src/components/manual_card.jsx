@@ -2,11 +2,11 @@ import React, { useEffect, useState, useRef } from "react"
 import { Link } from "gatsby"
 import arrow from "../images/icons/link-arrow.svg"
 
-import "./questions_answers.css"
-
 import Aos from "aos"
+import "./manuals.css"
 
-function Blogcard({ post, setFilter }) {
+
+function ManualCard({ post, setFilter }) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const ref = useRef()
@@ -38,19 +38,19 @@ function Blogcard({ post, setFilter }) {
     Aos.init({ duration: 2000 })
   }, [])
 
-  const { title, description, tags, countries } = post.frontmatter
-
+  const { title, description, tags } = post.frontmatter
+  
   return (
     <li className="questions_answers-card">
       <div className="text">
         <button
-          className={`qa-btn ${setActive}`}
+          className={`qa-btn manual-btn ${setActive}`}
           onClick={() => {
             toggleAccordion()
             toggleMenu(0)
           }}
         >
-          <span>{setActive ? "-" : "+"}</span> <h2>{title}</h2>
+          <span>{setActive ? "-" : "+"}</span>{title}
         </button>
         <div
           ref={ref}
@@ -72,30 +72,19 @@ function Blogcard({ post, setFilter }) {
                 ))}
               </p>
             </div>
-            <div className="tab-tag-wrapper">
-              <span>Country:</span>
-              <p>
-                {countries.map((country, index) => (
-                  <button key={index} onClick={() => setFilter(country)}>
-                    {" "}
-                    {country},
-                  </button>
-                ))}
-              </p>
-            </div>
+          
             <p
               className="description"
-              dangerouslySetInnerHTML={{ __html: description || post.excerpt }}
+              dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
             ></p>
-            <Link to={post.fields.slug} className="questions_answers-redirect">
+            {/* <Link to={post.fields.slug} className="questions_answers-redirect">
             <div className="link-arrow-black">
                 <div className="link">
                 Open in new tab
                   <img alt="arrow icon" src={arrow} />
                 </div>
               </div>
-            
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -103,4 +92,4 @@ function Blogcard({ post, setFilter }) {
   )
 }
 
-export default Blogcard
+export default ManualCard

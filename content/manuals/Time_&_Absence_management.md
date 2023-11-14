@@ -1,11 +1,9 @@
 ---
-layout: questions_answers
-type: questions_answers
-title: How does compensation of mileage costs by the employer work in France
+layout: manuals
+type: manuals
+title: Time & Absence management
 tags:
-  - Transport
-countries:
-  - France
+  - Time and absence
 description: >-
 ---
 

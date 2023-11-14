@@ -1,11 +1,9 @@
 ---
-layout: questions_answers
-type: questions_answers
-title: How does compensation of mileage costs by the employer work in France
+layout: manuals
+type: manuals
+title: Timesheets
 tags:
-  - Transport
-countries:
-  - France
+  - Timesheets
 description: >-
 ---
 

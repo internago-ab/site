@@ -1,0 +1,132 @@
+.manuals-flex {
+  flex-direction: column;
+}
+
+.manual-filter-tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.manual-filter-tags div {
+  margin-right: var(--spacing-xs);
+  padding: calc(var(--spacing-xs) - 0.9em);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  background-color: transparent;
+  color: var(--black);
+  text-align: left;
+  margin-top: var(--spacing-xxs);
+
+  font-size: var(--fontSize-p);
+  width: -webkit-max-content;
+  width: auto;
+  white-space: pre;
+  display: flex;
+  align-items: center;
+}
+
+.manuals-filter-btn button {
+  margin-top: 0;
+}
+
+.manuals-content {
+  flex-direction: column;
+}
+
+.manual-filter-tags .active-tag {
+  border: 2px solid var(--dark-blue);
+}
+
+.manual-filter-tags .active-tag button {
+  color: var(--dark-blue);
+}
+
+.manual-filter-tags button {
+  margin-top: 0;
+  margin-right: var(--spacing-xxs);
+}
+
+.manuals-icon {
+  margin-right: var(--spacing-xxs);
+  width: 3.5em;
+}
+
+.manuals-grid {
+  list-style-type: none;
+  padding: var(--spacing-xs) 0 0 0;
+}
+
+.manual-btn {
+  font-weight: bold;
+}
+
+.manuals-grid .manual-btn {
+  width: auto;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.questions_answers-card .text .manual-btn {
+  font-size: calc(var(--fontSize-h3) + 10%);
+  color: var(--black);
+}
+
+@media screen and (max-width: 1100px) {
+  .manual-filter-tags {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .questions_answers .manuals-content .filter {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .questions_answers .manuals-content .filter {
+    align-items: center;
+  }
+
+  .manuals-content.medium {
+    padding-left: var(--spacing-s);
+    padding-right: var(--spacing-s);
+  }
+
+  .manual-filter-tags {
+    grid-template-columns: 1fr;
+  }
+
+  .manual-filter-tags div {
+    padding: calc(var(--spacing-xs) - 1em);
+  }
+
+  .manuals-icon {
+    width: 3em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .manual-filter-tags div {
+    margin-right: 0;
+    padding: calc(var(--spacing-xs) - 1em);
+  }
+
+  .questions_answers .manuals-content .filter h3 {
+    font-size: var(--fontSize-h3);
+  }
+
+  .manuals-icon {
+    display: none;
+  }
+
+  .questions_answers-card .text .manual-btn {
+    font-size: var(--fontSize-h3);
+  }
+
+  .manuals-content.medium {
+    padding-left: var(--spacing-xs);
+    padding-right: var(--spacing-xs);
+  }
+}

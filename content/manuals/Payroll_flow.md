@@ -1,12 +1,10 @@
 ---
-layout: questions_answers
-type: questions_answers
-title: How does compensation of mileage costs by the employer work in France
+layout: manuals
+type: manuals
+title: Payroll flow
 tags:
-  - Transport
-countries:
-  - France
-description: >-
+  - Payroll flow
+description:
 ---
 
 When the reimbursement of fuels costs is subject to the payment of a fixed

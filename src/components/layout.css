@@ -66,21 +66,21 @@ nav .portal-btn {
   border-radius: 100rem;
 }
 
-.what-we-offer {
+.dropdown {
   flex-direction: column;
   position: relative;
 }
 
-.what-we-offer li {
+.dropdown li {
   display: flex;
   align-items: center;
 }
 
-.what-we-offer svg {
+.dropdown svg {
   margin-left: 8px;
 }
 
-.what-we-offer-submenu li {
+.dropdown-submenu li {
   padding-top: var(--spacing-xxs);
 }
 
@@ -363,7 +363,7 @@ footer .logo {
     display: none;
   }
 
-  .what-we-offer .submenu li {
+  .dropdown .submenu li {
     display: block;
     transition: all 0.4s ease-in-out;
   }

@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import arrow from "../images/icons/arrow-black.svg"
 
-import "./icongrid.css"
 
 function Icongrid(props) {
   const listRef = useRef(null)
@@ -27,7 +26,6 @@ function Icongrid(props) {
   const showMoreDocuments = () => {
     //setLimit(limit + 3)
     setLimit(limit ? content.length : 3)
-    console.log(limit)
     //const numberOfItems = showMore ? projects.length : 3;
     if (limit === 6) {
       setLimit(limit ? 3 : 3)

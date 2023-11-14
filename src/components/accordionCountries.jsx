@@ -4,7 +4,6 @@ import Chevron from "./chevron"
 import "./accordion.css"
 
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 function Accordion(props) {
   useEffect(() => {

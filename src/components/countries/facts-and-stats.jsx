@@ -2,7 +2,6 @@ import React from "react"
 import "./facts-and-stats.css"
 import { useEffect } from "react"
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 function FactsStats({ description, countryImg }) {
   useEffect(() => {

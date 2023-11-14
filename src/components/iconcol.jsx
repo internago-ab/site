@@ -1,6 +1,5 @@
 import React from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import "./icongrid.css"
 import "./iconcol.css"
 import "./link_arrow.css"
 

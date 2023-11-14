@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import arrow from "../images/icons/arrow-black.svg"
 
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 import "./blogcard.css"
 

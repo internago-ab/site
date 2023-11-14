@@ -1,5 +1,17 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+// const FilterWarningsPlugin = require("webpack-filter-warnings-plugin");
+
+// exports.onCreateWebpackConfig = ({ actions }) => {
+//   actions.setWebpackConfig({
+//     plugins: [
+//       new FilterWarningsPlugin({
+//         exclude:
+//           /mini-css-extract-plugin[^]*Conflicting order. Following module has been added:/,
+//       }),
+//     ],
+//   });
+// };
 
 exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
   if (stage === 'build-javascript') {
@@ -44,8 +56,30 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const country = path.resolve(`./src/templates/country.js`)
   const qaPost = path.resolve(`./src/templates/questions_answers.js`)
+  const manualPost = path.resolve(`./src/templates/manuals.js`)
 
   // Get all markdown blog posts sorted by date
+  const result_manuals = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: ASC }
+          limit: 1000
+          filter: { frontmatter: { type: { glob: "manuals" } } }
+        ) {
+          nodes {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              type
+            }
+          }
+        }
+      }
+    `
+  )
   const result_qa = await graphql(
     `
       {
@@ -111,6 +145,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     `
   )
+
   if (result_qa.errors) {
     reporter.panicOnBuild(
       `There was an error loading your blog posts`,
@@ -127,9 +162,19 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
+  if (result_manuals.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your blog posts`,
+      result_manuals.errors
+    )
+    return
+  }
+
   const posts_qa = result_qa.data.allMarkdownRemark.nodes
   const posts_country = result_country.data.allMarkdownRemark.nodes
   const posts_blog = result_blog.data.allMarkdownRemark.nodes
+  const posts_manuals = result_manuals.data.allMarkdownRemark.nodes
+
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
@@ -148,7 +193,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     })
   }
-
   if (posts_blog.length > 0) {
     posts_blog.forEach((post, index) => {
       const previousPostId = index === 0 ? null : posts_blog[index - 1]
@@ -184,7 +228,26 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     })
   }
+  if (posts_manuals.length > 0) {
+    posts_manuals.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : posts_manuals[index - 1]
+      const nextPostId = index === posts_manuals.length - 1 ? null : posts_manuals[index + 1]
+  
+      if (post.frontmatter.type === "manuals") {
+        createPage({
+          path: post.fields.slug,
+          component: manualPost,
+          context: {
+            id: post.id,
+            previousPostId,
+            nextPostId,
+          },
+        })
+      }
+    })
+  }
 }
+
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions

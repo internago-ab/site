@@ -15,6 +15,8 @@ import Access from "../images/photos/access.jpg"
 import shareDoc from "../images/photos/shareDoc.jpg"
 import Multilingual from "../images/photos/multilingual.jpg"
 
+import "../components/icongrid.css"
+
 function Payroll() {
   return (
     <Layout>

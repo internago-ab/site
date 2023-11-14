@@ -9,7 +9,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../components/countries/frontmatter.css"
 import Aos from "aos"
-import "aos/dist/aos.css"
+
 
 const Country = ({ data, location, pageContext }) => {
   useEffect(() => {

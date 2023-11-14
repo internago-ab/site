@@ -17,7 +17,6 @@ import technical from "../images/photos/technical.jpg"
 import phonesTilted from "../images/mockups/phonesTilted.png"
 
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 function Services() {
   useEffect(() => {

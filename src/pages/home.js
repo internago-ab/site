@@ -36,6 +36,7 @@ import simplify from "../images/icons/simplify.svg"
 import compliance from "../images/icons/compliance.svg"
 //animation
 import Marquee from "react-fast-marquee"
+import "../components/icongrid.css"
 
 const Home = () => {
   return (

@@ -1,6 +1,4 @@
 import * as React from "react"
-import "./imagetext.css"
-import "./home_imagetext.css"
 import "./link_arrow.css"
 
 import arrow from "../images/icons/link-arrow.svg"

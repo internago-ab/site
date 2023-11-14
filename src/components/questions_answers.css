@@ -193,8 +193,6 @@ main .questions_answers {
 .filter-tags {
   flex-direction: column;
   display: flex;
-  overflow-x: scroll;
-  display: flex;
 }
 
 .questions_answers_tab span,
@@ -276,7 +274,8 @@ main .questions_answers {
   }
 
   .filter-tags {
-    flex-direction: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .questions_answers .filter button {
@@ -304,6 +303,11 @@ main .questions_answers {
     padding: var(--spacing-xxs) var(--spacing-xs);
     margin: var(--spacing-xs);
     width: auto;
+  }
+
+  .filter-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .questions_answers .filter h3 {

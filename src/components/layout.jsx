@@ -1,11 +1,10 @@
 import React, { useState } from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import "./layout.css"
-import PropTypes from "prop-types"
-import { motion } from "framer-motion"
 import darkLogo from "../images/logo-dark.svg"
 import lightLogo from "../images/logo-light.svg"
+import { motion } from "framer-motion"
 import linkedin from "../images/linkedin.svg"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import twitter from "../images/twitter.svg"
 
 const Layout = ({ children }) => {
@@ -120,7 +119,7 @@ const Layout = ({ children }) => {
             style={{
               top: visible ? "69px" : "-69px",
               overflow: menuDisplayed ? "unset" : "hidden",
-              height: menuDisplayed ? 350 : 0,
+              height: menuDisplayed ? 400 : 0,
             }}
           >
             <li>
@@ -157,6 +156,11 @@ const Layout = ({ children }) => {
                 Q&A
               </a>
             </li>
+            {/* <li>
+              <a href="/manuals" className={`${menuDisplayed ? "li-active" : ""}`}>
+              Manuals
+              </a>
+            </li> */}
             <li>
               <Link
                 to="/about"
@@ -168,9 +172,9 @@ const Layout = ({ children }) => {
             <ul
               className={`${
                 menuDisplayed ? "li-active" : ""
-              } menu what-we-offer`}
+              } menu dropdown`}
             >
-              <li className="has-dropdown what-we-offer">
+              <li className="has-dropdown dropdown">
                 <div className="menu-link">
                   Countries{" "}
                   <svg
@@ -251,8 +255,8 @@ const Layout = ({ children }) => {
         </div>
 
         <ul className="desktop-menu">
-          <ul className="menu what-we-offer">
-            <li className="has-dropdown what-we-offer">
+          <ul className="menu dropdown">
+            <li className="has-dropdown dropdown">
               <li className="menu-link">
                 What we offer{" "}
                 <svg
@@ -280,8 +284,8 @@ const Layout = ({ children }) => {
               </ul>
             </li>
           </ul>
-          <ul className="menu what-we-offer">
-            <li className="has-dropdown what-we-offer">
+          <ul className="menu dropdown">
+            <li className="has-dropdown dropdown">
               <div className="menu-link">
                 Countries{" "}
                 <svg
@@ -339,12 +343,38 @@ const Layout = ({ children }) => {
               </ul>
             </li>
           </ul>
-          <li>
-            <a href="/blog">Blogs and News</a>
-          </li>
-          <li>
-            <a href="/qa">Q&A</a>
-          </li>
+          <ul className="menu dropdown">
+            <li className="has-dropdown dropdown">
+              <li className="menu-link">
+              Resources
+                <svg
+                  className="toggle-icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.51465 8.4652L11.9996 16.9502L20.4846 8.4652L19.0706 7.0502L11.9996 14.1222L4.92865 7.0502L3.51465 8.4652Z"
+                    fill="#4E4E4E"
+                  />
+                </svg>
+              </li>
+
+              <ul className="submenu">
+                <li>
+                  <Link to="/blog">Blog</Link>
+                </li>
+                <li>
+                  <Link to="/qa">Q&A</Link>
+                </li>
+                {/* <li>
+                <Link to="/manuals">Manuals</Link>
+                </li> */}
+              </ul>
+            </li>
+          </ul>
           <li>
             <Link to="/about">About us</Link>
           </li>

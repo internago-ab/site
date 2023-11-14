@@ -1,7 +1,5 @@
 import React from "react"
 
-import "./cta.css"
-import largeWave from "../images/wave.svg"
 import international from "../../static/images/city/street.jpg"
 import arrow from "../images/icons/arrow-white.svg"
 

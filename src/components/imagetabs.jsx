@@ -6,7 +6,6 @@ import dashboard from "../images/screenshots/dashboard.png"
 import "./imagetabs.css"
 
 import Aos from "aos"
-import "aos/dist/aos.css"
 
 const Tab = () => {
   useEffect(() => {
