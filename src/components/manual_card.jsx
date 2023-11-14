@@ -17,7 +17,7 @@ function ManualCard({ post, setFilter }) {
     setActiveState(setActive === "" ? "active" : "")
     setHeightState(setActive === "active" ? "0px" : "650px")
   }
-
+console.log(post.html, 'post.html')
   useEffect(() => {
     const checkIfClickedOutside = (e) => {
       if (setActive && ref.current && !ref.current.contains(e.target)) {
@@ -39,7 +39,7 @@ function ManualCard({ post, setFilter }) {
   }, [])
 
   const { title, description, tags } = post.frontmatter
-  
+console.log(description, 'description')
   return (
     <li className="questions_answers-card">
       <div className="text">
