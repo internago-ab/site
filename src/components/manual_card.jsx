@@ -6,7 +6,7 @@ import Aos from "aos"
 import "./manuals.css"
 
 
-function ManualCard({ post, setFilter }) {
+function ManualCard({ post, setFilter,setPosts }) {
   const [setActive, setActiveState] = useState("")
   const [setHeight, setHeightState] = useState("0px")
   const ref = useRef()
@@ -21,10 +21,7 @@ function ManualCard({ post, setFilter }) {
   useEffect(() => {
     const checkIfClickedOutside = (e) => {
       if (setActive && ref.current && !ref.current.contains(e.target)) {
-        //setActiveState(false)
-        //setHeight("0px")
         setHeightState(setActive === "" ? "0px" : "650px")
-        //document.getElementById("height").style.height = "0px"
       }
     }
     document.addEventListener("mousedown", checkIfClickedOutside)
@@ -71,19 +68,10 @@ function ManualCard({ post, setFilter }) {
                 ))}
               </p>
             </div>
-          
             <p
               className="description"
               // dangerouslySetInnerHTML={{ __html: post.html || post.excerpt }}
-            > {post.excerpt}</p>
-            {/* <Link to={post.fields.slug} className="questions_answers-redirect">
-            <div className="link-arrow-black">
-                <div className="link">
-                Open in new tab
-                  <img alt="arrow icon" src={arrow} />
-                </div>
-              </div>
-            </Link> */}
+            >{post.html || ''}</p>
           </div>
         </div>
       </div>
