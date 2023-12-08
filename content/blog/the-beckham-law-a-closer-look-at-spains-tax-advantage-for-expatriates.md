@@ -5,7 +5,7 @@ title: "The Beckham Law: A Closer Look at Spain's Tax Advantage for Expatriates"
 date: 2023-12-08T16:19:47.736Z
 tags:
   - Spain
-featuredimage: /images/rufinochka-k8amxaxf2ow-unsplash-1-.jpeg
+featuredimage: /images/jorge-fernandez-salas-chszetoal-i-unsplash-1-.jpg
 ---
 Working with payroll in Spain, we often get questions regarding the “Beckham Law”, which stands as a unique and advantageous provision for expatriates residing in the country.
 
