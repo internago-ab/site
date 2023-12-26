@@ -26,7 +26,14 @@ const Country = ({ data, location, pageContext }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title={post.frontmatter.title} />
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        lang="en"
+        meta={[
+          { name: "country", content: "Employing, Holidays, Taxes," },
+        ]}
+      /> 
       <div>
         <CountryLanding title={title} bgimg={bgimg} />
         <FactsStats description={description} countryImg={countryImg} />

@@ -71,7 +71,15 @@ function ManualsPage({ data, location }) {
   if (posts.length === 0) {
     return (
       <Layout>
-        <Seo title="All posts" />
+        <Seo
+        title="Manuals"
+        description="OOur experienced team can handle complex payroll in an international
+        setting"
+        lang="en"
+        meta={[
+          { name: "Manuals", content: "Categories" },
+        ]}
+      /> 
         <div className="posts-found medium">
         <h3>No manuals's found.</h3>
         </div>
@@ -81,10 +89,18 @@ function ManualsPage({ data, location }) {
   }
 
   const postFiltered = filteredPosts.query ? filteredPosts.filteredPosts : posts
-console.log(postFiltered.map(post => (post)), 'test')
+
   return (
     <Layout>
-      <Seo title="All posts" />
+        <Seo
+        title="Manuals"
+        description="OOur experienced team can handle complex payroll in an international
+        setting"
+        lang="en"
+        meta={[
+          { name: "Manuals", content: "Categories" },
+        ]}
+      /> 
       <Blue>
         <h1>Our Manuals</h1>
         <p>

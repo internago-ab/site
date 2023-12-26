@@ -6,7 +6,15 @@ import "../components/thank-you.css"
 
 const ThankYouPage = () => (
   <Layout>
-    <Seo title="Thank-you" />
+      <Seo
+        title="Thank you!"
+        description="Your form submission has been received.
+        setting"
+        lang="en"
+        meta={[
+          { name: "Thank you", content: "submission" },
+        ]}
+      /> 
     <section className="section ">
       <div className="main-thank">
         <div className="card">

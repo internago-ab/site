@@ -68,7 +68,14 @@ function QuestionsAnswers({ data, location }) {
   if (posts.length === 0) {
     return (
       <Layout>
-        <Seo title="All posts" />
+        <Seo
+        title="Questions and answers"
+        description="How can we help you?"
+        lang="en"
+        meta={[
+          { name: "Payroll", content: "Categories, Countries, Vacation, Transport, Payslip, Payroll" },
+        ]}
+      /> 
         <div className="posts-found medium">
         <h3>No QA's found.</h3>
         </div>
@@ -107,7 +114,14 @@ function QuestionsAnswers({ data, location }) {
 
   return (
     <Layout>
-      <Seo title="All posts" />
+       <Seo
+        title="Questions and answers"
+        description="How can we help you?"
+        lang="en"
+        meta={[
+          { name: "Payroll", content: "Categories, Countries, Vacation, Transport, Payslip, Payroll" },
+        ]}
+      /> 
       <Blue>
         <h1>How can we help you?</h1>
         <div className=" questions_answers">

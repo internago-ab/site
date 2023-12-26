@@ -6,7 +6,15 @@ import "../components/thank-you.css"
 
 const PrivacyPolicy = () => (
   <Layout>
-    <Seo title="Privacy-policy" />
+    <Seo
+        title="Data and Privacy policy"
+        description="our privacy and data is of key concern to us at Internago and we will
+        always take the appropriate actions to protect your information."
+        lang="en"
+        meta={[
+          { name: "Privacy", content: "Data" },
+        ]}
+      />
     <section className="section ">
       <div className="medium privacy">
         <h2 className="heading">Data and Privacy policy</h2>

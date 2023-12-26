@@ -46,7 +46,11 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
-      />
+        lang="en"
+        meta={[
+          { name: "blog post", content: "article" },
+        ]}
+      /> 
       <div className="blog-post-main">
         <article
           data-aos="fade-up"

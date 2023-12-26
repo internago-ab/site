@@ -7,7 +7,6 @@ import Blue from "../components/blue"
 import GreyAnimation from "../components/grey-animation"
 import ImageText from "../components/imagetext"
 import ImageTextBg from "../components/home_imagetext"
-import ImageTextOver from "../components/imagetextover"
 import Quotes from "../components/quotes"
 import Tabs from "../components/tabs"
 
@@ -24,7 +23,15 @@ function Services() {
   }, [])
   return (
     <Layout>
-      <Seo title="Services" />
+        <Seo
+        title="Internago Services"
+        description="Our experienced team can handle complex payroll in an international
+        setting"
+        lang="en"
+        meta={[
+          { name: "Payroll", content: "administrative, international, markets, quality" },
+        ]}
+      /> 
       <Blue>
         <h1>Internago Services</h1>
         <p>

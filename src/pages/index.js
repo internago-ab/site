@@ -77,7 +77,15 @@ const Index = () => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo
+        title="International payroll - local experts"
+        description="Your one-stop payroll solution. Be more efficient and save valuable
+        time by managing your international payroll through Internago."
+        lang="en"
+        meta={[
+          { name: "payroll", content: "secure, payslips" },
+        ]}
+      /> 
       <div
         className="country-landing-main country-section index"
         style={{ backgroundImage: `url(${international})` }}

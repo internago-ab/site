@@ -7,7 +7,6 @@ import Blogcard from "../components/blogcard"
 import Cta from "../components/cta"
 import Blue from "../components/blue"
 import Search from "../components/search"
-import QAcard from "../components/questions_answers_card"
 
 function Blog({ data, location }) {
   //blog
@@ -55,7 +54,17 @@ function Blog({ data, location }) {
   if (posts.length === 0) {
     return (
       <Layout>
-        <Seo title="All posts" />
+        <Seo
+        title="Blogs and News"
+        description="This is where we collect our latest blogs and insights on different
+        relevant topics on payroll, taxes and other subjects for you to read.
+        If you have questions or suggestions on a topic than please contact us
+        at Internago"
+        lang="en"
+        meta={[
+          { name: "blog", content: "global, legal, reports, salary, payroll" },
+        ]}
+      /> 
         <div className="posts-found medium content">
           <h3>No blog posts found.</h3>
         </div>
@@ -84,7 +93,17 @@ function Blog({ data, location }) {
 
   return (
     <Layout>
-      <Seo title="All posts" />
+        <Seo
+        title="Blogs and News"
+        description="This is where we collect our latest blogs and insights on different
+        relevant topics on payroll, taxes and other subjects for you to read.
+        If you have questions or suggestions on a topic than please contact us
+        at Internago"
+        lang="en"
+        meta={[
+          { name: "blog", content: "global, legal, reports, salary, payroll" },
+        ]}
+      /> 
       <Blue>
         <h1>Blogs and News</h1>
         <p>

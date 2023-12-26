@@ -20,7 +20,15 @@ import "../components/icongrid.css"
 function Payroll() {
   return (
     <Layout>
-      <Seo title="Payroll" />
+      <Seo
+        title="Internago Payroll Portal"
+        description="Manage your payroll across multiple international markets with one
+        online interface."
+        lang="en"
+        meta={[
+          { name: "Payroll", content: "data, interface, easy, multilingual, access" },
+        ]}
+      /> 
       <Blue>
         <h1>‎Internago Payroll Portal</h1>
         <p>

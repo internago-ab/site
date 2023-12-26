@@ -64,13 +64,6 @@ console.log(post, 'post!!!!', post.frontmatter.description)
     )
   }
 
-  function shouldUpdateScroll() {
-    // window.location.reload()
-    // window.scrollTo(...(`/blog` || [0, 0]))
-    // window.location.reload()
-    // return false
-  }
-
   return (
     <Layout location={location} title={siteTitle}>
       <Seo

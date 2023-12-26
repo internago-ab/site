@@ -21,7 +21,7 @@
 }
 
 .blue-inside-country {
-  padding: var(--spacing-m) var(--spacing-m) var(--spacing-l) 0;
+  padding: var(--spacing-m) var(--spacing-m) var(--spacing-l) var(--spacing-l);
 }
 
 .facts-stats-img {
@@ -72,7 +72,7 @@ table td {
   }
 
   .blue-inside-country {
-    padding: var(--spacing-m) var(--spacing-m) var(--spacing-m) 0;
+    padding: var(--spacing-m) ;
   }
 
   .table-top {
@@ -114,6 +114,10 @@ table td {
     padding-right: var(--spacing-m);
   }
 
+  .blue-inside-country {
+    padding: var(--spacing-s) ;
+  }
+
   td {
     padding: var(--spacing-xxs);
   }
@@ -123,7 +127,8 @@ table td {
   }
 
   .blue-inside-country {
-    padding-top: var(--spacing-s);
+    padding: var(--spacing-s) var(--spacing-s) var(--spacing-m) var(--spacing-s)  ;
+
   }
 }
 
@@ -140,6 +145,10 @@ table td {
   td {
     width: 100%;
     display: inline-block;
+  }
+
+  .blue-inside-country {
+    padding: var(--spacing-xs) var(--spacing-xs) var(--spacing-m) var(--spacing-xs)  ;
   }
 
   .grey-inside {

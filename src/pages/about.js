@@ -6,12 +6,22 @@ import Blue from "../components/blue"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 
-import AboutVision from "../images/illustrations/services-optimize.png"
+import AboutVision from "../images/illustrations/optimizing-services.png"
 
 function About() {
   return (
     <Layout>
-      <Seo title="About" />
+        <Seo
+        title="Internago - Who are we?"
+        description="Strongly driven by technology and innovation, Internago constantly
+        strives to make our customers' lives easier by reducing their
+        administrative burden to a minimum with the increased control that
+        digitalisation offers"
+        lang="en"
+        meta={[
+          { name: "payroll", content: "markets, international business" },
+        ]}
+      /> 
       <Blue>
         <h1>Internago - Who are we?</h1>
         <p>
@@ -33,7 +43,7 @@ function About() {
         With Internago your international business gets a trusted partner with a single point of entry. We’re on a journey to modernise cross-border payroll. Join us on this journey today!
         "
         image={AboutVision}
-        alt="Three men in suits where one climbes a ladder holding binoculars and the other two are stabilising it"
+        alt="The image captures a dynamic scene of two motivated individuals actively working together on a project, surrounded by graphs and charts that symbolize data-driven decision-making."
       />
       <Cta content="next" />
     </Layout>

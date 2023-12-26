@@ -41,7 +41,16 @@ import "../components/icongrid.css"
 const Home = () => {
   return (
     <Layout>
-      <Seo title="Home" />
+        <Seo
+        title="International Payroll"
+        description="Eliminate stress and save precious time – use Internago to
+        streamline the payroll process, no matter where your team members
+        are."
+        lang="en"
+        meta={[
+          { name: "Home", content: "services, payroll, professionals, software" },
+        ]}
+      /> 
       <div className="landing">
         <div className="landing-wrapper">
           <div className="flex-left">

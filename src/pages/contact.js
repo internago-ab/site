@@ -38,7 +38,15 @@ function Contact() {
   }, [])
   return (
     <Layout>
-      <Seo title="Contact" />
+        <Seo
+        title="Contact"
+        description="We are happy to hear from you, and our team is ready to assist you
+        with any question you might have"
+        lang="en"
+        meta={[
+          { name: "contact", content: "sales, support, request, markets" },
+        ]}
+      /> 
       <Blue>
         <h1>Contact us</h1>
         <p>
