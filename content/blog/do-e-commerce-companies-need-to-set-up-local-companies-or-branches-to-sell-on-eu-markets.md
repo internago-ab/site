@@ -1,13 +1,13 @@
 ---
 layout: blog
+type: blog
 title: Do e-commerce companies need to set up local companies or branches to
-  sell on EU-markets?
+  sell on EU-markets
 date: 2019-06-21T13:53:23.901Z
 tags:
   - Reports
   - Legal
 featuredimage: /images/ecom.jpg
-type: blog
 ---
 Internago recently had a case with a Nordic e-commerce company selling consumer goods online to a few EU-markets. In this particular case, the company wanted to know if they were obliged to register a local company or a branch in order to pursue sales on the French market. The company in question was inclined to reduce its foreign market administration to a minimum in order to save costs and time. So what are the rules of thumb regarding establishment on EU-markets for e-commerce and online companies? The quick and a bit boring answer is that “it depends” on multiple factors, but the key question is the following:
 
