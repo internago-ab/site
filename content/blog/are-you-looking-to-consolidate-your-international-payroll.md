@@ -10,9 +10,9 @@ tags:
   - Payroll management
 featuredimage: /images/ben-white-gekmstkfz6w-unsplash-1-.jpg
 ---
-*Streamlining Administration and Reducing Unnecessary Costs*
+*Streamlining International Payroll and Reducing Unnecessary Costs*
 
-Is your company active in multiple markets? Internago simplifies administration by offering a centralized payroll solution. With the Internago Payroll Portal, you can merge payroll operations from various markets into one comprehensive platform. This eliminates the complexities of managing separate systems or contacts in each market, streamlining the entire payroll process.
+Is your company active in multiple international markets? Internago simplifies administration by offering a centralized payroll solution. With the Internago Payroll Portal, you can merge payroll operations from various markets into one comprehensive platform. This eliminates the complexities of managing separate systems or contacts in each market, streamlining the entire payroll process.
 
 The Internago Payroll Portal streamlines your company's payroll processes, including managing invoices, expenses, bonuses, social contributions, and taxes. A unified platform reduces the complexities of international payroll management, allowing for more efficient handling of payroll activities.
 
