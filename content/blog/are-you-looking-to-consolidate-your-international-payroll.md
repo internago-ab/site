@@ -4,6 +4,7 @@ type: blog
 title: Are you looking to consolidate your international payroll?
 date: 2024-02-02T11:55:18.462Z
 tags:
+  - Payroll
   - Cross-border team
   - Payroll portal
   - International payroll
