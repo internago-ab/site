@@ -308,10 +308,10 @@
 
 section.cta.cta-home {
   background-position: 50% 40%;
-  height: 65vh;
+  height: 40vh;
 }
 section.cta.cta-home::before {
-  height: 65vh;
+  height: 40vh;
 }
 
 section.cta.cta-home .content {
@@ -330,7 +330,7 @@ section.cta.cta-home .content h2 {
 
 @media only screen and (max-width: 1100px) {
   section.cta.cta-home .content {
-    padding: 0 var(--spacing-m) var(--spacing-m) var(--spacing-m);
+    padding: 0 var(--spacing-m) 0 var(--spacing-m);
   }
   section.cta.cta-home .content h2 {
     width: 100%;
@@ -360,10 +360,10 @@ section.cta.cta-home .content h2 {
 @media only screen and (max-width: 600px) {
   section.cta.cta-home {
     background-position: 50% 80%;
-    height: 65vh;
+    height: 55vh;
   }
   section.cta.cta-home::before {
-    height: 65vh;
+    height: 55vh;
   }
 
   .cta-home h2 {

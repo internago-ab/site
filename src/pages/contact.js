@@ -4,7 +4,7 @@ import "../components/contact-flags.css"
 //components
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Blue from "../components/blue"
+import Blue from "../components/blue-form"
 import Cta from "../components/cta"
 import ContactIcon from "../components/contact-icon"
 import Grey from "../components/grey"
@@ -39,7 +39,7 @@ function Contact() {
   return (
     <Layout>
         <Seo
-        title="Contact"
+        title="Contact us"
         description="We are happy to hear from you, and our team is ready to assist you
         with any question you might have"
         lang="en"
@@ -48,7 +48,7 @@ function Contact() {
         ]}
       /> 
       <Blue>
-        <h1>Contact us</h1>
+        <h1>We are happy to hear from you</h1>
         <p>
           We are happy to hear from you, and our team is ready to assist you
           with any question you might have

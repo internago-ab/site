@@ -14,7 +14,7 @@ function Blogcard({ post, setFilter }) {
   const { date, title, description, featuredimage, tags } = post.frontmatter
 
   return (
-    <li className="blog-card" data-aos="fade-in">
+    <li className="blog-card">
       <img src={featuredimage} alt="blogpost"></img>
       <div className="text">
         <Link to={post.fields.slug}>

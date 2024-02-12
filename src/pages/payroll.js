@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Blue from "../components/blue"
+import Blue from "../components/blue-form"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
@@ -30,7 +30,7 @@ function Payroll() {
         ]}
       /> 
       <Blue>
-        <h1>‎Internago Payroll Portal</h1>
+        <h1>‎Internago's Payroll Portal</h1>
         <p>
           Manage your payroll across multiple international markets with one
           online interface.

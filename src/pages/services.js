@@ -3,7 +3,7 @@ import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Cta from "../components/cta"
-import Blue from "../components/blue"
+import Blue from "../components/blue-form"
 import GreyAnimation from "../components/grey-animation"
 import ImageText from "../components/imagetext"
 import ImageTextBg from "../components/home_imagetext"
@@ -33,7 +33,7 @@ function Services() {
         ]}
       /> 
       <Blue>
-        <h1>Internago Services</h1>
+        <h1>Internago's Payroll Services</h1>
         <p>
           Our experienced team can handle complex payroll in an international
           setting

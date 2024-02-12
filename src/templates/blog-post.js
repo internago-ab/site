@@ -48,12 +48,11 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
         description={post.frontmatter.description || post.excerpt}
         lang="en"
         meta={[
-          { name: "blog post", content: "article" },
+          { name: "blog post", content: "articles" },
         ]}
       /> 
       <div className="blog-post-main">
         <article
-          data-aos="fade-up"
           className="blog-post"
           itemScope
           itemType="http://schema.org/Article"

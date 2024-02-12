@@ -6,7 +6,7 @@
   width: 50%;
   height: auto;
   margin: 0 auto;
-  padding: var(--spacing-s) var(--spacing-xs);
+  padding: var(--spacing-s) var(--spacing-xs) !important;
   border-radius: 40px;
   background-color: #fafafa;
   box-shadow: 0 6px 24px 0 rgb(0 0 0 / 10%);
@@ -82,12 +82,12 @@ textarea:valid {
   border-color: var(--dark-blue);
 }
 
-input:focus ~ label,
-input:valid ~ label,
-textarea:focus ~ label,
-textarea:valid ~ label,
-.input-mail input:focus ~ .email-label,
-.input-mail input:not(:placeholder-shown) ~ .email-label {
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label,
+.input-mail input:focus~.email-label,
+.input-mail input:not(:placeholder-shown)~.email-label {
   top: -40px;
   color: var(--dark-blue);
   font-size: var(--fontSize-p-s);

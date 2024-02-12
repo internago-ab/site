@@ -1,0 +1,145 @@
+/* slider */
+
+.slick-slide img {
+  object-fit: cover;
+  height: 33em;
+  width: 20em;
+  border-radius: 40px 0px 0 40px;
+}
+
+.img-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 33em;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  /* filter: grayscale(100%); */
+  object-fit: cover;
+}
+
+.img-wrapper::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 40px 0px 0 40px;
+  background: rgba(120, 120, 120, 0.05);
+  /* Your overlay color */
+}
+
+.slick-list {
+  margin: 0 -25px;
+}
+
+.slick-slide>div {
+  padding: 0 25px;
+}
+
+.slide {
+  flex-direction: row;
+  display: flex !important;
+  border-radius: 40px;
+  background-color: #fafafa;
+  box-shadow: 0 6px 24px 0 rgb(0 0 0 / 10%);
+  margin-bottom: var(--spacing-xs);
+}
+
+.slide-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: var(--spacing-xs);
+  padding-right: var(--spacing-xs);
+}
+
+.slide-container-text ul li {
+  list-style-type: "— ";
+  list-style-position: inside;
+}
+
+.slide-container-text ul>li:before {
+  display: inline-block;
+  width: 1.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+}
+
+.slide-container-text h2 {
+  padding-bottom: var(--spacing-xxs);
+  color: var(--dark-blue);
+}
+
+.headline {
+  text-align: center;
+  padding-bottom: var(--spacing-xs);
+}
+
+.slide-container-text h3 {
+  padding-bottom: var(--spacing-xxs);
+}
+
+.slide-container-text ul {
+  font-size: var(--fontSize-p-s);
+}
+
+@media only screen and (max-width: 600px) {
+  .slide {
+    flex-direction: column;
+    display: flex !important;
+    width: 90% !important;
+    margin: 0 auto;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .slick-slide {
+    min-height: 400px !important;
+
+  }
+
+  .slide-container-text {
+    padding: var(--spacing-xs);
+  }
+
+  .slick-slide img {
+    height: 23em;
+    width: -webkit-fill-available;
+    border-radius: 40px 40px 0px 0px;
+  }
+
+  .img-wrapper {
+    border-radius: 40px 40px 0px 0px;
+    height: 23em;
+  }
+
+  .slick-list {
+    margin: 0;
+  }
+
+  .slick-slide>div {
+    padding: 0;
+  }
+
+  .slick-next {
+    right: 0;
+  }
+
+  /* .slick-slide {
+    height: auto !important;
+  }
+
+  .slick-track {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+  } */
+}

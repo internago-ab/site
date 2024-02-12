@@ -276,7 +276,7 @@ const Layout = ({ children }) => {
 
               <ul className="submenu">
                 <li>
-                  <Link to="/services">Services</Link>
+                  <Link to="/services">Payroll services</Link>
                 </li>
                 <li>
                   <Link to="/payroll">Payroll portal</Link>

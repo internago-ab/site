@@ -34,7 +34,8 @@ main > section.section_home:first-of-type {
   }
 }
 
-@media screen and (max-width: 1070px) {
+
+@media screen and (max-width: 1150px) {
   .home_imagetext.large img.img-imagetext {
     margin-top: var(--spacing-s);
     width: 100%;

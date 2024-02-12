@@ -1,10 +1,42 @@
+.blue-form {
+    background-color: var(--new-blue);
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .blue {
-    background-color: var(--dark-blue);
+    background-color: var(--new-blue);
     padding: var(--spacing-l) var(--spacing-xxl);
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.blue-form .landing-wrapper {
+    width: 100%;
+}
+
+.blue-form .form-demo-header {
+    padding: var(--spacing-xs);
+}
+
+.blue-form .form-privacy {
+    width: 70%;
+    padding-top: var(--spacing-xxs);
+    font-size: var(--fontSize-p-xs);
+}
+
+.blue-form label {
+    font-size: var(--fontSize-p-s);
+
+}
+
+.blue-form .flex-left h1,
+.blue-form .flex-left h2 {
+    margin-bottom: var(--spacing-xs);
 }
 
 .blue h1,
@@ -15,7 +47,7 @@
 .blue h1,
 .blue h2,
 .blue p {
-    color: var(--white);
+    color: var(--black);
 }
 
 .blue p {
@@ -27,6 +59,7 @@
         padding: var(--spacing-m);
     }
 }
+
 
 @media only screen and (max-width: 600px) {
     .blue {

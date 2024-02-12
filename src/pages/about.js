@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Blue from "../components/blue"
+import Blue from "../components/blue-form"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 
-import AboutVision from "../images/illustrations/optimizing-services.png"
+import AboutVision from "../images/photos/about.jpg"
 
 function About() {
   return (
