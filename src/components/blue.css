@@ -54,15 +54,35 @@
     max-width: 800px;
 }
 
+@media only screen and (max-width: 1470px) {
+
+
+    .blue-form .landing-wrapper {
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .blue {
         padding: var(--spacing-m);
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .blue-form .form-demo-header {
+        margin-top: var(--spacing-xs);
+    }
+}
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 700px) {
     .blue {
         padding: var(--spacing-m) var(--spacing-xs);
     }
+
+    .blue-form .landing-wrapper {
+        width: 90%;
+    }
+
+
 }

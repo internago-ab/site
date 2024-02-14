@@ -1,37 +1,122 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState, useRef } from "react";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import Cta from "../components/cta"
-import Blue from "../components/blue-form"
-import GreyAnimation from "../components/grey-animation"
-import ImageText from "../components/imagetext"
-import ImageTextBg from "../components/home_imagetext"
-import Quotes from "../components/quotes"
-import Tabs from "../components/tabs"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Cta from "../components/cta";
+import Blue from "../components/blue-form";
+import GreyAnimation from "../components/grey-animation";
+import ImageText from "../components/imagetext";
+import ImageTextBg from "../components/home_imagetext";
+import Quotes from "../components/quotes";
+import Tabs from "../components/tabs";
+import ProcessSteps from "../components/ProcessSteps"; // Import the new component
 
-import computerSmall from "../images/mockups/computerSmall.png"
-import payrollServices from "../images/photos/payrollServices.jpg"
-import technical from "../images/photos/technical.jpg"
-import phonesTilted from "../images/mockups/phonesTilted.png"
+import computerSmall from "../images/mockups/computerSmall.png";
+import payrollServices from "../images/photos/payrollServices.jpg";
+import process from "../images/photos/peopleProcess.jpg";
+import technical from "../images/photos/technical.jpg";
+import phonesTilted from "../images/mockups/phonesTilted.png";
+import social from "../images/gifs/social-media.gif";
+import User from "../images/gifs/user.gif";
+import Thumb from "../images/gifs/thumbs-up.gif";
+import document from "../images/gifs/document.gif";
+import receipt from "../images/gifs/receipt.gif";
+import approval from "../images/gifs/approval.gif";
+import upload from "../images/gifs/upload.gif";
+import report from "../images/gifs/report.gif";
 
-import Aos from "aos"
+import Aos from "aos";
 
 function Services() {
   useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
+    Aos.init({ duration: 2000 });
+  }, []);
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const processWrapperRef = useRef(null);
+
+  const handleScroll = () => {
+    const processWrapper = processWrapperRef.current;
+    if (!processWrapper) return;
+
+    const processWrapperTop = processWrapper.getBoundingClientRect().top;
+    const processWrapperHeight = processWrapper.clientHeight;
+    const windowHeight = window.innerHeight;
+
+    // Calculate when the processWrapper is fully visible
+    if (
+      processWrapperTop < windowHeight &&
+      processWrapperTop + processWrapperHeight > 0
+    ) {
+      const visibleHeight = Math.min(
+        processWrapperHeight,
+        windowHeight - processWrapperTop,
+      );
+      const progress = (visibleHeight / processWrapperHeight) * 100;
+      setScrollProgress(progress);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initialize progress on load
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const payrollProcessSteps = [
+    {
+      description:
+        "<strong>1.</strong> The Employees registrer time and absence.",
+      image: social,
+    },
+    {
+      description:
+        "<strong>2.</strong> When the period is finished the report is submitted",
+      image: User,
+    },
+    {
+      description: "<strong>3.</strong> The report is approved by the manager",
+      image: approval,
+    },
+    {
+      description: "<strong>4.</strong> Any potential expenses are included",
+      image: receipt,
+    },
+    {
+      description:
+        "<strong>5.</strong>The logal payslips are produced and uploaded",
+      image: upload,
+    },
+    {
+      description:
+        "<strong>6.</strong> The employees recieve their payslip online",
+      image: document,
+    },
+    {
+      description:
+        "<strong>7.</strong> HR-reports are made available: Payment lists, tax reporting, vacation liability",
+      // description: '<strong>7.</strong> HR-reports are made available: <ul><li>Payment lists</li><li>Tax reporting</li><li>Vacation liability</li></ul>',
+      image: report,
+    },
+    {
+      description: "<strong>8.</strong> The payroll is completed",
+      image: Thumb,
+    },
+  ];
   return (
     <Layout>
-        <Seo
+      <Seo
         title="Internago Services"
         description="Our experienced team can handle complex payroll in an international
         setting"
         lang="en"
         meta={[
-          { name: "Payroll", content: "administrative, international, markets, quality" },
+          {
+            name: "Payroll",
+            content: "administrative, international, markets, quality",
+          },
         ]}
-      /> 
+      />
       <Blue>
         <h1>Internago's Payroll Services</h1>
         <p>
@@ -39,6 +124,37 @@ function Services() {
           setting
         </p>
       </Blue>
+      <section className="section">
+        <div className="process-steps-wrapper" ref={processWrapperRef}>
+          <div className="process-text-wrapper">
+            <h2>Payoll Process</h2>
+            <p className="process-text">
+              With the Internago web portal you get an easy to use system
+              covering the full payroll cycle.<br></br>
+              <br></br>During this process, central HR can at any time, with a
+              single sign-on, monitor the process, recieve employee data and get
+              access to reports in multiple markets.
+            </p>
+            <img
+              alt="image of two people planning that represents process"
+              src={process}
+            />
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute", // or 'absolute' depending on layout
+              top: "0%",
+              width: "3px",
+              height: `${scrollProgress}%`,
+              backgroundColor: "#00446e",
+              transition: "height 0.45s ease-in-out",
+              zIndex: 10, // Ensure it's above other content
+            }}
+          ></div>
+          <ProcessSteps steps={payrollProcessSteps} />
+        </div>
+      </section>
       <ImageTextBg
         size="medium"
         title="International payroll services"
@@ -133,7 +249,7 @@ function Services() {
       </div>
       <Cta content="next" />
     </Layout>
-  )
+  );
 }
 
-export default Services
+export default Services;
