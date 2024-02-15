@@ -99,8 +99,8 @@ const Index = () => {
             time by managing your international payroll through Internago.
           </p>
           <div className="link-arrow">
-            <a href="/contact#form">
-              Contact us <img alt="arrow icon" src={arrow} />
+            <a href="/contact#formDemo">
+              Book a demo <img alt="arrow icon" src={arrow} />
             </a>
           </div>
         </div>
