@@ -56,7 +56,7 @@ Second paragraph is about the overall strength of job security and what it means
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 

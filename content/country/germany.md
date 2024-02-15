@@ -84,7 +84,7 @@ New employees must also be registered with Germany’s Electronic Payroll Tax De
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024 (national)
 
 <div class='holidays-table holiday-first'>
 
@@ -92,22 +92,12 @@ New employees must also be registered with Germany’s Electronic Payroll Tax De
 | ----------------------------------- | ------------------------------ |
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
-| <p><strong>6 January</strong></p>   | <p>Epiphany</p>                |
-| <p><strong>7 April</strong></p>     | <p>Good Friday</p>             |
-| <p><strong>9 April</strong></p>     | <p>Easer Sunday</p>            |
-| <p><strong>10 April</strong></p>    | <p>Easer Monday</p>            |
-| <p><strong>15 April</strong></p>    | <p>April Good Friday</p>       |
-| <p><strong>18 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>29 Mars</strong></p>     | <p>Good Friday</p>             |
+| <p><strong>1 April</strong></p>     | <p>Easer Sunday</p>            |
 | <p><strong>1 May</strong></p>       | <p>Labour Day</p>              |
-| <p><strong>18 May</strong></p>      | <p>Ascension Day</p>           |
-| <p><strong>28 May</strong></p>      | <p>Whit Sunday</p>             |
-| <p><strong>29 May</strong></p>      | <p>Whit Monday</p>             |
-| <p><strong>8 June</strong></p>      | <p>Corpus Christi</p>          |
-| <p><strong>15 August</strong></p>   | <p>Assumption Day</p>          |
+| <p><strong>9 May</strong></p>       | <p>Ascension Day</p>           |
+| <p><strong>20 May</strong></p>      | <p>Whit Monday</p>             |
 | <p><strong>3 October</strong></p>   | <p>German Unity Day</p>        |
-| <p><strong>31 October</strong></p>  | <p>Reformation Day</p>         |
-| <p><strong>1 November</strong></p>  | <p> All Saints' Day</p>        |
-| <p><strong>22 November</strong></p> | <p>Repentance Day</p>          |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
 | <p><strong>26 December</strong></p> | <p>2nd Day of Christmas</p>    |
 

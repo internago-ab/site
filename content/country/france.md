@@ -62,7 +62,7 @@ Cases of sick-leave and parental leave are partly paid by social security and de
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
@@ -70,13 +70,13 @@ Cases of sick-leave and parental leave are partly paid by social security and de
 | ------------------------------------- | ------------------------------ |
 | <strong>Date</strong>                 | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>     | <p>New Years Day</p>           |
-| <p><strong>7 April</strong></p>       | <p>Good Friday</p>             |
-| <p><strong>18 April</strong></p>      | <p>Easter Monday</p>           |
-| <p><strong>1st May</strong></p>       | <p>Labour Day / May Day</p>    |
-| <p><strong>8 May</strong></p>         | <p>WW11 Victory Day</p>        |
-| <p><strong>13 May</strong></p>        | <p>Ascension Day</p>           |
-| <p><strong>28 May</strong></p>        | <p>Whit Sunday</p>             |
-| <p><strong>29 May</strong></p>        | <p>Whit Monday</p>             |
+| <p><strong>29 Mars</strong></p>       | <p>Good Friday</p>             |
+| <p><strong>1 April</strong></p>       | <p>Easter Monday</p>           |
+| <p><strong>1 May</strong></p>         | <p>Labour Day / May Day</p>    |
+| <p><strong>8 May</strong></p>         | <p>Victory Day</p>             |
+| <p><strong>9 May</strong></p>         | <p>Ascension Day</p>           |
+| <p><strong>19 May</strong></p>        | <p>Whit Sunday</p>             |
+| <p><strong>20 May</strong></p>        | <p>Whit Monday</p>             |
 | <p><strong>14 July</strong></p>       | <p>Bastille Day</p>            |
 | <p><strong>15 August</strong></p>     | <p>Assumption of Mary</p>      |
 | <p><strong>1 November</strong></p>    | <p>All Saints Day</p>          |

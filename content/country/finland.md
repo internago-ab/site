@@ -61,7 +61,7 @@ The employer must also provide an “annual wage slip” which details the sum o
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
@@ -70,15 +70,15 @@ The employer must also provide an “annual wage slip” which details the sum o
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
 | <p><strong>6 January</strong></p>   | <p>Epiphany</p>                |
-| <p><strong>7 April</strong></p>     | <p>Good Friday</p>             |
-| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>           |
-| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>29 Mars</strong></p>     | <p>Good Friday</p>             |
+| <p><strong>31 Mars</strong></p>     | <p>Easter Sunday</p>           |
+| <p><strong>1 April</strong></p>     | <p>Easter Monday</p>           |
 | <p><strong>1 May</strong></p>       | <p>May Day</p>                 |
-| <p><strong>18 May</strong></p>      | <p>Ascension day</p>           |
-| <p><strong>28 May</strong></p>      | <p>Whit Sunday</p>             |
-| <p><strong>23 June</strong></p>     | <p>Midsummer Eve</p>           |
-| <p><strong>24 June</strong></p>     | <p>Midsummer Day</p>           |
-| <p><strong>4 November</strong></p>  | <p>All Saints Day</p>          |
+| <p><strong>9 May</strong></p>       | <p>Ascension day</p>           |
+| <p><strong>19 May</strong></p>      | <p>Whit Sunday</p>             |
+| <p><strong>21 June</strong></p>     | <p>Midsummer Eve</p>           |
+| <p><strong>22 June</strong></p>     | <p>Midsummer Day</p>           |
+| <p><strong>2 November</strong></p>  | <p>All Saints Day</p>          |
 | <p><strong>6 December</strong></p>  | <p>Independence Day</p>        |
 | <p><strong>24 December</strong></p> | <p>Christmas Eve</p>           |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |

@@ -70,16 +70,16 @@ Generally speaking, the weekly working time in Belgium is 38 hours a week.
 
 <div class='holidays-table holiday-first'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 |                                     |                                |
 | ----------------------------------- | ------------------------------ |
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Years Day</p>           |
-| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>1 April</strong></p>     | <p>Easter Monday</p>           |
 | <p><strong>1 May</strong></p>       | <p>Labour Day </p>             |
-| <p><strong>18 May</strong></p>      | <p>Ascension day</p>           |
-| <p><strong>29 May</strong></p>      | <p>Whit Monday</p>             |
+| <p><strong>9 May</strong></p>       | <p>Ascension day</p>           |
+| <p><strong>20 May</strong></p>      | <p>Whit Monday</p>             |
 | <p><strong>21 July</strong></p>     | <p> National Day</p>           |
 | <p><strong>15 August</strong></p>   | <p>Assumption day</p>          |
 | <p><strong>1 November</strong></p>  | <p>All Saints Day</p>          |

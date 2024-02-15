@@ -58,22 +58,22 @@ Generally, in the UK, employees cannot work more than an average of 48 hours per
 <section class='blue-country country-top'>
 <div class='section grey-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
 |                                   |                                       |
 | --------------------------------- | ------------------------------------- |
 | <strong>Date</strong>             | <strong>Holiday Name </strong>        |
-| <p><strong>3 January</strong></p> | <p>New Years Day</p>                  |
-| <p><strong>15 April</strong></p>  | <p>Good Friday</p>                    |
-| <p><strong>18 April</strong></p>  | <p>Easter monday</p>                  |
-| <p><strong>2 May</strong></p>     | <p>Early May Bank Holiday </p>        |
-| <p><strong>2 June</strong></p>    | <p>ASpring Bank Holiday</p>           |
-| <p><strong>3 June</strong></p>    | <p>Platinum Jubilee bank holiday</p>  |
-| <p><strong>29 Aug</strong></p>    | <p>Summer Bank Holiday</p>            |
+| <p><strong>1 January</strong></p> | <p>New Years Day</p>                  |
+| <p><strong>6 January</strong></p> | <p>Epiphany</p>                       |
+| <p><strong>29 Mars</strong></p>   | <p>Good Friday</p>                    |
+| <p><strong>1 April</strong></p>   | <p>Easter monday</p>                  |
+| <p><strong>6 May</strong></p>     | <p>Early May Bank Holiday </p>        |
+| <p><strong>27 May</strong></p>    | <p>Spring Bank Holiday</p>            |
+| <p><strong>26 Aug</strong></p>    | <p>Summer Bank Holiday</p>            |
+| <p><strong>25 Dec</strong></p>    | <p>Christmas Day (substitute day)</p> |
 | <p><strong>26 Dec</strong></p>    | <p>Boxing Day</p>                     |
-| <p><strong>27 Dec</strong></p>    | <p>Christmas Day (substitute day)</p> |
 
 </div>
 </div>

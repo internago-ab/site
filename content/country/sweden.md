@@ -101,7 +101,7 @@ When it comes to parental leave, mothers and fathers are expected to equally sha
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
@@ -110,17 +110,17 @@ When it comes to parental leave, mothers and fathers are expected to equally sha
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day</p>          |
 | <p><strong>6 January</strong></p>   | <p>Epiphany</p>                |
-| <p><strong>7 April</strong></p>     | <p> Good Friday</p>            |
-| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>           |
-| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>29 Mars</strong></p>     | <p> Good Friday</p>            |
+| <p><strong>31 Mars</strong></p>     | <p>Easter Sunday</p>           |
+| <p><strong>1 April</strong></p>    | <p>Easter Monday</p>           |
 | <p><strong>1 May</strong></p>       | <p>Labour Day</p>              |
-| <p><strong>18 May</strong></p>      | <p>Ascension Day</p>           |
-| <p><strong>18 June</strong></p>     | <p> Whit Sunday</p>            |
+| <p><strong>9 May</strong></p>      | <p>Ascension Day</p>           |
+| <p><strong>19 June</strong></p>     | <p> Whit Sunday</p>            |
 | <p><strong>6 June</strong></p>      | <p>National Day of Sweden</p>  |
-| <p><strong>24 June</strong></p>     | <p>Midsummer's Day</p>         |
+| <p><strong>22 June</strong></p>     | <p>Midsummer's Day</p>         |
 | <p><strong>4 November</strong></p>  | <p>All Saints' Day</p>         |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
-| <p><strong>26 December</strong></p> | <p> 2nd Day of Christmas</p>   |
+| <p><strong>26 December</strong></p> | <p>2nd Day of Christmas</p>   |
 
 </div>
 </div>

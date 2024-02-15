@@ -56,7 +56,7 @@ Employers are also legally bound to provide a Pension Fund for every employee ag
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024 (national)
 
 <div class='holidays-p'>
 
@@ -70,19 +70,16 @@ There are few federal public holidays in Switzerland, but other holidays also ap
 | ------------------------------------ | --------------------------------------------------------- |
 | <strong>Date</strong>                | <strong>Holiday Name </strong>                            |
 | <p><strong>1 January</strong></p>    | <p>New Year’s Day</p>                                     |
-| <p><strong>2 January</strong></p>    | <p>Berchtold's Day</p>                                    |
-| <p><strong>1 Mars</strong></p>       | <p>Republic Day</p>                                       |
-| <p><strong>19 Mars</strong></p>      | <p>St Joseph's Day</p>                                    |
-| <p><strong>7 April</strong></p>      | <p>Good Friday</p>                                        |
-| <p><strong>10 April</strong></p>     | <p>Easter Monday</p>                                      |
-| <p><strong>1 May</strong></p>        | <p>Labour Day</p>                                         |
-| <p><strong>18 May</strong></p>       | <p>Ascension Day</p>                                      |
-| <p><strong>29 May</strong></p>       | <p>Whit Monday</p>                                        |
+| <p><strong>29 Mars</strong></p>      | <p>Good Friday</p>                                        |
+| <p><strong>1 April</strong></p>      | <p>Easter Monday</p>                                      |
+| <p><strong>9 May</strong></p>        | <p>Ascension Day</p>                                      |
+| <p><strong>20 May</strong></p>       | <p>Whit Monday</p>                                        |
+| <p><strong>30 May</strong></p>       | <p>Corpus Christi</p>                                     |
 | <p><strong>1 August</strong></p>     | <p>National Day</p>                                       |
-| <p><strong>15 August</strong></p>    | <p>Assumption Day</p>                                     |
-| <p><strong>18 September</strong></p> | <p>Federal Day of Thanksgiving, Repentance and Prayer</p> |
+| <p><strong>1 November</strong></p>   | <p>All Saints' Day</p>                                    |
+| <p><strong>24 December</strong></p>  | <p>Christmas Eve</p>                                      |
 | <p><strong>25 December</strong></p>  | <p>Christmas Day</p>                                      |
-| <p><strong>26 December</strong></p>  | <p>St Stephen's Day</p>                                   |
+| <p><strong>26 December</strong></p>  | <p>New Year's Eve</p>                                     |
 
 </div>
 </div>

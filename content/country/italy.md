@@ -52,7 +52,7 @@ Italy’s standard working hours are 8 hours per day (40 hours per week). Any ad
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
@@ -61,8 +61,8 @@ Italy’s standard working hours are 8 hours per day (40 hours per week). Any ad
 | <strong>Date</strong>               | <strong>Holiday Name </strong>         |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day National Holiday</p> |
 | <p><strong>6 January</strong></p>   | <p>January Epiphany </p>               |
-| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>                   |
-| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>                   |
+| <p><strong>31 Mars</strong></p>     | <p>Easter Sunday</p>                   |
+| <p><strong>1 April</strong></p>     | <p>Easter Monday</p>                   |
 | <p><strong>25 April</strong></p>    | <p>Liberation Day</p>                  |
 | <p><strong>1 May</strong></p>       | <p>Labour Day/ May Day</p>             |
 | <p><strong>2 June</strong></p>      | <p>Republic Day</p>                    |

@@ -73,7 +73,7 @@ Childcare in the Netherlands is very expensive and as a consequence of this, a l
 <section class='blue-country country-top'>
 <div class='section blue-inside-country medium table-header'>
 
-## List of Public Holidays - 2022
+## List of Public Holidays - 2024
 
 <div class='holidays-table holiday-first'>
 
@@ -81,13 +81,14 @@ Childcare in the Netherlands is very expensive and as a consequence of this, a l
 | ----------------------------------- | ------------------------------ |
 | <strong>Date</strong>               | <strong>Holiday Name </strong> |
 | <p><strong>1 January</strong></p>   | <p>New Year’s Day</p>          |
-| <p><strong>7 April</strong></p>     | <p>Good Friday </p>            |
-| <p><strong>9 April</strong></p>     | <p>Easter Sunday</p>           |
-| <p><strong>10 April</strong></p>    | <p>Easter Monday</p>           |
+| <p><strong>29 Mars</strong></p>     | <p>Good Friday </p>            |
+| <p><strong>31 Mars</strong></p>     | <p>Easter Sunday</p>           |
+| <p><strong>1 April</strong></p>     | <p>Easter Monday</p>           |
 | <p><strong>27 April</strong></p>    | <p>Kings Day</p>               |
 | <p><strong>5 May</strong></p>       | <p>Liberation Day</p>          |
-| <p><strong>18 May</strong></p>      | <p>Ascension Day</p>           |
-| <p><strong>28 May</strong></p>      | <p> Whit Sunday</p>            |
+| <p><strong>9 May</strong></p>       | <p>Ascension Day</p>           |
+| <p><strong>19 May</strong></p>      | <p>Whit Sunday</p>             |
+| <p><strong>20 May</strong></p>      | <p>Whit Monday</p>             |
 | <p><strong>25 December</strong></p> | <p>Christmas Day</p>           |
 | <p><strong>26 December</strong></p> | <p>2nd Day of Christmas</p>    |
 
