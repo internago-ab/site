@@ -1,3 +1,18 @@
+section.cta.message {
+  height: auto;
+  padding: var(--spacing-s);
+  background-color: var(--dark-grey)
+}
+
+section.cta.message::before {
+  display: none;
+}
+
+section.cta.message .content p {
+  margin-bottom: 0;
+}
+
+
 section.cta {
   text-align: center;
   line-height: 0;
@@ -57,5 +72,13 @@ section.cta .content p {
 @media only screen and (max-width: 768px) {
   section.cta .content {
     padding: var(--spacing-s);
+  }
+
+  section.cta.message {
+    padding: 0;
+  }
+
+  section.cta.message .content {
+    padding: var(--spacing-xs);
   }
 }
