@@ -1,6 +1,7 @@
 .icon-wrapper {
   background-color: var(--light-grey);
 }
+
 .margin-top-none .icon-wrapper {
   margin-top: 0;
 }
@@ -9,11 +10,12 @@
   padding-top: var(--spacing-s);
   padding-bottom: var(--spacing-xs);
 }
+
 .icon-wrapper .icon-header,
 .icon-wrapper .icon-text,
 .icon-wrapper .icon-btn {
-  padding-left: var(--spacing-l);
-  padding-right: var(--spacing-l);
+  padding-left: var(--spacing-m);
+  padding-right: var(--spacing-m);
 }
 
 .show-more {
@@ -21,6 +23,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
+
   .icon-wrapper .icon-header,
   .icon-wrapper .icon-text,
   .icon-wrapper .icon-btn {
@@ -28,7 +31,9 @@
     padding-right: var(--spacing-s);
   }
 }
+
 @media only screen and (max-width: 600px) {
+
   .icon-wrapper .icon-header,
   .icon-wrapper .icon-text,
   .icon-wrapper .icon-btn {
@@ -40,45 +45,62 @@
     display: block;
   }
 }
+
 .icon-wrapper .icon-text {
   max-width: 1050px;
 }
+
 .icon-wrapper .icon-btn {
   padding-top: var(--spacing-xxs);
 }
+
 .icon-wrapper .icon-grid {
-  padding: var(--spacing-s) var(--spacing-l) var(--spacing-s) var(--spacing-l);
+  padding: var(--spacing-s) var(--spacing-m) var(--spacing-s) var(--spacing-m);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: var(--spacing-s);
   list-style-type: none;
+  margin: 0 auto;
+  max-width: 1700px;
+  width: 100%;
 }
+
+.icon-text-wrapper {
+  margin: 0 auto;
+  max-width: 1700px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1200px) {
   .icon-wrapper .icon-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media only screen and (max-width: 728px) {
   .icon-wrapper .icon-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 @media only screen and (max-width: 1100px) {
   .icon-wrapper .icon-grid {
     padding: var(--spacing-s) var(--spacing-s) var(--spacing-s) var(--spacing-s);
   }
 }
+
 @media only screen and (max-width: 600px) {
   .icon-wrapper .icon-grid {
     grid-gap: var(--spacing-xs);
-    padding: var(--spacing-xs) var(--spacing-xs) var(--spacing-m)
-      var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-xs) var(--spacing-m) var(--spacing-xs);
   }
 }
+
 .icon-wrapper .icon-grid li h3 {
   margin-bottom: var(--spacing-xxs);
 }
+
 .icon-item {
   margin-left: 0 !important;
   background-color: var(--white);
@@ -87,20 +109,24 @@
   position: relative;
   min-height: 220px;
 }
+
 @media only screen and (max-width: 1750px) {
   .icon-item {
     padding: var(--spacing-xs);
   }
 }
+
 .icon-item button {
   background: transparent;
   border: none;
   text-align: inherit;
   font-family: var(--font);
 }
+
 .icon-item h3 {
   color: var(--dark-grey);
 }
+
 .icon-item-img {
   position: absolute;
   right: -5%;
@@ -108,6 +134,7 @@
   height: 65px;
   margin-bottom: var(--spacing-xs);
 }
+
 .icon-item:hover {
   transform: scale(1.05);
   -webkit-transition: all 0.3s ease-in;
@@ -116,29 +143,35 @@
   cursor: pointer;
   background: var(--white);
 }
+
 @media only screen and (max-width: 1024px) {
   .icon-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: var(--spacing-xs);
   }
+
   .icon-item img {
     height: var(--spacing-m);
     margin-bottom: var(--spacing-xxs);
   }
 }
+
 @media only screen and (max-width: 600px) {
   .icon-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 .card-img-wrapper {
   margin: 0 var(--spacing-l);
 }
+
 @media only screen and (max-width: 600px) {
   .card-img-wrapper {
     margin: 0 var(--spacing-xs);
   }
 }
+
 .card-img-wrapper .card-img {
   text-align: center;
   margin-top: -4.25rem;
@@ -146,25 +179,30 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 @media only screen and (max-width: 1000px) {
   .card-img-wrapper .card-img {
     max-height: 350px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .card-img-wrapper .card-img {
     margin-top: -3rem;
   }
 }
+
 .card-img-wrapper .card-img img {
   max-height: 450px;
   object-fit: cover;
 }
+
 @media only screen and (max-width: 1200px) {
   .card-img-wrapper .card-img img {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .card-img-wrapper .card-img img {
     height: 250px;

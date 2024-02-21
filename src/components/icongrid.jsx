@@ -36,6 +36,7 @@ function Icongrid(props) {
 
   return (
     <section className="icon-wrapper" ref={listRef}>
+      <div className="icon-text-wrapper">
       <h2 className="icon-header">{props.header}</h2>
       <p
         className="icon-text"
@@ -49,6 +50,7 @@ function Icongrid(props) {
             </a>
           )}
         </div>
+      </div>
       </div>
       <ul className="icon-grid">
         {width > 600 &&
