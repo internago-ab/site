@@ -66,40 +66,40 @@ function Services() {
   const payrollProcessSteps = [
     {
       description:
-        "<strong>1.</strong> The Employees registrer time and absence.",
+        "<strong>1.</strong>Employees register time and absences in the T&A reports during the month.",
       image: social,
     },
+    // {
+    //   description:
+    //     "<strong>2.</strong> When the period is finished the report is submitted",
+    //   image: User,
+    // },
+    // {
+    //   description: "<strong>3.</strong> The report is approved by the manager",
+    //   image: approval,
+    // },
     {
-      description:
-        "<strong>2.</strong> When the period is finished the report is submitted",
-      image: User,
-    },
-    {
-      description: "<strong>3.</strong> The report is approved by the manager",
-      image: approval,
-    },
-    {
-      description: "<strong>4.</strong> Any potential expenses are included",
+      description: "<strong>2.</strong>Any potential expenses and additional change data are included.",
       image: receipt,
     },
     {
       description:
-        "<strong>5.</strong>The logal payslips are produced and uploaded",
+        "<strong>3.</strong> The change data is submitted, and payslips are produced and uploaded.",
       image: upload,
     },
     {
       description:
-        "<strong>6.</strong> The employees recieve their payslip online",
+        "<strong>4.</strong>Employees receive their payslips online.",
       image: document,
     },
     {
       description:
-        "<strong>7.</strong> HR-reports are made available: Payment lists, tax reporting, vacation liability",
+        "<strong>5.</strong> HR reports are made available: payment lists, payroll journals, G2N, tax files, vacation files, etc.",
       // description: '<strong>7.</strong> HR-reports are made available: <ul><li>Payment lists</li><li>Tax reporting</li><li>Vacation liability</li></ul>',
       image: report,
     },
     {
-      description: "<strong>8.</strong> The payroll is completed",
+      description: "<strong>6.</strong>The payroll process is completed",
       image: Thumb,
     },
   ];

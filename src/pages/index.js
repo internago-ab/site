@@ -9,7 +9,7 @@ import Seo from "../components/seo"
 import ImageText from "../components/imagetext"
 import Icongrid from "../components/icongrid"
 import Cta from "../components/cta"
-import Message from "../components/message"
+// import Message from "../components/message"
 import ImageTabs from "../components/imagetabs"
 import Svg from "../components/svg"
 
@@ -87,7 +87,7 @@ const Index = () => {
           { name: "payroll", content: "secure, payslips" },
         ]}
       /> 
-    <Message/>
+    {/* <Message/> */}
       <div
         className="country-landing-main country-section index"
         style={{ backgroundImage: `url(${international})` }}
