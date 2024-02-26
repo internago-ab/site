@@ -25,6 +25,7 @@ import svanborg from '../images/photos/svanborg.jpg'
 import juliette from '../images/photos/juliette.jpg'
 import cristina from '../images/photos/cristina.jpg'
 import robert from '../images/photos/robert.jpg'
+import kristofer from '../images/photos/kristofer.jpeg'
 
 //Logos
 import kitabsawti from "../images/clients/kitab-sawti.png"
@@ -48,7 +49,6 @@ import "../components/icongrid.css"
 import "../components/sliderHome.css"
 
 const Home = () => {
-  const [activeSlideHeight, setActiveSlideHeight] = React.useState(0);
 
   const sliderSettings = {
     dots: true,
@@ -233,6 +233,23 @@ const Home = () => {
               <li>Former Diplomat and Sweden´s Trade Commissioner to France and Morocco 2008-2017</li>
               <li>Programming and technology consulting background from Accenture 2001-2005.</li>
               <li>PhD on internationalization of online firms and geographical perspectives on the emerging online economy</li>
+              </ul>
+              </div>
+            </div>
+            <div className="slide custom-slide">
+            <div className="img-wrapper">
+              <img src={kristofer} alt="Multiple Phones"/>
+            </div>
+              <div className="slide-container-text">
+              <h2>Kristofer</h2>
+              <h3>Manager Internago Europe</h3>
+              <ul>
+              <li>10 years in the global payroll industry</li>
+              <li>20 years of supporting companies in international business development, B2B, B2C and B2G. </li>
+              <li>Former Diplomat and Sweden´s Trade Commissioner to Italy 2009-2017</li>
+              <li>Project manager & Consultant at Business Sweden 2006-2009 </li>
+              <li>Area- and partner business developer at TCC, Graziano and IBM 2001-2006</li>
+              <li>Member of the Board of the Swedish Chamber of Commerce in Milan since 2009  </li>
               </ul>
               </div>
             </div>
