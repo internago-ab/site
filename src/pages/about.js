@@ -6,7 +6,7 @@ import Blue from "../components/blue-form"
 import Cta from "../components/cta"
 import ImageText from "../components/imagetext"
 
-import AboutVision from "../images/photos/about.jpg"
+import AboutVision from "../images/photos/computer.jpg"
 
 function About() {
   return (

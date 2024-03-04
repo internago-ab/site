@@ -10,10 +10,13 @@ import ImageTextOver from "../components/imagetextover"
 
 import timeAbsence from "../images/screenshots/time-and-absence.png"
 import employees from "../images/screenshots/employees.png"
+import dashboard from "../images/screenshots/dashboard.png"
+import sharedoc from "../images/screenshots/sharedoc.png"
 import expenseClaims from "../images/screenshots/expense-claims.png"
 import Access from "../images/photos/access.jpg"
 import shareDoc from "../images/photos/shareDoc.jpg"
 import Multilingual from "../images/photos/multilingual.jpg"
+import time from "../images/photos/time.jpg"
 
 import "../components/icongrid.css"
 
@@ -86,6 +89,27 @@ function Payroll() {
               header: "Access 24/7",
               text:
                 "Access your payroll and employee data anytime, anywhere, thanks to our mobile device login and real-time notifications.",
+            },
+            {
+              link: "/payroll#distribution",
+              alt: "Clicking button icon",
+              header: "Payslip distribution",
+              text:
+                "Your employees can access their current and historical electronic payslips easily and securely directly on the platform.",
+            },
+            {
+              link: "/payroll#timesheet",
+              alt: "Clicking button icon",
+              header: "Timesheet",
+              text:
+                "Your employees can register working time, enter holidays and other absences directly into the portal for you to approve or decline. You will have access to an overview for every employee.",
+            },
+            {
+              link: "/payroll#dashboard",
+              alt: "Clicking button icon",
+              header: "Payroll dashboard",
+              text:
+                "With the Internago platform you use one interface to get an overview of all your payroll processes on multiple markets",
             },
           ]}
         />
@@ -174,6 +198,55 @@ function Payroll() {
         active="notactive"
         button="Contact us"
         link="/contact#form"
+      />
+      <ImageText
+        margin="margin-none"
+        reverse="rowreverse"
+        id="distribution"
+        size="medium"
+        width="short"
+        padding="padding"
+        title="Payslip distribution"
+        text="<strong>Your employees are able to access all monthly payslips in an easy way.</strong> <br></br> 
+        All monthly payslips are accessible on the Internago portal for your employees to access at any time.
+        <br></br> 
+        Your employees are able to access monthly payslips from the same system in an easy and secure way. This is a time saving function that significantly reduces risks associated by sending payslips in other manners."
+        image={sharedoc}
+        alt="Approving document icon"
+        active="notactive"
+      />
+      <ImageTextOver
+        margin="margin-none"
+        bg="bg-grey"
+        id="timesheet"
+        title="Timesheet"
+        text="<strong>Does your company need an effective time registration solution for employees?</strong>
+        <br></br>
+        With the timesheet function in the Internago payroll portal, your employees can register working time, absence, vacation and other deviations directly on the platform.
+        <br></br>
+        You can easily control, approve or decline all data registered in a simple way in the same system and with a clear overview, this reduces the risk of losing data and enhances communication in an effective way. "
+        image={time}
+        alt="Clicking button icon"
+        active="notactive"
+        button="Contact us"
+        link="/contact#form"
+      />
+     <ImageText
+        margin="margin-none"
+        reverse="rowreverse"
+        id="distribution"
+        size="medium"
+        width="short"
+        padding="padding"
+        title="Payroll dashboard"
+        text="<strong>With Internago’s payroll portal, you have the perfect tool to manage your international employees in one single interface.</strong> 
+        <br></br> 
+        It’s simple to use and gives your company the possibility to use the same system for your domestic and international employees. You will get notifications and messages on actions to take related to your payroll processes.
+        <br></br> 
+        All is done directly on the portal. By handling everything in the same place your management and HR will have a clear calendar overview of all employees which significantly improves personnel planning."
+        image={dashboard}
+        alt="Approving document icon"
+        active="notactive"
       />
       <Cta content="next" />
     </Layout>

@@ -51,6 +51,7 @@
 }
 
 .table-header h2 {
+  text-align: center;
   padding-bottom: var(--spacing-xs);
 }
 
