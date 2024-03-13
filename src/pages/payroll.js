@@ -48,13 +48,13 @@ function Payroll() {
          employee and payroll data in one place, controlled via one online
          interface. All you have to do is check and approve."
           content={[
-            {
-              link: "/payroll#time-absence",
-              alt: "Calendar and hourglass icon",
-              header: "Time and absence",
-              text:
-                "Your employees can enter holidays and other absences directly into the portal for you to approve or decline. You will have access to an overview of all absences for every employee.",
-            },
+            // {
+            //   link: "/payroll#time-absence",
+            //   alt: "Calendar and hourglass icon",
+            //   header: "Time and absence",
+            //   text:
+            //     "Your employees can enter holidays and other absences directly into the portal for you to approve or decline. You will have access to an overview of all absences for every employee.",
+            // },
             {
               link: "/payroll#share-documents",
               alt: "Phone icon",
@@ -69,13 +69,13 @@ function Payroll() {
               text:
                 "We offer a standardised expense management tool that can work for all employees",
             },
-            {
-              link: "/payroll#multilingual",
-              alt: "Balloon bubble icon",
-              header: "Multilingual",
-              text:
-                "Our portal is available in various languages, and new ones can be added to meet your needs.",
-            },
+            // {
+            //   link: "/payroll#multilingual",
+            //   alt: "Balloon bubble icon",
+            //   header: "Multilingual",
+            //   text:
+            //     "Our portal is available in various languages, and new ones can be added to meet your needs.",
+            // },
             {
               link: "/payroll#workflow",
               alt: "Approving document icon",
@@ -83,13 +83,13 @@ function Payroll() {
               text:
                 "Our workflow can be fully configured to handle your specific needs and processes, including multiple approvers.",
             },
-            {
-              link: "/payroll#access",
-              alt: "Clicking button icon",
-              header: "Access 24/7",
-              text:
-                "Access your payroll and employee data anytime, anywhere, thanks to our mobile device login and real-time notifications.",
-            },
+            // {
+            //   link: "/payroll#access",
+            //   alt: "Clicking button icon",
+            //   header: "Access 24/7",
+            //   text:
+            //     "Access your payroll and employee data anytime, anywhere, thanks to our mobile device login and real-time notifications.",
+            // },
             {
               link: "/payroll#distribution",
               alt: "Clicking button icon",
@@ -115,7 +115,7 @@ function Payroll() {
         />
       </section>
 
-      <ImageText
+      {/* <ImageText
         reverse="rowreverse"
         id="time-absence"
         size="medium"
@@ -129,22 +129,8 @@ function Payroll() {
         image={timeAbsence}
         alt="Calendar and hourglass icon"
         active="notactive"
-      />
-      <ImageTextOver
-        margin="margin-none"
-        id="share-documents"
-        class="tall"
-        width="short"
-        title="Share documents"
-        text="<strong>Don't remember where you stored that employment contract? With Share documents you will have all your sensitive and important documents in one place. </strong><br></br>You can share the documents directly with your colleagues or external collaborators through hyperlinks accessible only by permitted personnel. 
-        <br></br>
-        Additionally, this tool allows you to access all files in one place, which means you spend less time searching for information and more time focussing on your job. We support all types of files like PDF, Word, JPEG etc. and our log feature makes it transparent who has added, deleted, or made any changes to files. "
-        image={shareDoc}
-        alt="Two persons sharing and exchanging payroll files"
-        button="Try it today"
-        link="/contact#form"
-      />
-      <ImageText
+      /> */}
+            <ImageText
         margin="margin-none"
         id="expense"
         reverse="rowreverse"
@@ -161,6 +147,21 @@ function Payroll() {
       />
       <ImageTextOver
         margin="margin-none"
+        id="share-documents"
+        class="tall"
+        width="short"
+        title="Share documents"
+        text="<strong>Don't remember where you stored that employment contract? With Share documents you will have all your sensitive and important documents in one place. </strong><br></br>You can share the documents directly with your colleagues or external collaborators through hyperlinks accessible only by permitted personnel. 
+        <br></br>
+        Additionally, this tool allows you to access all files in one place, which means you spend less time searching for information and more time focussing on your job. We support all types of files like PDF, Word, JPEG etc. and our log feature makes it transparent who has added, deleted, or made any changes to files. "
+        image={shareDoc}
+        alt="Two persons sharing and exchanging payroll files"
+        button="Try it today"
+        link="/contact#form"
+      />
+
+      {/* <ImageTextOver
+        margin="margin-none"
         bg="bg-grey"
         id="multilingual"
         title="Multilingual"
@@ -171,7 +172,7 @@ function Payroll() {
         alt="Balloon bubble icon"
         button="Contact your market"
         link="/contact#market"
-      />
+      /> */}
       <ImageText
         margin="margin-none"
         reverse="rowreverse"
@@ -187,7 +188,7 @@ function Payroll() {
         alt="Approving document icon"
         active="notactive"
       />
-      <ImageTextOver
+      {/* <ImageTextOver
         margin="margin-none"
         bg="bg-grey"
         id="access"
@@ -198,10 +199,10 @@ function Payroll() {
         active="notactive"
         button="Contact us"
         link="/contact#form"
-      />
-      <ImageText
+      /> */}
+      <ImageTextOver
         margin="margin-none"
-        reverse="rowreverse"
+        bg="bg-grey"
         id="distribution"
         size="medium"
         width="short"
@@ -211,25 +212,9 @@ function Payroll() {
         All monthly payslips are accessible on the Internago portal for your employees to access at any time.
         <br></br> 
         Your employees are able to access monthly payslips from the same system in an easy and secure way. This is a time saving function that significantly reduces risks associated by sending payslips in other manners."
-        image={sharedoc}
+        image={Access}
         alt="Approving document icon"
         active="notactive"
-      />
-      <ImageTextOver
-        margin="margin-none"
-        bg="bg-grey"
-        id="timesheet"
-        title="Timesheet"
-        text="<strong>Does your company need an effective time registration solution for employees?</strong>
-        <br></br>
-        With the timesheet function in the Internago payroll portal, your employees can register working time, absence, vacation and other deviations directly on the platform.
-        <br></br>
-        You can easily control, approve or decline all data registered in a simple way in the same system and with a clear overview, this reduces the risk of losing data and enhances communication in an effective way. "
-        image={time}
-        alt="Clicking button icon"
-        active="notactive"
-        button="Contact us"
-        link="/contact#form"
       />
      <ImageText
         margin="margin-none"
@@ -247,6 +232,22 @@ function Payroll() {
         image={dashboard}
         alt="Approving document icon"
         active="notactive"
+      />
+            <ImageTextOver
+        margin="margin-none"
+        bg="bg-grey"
+        id="timesheet"
+        title="Timesheet"
+        text="<strong>Does your company need an effective time registration solution for employees?</strong>
+        <br></br>
+        With the timesheet function in the Internago payroll portal, your employees can register working time, absence, vacation and other deviations directly on the platform.
+        <br></br>
+        You can easily control, approve or decline all data registered in a simple way in the same system and with a clear overview, this reduces the risk of losing data and enhances communication in an effective way. "
+        image={time}
+        alt="Clicking button icon"
+        active="notactive"
+        button="Contact us"
+        link="/contact#form"
       />
       <Cta content="next" />
     </Layout>
